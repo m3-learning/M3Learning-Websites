@@ -56,18 +56,17 @@ function filterPublications() {
   const selectedYear = document.getElementById('yearSelect').value;
   const selectedType = document.getElementById('typeSelect').value;
   const entries = document.querySelectorAll('.row .col-sm-8');
-  
+
   entries.forEach(entry => {
     const entryYear = entry.getAttribute('data-year');
-    const entryType = entry.getAttribute('data-type'); // Ensure your entries have this attribute
+    const entryType = entry.getAttribute('data-type');
+
+    // Check if the entry matches the selected filters
     const matchYear = selectedYear === 'all' || entryYear === selectedYear;
     const matchType = selectedType === 'all' || entryType === selectedType;
 
-    if (matchYear && matchType) {
-      entry.parentElement.style.display = '';
-    } else {
-      entry.parentElement.style.display = 'none';
-    }
+    // Show or hide the entry based on filter match
+    entry.parentElement.style.display = matchYear && matchType ? '' : 'none';
   });
 }
 </script>

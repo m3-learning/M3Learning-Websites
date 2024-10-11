@@ -1,4 +1,12 @@
 ---
+{% assign unique_years = "" | split: "" %}
+{% for entry in site.scholar.entries %}
+  {% unless unique_years contains entry.year %}
+    {% assign unique_years = unique_years | push: entry.year %}
+  {% endunless %}
+{% endfor %}
+{% assign unique_years = unique_years | sort | reverse %}
+
 ---
 <div class="row">
   {% if site.enable_publication_thumbnails %}
@@ -364,3 +372,16 @@
     {% endif %}
   </div>
 </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const yearSelect = document.getElementById('yearSelect');
+    const years = {{ unique_years | jsonify }}; // Converts unique_years to JSON for JavaScript
+
+    years.forEach(year => {
+      const option = document.createElement('option');
+      option.value = option.textContent = year;
+      yearSelect.appendChild(option);
+    });
+  });
+</script>
