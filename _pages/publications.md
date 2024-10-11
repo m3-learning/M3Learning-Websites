@@ -14,17 +14,7 @@ nav_order: 2
 
 <!-- Filter Feature -->
 <div class="filters" style="text-align: left;">
-  <div class="filter-item year-selector">
-    <label for="yearSelect">Select a Year: </label>
-    <div class="custom-select-wrapper">
-      <select id="yearSelect" onchange="filterPublications()">
-        <option value="all">All Years</option>
-        <!-- JavaScript will populate years here -->
-      </select>
-    </div>
-  </div>
-
-<div class="filter-item type-selector">
+  <div class="filter-item type-selector">
     <label for="typeSelect">Select a Publication Type: </label>
     <div class="custom-select-wrapper">
       <select id="typeSelect" onchange="filterPublications()">
@@ -40,32 +30,18 @@ nav_order: 2
 </div>
 
 <script>
-  const minYear = 2010; // Adjust based on your data
-  const maxYear = new Date().getFullYear(); // Current year
-  const yearSelect = document.getElementById('yearSelect');
-  for (let year = maxYear; year >= minYear; year--) {
-    const option = document.createElement('option');
-    option.value = option.textContent = year;
-    yearSelect.appendChild(option);
-  }
-</script>
-
-<script>
 function filterPublications() {
-  const selectedYear = document.getElementById('yearSelect').value;
   const selectedType = document.getElementById('typeSelect').value;
   const entries = document.querySelectorAll('.row .col-sm-8');
 
   entries.forEach(entry => {
-    const entryYear = entry.getAttribute('data-year');
     const entryType = entry.getAttribute('data-type');
 
-    // Check if the entry matches the selected filters
-    const matchYear = selectedYear === 'all' || entryYear === selectedYear;
+    // Check if the entry matches the selected filter
     const matchType = selectedType === 'all' || entryType === selectedType;
 
     // Show or hide the entry based on filter match
-    entry.parentElement.style.display = matchYear && matchType ? '' : 'none';
+    entry.parentElement.style.display = matchType ? '' : 'none';
   });
 }
 </script>
@@ -75,7 +51,6 @@ function filterPublications() {
 {% bibliography %}
 
 </div>
-
 
 <style>
   .filters {
