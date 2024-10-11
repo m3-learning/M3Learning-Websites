@@ -6,7 +6,7 @@ layout: page
     {% if page.profiles %}
       {% for profile in page.profiles %}
         <hr>
-        <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
+        <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}" onmouseover="showContactInfo(this)" onmouseout="hideContactInfo(this)">
           {% if profile.image %}
             {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
             {% if profile.image_circular %}
@@ -20,6 +20,17 @@ layout: page
           {% if profile.more_info %}
             <div class="more-info">{{ profile.more_info }}</div>
           {% endif %}
+          <div class="contact-info" style="display: none;">
+            {% if profile.social_media %}
+              <div class="social-media">Social Media: {{ profile.social_media }}</div>
+            {% endif %}
+            {% if profile.email %}
+              <div class="email">Email: {{ profile.email }}</div>
+            {% endif %}
+            {% if profile.name %}
+              <div class="name">Name: {{ profile.name }}</div>
+            {% endif %}
+          </div>
         </div>
 
         <div class="clearfix">
@@ -34,3 +45,19 @@ layout: page
     {% endif %}
   </article>
 </div>
+
+<script>
+function showContactInfo(profileElement) {
+  const contactInfo = profileElement.querySelector('.contact-info');
+  if (contactInfo) {
+    contactInfo.style.display = 'block';
+  }
+}
+
+function hideContactInfo(profileElement) {
+  const contactInfo = profileElement.querySelector('.contact-info');
+  if (contactInfo) {
+    contactInfo.style.display = 'none';
+  }
+}
+</script>
