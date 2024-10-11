@@ -15,14 +15,14 @@
   teaser: "Dr. Joshua C. Agar is an Assistant Professor in the Department of Mechanical Engineering and Mechanics at Drexel University. With a foundational background in experimental materials science, Dr. Agar is predominantly renowned for his pioneering contributions to AI algorithms, computing infrastructure, and the development of cyber-physical systems in the fields of materials synthesis and microscopy. His expertise has been applied across a wide array of disciplines, including particle and plasma physics, materials science, and fluid dynamics. An active member of various AI communities, particularly the FastML community, which emphasizes ultra-low latency ML co-design, Dr. Agar has earned recognition as a leader in AI innovation. His work has garnered attention from prestigious institutions such as the National Academy of Engineering and the National Science Foundation."
   inline: false # Determines if the profile should be clickable to a separate URL
 
-  - group: "Ph.D. Students"
+- group: "Ph.D. Students"
   group_rank: 1
   lastname: "Akinide"
   profile:
     name: "Erin Akinide"
     position: "Ph.D. Student, Mechanical Engineering and Mechanics"
     institution: "Drexel University"
-    year: "2023-Present"
+    start_year: "2023"
   inline: false
 
 - group: "Ph.D. Students"
@@ -32,7 +32,7 @@
     name: "Derrick Osei"
     position: "Ph.D. Student, Mechanical Engineering and Mechanics"
     institution: "Drexel University"
-    year: "2023-Present"
+    start_year: "2023"
   inline: false
 
 - group: "Ph.D. Students"
@@ -42,7 +42,7 @@
     name: "Julian Goddy"
     position: "Ph.D. Student, Mechanical Engineering and Mechanics"
     institution: "Drexel University"
-    year: "2022-Present"
+    start_year: "2022"
   inline: false
 
 - group: "Ph.D. Students"
@@ -52,7 +52,7 @@
     name: "Xinqiao Zhang"
     position: "Ph.D. Student, Mechanical Engineering and Mechanics"
     institution: "Drexel University"
-    year: "2021-Present"
+    start_year: "2021"
   inline: false
 
 - group: "Ph.D. Students"
@@ -62,7 +62,7 @@
     name: "Shuyu Qin"
     position: "Ph.D. Student, Computer Science and Engineering"
     institution: "Lehigh University"
-    year: "2019-Present"
+    start_year: "2019"
   inline: false
 
 - group: "Ph.D. Students"
@@ -72,7 +72,7 @@
     name: "Yichen Guo"
     position: "Ph.D. Student, Materials Science and Engineering"
     institution: "Lehigh University"
-    year: "2019-Present"
+    start_year: "2019"
   inline: false
 
 - group: "Co-Op Students"
@@ -82,7 +82,8 @@
     name: "Rafael Lipschutz"
     position: "Co-Op Student, Game Design"
     institution: "Drexel University"
-    year: "Fall 2023"
+    start_year: "2023"
+    end_year: "2023"
   inline: false
 
 - group: "Co-Op Students"
@@ -92,7 +93,7 @@
     name: "Veronica Obute"
     position: "Co-Op Student, Electrical Engineering"
     institution: "Drexel University"
-    year: "Spring 2023-Summer 2023"
+    start_year: "2023"
   inline: false
 
 - group: "Undergraduate Researchers"
@@ -102,7 +103,8 @@
     name: "Sean Rassa"
     position: "Undergraduate Researcher, Electrical and Computer Engineering"
     institution: "Drexel University"
-    year: "Summer 2023-Present"
+    start_year: "2023"
+    end_year: "2024"
   inline: false
 
 - group: "Undergraduate Researchers"
@@ -112,7 +114,8 @@
     name: "Yael Passy"
     position: "Undergraduate Researcher, Materials Science and Engineering"
     institution: "Drexel University"
-    year: "Summer 2023-Present"
+    start_year: "2023"
+    end_year: "2024"
   inline: false
 
 - group: "Undergraduate Researchers"
@@ -122,7 +125,8 @@
     name: "Naod Tewodros"
     position: "Undergraduate Researcher, Computer Science and Business"
     institution: "Lehigh University"
-    year: "2020-2021"
+    start_year: "2020"
+    end_year: "2021"
   inline: false
 
 - group: "Undergraduate Researchers"
@@ -132,7 +136,8 @@
     name: "Teresa Payne"
     position: "Undergraduate Researcher, Computer Science and Business"
     institution: "Lehigh University"
-    year: "2020-2021"
+    start_year: "2020"
+    end_year: "2021"
   inline: false
 
 - group: "Undergraduate Researchers"
@@ -142,7 +147,8 @@
     name: "Andrew Vander Pallen"
     position: "Undergraduate Researcher, Computer Engineering"
     institution: "Lehigh University"
-    year: "2020-Present"
+    start_year: "2020"
+    end_year: "2022"
   inline: false
 
 - group: "Undergraduate Researchers"
@@ -152,7 +158,8 @@
     name: "Ky Frew"
     position: "Undergraduate Researcher, Mechanical Engineering"
     institution: "Lehigh University"
-    year: "2020-Present"
+    start_year: "2020"
+    end_year: "2022"
   inline: false
 
 - group: "Undergraduate Researchers"
@@ -162,7 +169,8 @@
     name: "Johnny Zedan"
     position: "Undergraduate Researcher, Computer Science"
     institution: "Lehigh University"
-    year: "2020-2021"
+    start_year: "2020"
+    end_year: "2021"
   inline: false
 
 - group: "Undergraduate Researchers"
@@ -172,7 +180,8 @@
     name: "Niija Douglas"
     position: "Undergraduate Researcher, Computer Science"
     institution: "Lehigh University"
-    year: "2020-Present"
+    start_year: "2020"
+    end_year: "2022"
   inline: false
 
 - group: "Undergraduate Researchers"
@@ -182,7 +191,8 @@
     name: "Mary Ye"
     position: "Undergraduate Researcher, Computer Science and Business"
     institution: "Lehigh University"
-    year: "2020-2021"
+    start_year: "2020"
+    end_year: "2021"
   inline: false
 
 - group: "Undergraduate Researchers"
@@ -192,7 +202,8 @@
     name: "Shoshana Victor"
     position: "Undergraduate Researcher, Bioengineering"
     institution: "Lehigh University"
-    year: "2020-2021"
+    start_year: "2020"
+    end_year: "2021"
   inline: false
 
 - group: "Undergraduate Researchers"
@@ -202,7 +213,8 @@
     name: "Norman Zvenyika"
     position: "Undergraduate Researcher, Biocomputational Engineering"
     institution: "Lehigh University"
-    year: "2020-2021"
+    start_year: "2020"
+    end_year: "2021"
   inline: false
 
 - group: "Undergraduate Researchers"
@@ -212,7 +224,8 @@
     name: "Alibek Kaliyev"
     position: "Undergraduate Researcher, Computer Science and Business"
     institution: "Lehigh University"
-    year: "2019-Present"
+    start_year: "2019"
+    end_year: "2024"
   inline: false
 
 - group: "Undergraduate Researchers"
@@ -222,7 +235,8 @@
     name: "Ryan Forelli"
     position: "Undergraduate Researcher, Computer Engineering"
     institution: "Lehigh University"
-    year: "2019-Present"
+    start_year: "2019"
+    end_year: "2024"
   inline: false
 
 - group: "Undergraduate Researchers"
@@ -232,7 +246,8 @@
     name: "Andrew Zhang"
     position: "Undergraduate Researcher, Mechanical Engineering"
     institution: "Lehigh University"
-    year: "2019-2020"
+    start_year: "2019"
+    end_year: "2020"
   inline: false
 
 - group: "Undergraduate Researchers"
@@ -242,7 +257,8 @@
     name: "Oluwafolajimi Olugbodi"
     position: "Undergraduate Researcher, Computer Engineering"
     institution: "Lehigh University"
-    year: "2019-2020"
+    start_year: "2019"
+    end_year: "2020"
   inline: false
 
 - group: "Undergraduate Researchers"
@@ -252,7 +268,8 @@
     name: "Cole Kuehmann"
     position: "Undergraduate Researcher, Materials Science and Engineering"
     institution: "Lehigh University"
-    year: "2019-present"
+    start_year: "2019"
+    end_year: "2020"
   inline: false
 
 - group: "Undergraduate Researchers"
@@ -262,7 +279,8 @@
     name: "Tri Nguyen"
     position: "Undergraduate Researcher, Materials Science and Engineering"
     institution: "Lehigh University"
-    year: "2019-2021"
+    start_year: "2019"
+    end_year: "2021"
   inline: false
 
 - group: "Undergraduate Researchers"
@@ -272,5 +290,6 @@
     name: "Tech Tanasarnsopaporn"
     position: "Undergraduate Researcher, Materials Science and Engineering"
     institution: "Lehigh University"
-    year: "2019-2020"
+    start_year: "2019"
+    end_year: "2020"
   inline: false

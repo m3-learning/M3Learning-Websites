@@ -4,7 +4,16 @@ layout: page
 <div class="post">
   <article>
     {% if page.profiles %}
-      {% for profile in page.profiles %}
+      {% assign current_profiles = page.profiles | where: 'end_date', nil %}
+      {% assign alumni_profiles = page.profiles | where: 'end_date', true %}
+      
+      <!-- Sort by longest tenure -->
+      {% assign sorted_current_profiles = current_profiles | sort: 'start_date' | reverse %}
+      {% assign sorted_alumni_profiles = alumni_profiles | sort: 'start_date' | reverse %}
+      
+      <!-- Display Current Members -->
+      <h2>Current Members</h2>
+      {% for profile in sorted_current_profiles %}
         <hr>
         <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}" onmouseover="showContactInfo(this)" onmouseout="hideContactInfo(this)">
           {% if profile.image %}
@@ -29,6 +38,59 @@ layout: page
             {% endif %}
             {% if profile.name %}
               <div class="name">Name: {{ profile.name }}</div>
+            {% endif %}
+            {% if profile.start_date %}
+              <div class="year">Year Joined: {{ profile.start_date | date: "%Y" }}</div>
+            {% endif %}
+            {% if profile.end_date %}
+              <div class="year">Year Left: {{ profile.end_date | date: "%Y" }}</div>
+            {% endif %}
+          </div>
+        </div>
+
+        <div class="clearfix">
+          {% if profile.content %}
+            {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
+            {{ profile_content | markdownify }}
+          {% else %}
+            {{ content }}
+          {% endif %}
+        </div>
+      {% endfor %}
+
+      <!-- Display Alumni Members -->
+      <h2>Alumni</h2>
+      {% for profile in sorted_alumni_profiles %}
+        <hr>
+        <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}" onmouseover="showContactInfo(this)" onmouseout="hideContactInfo(this)">
+          {% if profile.image %}
+            {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
+            {% if profile.image_circular %}
+              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+            {% else %}
+              {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+            {% endif %}
+            {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+            {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
+          {% endif %}
+          {% if profile.more_info %}
+            <div class="more-info">{{ profile.more_info }}</div>
+          {% endif %}
+          <div class="contact-info" style="display: none;">
+            {% if profile.social_media %}
+              <div class="social-media">Social Media: {{ profile.social_media }}</div>
+            {% endif %}
+            {% if profile.email %}
+              <div class="email">Email: {{ profile.email }}</div>
+            {% endif %}
+            {% if profile.name %}
+              <div class="name">Name: {{ profile.name }}</div>
+            {% endif %}
+            {% if profile.start_date %}
+              <div class="year">Year Joined: {{ profile.start_date | date: "%Y" }}</div>
+            {% endif %}
+            {% if profile.end_date %}
+              <div class="year">Year Left: {{ profile.end_date | date: "%Y" }}</div>
             {% endif %}
           </div>
         </div>
