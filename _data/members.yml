@@ -17,13 +17,12 @@
 
 - group: "Staff" # Group this member belongs to
   group_rank: 2    # Determines the order of the groups
-  lastname: "Agar"
+  lastname: "Beers"
   profile:
-    name: "Joshua C Agar"
-    position: "Assistant Professor Department of Mechanical Engineering and Mechanics"
+    name: "Theodore S. Beers"
+    position: "Development and Operations Engineering"
     image: "einstein.jpg" # Image should be placed in the assets/img directory
     email: "jca92@drexel.edu"
-    phone: "(215) 385-3061"
     linkedin: "jcagar"
     orcid: "0000-0001-8095-5285"
     twitter: "alberteinstein"
@@ -31,281 +30,282 @@
     address: "3141 Chestnut Street, Randell Hall, Room 115, Philadelphia, PA 19104"
   teaser: "Dr. Joshua C. Agar is an Assistant Professor in the Department of Mechanical Engineering and Mechanics at Drexel University. With a foundational background in experimental materials science, Dr. Agar is predominantly renowned for his pioneering contributions to AI algorithms, computing infrastructure, and the development of cyber-physical systems in the fields of materials synthesis and microscopy. His expertise has been applied across a wide array of disciplines, including particle and plasma physics, materials science, and fluid dynamics. An active member of various AI communities, particularly the FastML community, which emphasizes ultra-low latency ML co-design, Dr. Agar has earned recognition as a leader in AI innovation. His work has garnered attention from prestigious institutions such as the National Academy of Engineering and the National Science Foundation."
   inline: false # Determines if the profile should be clickable to a separate URL
-  - group: "Ph.D. Students"
-    group_rank: 3
-    lastname: "Akinide"
-    profile:
-      name: "Erin Akinide"
-      position: "Ph.D. Student, Mechanical Engineering and Mechanics"
-      institution: "Drexel University"
-      start_year: "2023"
-    inline: false
+  
+- group: "Ph.D. Students"
+  group_rank: 3
+  lastname: "Akinide"
+  profile:
+    name: "Erin Akinide"
+    position: "Ph.D. Student, Mechanical Engineering and Mechanics"
+    institution: "Drexel University"
+    start_year: "2023"
+  inline: false
 
-  - group: "Ph.D. Students"
-    group_rank: 3
-    lastname: "Osei"
-    profile:
-      name: "Derrick Osei"
-      position: "Ph.D. Student, Mechanical Engineering and Mechanics"
-      institution: "Drexel University"
-      start_year: "2023"
-    inline: false
+- group: "Ph.D. Students"
+  group_rank: 3
+  lastname: "Osei"
+  profile:
+    name: "Derrick Osei"
+    position: "Ph.D. Student, Mechanical Engineering and Mechanics"
+    institution: "Drexel University"
+    start_year: "2023"
+  inline: false
 
-  - group: "Ph.D. Students"
-    group_rank: 3
-    lastname: "Goddy"
-    profile:
-      name: "Julian Goddy"
-      position: "Ph.D. Student, Mechanical Engineering and Mechanics"
-      institution: "Drexel University"
-      start_year: "2022"
-    inline: false
+- group: "Ph.D. Students"
+  group_rank: 3
+  lastname: "Goddy"
+  profile:
+    name: "Julian Goddy"
+    position: "Ph.D. Student, Mechanical Engineering and Mechanics"
+    institution: "Drexel University"
+    start_year: "2022"
+  inline: false
 
-  - group: "Ph.D. Students"
-    group_rank: 3
-    lastname: "Zhang"
-    profile:
-      name: "Xinqiao Zhang"
-      position: "Ph.D. Student, Mechanical Engineering and Mechanics"
-      institution: "Drexel University"
-      start_year: "2021"
-    inline: false
+- group: "Ph.D. Students"
+  group_rank: 3
+  lastname: "Zhang"
+  profile:
+    name: "Xinqiao Zhang"
+    position: "Ph.D. Student, Mechanical Engineering and Mechanics"
+    institution: "Drexel University"
+    start_year: "2021"
+  inline: false
 
-  - group: "Ph.D. Students"
-    group_rank: 3
-    lastname: "Qin"
-    profile:
-      name: "Shuyu Qin"
-      position: "Ph.D. Student, Computer Science and Engineering"
-      institution: "Lehigh University"
-      start_year: "2019"
-    inline: false
+- group: "Ph.D. Students"
+  group_rank: 3
+  lastname: "Qin"
+  profile:
+    name: "Shuyu Qin"
+    position: "Ph.D. Student, Computer Science and Engineering"
+    institution: "Lehigh University"
+    start_year: "2019"
+  inline: false
 
-  - group: "Ph.D. Students"
-    group_rank: 3
-    lastname: "Guo"
-    profile:
-      name: "Yichen Guo"
-      position: "Ph.D. Student, Materials Science and Engineering"
-      institution: "Lehigh University"
-      start_year: "2019"
-    inline: false
+- group: "Ph.D. Students"
+  group_rank: 3
+  lastname: "Guo"
+  profile:
+    name: "Yichen Guo"
+    position: "Ph.D. Student, Materials Science and Engineering"
+    institution: "Lehigh University"
+    start_year: "2019"
+  inline: false
 
-  - group: "Undergraduate Researchers (Alumni)"
-    group_rank: 7
-    lastname: "Lipschutz"
-    profile:
-      name: "Rafael Lipschutz"
-      position: "Co-Op Student, Data Visualization"
-      institution: "Drexel University"
-      start_year: "2023"
-      end_year: "2023"
-    inline: false
+- group: "Undergraduate Researchers (Alumni)"
+  group_rank: 7
+  lastname: "Lipschutz"
+  profile:
+    name: "Rafael Lipschutz"
+    position: "Co-Op Student, Data Visualization"
+    institution: "Drexel University"
+    start_year: "2023"
+    end_year: "2023"
+  inline: false
 
-  - group: "Masters Students"
-    group_rank: 2
-    lastname: "Obute"
-    profile:
-      name: "Veronica Obute"
-      position: "Co-Op Student, Electrical and Computer Engineering"
-      institution: "Drexel University"
-      start_year: "2023"
-    inline: false
+- group: "Masters Students"
+  group_rank: 2
+  lastname: "Obute"
+  profile:
+    name: "Veronica Obute"
+    position: "Co-Op Student, Electrical and Computer Engineering"
+    institution: "Drexel University"
+    start_year: "2023"
+  inline: false
 
-  - group: "Undergraduate Researchers"
-    group_rank: 5
-    lastname: "Rassa"
-    profile:
-      name: "Sean Rassa"
-      position: "Undergraduate Researcher, Electrical and Computer Engineering"
-      institution: "Drexel University"
-      start_year: "2023"
-      end_year: "2024"
-    inline: false
+- group: "Undergraduate Researchers"
+  group_rank: 5
+  lastname: "Rassa"
+  profile:
+    name: "Sean Rassa"
+    position: "Undergraduate Researcher, Electrical and Computer Engineering"
+    institution: "Drexel University"
+    start_year: "2023"
+    end_year: "2024"
+  inline: false
 
-  - group: "Undergraduate Researchers"
-    group_rank: 5
-    lastname: "Passy"
-    profile:
-      name: "Yael Passy"
-      position: "Undergraduate Researcher, Materials Science and Engineering"
-      institution: "Drexel University"
-      start_year: "2023"
-      end_year: "2024"
-    inline: false
+- group: "Undergraduate Researchers"
+  group_rank: 5
+  lastname: "Passy"
+  profile:
+    name: "Yael Passy"
+    position: "Undergraduate Researcher, Materials Science and Engineering"
+    institution: "Drexel University"
+    start_year: "2023"
+    end_year: "2024"
+  inline: false
 
-  - group: "Undergraduate Researchers (Alumni)"
-    group_rank: 5
-    lastname: "Tewodros"
-    profile:
-      name: "Naod Tewodros"
-      position: "Undergraduate Researcher, Computer Science and Business"
-      institution: "Lehigh University"
-      start_year: "2020"
-      end_year: "2021"
-    inline: false
+- group: "Undergraduate Researchers (Alumni)"
+  group_rank: 5
+  lastname: "Tewodros"
+  profile:
+    name: "Naod Tewodros"
+    position: "Undergraduate Researcher, Computer Science and Business"
+    institution: "Lehigh University"
+    start_year: "2020"
+    end_year: "2021"
+  inline: false
 
-  - group: "Undergraduate Researchers (Alumni)"
-    group_rank: 5
-    lastname: "Payne"
-    profile:
-      name: "Teresa Payne"
-      position: "Undergraduate Researcher, Computer Science and Business"
-      institution: "Lehigh University"
-      start_year: "2020"
-      end_year: "2021"
-    inline: false
+- group: "Undergraduate Researchers (Alumni)"
+  group_rank: 5
+  lastname: "Payne"
+  profile:
+    name: "Teresa Payne"
+    position: "Undergraduate Researcher, Computer Science and Business"
+    institution: "Lehigh University"
+    start_year: "2020"
+    end_year: "2021"
+  inline: false
 
-  - group: "Undergraduate Researchers (Alumni)"
-    group_rank: 5
-    lastname: "Vander Pallen"
-    profile:
-      name: "Andrew Vander Pallen"
-      position: "Undergraduate Researcher, Computer Engineering"
-      institution: "Lehigh University"
-      start_year: "2020"
-      end_year: "2022"
-    inline: false
+- group: "Undergraduate Researchers (Alumni)"
+  group_rank: 5
+  lastname: "Vander Pallen"
+  profile:
+    name: "Andrew Vander Pallen"
+    position: "Undergraduate Researcher, Computer Engineering"
+    institution: "Lehigh University"
+    start_year: "2020"
+    end_year: "2022"
+  inline: false
 
-  - group: "Undergraduate Researchers (Alumni)"
-    group_rank: 5
-    lastname: "Frew"
-    profile:
-      name: "Ky Frew"
-      position: "Undergraduate Researcher, Mechanical Engineering"
-      institution: "Lehigh University"
-      start_year: "2020"
-      end_year: "2022"
-    inline: false
+- group: "Undergraduate Researchers (Alumni)"
+  group_rank: 5
+  lastname: "Frew"
+  profile:
+    name: "Ky Frew"
+    position: "Undergraduate Researcher, Mechanical Engineering"
+    institution: "Lehigh University"
+    start_year: "2020"
+    end_year: "2022"
+  inline: false
 
-  - group: "Undergraduate Researchers (Alumni)"
-    group_rank: 5
-    lastname: "Zedan"
-    profile:
-      name: "Johnny Zedan"
-      position: "Undergraduate Researcher, Computer Science"
-      institution: "Lehigh University"
-      start_year: "2020"
-      end_year: "2021"
-    inline: false
+- group: "Undergraduate Researchers (Alumni)"
+  group_rank: 5
+  lastname: "Zedan"
+  profile:
+    name: "Johnny Zedan"
+    position: "Undergraduate Researcher, Computer Science"
+    institution: "Lehigh University"
+    start_year: "2020"
+    end_year: "2021"
+  inline: false
 
-  - group: "Undergraduate Researchers (Alumni)"
-    group_rank: 5
-    lastname: "Douglas"
-    profile:
-      name: "Niija Douglas"
-      position: "Undergraduate Researcher, Computer Science"
-      institution: "Lehigh University"
-      start_year: "2020"
-      end_year: "2022"
-    inline: false
+- group: "Undergraduate Researchers (Alumni)"
+  group_rank: 5
+  lastname: "Douglas"
+  profile:
+    name: "Niija Douglas"
+    position: "Undergraduate Researcher, Computer Science"
+    institution: "Lehigh University"
+    start_year: "2020"
+    end_year: "2022"
+  inline: false
 
-  - group: "Undergraduate Researchers (Alumni)"
-    group_rank: 5
-    lastname: "Ye"
-    profile:
-      name: "Mary Ye"
-      position: "Undergraduate Researcher, Computer Science and Business"
-      institution: "Lehigh University"
-      start_year: "2020"
-      end_year: "2021"
-    inline: false
+- group: "Undergraduate Researchers (Alumni)"
+  group_rank: 5
+  lastname: "Ye"
+  profile:
+    name: "Mary Ye"
+    position: "Undergraduate Researcher, Computer Science and Business"
+    institution: "Lehigh University"
+    start_year: "2020"
+    end_year: "2021"
+  inline: false
 
-  - group: "Undergraduate Researchers (Alumni)"
-    group_rank: 5
-    lastname: "Victor"
-    profile:
-      name: "Shoshana Victor"
-      position: "Undergraduate Researcher, Bioengineering"
-      institution: "Lehigh University"
-      start_year: "2020"
-      end_year: "2021"
-    inline: false
+- group: "Undergraduate Researchers (Alumni)"
+  group_rank: 5
+  lastname: "Victor"
+  profile:
+    name: "Shoshana Victor"
+    position: "Undergraduate Researcher, Bioengineering"
+    institution: "Lehigh University"
+    start_year: "2020"
+    end_year: "2021"
+  inline: false
 
-  - group: "Undergraduate Researchers (Alumni)"
-    group_rank: 5
-    lastname: "Zvenyika"
-    profile:
-      name: "Norman Zvenyika"
-      position: "Undergraduate Researcher, Biocomputational Engineering"
-      institution: "Lehigh University"
-      start_year: "2020"
-      end_year: "2021"
-    inline: false
+- group: "Undergraduate Researchers (Alumni)"
+  group_rank: 5
+  lastname: "Zvenyika"
+  profile:
+    name: "Norman Zvenyika"
+    position: "Undergraduate Researcher, Biocomputational Engineering"
+    institution: "Lehigh University"
+    start_year: "2020"
+    end_year: "2021"
+  inline: false
 
-  - group: "Undergraduate Researchers (Alumni)"
-    group_rank: 5
-    lastname: "Kaliyev"
-    profile:
-      name: "Alibek Kaliyev"
-      position: "Undergraduate Researcher, Computer Science and Business"
-      institution: "Lehigh University"
-      start_year: "2019"
-      end_year: "2024"
-    inline: false
+- group: "Undergraduate Researchers (Alumni)"
+  group_rank: 5
+  lastname: "Kaliyev"
+  profile:
+    name: "Alibek Kaliyev"
+    position: "Undergraduate Researcher, Computer Science and Business"
+    institution: "Lehigh University"
+    start_year: "2019"
+    end_year: "2024"
+  inline: false
 
-  - group: "Undergraduate Researchers (Alumni)"
-    group_rank: 5
-    lastname: "Forelli"
-    profile:
-      name: "Ryan Forelli"
-      position: "Undergraduate Researcher, Computer Engineering"
-      institution: "Lehigh University"
-      start_year: "2019"
-      end_year: "2024"
-    inline: false
+- group: "Undergraduate Researchers (Alumni)"
+  group_rank: 5
+  lastname: "Forelli"
+  profile:
+    name: "Ryan Forelli"
+    position: "Undergraduate Researcher, Computer Engineering"
+    institution: "Lehigh University"
+    start_year: "2019"
+    end_year: "2024"
+  inline: false
 
-  - group: "Undergraduate Researchers (Alumni)"
-    group_rank: 5
-    lastname: "Zhang"
-    profile:
-      name: "Andrew Zhang"
-      position: "Undergraduate Researcher, Mechanical Engineering"
-      institution: "Lehigh University"
-      start_year: "2019"
-      end_year: "2020"
-    inline: false
+- group: "Undergraduate Researchers (Alumni)"
+  group_rank: 5
+  lastname: "Zhang"
+  profile:
+    name: "Andrew Zhang"
+    position: "Undergraduate Researcher, Mechanical Engineering"
+    institution: "Lehigh University"
+    start_year: "2019"
+    end_year: "2020"
+  inline: false
 
-  - group: "Undergraduate Researchers (Alumni)"
-    group_rank: 5
-    lastname: "Olugbodi"
-    profile:
-      name: "Oluwafolajimi Olugbodi"
-      position: "Undergraduate Researcher, Computer Engineering"
-      institution: "Lehigh University"
-      start_year: "2019"
-      end_year: "2020"
-    inline: false
+- group: "Undergraduate Researchers (Alumni)"
+  group_rank: 5
+  lastname: "Olugbodi"
+  profile:
+    name: "Oluwafolajimi Olugbodi"
+    position: "Undergraduate Researcher, Computer Engineering"
+    institution: "Lehigh University"
+    start_year: "2019"
+    end_year: "2020"
+  inline: false
 
-  - group: "Undergraduate Researchers (Alumni)"
-    group_rank: 5
-    lastname: "Kuehmann"
-    profile:
-      name: "Cole Kuehmann"
-      position: "Undergraduate Researcher, Materials Science and Engineering"
-      institution: "Lehigh University"
-      start_year: "2019"
-      end_year: "2020"
-    inline: false
+- group: "Undergraduate Researchers (Alumni)"
+  group_rank: 5
+  lastname: "Kuehmann"
+  profile:
+    name: "Cole Kuehmann"
+    position: "Undergraduate Researcher, Materials Science and Engineering"
+    institution: "Lehigh University"
+    start_year: "2019"
+    end_year: "2020"
+  inline: false
 
-  - group: "Undergraduate Researchers (Alumni)"
-    group_rank: 5
-    lastname: "Nguyen"
-    profile:
-      name: "Tri Nguyen"
-      position: "Undergraduate Researcher, Materials Science and Engineering"
-      institution: "Lehigh University"
-      start_year: "2019"
-      end_year: "2021"
-    inline: false
+- group: "Undergraduate Researchers (Alumni)"
+  group_rank: 5
+  lastname: "Nguyen"
+  profile:
+    name: "Tri Nguyen"
+    position: "Undergraduate Researcher, Materials Science and Engineering"
+    institution: "Lehigh University"
+    start_year: "2019"
+    end_year: "2021"
+  inline: false
 
-  - group: "Undergraduate Researchers (Alumni)"
-    group_rank: 5
-    lastname: "Tanasarnsopaporn"
-    profile:
-      name: "Tech Tanasarnsopaporn"
-      position: "Undergraduate Researcher, Materials Science and Engineering"
-      institution: "Lehigh University"
-      start_year: "2019"
-      end_year: "2020"
-    inline: false
+- group: "Undergraduate Researchers (Alumni)"
+  group_rank: 5
+  lastname: "Tanasarnsopaporn"
+  profile:
+    name: "Tech Tanasarnsopaporn"
+    position: "Undergraduate Researcher, Materials Science and Engineering"
+    institution: "Lehigh University"
+    start_year: "2019"
+    end_year: "2020"
+  inline: false
