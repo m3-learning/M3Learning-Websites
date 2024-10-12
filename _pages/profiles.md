@@ -27,16 +27,23 @@ nav_rank: 2
       <div class="card {% if member.inline == false %}hoverable{% endif %}">
           <div class="row no-gutters">
               <div class="col-sm-4 col-md-3">
-                  <img src="{{ '/assets/img/people/' | append: member.profile.image | relative_url }}" class="card-img img-fluid" alt="{{ member.profile.name }}" />
+                  <img src="{{ '/assets/img/' | append: member.profile.image | relative_url }}" class="card-img img-fluid" alt="{{ member.profile.name }}" />
               </div>
               <div class="team col-sm-8 col-md-9">
                   <div class="card-body">
                       {% if member.inline == false %}<a href="{{ member.url | relative_url }}">{% endif %}
                       <h5 class="card-title">{{ member.profile.name }}</h5>
-                      {% if member.profile.project %}<h6 class="card-subtitle mb-2 text-muted">{{ member.profile.project }}</h6>{% endif %}
-                      <p class="card-text">
-                          <strong>Degrees:</strong> {{ member.profile.degrees | join: ", " }}
-                      </p>
+                      {% if member.profile.position %}<h6 class="card-subtitle mb-2 text-muted">{{ member.profile.position }}</h6>{% endif %}
+                        {% if member.profile.project %}
+                            <p class="card-text">
+                                <strong>Project:</strong> {{ member.profile.project }}
+                            </p>
+                        {% endif %}
+                      {% if member.profile.degrees %}
+                          <p class="card-text">
+                              <strong>Degrees:</strong> {{ member.profile.degrees | join: ", " }}
+                          </p>
+                      {% endif %}
                       {% if group contains "Alumni" %}
                           {% if member.profile.end_year %}
                               <p class="card-text">
@@ -65,9 +72,6 @@ nav_rank: 2
                           {% endif %}
                           {% if member.profile.orcid %}
                               <a href="https://orcid.org/{{ member.profile.orcid }}" class="card-link" target="_blank"><i class="fab fa-orcid"></i></a>
-                          {% endif %}
-                          {% if member.profile.google_scholar %}
-                              <a href="{{ member.profile.google_scholar }}" class="card-link" target="_blank"><i class="fab fa-google-scholar"></i></a>
                           {% endif %}
                           {% if member.profile.twitter %}
                               <a href="https://twitter.com/{{ member.profile.twitter }}" class="card-link" target="_blank"><i class="fab fa-twitter"></i></a>
