@@ -12,19 +12,46 @@ nav_rank: 2
   {% for group in groups %}
   <h2>{{ group }}</h2>
 
-      {% assign members = site.data.members | sort: "start_date"| reverse % | where: "group", group %}
+      {% assign members = site.data.members | where: "group", group %}
+      {% if group contains "Alumni" %}
+          {% assign members_with_end_year = members | where_exp: "member", "member.profile.end_year" %}
+          {% assign members_without_end_year = members | where_exp: "member", "member.profile.end_year == nil" %}
+          {% assign members_with_end_year = members_with_end_year | sort: "profile.end_year" | reverse %}
+          {% assign members = members_with_end_year | concat: members_without_end_year %}
+      {% else %}
+          {% assign members = members | sort: "start_date" | reverse %}
+      {% endif %}
+      
       {% for member in members %}
   <p>
       <div class="card {% if member.inline == false %}hoverable{% endif %}">
           <div class="row no-gutters">
               <div class="col-sm-4 col-md-3">
-                  <img src="{{ '/assets/img/' | append: member.profile.image | relative_url }}" class="card-img img-fluid" alt="{{ member.profile.name }}" />
+                  <img src="{{ '/assets/img/people/' | append: member.profile.image | relative_url }}" class="card-img img-fluid" alt="{{ member.profile.name }}" />
               </div>
               <div class="team col-sm-8 col-md-9">
                   <div class="card-body">
                       {% if member.inline == false %}<a href="{{ member.url | relative_url }}">{% endif %}
                       <h5 class="card-title">{{ member.profile.name }}</h5>
                       {% if member.profile.position %}<h6 class="card-subtitle mb-2 text-muted">{{ member.profile.position }}</h6>{% endif %}
+                      <p class="card-text">
+                          <strong>Role in Group:</strong> {{ member.profile.role }}
+                      </p>
+                      <p class="card-text">
+                          <strong>Degrees:</strong> {{ member.profile.degrees | join: ", " }}
+                      </p>
+                      {% if group contains "Alumni" %}
+                          {% if member.profile.end_year %}
+                              <p class="card-text">
+                                  <strong>End Date:</strong> {{ member.profile.end_year }}
+                              </p>
+                          {% endif %}
+                          {% if member.profile.location %}
+                              <p class="card-text">
+                                  <strong>Current Location:</strong> {{ member.profile.location }}
+                              </p>
+                          {% endif %}
+                      {% endif %}
                       <p class="card-text">
                           {{ member.teaser }}
                       </p>
@@ -53,7 +80,7 @@ nav_rank: 2
                           {% endif %}
                       </div>
                       <p class="card-text">
-                          <small class="test-muted"><i class="fas fa-thumbtack"></i> {{ member.profile.address | replace: '<br />', ', ' }}</small>
+                          <small class="text-muted"><i class="fas fa-thumbtack"></i> {{ member.profile.address | replace: '<br />', ', ' }}</small>
                       </p>
                   </div>
               </div>
