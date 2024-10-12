@@ -1,3 +1,20 @@
+# 1 - Faculty
+# 2 - Staff
+# 3 - Postdoctoral Scholars
+# 4 - Ph.D. Students
+# 5 - M.S. Students
+# 6 - Undergraduate Students
+# 7 - High School Students
+# 8 - Staff (Alumni)
+# 9 - Postdoctoral Scholars (Alumni)
+# 10 - Ph.D. Students (Alumni)
+# 11 - M.S. Students (Alumni)
+# 12 - Undergraduate Students (Alumni)
+# 13 - High School Students (Alumni)
+
+
+##### Faculty #####
+
 - group: "Faculty" # Group this member belongs to
   group_rank: 1    # Determines the order of the groups
   lastname: "Agar"
@@ -22,6 +39,8 @@
   teaser: "Dr. Joshua C. Agar is an Assistant Professor in the Department of Mechanical Engineering and Mechanics at Drexel University. With a foundational background in experimental materials science, Dr. Agar is predominantly renowned for his pioneering contributions to AI algorithms, computing infrastructure, and the development of cyber-physical systems in the fields of materials synthesis and microscopy. His expertise has been applied across a wide array of disciplines, including particle and plasma physics, materials science, and fluid dynamics. An active member of various AI communities, particularly the FastML community, which emphasizes ultra-low latency ML co-design, Dr. Agar has earned recognition as a leader in AI innovation. His work has garnered attention from prestigious institutions such as the National Academy of Engineering and the National Science Foundation."
   inline: false # Determines if the profile should be clickable to a separate URL
 
+###### Staff #####
+
 - group: "Staff" # Group this member belongs to
   group_rank: 2    # Determines the order of the groups
   lastname: "Beers"
@@ -38,29 +57,36 @@
     project: "Scientific Software Development"
   teaser: "Dr. Theodore S. Beers Persian and Arabic philologist, specializing in the literary history of the late medieval and early modern periods—in particular the tenth/sixteenth century. Currently I have the good fortune to be working as a postdoctoral fellow (wissenschaftlicher Mitarbeiter) in the ERC-funded project AnonymClassic at the Freie Universität Berlin, under the direction of Beatrice Gründler. This affords me ample opportunity to explore both Persian and Arabic sources (and beyond) relating to the Kalilah and Dimnah tradition."
   inline: false # Determines if the profile should be clickable to a separate URL
-  
-- group: "Ph.D. Students"
-  group_rank: 3
-  lastname: "Akinide"
+
+#### Current Ph.D ####
+
+- group: "Ph.D. Students"  # The group the member belongs to
+  group_rank: 3  # Ranking to determine group order
+  lastname: "Akinide"  # Last name of the member
   profile:
-    name: "Erin Akinide"
-    position: "Ph.D. Student, Mechanical Engineering and Mechanics"
-    institution: "Drexel University"
-    start_year: "2023"
-    project: "Closed-Loop Control in Pulsed-Laser Deposition"
-    # image: "Joshua_A.jpg" # Image should be placed in the assets/img/people directory
-    # email: "jca92@drexel.edu"
-    # phone: "(215) 385-3061"
-    # linkedin: "jcagar"
-    # orcid: "0000-0001-8095-5285"
-    # google_scholar: "https://scholar.google.com/citations?user=CfHw88sAAAAJ&hl=en&oi=ao"
-    # github: "jagar2"
-    # address: "3141 Chestnut Street, Randell Hall, Room 115, Philadelphia, PA 19104"
-    # degrees:
-    # - "(2015) - Ph.D. -  Materials Science and Engineering, University of Illinois at Urbana-Champaign"
-    # - "(2011) - M.S. - Materials Science and Engineering, Georgia Insitute of Technology"
-    # - "(2009) - B.S. - Materials Science and Engineering, University of Illinois at Urbana-Champaign"
-  inline: false
+    name: "Erin Akinide"  # Full name
+    position: "Ph.D. Student, Mechanical Engineering and Mechanics"  # Position or role
+    institution: "Drexel University"  # Institution affiliation
+    start_year: "2023"  # Start year for current role or program
+    # end_year: "2026"  # Expected or actual end year
+    project: "Closed-Loop Control in Pulsed-Laser Deposition"  # Main project or research focus
+    # image: "Erin_A.jpg"  # Image filename (place in assets/img/people directory)
+    # email: "ea123@drexel.edu"  # Email address
+    # phone: "(215) 385-3061"  # Phone number
+    # linkedin: "erinakinide"  # LinkedIn username
+    # orcid: "0000-0002-3456-7890"  # ORCID ID
+    # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
+    # github: "erinakinide"  # GitHub username
+    # website: "https://erinakinide.com"  # Personal or professional website
+    # address: "3141 Chestnut Street, Philadelphia, PA 19104"  # Office or location address
+    # degrees:  # Academic degrees
+    #   - "(2022) - Ph.D. - Mechanical Engineering, Drexel University"
+    #   - "(2018) - M.S. - Mechanical Engineering, University of Illinois"
+    #   - "(2016) - B.S. - Mechanical Engineering, Georgia Institute of Technology"
+    # location: "Philadelphia, PA"  # Geographical location or office location
+    # teaser: "Researching closed-loop control applications in laser deposition."  # Short description or teaser about the member
+    inline: false  # Determines if the profile should be clickable to a separate URL
+
 
 - group: "Ph.D. Students"
   group_rank: 3
@@ -213,7 +239,7 @@
     project: ""
 
 - group: "Masters Students"
-  group_rank: 2
+  group_rank: 3
   lastname: "Obute"
   profile:
     name: "Veronica Obute"
@@ -687,7 +713,105 @@
     inline: false
     project: ""
 
+- group: "Graduate Researchers (Alumni)"
+  group_rank: 3
+  lastname: "Ræder"
+  profile:
+    name: "Trygve Ræder"
+    position: "Ph.D. Graduate, Materials Science and Engineering"
+    institution: "Norwegian Institute of Science and Technology"
+    image: "" # Image should be placed in the assets/img directory
+    email: ""
+    phone: ""
+    linkedin: ""
+    orcid: ""
+    google_scholar: ""
+    github: ""
+    website: ""
+    address: ""
+    degrees:
+      - "Ph.D. (2020)"
+    start_year: ""
+    end_year: "Spring 2019"
+    location: ""
+    teaser: ""
+    inline: false
+    project: ""
 
+- group: "Graduate Researchers (Alumni)"
+  group_rank: 3
+  lastname: "Patel"
+  profile:
+    name: "Ved Patel"
+    position: "M.S. Graduate, Industrial and System Engineering"
+    institution: "Lehigh University"
+    image: "" # Image should be placed in the assets/img directory
+    email: ""
+    phone: ""
+    linkedin: ""
+    orcid: ""
+    google_scholar: ""
+    github: ""
+    website: ""
+    address: ""
+    degrees:
+      - "M.S. (2021)"
+    start_year: "2019"
+    end_year: "2021"
+    location: ""
+    teaser: ""
+    inline: false
+    project: ""
+
+- group: "Graduate Researchers (Alumni)"
+  group_rank: 3
+  lastname: "Chari"
+  profile:
+    name: "Anirudh Chari"
+    position: "M.Eng. Graduate, Materials Science and Engineering"
+    institution: "Lehigh University"
+    image: "" # Image should be placed in the assets/img directory
+    email: ""
+    phone: ""
+    linkedin: ""
+    orcid: ""
+    google_scholar: ""
+    github: ""
+    website: ""
+    address: ""
+    degrees:
+      - "M.Eng. (2020)"
+    start_year: "2019"
+    end_year: "2021"
+    location: ""
+    teaser: ""
+    inline: false
+    project: ""
+
+- group: "Graduate Researchers (Alumni)"
+  group_rank: 3
+  lastname: "Maher"
+  profile:
+    name: "Joshua Maher"
+    position: "M.S. Graduate, Materials Science and Engineering"
+    institution: "University of California Berkeley"
+    image: "" # Image should be placed in the assets/img directory
+    email: ""
+    phone: ""
+    linkedin: ""
+    orcid: ""
+    google_scholar: ""
+    github: ""
+    website: ""
+    address: ""
+    degrees:
+      - "M.S. (2018)"
+    start_year: "2017"
+    end_year: "2018"
+    location: ""
+    teaser: ""
+    inline: false
+    project: ""
 
 # Template
 
