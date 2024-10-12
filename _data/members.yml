@@ -12,6 +12,10 @@
     google_scholar: "https://scholar.google.com/citations?user=CfHw88sAAAAJ&hl=en&oi=ao"
     github: "jagar2"
     address: "3141 Chestnut Street, Randell Hall, Room 115, Philadelphia, PA 19104"
+    degrees:
+    - "(2015) - Ph.D. -  Materials Science and Engineering, University of Illinois at Urbana-Champaign"
+    - "(2011) - M.S. - Materials Science and Engineering, Georgia Insitute of Technology"
+    - "(2009) - B.S. - Materials Science and Engineering, University of Illinois at Urbana-Champaign"
   # project: 
   # start_year:
   # end_year:
@@ -31,6 +35,7 @@
     # twitter: "alberteinstein"
     github: "theodore-s-beers"
     address: "3141 Chestnut Street, Randell Hall, Room 115, Philadelphia, PA 19104"
+    project: "Scientific Software Development"
   teaser: "Dr. Theodore S. Beers Persian and Arabic philologist, specializing in the literary history of the late medieval and early modern periods—in particular the tenth/sixteenth century. Currently I have the good fortune to be working as a postdoctoral fellow (wissenschaftlicher Mitarbeiter) in the ERC-funded project AnonymClassic at the Freie Universität Berlin, under the direction of Beatrice Gründler. This affords me ample opportunity to explore both Persian and Arabic sources (and beyond) relating to the Kalilah and Dimnah tradition."
   inline: false # Determines if the profile should be clickable to a separate URL
   
@@ -42,6 +47,19 @@
     position: "Ph.D. Student, Mechanical Engineering and Mechanics"
     institution: "Drexel University"
     start_year: "2023"
+    project: "Closed-Loop Control in Pulsed-Laser Deposition"
+    # image: "Joshua_A.jpg" # Image should be placed in the assets/img/people directory
+    # email: "jca92@drexel.edu"
+    # phone: "(215) 385-3061"
+    # linkedin: "jcagar"
+    # orcid: "0000-0001-8095-5285"
+    # google_scholar: "https://scholar.google.com/citations?user=CfHw88sAAAAJ&hl=en&oi=ao"
+    # github: "jagar2"
+    # address: "3141 Chestnut Street, Randell Hall, Room 115, Philadelphia, PA 19104"
+    # degrees:
+    # - "(2015) - Ph.D. -  Materials Science and Engineering, University of Illinois at Urbana-Champaign"
+    # - "(2011) - M.S. - Materials Science and Engineering, Georgia Insitute of Technology"
+    # - "(2009) - B.S. - Materials Science and Engineering, University of Illinois at Urbana-Champaign"
   inline: false
 
 - group: "Ph.D. Students"
@@ -51,8 +69,23 @@
     name: "Derrick Osei"
     position: "Ph.D. Student, Mechanical Engineering and Mechanics"
     institution: "Drexel University"
+    image: "" # Image should be placed in the assets/img directory
+    email: ""
+    phone: ""
+    linkedin: ""
+    orcid: ""
+    google_scholar: ""
+    github: ""
+    website: ""
+    address: ""
+    degrees:
+      - ""
     start_year: "2023"
-  inline: false
+    end_year: ""
+    location: ""
+    teaser: ""
+    inline: false
+    project: ""
 
 - group: "Ph.D. Students"
   group_rank: 3
@@ -61,8 +94,23 @@
     name: "Julian Goddy"
     position: "Ph.D. Student, Mechanical Engineering and Mechanics"
     institution: "Drexel University"
+    image: "" # Image should be placed in the assets/img directory
+    email: ""
+    phone: ""
+    linkedin: ""
+    orcid: ""
+    google_scholar: ""
+    github: ""
+    website: ""
+    address: ""
+    degrees:
+      - ""
     start_year: "2022"
-  inline: false
+    end_year: ""
+    location: ""
+    teaser: ""
+    inline: false
+    project: ""
 
 - group: "Ph.D. Students"
   group_rank: 3
@@ -72,8 +120,22 @@
     position: "Ph.D. Student, Mechanical Engineering and Mechanics"
     institution: "Drexel University"
     image: "Xinqiao_Z" # Image should be placed in the assets/img directory
+    email: ""
+    phone: ""
+    linkedin: ""
+    orcid: ""
+    google_scholar: ""
+    github: ""
+    website: ""
+    address: ""
+    degrees:
+      - ""
     start_year: "2021"
-  inline: false
+    end_year: ""
+    location: ""
+    teaser: ""
+    inline: false
+    project: ""
 
 - group: "Ph.D. Students"
   group_rank: 3
@@ -82,8 +144,23 @@
     name: "Shuyu Qin"
     position: "Ph.D. Student, Computer Science and Engineering"
     institution: "Lehigh University"
+    image: "" # Image should be placed in the assets/img directory
+    email: ""
+    phone: ""
+    linkedin: ""
+    orcid: ""
+    google_scholar: ""
+    github: ""
+    website: ""
+    address: ""
+    degrees:
+      - ""
     start_year: "2019"
-  inline: false
+    end_year: ""
+    location: ""
+    teaser: ""
+    inline: false
+    project: ""
 
 - group: "Ph.D. Students"
   group_rank: 3
@@ -92,8 +169,23 @@
     name: "Yichen Guo"
     position: "Ph.D. Student, Materials Science and Engineering"
     institution: "Lehigh University"
+    image: "" # Image should be placed in the assets/img directory
+    email: ""
+    phone: ""
+    linkedin: ""
+    orcid: ""
+    google_scholar: ""
+    github: ""
+    website: ""
+    address: ""
+    degrees:
+      - ""
     start_year: "2019"
-  inline: false
+    end_year: ""
+    location: ""
+    teaser: ""
+    inline: false
+    project: ""
 
 - group: "Undergraduate Researchers (Alumni)"
   group_rank: 7
@@ -102,9 +194,23 @@
     name: "Rafael Lipschutz"
     position: "Co-Op Student, Data Visualization"
     institution: "Drexel University"
+    image: "" # Image should be placed in the assets/img directory
+    email: ""
+    phone: ""
+    linkedin: ""
+    orcid: ""
+    google_scholar: ""
+    github: ""
+    website: ""
+    address: ""
+    degrees:
+      - ""
     start_year: "2023"
     end_year: "2023"
-  inline: false
+    location: ""
+    teaser: ""
+    inline: false
+    project: ""
 
 - group: "Masters Students"
   group_rank: 2
@@ -113,8 +219,23 @@
     name: "Veronica Obute"
     position: "Co-Op Student, Electrical and Computer Engineering"
     institution: "Drexel University"
+    image: "" # Image should be placed in the assets/img directory
+    email: ""
+    phone: ""
+    linkedin: ""
+    orcid: ""
+    google_scholar: ""
+    github: ""
+    website: ""
+    address: ""
+    degrees:
+      - ""
     start_year: "2023"
-  inline: false
+    end_year: ""
+    location: ""
+    teaser: ""
+    inline: false
+    project: ""
 
 - group: "Undergraduate Researchers"
   group_rank: 5
@@ -123,9 +244,23 @@
     name: "Sean Rassa"
     position: "Undergraduate Researcher, Electrical and Computer Engineering"
     institution: "Drexel University"
+    image: "" # Image should be placed in the assets/img directory
+    email: ""
+    phone: ""
+    linkedin: ""
+    orcid: ""
+    google_scholar: ""
+    github: ""
+    website: ""
+    address: ""
+    degrees:
+      - ""
     start_year: "2023"
     end_year: "2024"
-  inline: false
+    location: ""
+    teaser: ""
+    inline: false
+    project: ""
 
 - group: "Undergraduate Researchers"
   group_rank: 5
@@ -134,9 +269,23 @@
     name: "Yael Passy"
     position: "Undergraduate Researcher, Materials Science and Engineering"
     institution: "Drexel University"
+    image: "" # Image should be placed in the assets/img directory
+    email: ""
+    phone: ""
+    linkedin: ""
+    orcid: ""
+    google_scholar: ""
+    github: ""
+    website: ""
+    address: ""
+    degrees:
+      - ""
     start_year: "2023"
     end_year: "2024"
-  inline: false
+    location: ""
+    teaser: ""
+    inline: false
+    project: ""
 
 - group: "Undergraduate Researchers (Alumni)"
   group_rank: 5
@@ -145,9 +294,23 @@
     name: "Naod Tewodros"
     position: "Undergraduate Researcher, Computer Science and Business"
     institution: "Lehigh University"
+    image: "" # Image should be placed in the assets/img directory
+    email: ""
+    phone: ""
+    linkedin: ""
+    orcid: ""
+    google_scholar: ""
+    github: ""
+    website: ""
+    address: ""
+    degrees:
+      - ""
     start_year: "2020"
     end_year: "2021"
-  inline: false
+    location: ""
+    teaser: ""
+    inline: false
+    project: ""
 
 - group: "Undergraduate Researchers (Alumni)"
   group_rank: 5
@@ -156,9 +319,23 @@
     name: "Teresa Payne"
     position: "Undergraduate Researcher, Computer Science and Business"
     institution: "Lehigh University"
+    image: "" # Image should be placed in the assets/img directory
+    email: ""
+    phone: ""
+    linkedin: ""
+    orcid: ""
+    google_scholar: ""
+    github: ""
+    website: ""
+    address: ""
+    degrees:
+      - ""
     start_year: "2020"
     end_year: "2021"
-  inline: false
+    location: ""
+    teaser: ""
+    inline: false
+    project: ""
 
 - group: "Undergraduate Researchers (Alumni)"
   group_rank: 5
@@ -167,9 +344,23 @@
     name: "Andrew Vander Pallen"
     position: "Undergraduate Researcher, Computer Engineering"
     institution: "Lehigh University"
+    image: "" # Image should be placed in the assets/img directory
+    email: ""
+    phone: ""
+    linkedin: ""
+    orcid: ""
+    google_scholar: ""
+    github: ""
+    website: ""
+    address: ""
+    degrees:
+      - ""
     start_year: "2020"
     end_year: "2022"
-  inline: false
+    location: ""
+    teaser: ""
+    inline: false
+    project: ""
 
 - group: "Undergraduate Researchers (Alumni)"
   group_rank: 5
@@ -178,9 +369,23 @@
     name: "Ky Frew"
     position: "Undergraduate Researcher, Mechanical Engineering"
     institution: "Lehigh University"
+    image: "" # Image should be placed in the assets/img directory
+    email: ""
+    phone: ""
+    linkedin: ""
+    orcid: ""
+    google_scholar: ""
+    github: ""
+    website: ""
+    address: ""
+    degrees:
+      - ""
     start_year: "2020"
     end_year: "2022"
-  inline: false
+    location: ""
+    teaser: ""
+    inline: false
+    project: ""
 
 - group: "Undergraduate Researchers (Alumni)"
   group_rank: 5
@@ -189,9 +394,23 @@
     name: "Johnny Zedan"
     position: "Undergraduate Researcher, Computer Science"
     institution: "Lehigh University"
+    image: "" # Image should be placed in the assets/img directory
+    email: ""
+    phone: ""
+    linkedin: ""
+    orcid: ""
+    google_scholar: ""
+    github: ""
+    website: ""
+    address: ""
+    degrees:
+      - ""
     start_year: "2020"
     end_year: "2021"
-  inline: false
+    location: ""
+    teaser: ""
+    inline: false
+    project: ""
 
 - group: "Undergraduate Researchers (Alumni)"
   group_rank: 5
@@ -200,9 +419,23 @@
     name: "Niija Douglas"
     position: "Undergraduate Researcher, Computer Science"
     institution: "Lehigh University"
+    image: "" # Image should be placed in the assets/img directory
+    email: ""
+    phone: ""
+    linkedin: ""
+    orcid: ""
+    google_scholar: ""
+    github: ""
+    website: ""
+    address: ""
+    degrees:
+      - ""
     start_year: "2020"
     end_year: "2022"
-  inline: false
+    location: ""
+    teaser: ""
+    inline: false
+    project: ""
 
 - group: "Undergraduate Researchers (Alumni)"
   group_rank: 5
@@ -211,9 +444,23 @@
     name: "Mary Ye"
     position: "Undergraduate Researcher, Computer Science and Business"
     institution: "Lehigh University"
+    image: "" # Image should be placed in the assets/img directory
+    email: ""
+    phone: ""
+    linkedin: ""
+    orcid: ""
+    google_scholar: ""
+    github: ""
+    website: ""
+    address: ""
+    degrees:
+      - ""
     start_year: "2020"
     end_year: "2021"
-  inline: false
+    location: ""
+    teaser: ""
+    inline: false
+    project: ""
 
 - group: "Undergraduate Researchers (Alumni)"
   group_rank: 5
@@ -223,9 +470,22 @@
     position: "Undergraduate Researcher, Bioengineering"
     institution: "Lehigh University"
     image: "Victor_S" # Image should be placed in the assets/img directory
+    email: ""
+    phone: ""
+    linkedin: ""
+    orcid: ""
+    google_scholar: ""
+    github: ""
+    website: ""
+    address: ""
+    degrees:
+      - ""
     start_year: "2020"
     end_year: "2021"
-  inline: false
+    location: ""
+    teaser: ""
+    inline: false
+    project: ""
 
 - group: "Undergraduate Researchers (Alumni)"
   group_rank: 5
@@ -234,9 +494,23 @@
     name: "Norman Zvenyika"
     position: "Undergraduate Researcher, Biocomputational Engineering"
     institution: "Lehigh University"
+    image: "" # Image should be placed in the assets/img directory
+    email: ""
+    phone: ""
+    linkedin: ""
+    orcid: ""
+    google_scholar: ""
+    github: ""
+    website: ""
+    address: ""
+    degrees:
+      - ""
     start_year: "2020"
     end_year: "2021"
-  inline: false
+    location: ""
+    teaser: ""
+    inline: false
+    project: ""
 
 - group: "Undergraduate Researchers (Alumni)"
   group_rank: 5
@@ -245,9 +519,23 @@
     name: "Alibek Kaliyev"
     position: "Undergraduate Researcher, Computer Science and Business"
     institution: "Lehigh University"
+    image: "" # Image should be placed in the assets/img directory
+    email: ""
+    phone: ""
+    linkedin: ""
+    orcid: ""
+    google_scholar: ""
+    github: ""
+    website: ""
+    address: ""
+    degrees:
+      - ""
     start_year: "2019"
     end_year: "2024"
-  inline: false
+    location: ""
+    teaser: ""
+    inline: false
+    project: ""
 
 - group: "Undergraduate Researchers (Alumni)"
   group_rank: 5
@@ -256,9 +544,23 @@
     name: "Ryan Forelli"
     position: "Undergraduate Researcher, Computer Engineering"
     institution: "Lehigh University"
+    image: "" # Image should be placed in the assets/img directory
+    email: ""
+    phone: ""
+    linkedin: ""
+    orcid: ""
+    google_scholar: ""
+    github: ""
+    website: ""
+    address: ""
+    degrees:
+      - ""
     start_year: "2019"
     end_year: "2024"
-  inline: false
+    location: ""
+    teaser: ""
+    inline: false
+    project: ""
 
 - group: "Undergraduate Researchers (Alumni)"
   group_rank: 5
@@ -267,9 +569,23 @@
     name: "Andrew Zhang"
     position: "Undergraduate Researcher, Mechanical Engineering"
     institution: "Lehigh University"
+    image: "" # Image should be placed in the assets/img directory
+    email: ""
+    phone: ""
+    linkedin: ""
+    orcid: ""
+    google_scholar: ""
+    github: ""
+    website: ""
+    address: ""
+    degrees:
+      - ""
     start_year: "2019"
     end_year: "2020"
-  inline: false
+    location: ""
+    teaser: ""
+    inline: false
+    project: ""
 
 - group: "Undergraduate Researchers (Alumni)"
   group_rank: 5
@@ -278,9 +594,23 @@
     name: "Oluwafolajimi Olugbodi"
     position: "Undergraduate Researcher, Computer Engineering"
     institution: "Lehigh University"
+    image: "" # Image should be placed in the assets/img directory
+    email: ""
+    phone: ""
+    linkedin: ""
+    orcid: ""
+    google_scholar: ""
+    github: ""
+    website: ""
+    address: ""
+    degrees:
+      - ""
     start_year: "2019"
     end_year: "2020"
-  inline: false
+    location: ""
+    teaser: ""
+    inline: false
+    project: ""
 
 - group: "Undergraduate Researchers (Alumni)"
   group_rank: 5
@@ -289,9 +619,23 @@
     name: "Cole Kuehmann"
     position: "Undergraduate Researcher, Materials Science and Engineering"
     institution: "Lehigh University"
+    image: "" # Image should be placed in the assets/img directory
+    email: ""
+    phone: ""
+    linkedin: ""
+    orcid: ""
+    google_scholar: ""
+    github: ""
+    website: ""
+    address: ""
+    degrees:
+      - ""
     start_year: "2019"
     end_year: "2020"
-  inline: false
+    location: ""
+    teaser: ""
+    inline: false
+    project: ""
 
 - group: "Undergraduate Researchers (Alumni)"
   group_rank: 5
@@ -300,9 +644,23 @@
     name: "Tri Nguyen"
     position: "Undergraduate Researcher, Materials Science and Engineering"
     institution: "Lehigh University"
+    image: "" # Image should be placed in the assets/img directory
+    email: ""
+    phone: ""
+    linkedin: ""
+    orcid: ""
+    google_scholar: ""
+    github: ""
+    website: ""
+    address: ""
+    degrees:
+      - ""
     start_year: "2019"
     end_year: "2021"
-  inline: false
+    location: ""
+    teaser: ""
+    inline: false
+    project: ""
 
 - group: "Undergraduate Researchers (Alumni)"
   group_rank: 5
@@ -311,6 +669,50 @@
     name: "Tech Tanasarnsopaporn"
     position: "Undergraduate Researcher, Materials Science and Engineering"
     institution: "Lehigh University"
+    image: "" # Image should be placed in the assets/img directory
+    email: ""
+    phone: ""
+    linkedin: ""
+    orcid: ""
+    google_scholar: ""
+    github: ""
+    website: ""
+    address: ""
+    degrees:
+      - ""
     start_year: "2019"
     end_year: "2020"
-  inline: false
+    location: ""
+    teaser: ""
+    inline: false
+    project: ""
+
+
+
+# Template
+
+# - group: "Faculty"
+#   group_rank: 1
+#   lastname: "Smith"
+#   profile:
+#     name: "John Smith"
+#     position: "Professor of Computer Science"
+#     image: "john_smith.jpg"
+#     email: "john.smith@example.com"
+#     phone: "(123) 456-7890"
+#     linkedin: "johnsmith"
+#     orcid: "0000-0001-2345-6789"
+#     google_scholar: "https://scholar.google.com/citations?user=XXXXX"
+#     github: "johnsmith"
+#     website: "https://johnsmith.com"
+#     address: "123 University Ave, City, State, ZIP"
+#     degrees:
+#       - "Ph.D.: Computer Science, University of Example"
+#       - "M.Sc.: Information Systems, Example University"
+#       - "B.Sc.: Software Engineering, College of Example"
+#     start_year: 2005
+#     end_year: 2023
+#     location: "City, State"
+#     teaser: "John Smith is an expert in machine learning and data mining. He has over 20 years of research experience."
+#     inline: false
+#     project: "AI and Data Mining Research"

@@ -39,14 +39,17 @@ nav_rank: 2
                               {% if member.inline == false %}<a href="{{ member.url | relative_url }}">{% endif %}
                               <h5 class="card-title">{{ member.profile.name }}</h5>
                               {% if member.profile.position %}<h6 class="card-subtitle mb-2 text-muted">{{ member.profile.position }}</h6>{% endif %}
-                                {% if member.profile.project %}
-                                    <p class="card-text">
-                                        <strong>Project:</strong> {{ member.profile.project }}
-                                    </p>
-                                {% endif %}
+                              {% if member.profile.project %}
+                                  <p class="card-text">
+                                      <strong>Project:</strong> {{ member.profile.project }}
+                                  </p>
+                              {% endif %}
                               {% if member.profile.degrees %}
                                   <p class="card-text">
-                                      <strong>Degrees:</strong> {{ member.profile.degrees | join: ", " }}
+                                      {% assign degrees = member.profile.degrees %}
+                                      {% for degree in degrees %}
+                                            {{degree}} <br />
+                                      {% endfor %}
                                   </p>
                               {% endif %}
                               {% if group contains "Alumni" %}
@@ -54,18 +57,18 @@ nav_rank: 2
                                       <p class="card-text">
                                           {{ member.profile.start_year }} - {{ member.profile.end_year }}
                                       </p>
-                                {% endif %}    
+                                  {% endif %}
                                   {% if member.profile.location %}
                                       <p class="card-text">
                                           <strong>Current Location:</strong> {{ member.profile.location }}
                                       </p>
                                   {% endif %}
-                            {% else %}
-                            {% if member.profile.start_year %}
-                                        <p class="card-text">
-                                            {{ member.profile.start_year }} - Present
-                                        </p>
-                                {% endif %}    
+                              {% else %}
+                                  {% if member.profile.start_year %}
+                                      <p class="card-text">
+                                          {{ member.profile.start_year }} - Present
+                                      </p>
+                                  {% endif %}
                               {% endif %}
                               <p class="card-text">
                                   {{ member.teaser }}
@@ -93,9 +96,9 @@ nav_rank: 2
                                   {% if member.profile.website %}
                                       <a href="{{ member.profile.website }}" class="card-link" target="_blank"><i class="fas fa-globe"></i></a>
                                   {% endif %}
-                                    {% if member.profile.google_scholar %}
-                                    <a href="{{ member.profile.google_scholar }}" class="card-link" target="_blank"><i class="fab fa-google-scholar"></i></a>
-                                    {% endif %}
+                                  {% if member.profile.google_scholar %}
+                                      <a href="{{ member.profile.google_scholar }}" class="card-link" target="_blank"><i class="fab fa-google-scholar"></i></a>
+                                  {% endif %}
                               </div>
                               <p class="card-text">
                                   <small class="text-muted"><i class="fas fa-thumbtack"></i> {{ member.profile.address | replace: '<br />', ', ' }}</small>
