@@ -2,20 +2,57 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
+// Import Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display:ital@1&family=Merriweather+Sans:wght@600&family=Nunito:wght@700&family=Open+Sans&family=Quicksand:wght@500&display=swap');
+
 // Typography
 
 p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-em,
 div,
 li,
 span,
-strong {
+strong,
+em {
+  color: var(--global-text-color);
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--global-theme-color);
+  letter-spacing: -0.5px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 600;
+  color: var(--global-theme-color);
+}
+
+h3 {
+  font-family: 'DM Serif Display', serif;
+  font-style: italic;
+  color: var(--global-text-color);
+}
+
+h4 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  color: var(--global-text-color);
+}
+
+h5 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  color: var(--global-hover-color);
+}
+
+h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
   color: var(--global-text-color);
 }
 
@@ -24,9 +61,10 @@ hr {
 }
 
 table {
+
   td,
   th {
-    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
     padding: 1px 1rem 1px 0;
   }
 
@@ -38,6 +76,7 @@ table {
 a,
 table.table a {
   color: var(--global-theme-color);
+  font-family: 'Open Sans', sans-serif;
 
   &:hover {
     color: var(--global-theme-color);
@@ -51,6 +90,8 @@ table.table a {
 
 .table-dark {
   background-color: transparent;
+  font-family: 'Open Sans', sans-serif;
+
   &.table-bordered {
     border: 1px solid var(--global-divider-color) !important;
   }
@@ -60,8 +101,7 @@ blockquote {
   background: var(--global-bg-color);
   border-left: 5px solid var(--global-theme-color);
   margin: 1.5em 0;
-  padding: 1em;
-  font-size: 1.2rem;
+  font-family: 'DM Serif Display', serif;
 
   p {
     margin-bottom: 0;
@@ -135,10 +175,11 @@ blockquote {
 // Checklist
 
 ul.task-list {
-  list-style-type: none; /* Remove bullets from all levels */
+  list-style-type: none;
+  /* Remove bullets from all levels */
 }
 
-ul.task-list > li ul {
+ul.task-list>li ul {
   /* Nested lists within .task-list */
   padding-inline-start: 1.5rem;
 }
@@ -153,14 +194,13 @@ ul.task-list input[type="checkbox"] {
 .equation {
   margin-bottom: 1rem;
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
 // Caption
 
 .caption {
-  font-size: 0.875rem;
-  margin-top: 0.75rem;
-  margin-bottom: 1.5rem;
+  font-family: 'Open Sans', sans-serif;
   text-align: center;
 }
 
@@ -176,10 +216,13 @@ ul.task-list input[type="checkbox"] {
 
   .card-title {
     color: var(--global-text-color);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
   }
 
   .card-body {
-    padding: 1.25rem 1.25rem 1.25rem 1.25rem;
+    padding: 1.25rem;
+    font-family: 'Open Sans', sans-serif;
   }
 }
 
