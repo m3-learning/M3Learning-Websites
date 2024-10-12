@@ -35,7 +35,7 @@ $yellow-color: #FDB515 !default; // Primary Drexel Gold (PMS 7548C)
 $yellow-color-light: color.scale($yellow-color, $lightness: 20%) !default; // Lightened Drexel Gold
 $yellow-color-lighter: color.scale($yellow-color, $lightness: 40%) !default; // Even lighter Drexel Gold
 $yellow-color-dark: color.scale($yellow-color, $lightness: -20%) !default; // Darker Drexel Gold
-$yellow-color-900: color.scale($yellow-color, $lightness: -40%) !default; // Darkest Drexel Gold
+$yellow-900: color.scale($yellow-color, $lightness: -40%) !default; // Darkest Drexel Gold
 
 $white-color: #FFFFFF !default;
 $black-color: $drexel-blue !default;
