@@ -51,10 +51,15 @@
     email: "tb3367@drexel.edu"
     linkedin: "theodorebeers"
     orcid: "0000-0002-5129-5748"
+    website: "https://www.theobeers.com"
     # twitter: "alberteinstein"
     github: "theodore-s-beers"
     address: "3141 Chestnut Street, Randell Hall, Room 115, Philadelphia, PA 19104"
+    google_scholar: "https://scholar.google.com/citations?user=dqd1ahUAAAAJ"
     project: "Scientific Software Development"
+    degrees:  # Academic degrees
+      - "(2020) - Ph.D. - Department of Near Eastern Languages and Civilizations, University of Chicago"
+      - "(2009) - B.S. - Near Eastern Studies, Princeton University"
   teaser: "Dr. Theodore S. Beers Persian and Arabic philologist, specializing in the literary history of the late medieval and early modern periods—in particular the tenth/sixteenth century. Currently I have the good fortune to be working as a postdoctoral fellow (wissenschaftlicher Mitarbeiter) in the ERC-funded project AnonymClassic at the Freie Universität Berlin, under the direction of Beatrice Gründler. This affords me ample opportunity to explore both Persian and Arabic sources (and beyond) relating to the Kalilah and Dimnah tradition."
   inline: false # Determines if the profile should be clickable to a separate URL
 
@@ -448,6 +453,7 @@
     # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
     degrees:  # Academic degrees
       - "M.S. (2021) - Industrial and System Engineering"
+    coadvisor: "Martin Takac"  # Co-advisor field
     # location: "Bethlehem, PA"  # Geographical location or office location
     # teaser: "Specialized in operations research and systems optimization."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
@@ -477,31 +483,6 @@
     # teaser: "Research focused on environmental science and earth systems."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
     # project: "Environmental Science and Earth Systems"  # Main project or research focus
-
-- group: "Graduate Researchers (Alumni)"  # Group the member belongs to
-  group_rank: 11  # Ranking to determine order
-  lastname: "Patel"  # Last name of the member
-  profile:
-    name: "Ved Patel"  # Full name
-    position: "M.S. Graduate, Industrial and System Engineering"  # Position or role
-    institution: "Lehigh University"  # Institution affiliation
-    start_year: "2019"  # Start year for the role or program
-    end_year: "2021"  # End year for the role or program
-    # image: "ved_patel.jpg"  # Image filename (place in assets/img/people directory)
-    # email: "vp123@lehigh.edu"  # Email address
-    # phone: "(610) 123-4567"  # Phone number
-    # linkedin: "vedpatel"  # LinkedIn username
-    # orcid: "0000-0002-3456-7890"  # ORCID ID
-    # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
-    # github: "vedpatel"  # GitHub username
-    # website: "https://vedpatel.com"  # Personal or professional website
-    # address: "Industrial and Systems Engineering Department, Lehigh University, PA"  # Office or location address
-    degrees:  # Academic degrees
-      - "M.S. (2021) - Industrial and System Engineering"
-    # location: "Bethlehem, PA"  # Geographical location or office location
-    # teaser: "Focused on optimization in industrial systems."  # Short description or teaser about the member
-    inline: false  # Determines if the profile should be clickable to a separate URL
-    # project: "Optimization in Industrial Systems"  # Main project or research focus
 
 - group: "Graduate Researchers (Alumni)"  # Group the member belongs to
   group_rank: 11  # Ranking to determine order

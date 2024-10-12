@@ -52,6 +52,28 @@ nav_rank: 2
                                       {% endfor %}
                                   </p>
                               {% endif %}
+                              {% if member.profile.primary_advisor %}
+                                <p class="card-text">
+                                    <strong>Primary Advisor:</strong> {{ member.profile.primary_advisor }}
+                                </p>
+                                {% endif %}
+
+                                {% if member.profile.coadvisor %}
+                                <p class="card-text">
+                                    <strong>Co-Advisor:</strong> {{ member.profile.coadvisor }}
+                                </p>
+                                {% endif %}
+
+                                {% if member.profile.awards %}
+                                <p class="card-text">
+                                    <strong>Awards:</strong>
+                                    <ul>
+                                    {% for award in member.profile.awards %}
+                                        <li>{{ award }}</li>
+                                    {% endfor %}
+                                    </ul>
+                                </p>
+                                {% endif %}
                               {% if group contains "Alumni" %}
                                   {% if member.profile.end_year %}
                                       <p class="card-text">
