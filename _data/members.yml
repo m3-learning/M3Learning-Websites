@@ -88,755 +88,793 @@
     inline: false  # Determines if the profile should be clickable to a separate URL
 
 
-- group: "Ph.D. Students"
-  group_rank: 3
-  lastname: "Osei"
+- group: "Ph.D. Students"  # Group the member belongs to
+  group_rank: 3  # Ranking to determine order
+  lastname: "Osei"  # Last name of the member
   profile:
-    name: "Derrick Osei"
-    position: "Ph.D. Student, Mechanical Engineering and Mechanics"
-    institution: "Drexel University"
-    image: "" # Image should be placed in the assets/img directory
-    email: ""
-    phone: ""
-    linkedin: ""
-    orcid: ""
-    google_scholar: ""
-    github: ""
-    website: ""
-    address: ""
-    degrees:
-      - ""
-    start_year: "2023"
-    end_year: ""
-    location: ""
-    teaser: ""
-    inline: false
-    project: ""
+    name: "Derrick Osei"  # Full name
+    position: "Ph.D. Student, Mechanical Engineering and Mechanics"  # Position or role
+    institution: "Drexel University"  # Institution affiliation
+    start_year: "2023"  # Start year for current role or program
+    # end_year: "202X"  # Expected or actual end year (if applicable)
+    # image: "derrick_osei.jpg"  # Image filename (place in assets/img/people directory)
+    # email: "do123@drexel.edu"  # Email address
+    # phone: "(215) 123-4567"  # Phone number
+    # linkedin: "derrickosei"  # LinkedIn username
+    # orcid: "0000-0002-3456-7890"  # ORCID ID
+    # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
+    # github: "derrickosei"  # GitHub username
+    # website: "https://derrickosei.com"  # Personal or professional website
+    # address: "3141 Chestnut Street, Philadelphia, PA 19104"  # Office or location address
+    # degrees:  # Academic degrees
+    #   - "(2023) - M.S. - Mechanical Engineering, Drexel University"
+    # location: "Philadelphia, PA"  # Geographical location or office location
+    # teaser: "Research interests include additive manufacturing and control systems."  # Short description or teaser about the member
+    inline: false  # Determines if the profile should be clickable to a separate URL
+    # project: "Additive Manufacturing Control Systems"  # Main project or research focus
 
-- group: "Ph.D. Students"
-  group_rank: 3
-  lastname: "Goddy"
+
+- group: "Ph.D. Students"  # Group the member belongs to
+  group_rank: 3  # Ranking to determine order
+  lastname: "Goddy"  # Last name of the member
   profile:
-    name: "Julian Goddy"
-    position: "Ph.D. Student, Mechanical Engineering and Mechanics"
-    institution: "Drexel University"
-    image: "" # Image should be placed in the assets/img directory
-    email: ""
-    phone: ""
-    linkedin: ""
-    orcid: ""
-    google_scholar: ""
-    github: ""
-    website: ""
-    address: ""
-    degrees:
-      - ""
-    start_year: "2022"
-    end_year: ""
-    location: ""
-    teaser: ""
-    inline: false
-    project: ""
+    name: "Julian Goddy"  # Full name
+    position: "Ph.D. Student, Mechanical Engineering and Mechanics"  # Position or role
+    institution: "Drexel University"  # Institution affiliation
+    start_year: "2022"  # Start year for current role or program
+    # end_year: "202X"  # Expected or actual end year (if applicable)
+    # image: "julian_goddy.jpg"  # Image filename (place in assets/img/people directory)
+    # email: "jg123@drexel.edu"  # Email address
+    # phone: "(215) 123-4567"  # Phone number
+    # linkedin: "juliangoddy"  # LinkedIn username
+    # orcid: "0000-0002-3456-7890"  # ORCID ID
+    # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
+    # github: "juliangoddy"  # GitHub username
+    # website: "https://juliangoddy.com"  # Personal or professional website
+    # address: "3141 Chestnut Street, Philadelphia, PA 19104"  # Office or location address
+    # degrees:  # Academic degrees
+    #   - "(2021) - M.S. - Mechanical Engineering, Drexel University"
+    # location: "Philadelphia, PA"  # Geographical location or office location
+    # teaser: "Focuses on dynamics and control systems in mechanical engineering."  # Short description or teaser about the member
+    inline: false  # Determines if the profile should be clickable to a separate URL
+    # project: "Dynamics and Control Systems"  # Main project or research focus
 
-- group: "Ph.D. Students"
-  group_rank: 3
-  lastname: "Zhang"
+
+- group: "Ph.D. Students"  # Group the member belongs to
+  group_rank: 3  # Ranking to determine order
+  lastname: "Zhang"  # Last name of the member
   profile:
-    name: "Xinqiao Zhang"
-    position: "Ph.D. Student, Mechanical Engineering and Mechanics"
-    institution: "Drexel University"
-    image: "Xinqiao_Z" # Image should be placed in the assets/img directory
-    email: ""
-    phone: ""
-    linkedin: ""
-    orcid: ""
-    google_scholar: ""
-    github: ""
-    website: ""
-    address: ""
-    degrees:
-      - ""
-    start_year: "2021"
-    end_year: ""
-    location: ""
-    teaser: ""
-    inline: false
-    project: ""
+    name: "Xinqiao Zhang"  # Full name
+    position: "Ph.D. Student, Mechanical Engineering and Mechanics"  # Position or role
+    institution: "Drexel University"  # Institution affiliation
+    start_year: "2021"  # Start year for current role or program
+    # end_year: "202X"  # Expected or actual end year (if applicable)
+    image: "Xinqiao_Z"  # Image filename (place in assets/img/people directory)
+    # email: "xz123@drexel.edu"  # Email address
+    # phone: "(215) 123-4567"  # Phone number
+    # linkedin: "xinqiaozhang"  # LinkedIn username
+    # orcid: "0000-0002-3456-7890"  # ORCID ID
+    # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
+    # github: "xinqiaozhang"  # GitHub username
+    # website: "https://xinqiaozhang.com"  # Personal or professional website
+    # address: "3141 Chestnut Street, Philadelphia, PA 19104"  # Office or location address
+    # degrees:  # Academic degrees
+    #   - "(2020) - M.S. - Mechanical Engineering, Drexel University"
+    # location: "Philadelphia, PA"  # Geographical location or office location
+    # teaser: "Specializes in computational fluid dynamics and thermal systems."  # Short description or teaser about the member
+    inline: false  # Determines if the profile should be clickable to a separate URL
+    # project: "Computational Fluid Dynamics in Thermal Systems"  # Main project or research focus
 
-- group: "Ph.D. Students"
-  group_rank: 3
-  lastname: "Qin"
+
+- group: "Ph.D. Students"  # Group the member belongs to
+  group_rank: 3  # Ranking to determine order
+  lastname: "Qin"  # Last name of the member
   profile:
-    name: "Shuyu Qin"
-    position: "Ph.D. Student, Computer Science and Engineering"
-    institution: "Lehigh University"
-    image: "" # Image should be placed in the assets/img directory
-    email: ""
-    phone: ""
-    linkedin: ""
-    orcid: ""
-    google_scholar: ""
-    github: ""
-    website: ""
-    address: ""
-    degrees:
-      - ""
-    start_year: "2019"
-    end_year: ""
-    location: ""
-    teaser: ""
-    inline: false
-    project: ""
+    name: "Shuyu Qin"  # Full name
+    position: "Ph.D. Student, Computer Science and Engineering"  # Position or role
+    institution: "Lehigh University"  # Institution affiliation
+    start_year: "2019"  # Start year for current role or program
+    # end_year: "202X"  # Expected or actual end year (if applicable)
+    # image: "shuyu_qin.jpg"  # Image filename (place in assets/img/people directory)
+    # email: "sq123@lehigh.edu"  # Email address
+    # phone: "(215) 123-4567"  # Phone number
+    # linkedin: "shuyuqin"  # LinkedIn username
+    # orcid: "0000-0002-3456-7890"  # ORCID ID
+    # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
+    # github: "shuyuqin"  # GitHub username
+    # website: "https://shuyuqin.com"  # Personal or professional website
+    # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
+    # degrees:  # Academic degrees
+    #   - "(2018) - M.S. - Computer Science, Lehigh University"
+    # location: "Bethlehem, PA"  # Geographical location or office location
+    # teaser: "Researching advancements in machine learning algorithms and data science applications."  # Short description or teaser about the member
+    inline: false  # Determines if the profile should be clickable to a separate URL
+    # project: "Machine Learning and Data Science Applications"  # Main project or research focus
 
-- group: "Ph.D. Students"
-  group_rank: 3
-  lastname: "Guo"
+
+- group: "Ph.D. Students"  # Group the member belongs to
+  group_rank: 3  # Ranking to determine order
+  lastname: "Guo"  # Last name of the member
   profile:
-    name: "Yichen Guo"
-    position: "Ph.D. Student, Materials Science and Engineering"
-    institution: "Lehigh University"
-    image: "" # Image should be placed in the assets/img directory
-    email: ""
-    phone: ""
-    linkedin: ""
-    orcid: ""
-    google_scholar: ""
-    github: ""
-    website: ""
-    address: ""
-    degrees:
-      - ""
-    start_year: "2019"
-    end_year: ""
-    location: ""
-    teaser: ""
-    inline: false
-    project: ""
+    name: "Yichen Guo"  # Full name
+    position: "Ph.D. Student, Materials Science and Engineering"  # Position or role
+    institution: "Lehigh University"  # Institution affiliation
+    start_year: "2019"  # Start year for current role or program
+    # end_year: "202X"  # Expected or actual end year (if applicable)
+    # image: "yichen_guo.jpg"  # Image filename (place in assets/img/people directory)
+    # email: "yg123@lehigh.edu"  # Email address
+    # phone: "(215) 123-4567"  # Phone number
+    # linkedin: "yichenguo"  # LinkedIn username
+    # orcid: "0000-0002-3456-7890"  # ORCID ID
+    # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
+    # github: "yichenguo"  # GitHub username
+    # website: "https://yichenguo.com"  # Personal or professional website
+    # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
+    # degrees:  # Academic degrees
+    #   - "(2018) - M.S. - Materials Science and Engineering, Lehigh University"
+    # location: "Bethlehem, PA"  # Geographical location or office location
+    # teaser: "Focuses on materials characterization and nanoscale engineering."  # Short description or teaser about the member
+    inline: false  # Determines if the profile should be clickable to a separate URL
+    # project: "Materials Characterization and Nanoscale Engineering"  # Main project or research focus
 
-- group: "Undergraduate Researchers (Alumni)"
-  group_rank: 7
-  lastname: "Lipschutz"
+
+##### PH.D. Alumni 10 ####
+
+- group: "Ph.D. (Alumni)"  # Group the member belongs to
+  group_rank: 10  # Ranking to determine order
+  lastname: "Ræder"  # Last name of the member
   profile:
-    name: "Rafael Lipschutz"
-    position: "Co-Op Student, Data Visualization"
-    institution: "Drexel University"
-    image: "" # Image should be placed in the assets/img directory
-    email: ""
-    phone: ""
-    linkedin: ""
-    orcid: ""
-    google_scholar: ""
-    github: ""
-    website: ""
-    address: ""
-    degrees:
-      - ""
-    start_year: "2023"
-    end_year: "2023"
-    location: ""
-    teaser: ""
-    inline: false
-    project: ""
+    name: "Trygve Ræder"  # Full name
+    position: "Ph.D. Graduate, Materials Science and Engineering"  # Position or role
+    institution: "Norwegian Institute of Science and Technology"  # Institution affiliation
+    # start_year: "2015"  # Start year for program or role (if applicable)
+    end_year: "Spring 2019"  # End year for the program or role
+    # image: "trygve_raeder.jpg"  # Image filename (place in assets/img/people directory)
+    # email: "tr123@ntnu.no"  # Email address
+    # phone: "+47 123 45 678"  # Phone number
+    # linkedin: "trygveraeder"  # LinkedIn username
+    # orcid: "0000-0002-3456-7890"  # ORCID ID
+    # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
+    # github: "trygveraeder"  # GitHub username
+    # website: "https://trygveraeder.com"  # Personal or professional website
+    # address: "Høgskoleringen 1, 7491 Trondheim, Norway"  # Office or location address
+    degrees:  # Academic degrees
+      - "Ph.D. (2020) - Materials Science and Engineering"
+    # location: "Trondheim, Norway"  # Geographical location or office location
+    # teaser: "Specialized in advanced materials characterization techniques."  # Short description or teaser about the member
+    inline: false  # Determines if the profile should be clickable to a separate URL
+    # project: "Advanced Materials Characterization"  # Main project or research focus
 
-- group: "Masters Students"
-  group_rank: 3
-  lastname: "Obute"
+#### M.S. Students (5) #####
+
+- group: "Masters Students"  # Group the member belongs to
+  group_rank: 5  # Ranking to determine order
+  lastname: "Obute"  # Last name of the member
   profile:
-    name: "Veronica Obute"
-    position: "Co-Op Student, Electrical and Computer Engineering"
-    institution: "Drexel University"
-    image: "" # Image should be placed in the assets/img directory
-    email: ""
-    phone: ""
-    linkedin: ""
-    orcid: ""
-    google_scholar: ""
-    github: ""
-    website: ""
-    address: ""
-    degrees:
-      - ""
-    start_year: "2023"
-    end_year: ""
-    location: ""
-    teaser: ""
-    inline: false
-    project: ""
+    name: "Veronica Obute"  # Full name
+    position: "Co-Op Student, Electrical and Computer Engineering"  # Position or role
+    institution: "Drexel University"  # Institution affiliation
+    start_year: "2023"  # Start year for current role or program
+    # end_year: "202X"  # Expected or actual end year (if applicable)
+    # image: "veronica_obute.jpg"  # Image filename (place in assets/img/people directory)
+    # email: "vo123@drexel.edu"  # Email address
+    # phone: "(215) 123-4567"  # Phone number
+    # linkedin: "veronicaobute"  # LinkedIn username
+    # orcid: "0000-0002-3456-7890"  # ORCID ID
+    # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
+    # github: "veronicaobute"  # GitHub username
+    # website: "https://veronicaobute.com"  # Personal or professional website
+    # address: "3141 Chestnut Street, Philadelphia, PA 19104"  # Office or location address
+    # degrees:  # Academic degrees
+    #   - "(2022) - B.S. - Electrical Engineering, Drexel University"
+    # location: "Philadelphia, PA"  # Geographical location or office location
+    # teaser: "Researching applications in electrical and computer engineering for automation."  # Short description or teaser about the member
+    inline: false  # Determines if the profile should be clickable to a separate URL
+    # project: "Automation in Electrical and Computer Engineering"  # Main project or research focus
 
-- group: "Undergraduate Researchers"
-  group_rank: 5
-  lastname: "Rassa"
+#### M.S. Alumni (11) ####
+
+- group: "Graduate Researchers (Alumni)"  # Group the member belongs to
+  group_rank: 11  # Ranking to determine order
+  lastname: "Patel"  # Last name of the member
   profile:
-    name: "Sean Rassa"
-    position: "Undergraduate Researcher, Electrical and Computer Engineering"
-    institution: "Drexel University"
-    image: "" # Image should be placed in the assets/img directory
-    email: ""
-    phone: ""
-    linkedin: ""
-    orcid: ""
-    google_scholar: ""
-    github: ""
-    website: ""
-    address: ""
-    degrees:
-      - ""
-    start_year: "2023"
-    end_year: "2024"
-    location: ""
-    teaser: ""
-    inline: false
-    project: ""
+    name: "Ved Patel"  # Full name
+    position: "M.S. Graduate, Industrial and System Engineering"  # Position or role
+    institution: "Lehigh University"  # Institution affiliation
+    start_year: "2019"  # Start year for the role or program
+    end_year: "2021"  # End year for the role or program
+    # image: "ved_patel.jpg"  # Image filename (place in assets/img/people directory)
+    # email: "vp123@lehigh.edu"  # Email address
+    # phone: "(610) 123-4567"  # Phone number
+    # linkedin: "vedpatel"  # LinkedIn username
+    # orcid: "0000-0002-3456-7890"  # ORCID ID
+    # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
+    # github: "vedpatel"  # GitHub username
+    # website: "https://vedpatel.com"  # Personal or professional website
+    # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
+    degrees:  # Academic degrees
+      - "M.S. (2021) - Industrial and System Engineering"
+    # location: "Bethlehem, PA"  # Geographical location or office location
+    # teaser: "Specialized in operations research and systems optimization."  # Short description or teaser about the member
+    inline: false  # Determines if the profile should be clickable to a separate URL
+    # project: "Optimization in Industrial Systems"  # Main project or research focus
 
-- group: "Undergraduate Researchers"
-  group_rank: 5
-  lastname: "Passy"
+- group: "Graduate Researchers (Alumni)"  # Group the member belongs to
+  group_rank: 11  # Ranking to determine order
+  lastname: "Reichard-Flynn"  # Last name of the member
   profile:
-    name: "Yael Passy"
-    position: "Undergraduate Researcher, Materials Science and Engineering"
-    institution: "Drexel University"
-    image: "" # Image should be placed in the assets/img directory
-    email: ""
-    phone: ""
-    linkedin: ""
-    orcid: ""
-    google_scholar: ""
-    github: ""
-    website: ""
-    address: ""
-    degrees:
-      - ""
-    start_year: "2023"
-    end_year: "2024"
-    location: ""
-    teaser: ""
-    inline: false
-    project: ""
+    name: "William Reichard-Flynn"  # Full name
+    position: "M.S. Graduate, Earth and Environmental Science"  # Position or role
+    institution: "Lehigh University"  # Institution affiliation
+    start_year: "2020"  # Start year for the role or program
+    end_year: "2021"  # End year for the role or program
+    # image: "william_reichard-flynn.jpg"  # Image filename (place in assets/img/people directory)
+    # email: "wrf123@lehigh.edu"  # Email address
+    # phone: "(610) 123-4567"  # Phone number
+    # linkedin: "williamreichardflynn"  # LinkedIn username
+    # orcid: "0000-0002-3456-7890"  # ORCID ID
+    # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
+    # github: "williamreichardflynn"  # GitHub username
+    # website: "https://williamreichardflynn.com"  # Personal or professional website
+    # address: "Earth and Environmental Science Department, Lehigh University, PA"  # Office or location address
+    degrees:  # Academic degrees
+      - "M.S. (2021) - Earth and Environmental Science"
+    # location: "Bethlehem, PA"  # Geographical location or office location
+    # teaser: "Research focused on environmental science and earth systems."  # Short description or teaser about the member
+    inline: false  # Determines if the profile should be clickable to a separate URL
+    # project: "Environmental Science and Earth Systems"  # Main project or research focus
 
-- group: "Undergraduate Researchers (Alumni)"
-  group_rank: 5
-  lastname: "Tewodros"
+- group: "Graduate Researchers (Alumni)"  # Group the member belongs to
+  group_rank: 11  # Ranking to determine order
+  lastname: "Patel"  # Last name of the member
   profile:
-    name: "Naod Tewodros"
-    position: "Undergraduate Researcher, Computer Science and Business"
-    institution: "Lehigh University"
-    image: "" # Image should be placed in the assets/img directory
-    email: ""
-    phone: ""
-    linkedin: ""
-    orcid: ""
-    google_scholar: ""
-    github: ""
-    website: ""
-    address: ""
-    degrees:
-      - ""
-    start_year: "2020"
-    end_year: "2021"
-    location: ""
-    teaser: ""
-    inline: false
-    project: ""
+    name: "Ved Patel"  # Full name
+    position: "M.S. Graduate, Industrial and System Engineering"  # Position or role
+    institution: "Lehigh University"  # Institution affiliation
+    start_year: "2019"  # Start year for the role or program
+    end_year: "2021"  # End year for the role or program
+    # image: "ved_patel.jpg"  # Image filename (place in assets/img/people directory)
+    # email: "vp123@lehigh.edu"  # Email address
+    # phone: "(610) 123-4567"  # Phone number
+    # linkedin: "vedpatel"  # LinkedIn username
+    # orcid: "0000-0002-3456-7890"  # ORCID ID
+    # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
+    # github: "vedpatel"  # GitHub username
+    # website: "https://vedpatel.com"  # Personal or professional website
+    # address: "Industrial and Systems Engineering Department, Lehigh University, PA"  # Office or location address
+    degrees:  # Academic degrees
+      - "M.S. (2021) - Industrial and System Engineering"
+    # location: "Bethlehem, PA"  # Geographical location or office location
+    # teaser: "Focused on optimization in industrial systems."  # Short description or teaser about the member
+    inline: false  # Determines if the profile should be clickable to a separate URL
+    # project: "Optimization in Industrial Systems"  # Main project or research focus
 
-- group: "Undergraduate Researchers (Alumni)"
-  group_rank: 5
-  lastname: "Payne"
+- group: "Graduate Researchers (Alumni)"  # Group the member belongs to
+  group_rank: 11  # Ranking to determine order
+  lastname: "Chari"  # Last name of the member
   profile:
-    name: "Teresa Payne"
-    position: "Undergraduate Researcher, Computer Science and Business"
-    institution: "Lehigh University"
-    image: "" # Image should be placed in the assets/img directory
-    email: ""
-    phone: ""
-    linkedin: ""
-    orcid: ""
-    google_scholar: ""
-    github: ""
-    website: ""
-    address: ""
-    degrees:
-      - ""
-    start_year: "2020"
-    end_year: "2021"
-    location: ""
-    teaser: ""
-    inline: false
-    project: ""
+    name: "Anirudh Chari"  # Full name
+    position: "M.Eng. Graduate, Materials Science and Engineering"  # Position or role
+    institution: "Lehigh University"  # Institution affiliation
+    start_year: "2019"  # Start year for the role or program
+    end_year: "2021"  # End year for the role or program
+    # image: "anirudh_chari.jpg"  # Image filename (place in assets/img/people directory)
+    # email: "ac123@lehigh.edu"  # Email address
+    # phone: "(610) 123-4567"  # Phone number
+    # linkedin: "anirudhchari"  # LinkedIn username
+    # orcid: "0000-0002-3456-7890"  # ORCID ID
+    # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
+    # github: "anirudhchari"  # GitHub username
+    # website: "https://anirudhchari.com"  # Personal or professional website
+    # address: "Materials Science and Engineering Department, Lehigh University, PA"  # Office or location address
+    degrees:  # Academic degrees
+      - "M.Eng. (2020) - Materials Science and Engineering"
+    # location: "Bethlehem, PA"  # Geographical location or office location
+    # teaser: "Research in advanced materials engineering."  # Short description or teaser about the member
+    inline: false  # Determines if the profile should be clickable to a separate URL
+    # project: "Advanced Materials Engineering"  # Main project or research focus
 
-- group: "Undergraduate Researchers (Alumni)"
-  group_rank: 5
-  lastname: "Vander Pallen"
+- group: "Graduate Researchers (Alumni)"  # Group the member belongs to
+  group_rank: 11  # Ranking to determine order
+  lastname: "Maher"  # Last name of the member
   profile:
-    name: "Andrew Vander Pallen"
-    position: "Undergraduate Researcher, Computer Engineering"
-    institution: "Lehigh University"
-    image: "" # Image should be placed in the assets/img directory
-    email: ""
-    phone: ""
-    linkedin: ""
-    orcid: ""
-    google_scholar: ""
-    github: ""
-    website: ""
-    address: ""
-    degrees:
-      - ""
-    start_year: "2020"
-    end_year: "2022"
-    location: ""
-    teaser: ""
-    inline: false
-    project: ""
+    name: "Joshua Maher"  # Full name
+    position: "M.S. Graduate, Materials Science and Engineering"  # Position or role
+    institution: "University of California Berkeley"  # Institution affiliation
+    start_year: "2017"  # Start year for the role or program
+    end_year: "2018"  # End year for the role or program
+    # image: "joshua_maher.jpg"  # Image filename (place in assets/img/people directory)
+    # email: "jm123@berkeley.edu"  # Email address
+    # phone: "(510) 123-4567"  # Phone number
+    # linkedin: "joshuamaher"  # LinkedIn username
+    # orcid: "0000-0002-3456-7890"  # ORCID ID
+    # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
+    # github: "joshuamaher"  # GitHub username
+    # website: "https://joshuamaher.com"  # Personal or professional website
+    # address: "Materials Science Department, UC Berkeley, CA"  # Office or location address
+    degrees:  # Academic degrees
+      - "M.S. (2018) - Materials Science and Engineering"
+    # location: "Berkeley, CA"  # Geographical location or office location
+    # teaser: "Focused on material synthesis and nanotechnology applications."  # Short description or teaser about the member
+    inline: false  # Determines if the profile should be clickable to a separate URL
+    # project: "Material Synthesis and Nanotechnology"  # Main project or research focus
 
-- group: "Undergraduate Researchers (Alumni)"
-  group_rank: 5
-  lastname: "Frew"
+#### Undergraduate Researchers (6) ####
+
+- group: "Undergraduate Researchers"  # Group the member belongs to
+  group_rank: 6  # Ranking to determine order
+  lastname: "Rassa"  # Last name of the member
   profile:
-    name: "Ky Frew"
-    position: "Undergraduate Researcher, Mechanical Engineering"
-    institution: "Lehigh University"
-    image: "" # Image should be placed in the assets/img directory
-    email: ""
-    phone: ""
-    linkedin: ""
-    orcid: ""
-    google_scholar: ""
-    github: ""
-    website: ""
-    address: ""
-    degrees:
-      - ""
-    start_year: "2020"
-    end_year: "2022"
-    location: ""
-    teaser: ""
-    inline: false
-    project: ""
+    name: "Sean Rassa"  # Full name
+    position: "Undergraduate Researcher, Electrical and Computer Engineering"  # Position or role
+    institution: "Drexel University"  # Institution affiliation
+    start_year: "2023"  # Start year for the role or program
+    # end_year: "2024"  # Expected or actual end year
+    # image: "sean_rassa.jpg"  # Image filename (place in assets/img/people directory)
+    # email: "sr123@drexel.edu"  # Email address
+    # phone: "(215) 123-4567"  # Phone number
+    # linkedin: "seanrassa"  # LinkedIn username
+    # orcid: "0000-0002-3456-7890"  # ORCID ID
+    # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
+    # github: "seanrassa"  # GitHub username
+    # website: "https://seanrassa.com"  # Personal or professional website
+    # address: "3141 Chestnut Street, Philadelphia, PA 19104"  # Office or location address
+    # degrees:  # Academic degrees
+    #   - "B.S. in Electrical Engineering (in progress)"
+    # location: "Philadelphia, PA"  # Geographical location or office location
+    # teaser: "Researching signal processing in electrical systems."  # Short description or teaser about the member
+    inline: false  # Determines if the profile should be clickable to a separate URL
+    # project: "Signal Processing in Electrical Systems"  # Main project or research focus
 
-- group: "Undergraduate Researchers (Alumni)"
-  group_rank: 5
-  lastname: "Zedan"
+- group: "Undergraduate Researchers"  # Group the member belongs to
+  group_rank: 6  # Ranking to determine order
+  lastname: "Passy"  # Last name of the member
   profile:
-    name: "Johnny Zedan"
-    position: "Undergraduate Researcher, Computer Science"
-    institution: "Lehigh University"
-    image: "" # Image should be placed in the assets/img directory
-    email: ""
-    phone: ""
-    linkedin: ""
-    orcid: ""
-    google_scholar: ""
-    github: ""
-    website: ""
-    address: ""
-    degrees:
-      - ""
-    start_year: "2020"
-    end_year: "2021"
-    location: ""
-    teaser: ""
-    inline: false
-    project: ""
+    name: "Yael Passy"  # Full name
+    position: "Undergraduate Researcher, Materials Science and Engineering"  # Position or role
+    institution: "Drexel University"  # Institution affiliation
+    start_year: "2023"  # Start year for the role or program
+    end_year: "2024"  # Expected or actual end year
+    # image: "yael_passy.jpg"  # Image filename (place in assets/img/people directory)
+    # email: "yp123@drexel.edu"  # Email address
+    # phone: "(215) 123-4567"  # Phone number
+    # linkedin: "yaelpassy"  # LinkedIn username
+    # orcid: "0000-0002-3456-7890"  # ORCID ID
+    # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
+    # github: "yaelpassy"  # GitHub username
+    # website: "https://yaelpassy.com"  # Personal or professional website
+    # address: "3141 Chestnut Street, Philadelphia, PA 19104"  # Office or location address
+    # degrees:  # Academic degrees
+    #   - "B.S. in Materials Science and Engineering (in progress)"
+    # location: "Philadelphia, PA"  # Geographical location or office location
+    # teaser: "Researching materials properties and nanotechnology applications."  # Short description or teaser about the member
+    inline: false  # Determines if the profile should be clickable to a separate URL
+    # project: "Nanotechnology in Materials Science"  # Main project or research focus
 
-- group: "Undergraduate Researchers (Alumni)"
-  group_rank: 5
-  lastname: "Douglas"
+#### Undergraduate Researcher Alumni (12) ####
+
+- group: "Undergraduate Researchers (Alumni)"  # Group the member belongs to
+  group_rank: 12  # Ranking to determine order
+  lastname: "Lipschutz"  # Last name of the member
   profile:
-    name: "Niija Douglas"
-    position: "Undergraduate Researcher, Computer Science"
-    institution: "Lehigh University"
-    image: "" # Image should be placed in the assets/img directory
-    email: ""
-    phone: ""
-    linkedin: ""
-    orcid: ""
-    google_scholar: ""
-    github: ""
-    website: ""
-    address: ""
-    degrees:
-      - ""
-    start_year: "2020"
-    end_year: "2022"
-    location: ""
-    teaser: ""
-    inline: false
-    project: ""
+    name: "Rafael Lipschutz"  # Full name
+    position: "Co-Op Student, Data Visualization"  # Position or role
+    institution: "Drexel University"  # Institution affiliation
+    start_year: "2023"  # Start year for the role or program
+    end_year: "2023"  # End year for the role or program
+    # image: "rafael_lipschutz.jpg"  # Image filename (place in assets/img/people directory)
+    # email: "rl123@drexel.edu"  # Email address
+    # phone: "(215) 123-4567"  # Phone number
+    # linkedin: "rafaellipschutz"  # LinkedIn username
+    # orcid: "0000-0002-3456-7890"  # ORCID ID
+    # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
+    # github: "rafaellipschutz"  # GitHub username
+    # website: "https://rafaellipschutz.com"  # Personal or professional website
+    # address: "3141 Chestnut Street, Philadelphia, PA 19104"  # Office or location address
+    # degrees:  # Academic degrees
+    #   - "(2022) - B.S. - Computer Science, Drexel University"
+    # location: "Philadelphia, PA"  # Geographical location or office location
+    # teaser: "Worked on data visualization for scientific research applications."  # Short description or teaser about the member
+    inline: false  # Determines if the profile should be clickable to a separate URL
+    # project: "Data Visualization for Scientific Research"  # Main project or research focus
 
-- group: "Undergraduate Researchers (Alumni)"
-  group_rank: 5
-  lastname: "Ye"
+
+- group: "Undergraduate Researchers (Alumni)"  # Group the member belongs to
+  group_rank: 12  # Ranking to determine order for alumni
+  lastname: "Tewodros"  # Last name of the member
   profile:
-    name: "Mary Ye"
-    position: "Undergraduate Researcher, Computer Science and Business"
-    institution: "Lehigh University"
-    image: "" # Image should be placed in the assets/img directory
-    email: ""
-    phone: ""
-    linkedin: ""
-    orcid: ""
-    google_scholar: ""
-    github: ""
-    website: ""
-    address: ""
-    degrees:
-      - ""
-    start_year: "2020"
-    end_year: "2021"
-    location: ""
-    teaser: ""
-    inline: false
-    project: ""
+    name: "Naod Tewodros"  # Full name
+    position: "Undergraduate Researcher, Computer Science and Business"  # Position or role
+    institution: "Lehigh University"  # Institution affiliation
+    start_year: "2020"  # Start year for the role or program
+    end_year: "2021"  # End year for the role or program
+    # image: "naod_tewodros.jpg"  # Image filename (place in assets/img/people directory)
+    # email: "nt123@lehigh.edu"  # Email address
+    # phone: "(610) 123-4567"  # Phone number
+    # linkedin: "naodtewodros"  # LinkedIn username
+    # orcid: "0000-0002-3456-7890"  # ORCID ID
+    # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
+    # github: "naodtewodros"  # GitHub username
+    # website: "https://naodtewodros.com"  # Personal or professional website
+    # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
+    # degrees:  # Academic degrees
+    #   - "B.S. in Computer Science and Business (in progress)"
+    # location: "Bethlehem, PA"  # Geographical location or office location
+    # teaser: "Research focused on data analysis in business applications."  # Short description or teaser about the member
+    inline: false  # Determines if the profile should be clickable to a separate URL
+    # project: "Data Analysis in Business Applications"  # Main project or research focus
 
-- group: "Undergraduate Researchers (Alumni)"
-  group_rank: 5
-  lastname: "Victor"
+- group: "Undergraduate Researchers (Alumni)"  # Group the member belongs to
+  group_rank: 12  # Ranking to determine order for alumni
+  lastname: "Payne"  # Last name of the member
   profile:
-    name: "Shoshana Victor"
-    position: "Undergraduate Researcher, Bioengineering"
-    institution: "Lehigh University"
-    image: "Victor_S" # Image should be placed in the assets/img directory
-    email: ""
-    phone: ""
-    linkedin: ""
-    orcid: ""
-    google_scholar: ""
-    github: ""
-    website: ""
-    address: ""
-    degrees:
-      - ""
-    start_year: "2020"
-    end_year: "2021"
-    location: ""
-    teaser: ""
-    inline: false
-    project: ""
+    name: "Teresa Payne"  # Full name
+    position: "Undergraduate Researcher, Computer Science and Business"  # Position or role
+    institution: "Lehigh University"  # Institution affiliation
+    start_year: "2020"  # Start year for the role or program
+    end_year: "2021"  # End year for the role or program
+    # image: "teresa_payne.jpg"  # Image filename (place in assets/img/people directory)
+    # email: "tp123@lehigh.edu"  # Email address
+    # phone: "(610) 123-4567"  # Phone number
+    # linkedin: "teresapayne"  # LinkedIn username
+    # orcid: "0000-0002-3456-7890"  # ORCID ID
+    # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
+    # github: "teresapayne"  # GitHub username
+    # website: "https://teresapayne.com"  # Personal or professional website
+    # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
+    # degrees:  # Academic degrees
+    #   - "B.S. in Computer Science and Business (in progress)"
+    # location: "Bethlehem, PA"  # Geographical location or office location
+    # teaser: "Research focused on business applications of computer science."  # Short description or teaser about the member
+    inline: false  # Determines if the profile should be clickable to a separate URL
+    # project: "Business Applications in Computer Science"  # Main project or research focus
 
-- group: "Undergraduate Researchers (Alumni)"
-  group_rank: 5
-  lastname: "Zvenyika"
+- group: "Undergraduate Researchers (Alumni)"  # Group the member belongs to
+  group_rank: 12  # Ranking to determine order for alumni
+  lastname: "Vander Pallen"  # Last name of the member
   profile:
-    name: "Norman Zvenyika"
-    position: "Undergraduate Researcher, Biocomputational Engineering"
-    institution: "Lehigh University"
-    image: "" # Image should be placed in the assets/img directory
-    email: ""
-    phone: ""
-    linkedin: ""
-    orcid: ""
-    google_scholar: ""
-    github: ""
-    website: ""
-    address: ""
-    degrees:
-      - ""
-    start_year: "2020"
-    end_year: "2021"
-    location: ""
-    teaser: ""
-    inline: false
-    project: ""
+    name: "Andrew Vander Pallen"  # Full name
+    position: "Undergraduate Researcher, Computer Engineering"  # Position or role
+    institution: "Lehigh University"  # Institution affiliation
+    start_year: "2020"  # Start year for the role or program
+    end_year: "2022"  # End year for the role or program
+    # image: "andrew_vander_pallen.jpg"  # Image filename (place in assets/img/people directory)
+    # email: "avp123@lehigh.edu"  # Email address
+    # phone: "(610) 123-4567"  # Phone number
+    # linkedin: "andrewvanderpallen"  # LinkedIn username
+    # orcid: "0000-0002-3456-7890"  # ORCID ID
+    # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
+    # github: "andrewvanderpallen"  # GitHub username
+    # website: "https://andrewvanderpallen.com"  # Personal or professional website
+    # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
+    # degrees:  # Academic degrees
+    #   - "B.S. in Computer Engineering (in progress)"
+    # location: "Bethlehem, PA"  # Geographical location or office location
+    # teaser: "Focused on embedded systems and hardware design."  # Short description or teaser about the member
+    inline: false  # Determines if the profile should be clickable to a separate URL
+    # project: "Embedded Systems and Hardware Design"  # Main project or research focus
 
-- group: "Undergraduate Researchers (Alumni)"
-  group_rank: 5
-  lastname: "Kaliyev"
+- group: "Undergraduate Researchers (Alumni)"  # Group the member belongs to
+  group_rank: 12  # Ranking to determine order for alumni
+  lastname: "Frew"  # Last name of the member
   profile:
-    name: "Alibek Kaliyev"
-    position: "Undergraduate Researcher, Computer Science and Business"
-    institution: "Lehigh University"
-    image: "" # Image should be placed in the assets/img directory
-    email: ""
-    phone: ""
-    linkedin: ""
-    orcid: ""
-    google_scholar: ""
-    github: ""
-    website: ""
-    address: ""
-    degrees:
-      - ""
-    start_year: "2019"
-    end_year: "2024"
-    location: ""
-    teaser: ""
-    inline: false
-    project: ""
+    name: "Ky Frew"  # Full name
+    position: "Undergraduate Researcher, Mechanical Engineering"  # Position or role
+    institution: "Lehigh University"  # Institution affiliation
+    start_year: "2020"  # Start year for the role or program
+    end_year: "2022"  # End year for the role or program
+    # image: "ky_frew.jpg"  # Image filename (place in assets/img/people directory)
+    # email: "kf123@lehigh.edu"  # Email address
+    # phone: "(610) 123-4567"  # Phone number
+    # linkedin: "kyfrew"  # LinkedIn username
+    # orcid: "0000-0002-3456-7890"  # ORCID ID
+    # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
+    # github: "kyfrew"  # GitHub username
+    # website: "https://kyfrew.com"  # Personal or professional website
+    # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
+    # degrees:  # Academic degrees
+    #   - "B.S. in Mechanical Engineering (in progress)"
+    # location: "Bethlehem, PA"  # Geographical location or office location
+    # teaser: "Specializes in fluid mechanics and thermodynamics."  # Short description or teaser about the member
+    inline: false  # Determines if the profile should be clickable to a separate URL
+    # project: "Fluid Mechanics and Thermodynamics"  # Main project or research focus
 
-- group: "Undergraduate Researchers (Alumni)"
-  group_rank: 5
-  lastname: "Forelli"
+- group: "Undergraduate Researchers (Alumni)"  # Group the member belongs to
+  group_rank: 12  # Ranking to determine order for alumni
+  lastname: "Zedan"  # Last name of the member
   profile:
-    name: "Ryan Forelli"
-    position: "Undergraduate Researcher, Computer Engineering"
-    institution: "Lehigh University"
-    image: "" # Image should be placed in the assets/img directory
-    email: ""
-    phone: ""
-    linkedin: ""
-    orcid: ""
-    google_scholar: ""
-    github: ""
-    website: ""
-    address: ""
-    degrees:
-      - ""
-    start_year: "2019"
-    end_year: "2024"
-    location: ""
-    teaser: ""
-    inline: false
-    project: ""
+    name: "Johnny Zedan"  # Full name
+    position: "Undergraduate Researcher, Computer Science"  # Position or role
+    institution: "Lehigh University"  # Institution affiliation
+    start_year: "2020"  # Start year for the role or program
+    end_year: "2021"  # End year for the role or program
+    # image: "johnny_zedan.jpg"  # Image filename (place in assets/img/people directory)
+    # email: "jz123@lehigh.edu"  # Email address
+    # phone: "(610) 123-4567"  # Phone number
+    # linkedin: "johnnyzedan"  # LinkedIn username
+    # orcid: "0000-0002-3456-7890"  # ORCID ID
+    # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
+    # github: "johnnyzedan"  # GitHub username
+    # website: "https://johnnyzedan.com"  # Personal or professional website
+    # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
+    # degrees:  # Academic degrees
+    #   - "B.S. in Computer Science (in progress)"
+    # location: "Bethlehem, PA"  # Geographical location or office location
+    # teaser: "Researching applications of AI in software development."  # Short description or teaser about the member
+    inline: false  # Determines if the profile should be clickable to a separate URL
+    # project: "AI in Software Development"  # Main project or research focus
 
-- group: "Undergraduate Researchers (Alumni)"
-  group_rank: 5
-  lastname: "Zhang"
+- group: "Undergraduate Researchers (Alumni)"  # Group the member belongs to
+  group_rank: 12  # Ranking to determine order for alumni
+  lastname: "Douglas"  # Last name of the member
   profile:
-    name: "Andrew Zhang"
-    position: "Undergraduate Researcher, Mechanical Engineering"
-    institution: "Lehigh University"
-    image: "" # Image should be placed in the assets/img directory
-    email: ""
-    phone: ""
-    linkedin: ""
-    orcid: ""
-    google_scholar: ""
-    github: ""
-    website: ""
-    address: ""
-    degrees:
-      - ""
-    start_year: "2019"
-    end_year: "2020"
-    location: ""
-    teaser: ""
-    inline: false
-    project: ""
+    name: "Niija Douglas"  # Full name
+    position: "Undergraduate Researcher, Computer Science"  # Position or role
+    institution: "Lehigh University"  # Institution affiliation
+    start_year: "2020"  # Start year for the role or program
+    end_year: "2022"  # End year for the role or program
+    # image: "niija_douglas.jpg"  # Image filename (place in assets/img/people directory)
+    # email: "nd123@lehigh.edu"  # Email address
+    # phone: "(610) 123-4567"  # Phone number
+    # linkedin: "niijadouglas"  # LinkedIn username
+    # orcid: "0000-0002-3456-7890"  # ORCID ID
+    # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
+    # github: "niijadouglas"  # GitHub username
+    # website: "https://niijadouglas.com"  # Personal or professional website
+    # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
+    # degrees:  # Academic degrees
+    #   - "B.S. in Computer Science (in progress)"
+    # location: "Bethlehem, PA"  # Geographical location or office location
+    # teaser: "Research focused on machine learning applications."  # Short description or teaser about the member
+    inline: false  # Determines if the profile should be clickable to a separate URL
+    # project: "Machine Learning Applications"  # Main project or research focus
 
-- group: "Undergraduate Researchers (Alumni)"
-  group_rank: 5
-  lastname: "Olugbodi"
+- group: "Undergraduate Researchers (Alumni)"  # Group the member belongs to
+  group_rank: 12  # Ranking to determine order for alumni
+  lastname: "Ye"  # Last name of the member
   profile:
-    name: "Oluwafolajimi Olugbodi"
-    position: "Undergraduate Researcher, Computer Engineering"
-    institution: "Lehigh University"
-    image: "" # Image should be placed in the assets/img directory
-    email: ""
-    phone: ""
-    linkedin: ""
-    orcid: ""
-    google_scholar: ""
-    github: ""
-    website: ""
-    address: ""
-    degrees:
-      - ""
-    start_year: "2019"
-    end_year: "2020"
-    location: ""
-    teaser: ""
-    inline: false
-    project: ""
+    name: "Mary Ye"  # Full name
+    position: "Undergraduate Researcher, Computer Science and Business"  # Position or role
+    institution: "Lehigh University"  # Institution affiliation
+    start_year: "2020"  # Start year for the role or program
+    end_year: "2021"  # End year for the role or program
+    # image: "mary_ye.jpg"  # Image filename (place in assets/img/people directory)
+    # email: "my123@lehigh.edu"  # Email address
+    # phone: "(610) 123-4567"  # Phone number
+    # linkedin: "maryye"  # LinkedIn username
+    # orcid: "0000-0002-3456-7890"  # ORCID ID
+    # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
+    # github: "maryye"  # GitHub username
+    # website: "https://maryye.com"  # Personal or professional website
+    # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
+    # degrees:  # Academic degrees
+    #   - "B.S. in Computer Science and Business (in progress)"
+    # location: "Bethlehem, PA"  # Geographical location or office location
+    # teaser: "Specialized in data analysis for business applications."  # Short description or teaser about the member
+    inline: false  # Determines if the profile should be clickable to a separate URL
+    # project: "Data Analysis for Business"  # Main project or research focus
 
-- group: "Undergraduate Researchers (Alumni)"
-  group_rank: 5
-  lastname: "Kuehmann"
+- group: "Undergraduate Researchers (Alumni)"  # Group the member belongs to
+  group_rank: 12  # Ranking to determine order for alumni
+  lastname: "Victor"  # Last name of the member
   profile:
-    name: "Cole Kuehmann"
-    position: "Undergraduate Researcher, Materials Science and Engineering"
-    institution: "Lehigh University"
-    image: "" # Image should be placed in the assets/img directory
-    email: ""
-    phone: ""
-    linkedin: ""
-    orcid: ""
-    google_scholar: ""
-    github: ""
-    website: ""
-    address: ""
-    degrees:
-      - ""
-    start_year: "2019"
-    end_year: "2020"
-    location: ""
-    teaser: ""
-    inline: false
-    project: ""
+    name: "Shoshana Victor"  # Full name
+    position: "Undergraduate Researcher, Bioengineering"  # Position or role
+    institution: "Lehigh University"  # Institution affiliation
+    start_year: "2020"  # Start year for the role or program
+    end_year: "2021"  # End year for the role or program
+    image: "Victor_S"  # Image filename (place in assets/img/people directory)
+    # email: "sv123@lehigh.edu"  # Email address
+    # phone: "(610) 123-4567"  # Phone number
+    # linkedin: "shoshanavictor"  # LinkedIn username
+    # orcid: "0000-0002-3456-7890"  # ORCID ID
+    # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
+    # github: "shoshanavictor"  # GitHub username
+    # website: "https://shoshanavictor.com"  # Personal or professional website
+    # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
+    # degrees:  # Academic degrees
+    #   - "B.S. in Bioengineering (in progress)"
+    # location: "Bethlehem, PA"  # Geographical location or office location
+    # teaser: "Focused on cellular bioengineering and biomaterials."  # Short description or teaser about the member
+    inline: false  # Determines if the profile should be clickable to a separate URL
+    # project: "Cellular Bioengineering and Biomaterials"  # Main project or research focus
 
-- group: "Undergraduate Researchers (Alumni)"
-  group_rank: 5
-  lastname: "Nguyen"
+- group: "Undergraduate Researchers (Alumni)"  # Group the member belongs to
+  group_rank: 12  # Ranking to determine order for alumni
+  lastname: "Zvenyika"  # Last name of the member
   profile:
-    name: "Tri Nguyen"
-    position: "Undergraduate Researcher, Materials Science and Engineering"
-    institution: "Lehigh University"
-    image: "" # Image should be placed in the assets/img directory
-    email: ""
-    phone: ""
-    linkedin: ""
-    orcid: ""
-    google_scholar: ""
-    github: ""
-    website: ""
-    address: ""
-    degrees:
-      - ""
-    start_year: "2019"
-    end_year: "2021"
-    location: ""
-    teaser: ""
-    inline: false
-    project: ""
+    name: "Norman Zvenyika"  # Full name
+    position: "Undergraduate Researcher, Biocomputational Engineering"  # Position or role
+    institution: "Lehigh University"  # Institution affiliation
+    start_year: "2020"  # Start year for the role or program
+    end_year: "2021"  # End year for the role or program
+    # image: "norman_zvenyika.jpg"  # Image filename (place in assets/img/people directory)
+    # email: "nz123@lehigh.edu"  # Email address
+    # phone: "(610) 123-4567"  # Phone number
+    # linkedin: "normanzvenyika"  # LinkedIn username
+    # orcid: "0000-0002-3456-7890"  # ORCID ID
+    # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
+    # github: "normanzvenyika"  # GitHub username
+    # website: "https://normanzvenyika.com"  # Personal or professional website
+    # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
+    # degrees:  # Academic degrees
+    #   - "B.S. in Biocomputational Engineering (in progress)"
+    # location: "Bethlehem, PA"  # Geographical location or office location
+    # teaser: "Exploring computational models in biological systems."  # Short description or teaser about the member
+    inline: false  # Determines if the profile should be clickable to a separate URL
+    # project: "Computational Models in Biological Systems"  # Main project or research focus
 
-- group: "Undergraduate Researchers (Alumni)"
-  group_rank: 5
-  lastname: "Tanasarnsopaporn"
+- group: "Undergraduate Researchers (Alumni)"  # Group the member belongs to
+  group_rank: 12  # Ranking to determine order for alumni
+  lastname: "Kaliyev"  # Last name of the member
   profile:
-    name: "Tech Tanasarnsopaporn"
-    position: "Undergraduate Researcher, Materials Science and Engineering"
-    institution: "Lehigh University"
-    image: "" # Image should be placed in the assets/img directory
-    email: ""
-    phone: ""
-    linkedin: ""
-    orcid: ""
-    google_scholar: ""
-    github: ""
-    website: ""
-    address: ""
-    degrees:
-      - ""
-    start_year: "2019"
-    end_year: "2020"
-    location: ""
-    teaser: ""
-    inline: false
-    project: ""
+    name: "Alibek Kaliyev"  # Full name
+    position: "Undergraduate Researcher, Computer Science and Business"  # Position or role
+    institution: "Lehigh University"  # Institution affiliation
+    start_year: "2019"  # Start year for the role or program
+    end_year: "2024"  # Expected or actual end year
+    # image: "alibek_kaliyev.jpg"  # Image filename (place in assets/img/people directory)
+    # email: "ak123@lehigh.edu"  # Email address
+    # phone: "(610) 123-4567"  # Phone number
+    # linkedin: "alibekkaliyev"  # LinkedIn username
+    # orcid: "0000-0002-3456-7890"  # ORCID ID
+    # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
+    # github: "alibekkaliyev"  # GitHub username
+    # website: "https://alibekkaliyev.com"  # Personal or professional website
+    # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
+    # degrees:  # Academic degrees
+    #   - "B.S. in Computer Science and Business (in progress)"
+    # location: "Bethlehem, PA"  # Geographical location or office location
+    # teaser: "Focused on data science and business analytics."  # Short description or teaser about the member
+    inline: false  # Determines if the profile should be clickable to a separate URL
+    # project: "Data Science and Business Analytics"  # Main project or research focus
 
-- group: "Graduate Researchers (Alumni)"
-  group_rank: 3
-  lastname: "Ræder"
+- group: "Undergraduate Researchers (Alumni)"  # Group the member belongs to
+  group_rank: 12  # Ranking to determine order for alumni
+  lastname: "Forelli"  # Last name of the member
   profile:
-    name: "Trygve Ræder"
-    position: "Ph.D. Graduate, Materials Science and Engineering"
-    institution: "Norwegian Institute of Science and Technology"
-    image: "" # Image should be placed in the assets/img directory
-    email: ""
-    phone: ""
-    linkedin: ""
-    orcid: ""
-    google_scholar: ""
-    github: ""
-    website: ""
-    address: ""
-    degrees:
-      - "Ph.D. (2020)"
-    start_year: ""
-    end_year: "Spring 2019"
-    location: ""
-    teaser: ""
-    inline: false
-    project: ""
+    name: "Ryan Forelli"  # Full name
+    position: "Undergraduate Researcher, Computer Engineering"  # Position or role
+    institution: "Lehigh University"  # Institution affiliation
+    start_year: "2019"  # Start year for the role or program
+    end_year: "2024"  # Expected or actual end year
+    # image: "ryan_forelli.jpg"  # Image filename (place in assets/img/people directory)
+    # email: "rf123@lehigh.edu"  # Email address
+    # phone: "(610) 123-4567"  # Phone number
+    # linkedin: "ryanforelli"  # LinkedIn username
+    # orcid: "0000-0002-3456-7890"  # ORCID ID
+    # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
+    # github: "ryanforelli"  # GitHub username
+    # website: "https://ryanforelli.com"  # Personal or professional website
+    # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
+    # degrees:  # Academic degrees
+    #   - "B.S. in Computer Engineering (in progress)"
+    # location: "Bethlehem, PA"  # Geographical location or office location
+    # teaser: "Exploring digital systems design and embedded computing."  # Short description or teaser about the member
+    inline: false  # Determines if the profile should be clickable to a separate URL
+    # project: "Digital Systems Design and Embedded Computing"  # Main project or research focus
 
-- group: "Graduate Researchers (Alumni)"
-  group_rank: 3
-  lastname: "Patel"
+- group: "Undergraduate Researchers (Alumni)"  # Group the member belongs to
+  group_rank: 12  # Ranking to determine order for alumni
+  lastname: "Zhang"  # Last name of the member
   profile:
-    name: "Ved Patel"
-    position: "M.S. Graduate, Industrial and System Engineering"
-    institution: "Lehigh University"
-    image: "" # Image should be placed in the assets/img directory
-    email: ""
-    phone: ""
-    linkedin: ""
-    orcid: ""
-    google_scholar: ""
-    github: ""
-    website: ""
-    address: ""
-    degrees:
-      - "M.S. (2021)"
-    start_year: "2019"
-    end_year: "2021"
-    location: ""
-    teaser: ""
-    inline: false
-    project: ""
+    name: "Andrew Zhang"  # Full name
+    position: "Undergraduate Researcher, Mechanical Engineering"  # Position or role
+    institution: "Lehigh University"  # Institution affiliation
+    start_year: "2019"  # Start year for the role or program
+    end_year: "2020"  # End year for the role or program
+    # image: "andrew_zhang.jpg"  # Image filename (place in assets/img/people directory)
+    # email: "az123@lehigh.edu"  # Email address
+    # phone: "(610) 123-4567"  # Phone number
+    # linkedin: "andrewzhang"  # LinkedIn username
+    # orcid: "0000-0002-3456-7890"  # ORCID ID
+    # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
+    # github: "andrewzhang"  # GitHub username
+    # website: "https://andrewzhang.com"  # Personal or professional website
+    # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
+    # degrees:  # Academic degrees
+    #   - "B.S. in Mechanical Engineering (in progress)"
+    # location: "Bethlehem, PA"  # Geographical location or office location
+    # teaser: "Researching mechanical systems and thermal engineering."  # Short description or teaser about the member
+    inline: false  # Determines if the profile should be clickable to a separate URL
+    # project: "Mechanical Systems and Thermal Engineering"  # Main project or research focus
 
-- group: "Graduate Researchers (Alumni)"
-  group_rank: 3
-  lastname: "Chari"
+- group: "Undergraduate Researchers (Alumni)"  # Group the member belongs to
+  group_rank: 12  # Ranking to determine order for alumni
+  lastname: "Olugbodi"  # Last name of the member
   profile:
-    name: "Anirudh Chari"
-    position: "M.Eng. Graduate, Materials Science and Engineering"
-    institution: "Lehigh University"
-    image: "" # Image should be placed in the assets/img directory
-    email: ""
-    phone: ""
-    linkedin: ""
-    orcid: ""
-    google_scholar: ""
-    github: ""
-    website: ""
-    address: ""
-    degrees:
-      - "M.Eng. (2020)"
-    start_year: "2019"
-    end_year: "2021"
-    location: ""
-    teaser: ""
-    inline: false
-    project: ""
+    name: "Oluwafolajimi Olugbodi"  # Full name
+    position: "Undergraduate Researcher, Computer Engineering"  # Position or role
+    institution: "Lehigh University"  # Institution affiliation
+    start_year: "2019"  # Start year for the role or program
+    end_year: "2020"  # End year for the role or program
+    # image: "oluwafolajimi_olugbodi.jpg"  # Image filename (place in assets/img/people directory)
+    # email: "oo123@lehigh.edu"  # Email address
+    # phone: "(610) 123-4567"  # Phone number
+    # linkedin: "oluwafolajimiolugbodi"  # LinkedIn username
+    # orcid: "0000-0002-3456-7890"  # ORCID ID
+    # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
+    # github: "oluwafolajimiolugbodi"  # GitHub username
+    # website: "https://oluwafolajimiolugbodi.com"  # Personal or professional website
+    # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
+    # degrees:  # Academic degrees
+    #   - "B.S. in Computer Engineering (in progress)"
+    # location: "Bethlehem, PA"  # Geographical location or office location
+    # teaser: "Specializing in software-hardware integration and VLSI design."  # Short description or teaser about the member
+    inline: false  # Determines if the profile should be clickable to a separate URL
+    # project: "Software-Hardware Integration and VLSI Design"  # Main project or research focus
 
-- group: "Graduate Researchers (Alumni)"
-  group_rank: 3
-  lastname: "Maher"
+- group: "Undergraduate Researchers (Alumni)"  # Group the member belongs to
+  group_rank: 12  # Ranking to determine order for alumni
+  lastname: "Kuehmann"  # Last name of the member
   profile:
-    name: "Joshua Maher"
-    position: "M.S. Graduate, Materials Science and Engineering"
-    institution: "University of California Berkeley"
-    image: "" # Image should be placed in the assets/img directory
-    email: ""
-    phone: ""
-    linkedin: ""
-    orcid: ""
-    google_scholar: ""
-    github: ""
-    website: ""
-    address: ""
-    degrees:
-      - "M.S. (2018)"
-    start_year: "2017"
-    end_year: "2018"
-    location: ""
-    teaser: ""
-    inline: false
-    project: ""
+    name: "Cole Kuehmann"  # Full name
+    position: "Undergraduate Researcher, Materials Science and Engineering"  # Position or role
+    institution: "Lehigh University"  # Institution affiliation
+    start_year: "2019"  # Start year for the role or program
+    end_year: "2020"  # End year for the role or program
+    # image: "cole_kuehmann.jpg"  # Image filename (place in assets/img/people directory)
+    # email: "ck123@lehigh.edu"  # Email address
+    # phone: "(610) 123-4567"  # Phone number
+    # linkedin: "colekuehmann"  # LinkedIn username
+    # orcid: "0000-0002-3456-7890"  # ORCID ID
+    # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
+    # github: "colekuehmann"  # GitHub username
+    # website: "https://colekuehmann.com"  # Personal or professional website
+    # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
+    # degrees:  # Academic degrees
+    #   - "B.S. in Materials Science and Engineering (in progress)"
+    # location: "Bethlehem, PA"  # Geographical location or office location
+    # teaser: "Focused on materials characterization and nanotechnology."  # Short description or teaser about the member
+    inline: false  # Determines if the profile should be clickable to a separate URL
+    # project: "Materials Characterization and Nanotechnology"  # Main project or research focus
 
-# Template
+- group: "Undergraduate Researchers (Alumni)"  # Group the member belongs to
+  group_rank: 12  # Ranking to determine order for alumni
+  lastname: "Nguyen"  # Last name of the member
+  profile:
+    name: "Tri Nguyen"  # Full name
+    position: "Undergraduate Researcher, Materials Science and Engineering"  # Position or role
+    institution: "Lehigh University"  # Institution affiliation
+    start_year: "2019"  # Start year for the role or program
+    end_year: "2021"  # End year for the role or program
+    # image: "tri_nguyen.jpg"  # Image filename (place in assets/img/people directory)
+    # email: "tn123@lehigh.edu"  # Email address
+    # phone: "(610) 123-4567"  # Phone number
+    # linkedin: "tringuyen"  # LinkedIn username
+    # orcid: "0000-0002-3456-7890"  # ORCID ID
+    # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
+    # github: "tringuyen"  # GitHub username
+    # website: "https://tringuyen.com"  # Personal or professional website
+    # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
+    # degrees:  # Academic degrees
+    #   - "B.S. in Materials Science and Engineering (in progress)"
+    # location: "Bethlehem, PA"  # Geographical location or office location
+    # teaser: "Researching advanced materials synthesis and applications."  # Short description or teaser about the member
+    inline: false  # Determines if the profile should be clickable to a separate URL
+    # project: "Advanced Materials Synthesis and Applications"  # Main project or research focus
 
-# - group: "Faculty"
-#   group_rank: 1
-#   lastname: "Smith"
-#   profile:
-#     name: "John Smith"
-#     position: "Professor of Computer Science"
-#     image: "john_smith.jpg"
-#     email: "john.smith@example.com"
-#     phone: "(123) 456-7890"
-#     linkedin: "johnsmith"
-#     orcid: "0000-0001-2345-6789"
-#     google_scholar: "https://scholar.google.com/citations?user=XXXXX"
-#     github: "johnsmith"
-#     website: "https://johnsmith.com"
-#     address: "123 University Ave, City, State, ZIP"
-#     degrees:
-#       - "Ph.D.: Computer Science, University of Example"
-#       - "M.Sc.: Information Systems, Example University"
-#       - "B.Sc.: Software Engineering, College of Example"
-#     start_year: 2005
-#     end_year: 2023
-#     location: "City, State"
-#     teaser: "John Smith is an expert in machine learning and data mining. He has over 20 years of research experience."
-#     inline: false
-#     project: "AI and Data Mining Research"
+- group: "Undergraduate Researchers (Alumni)"  # Group the member belongs to
+  group_rank: 12  # Ranking to determine order for alumni
+  lastname: "Tanasarnsopaporn"  # Last name of the member
+  profile:
+    name: "Tech Tanasarnsopaporn"  # Full name
+    position: "Undergraduate Researcher, Materials Science and Engineering"  # Position or role
+    institution: "Lehigh University"  # Institution affiliation
+    start_year: "2019"  # Start year for the role or program
+    end_year: "2020"  # End year for the role or program
+    # image: "tech_tanasarnsopaporn.jpg"  # Image filename (place in assets/img/people directory)
+    # email: "tt123@lehigh.edu"  # Email address
+    # phone: "(610) 123-4567"  # Phone number
+    # linkedin: "techtanasarnsopaporn"  # LinkedIn username
+    # orcid: "0000-0002-3456-7890"  # ORCID ID
+    # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
+    # github: "techtanasarnsopaporn"  # GitHub username
+    # website: "https://techtanasarnsopaporn.com"  # Personal or professional website
+    # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
+    # degrees:  # Academic degrees
+    #   - "B.S. in Materials Science and Engineering (in progress)"
+    # location: "Bethlehem, PA"  # Geographical location or office location
+    # teaser: "Focused on nanomaterials and surface engineering."  # Short description or teaser about the member
+    inline: false  # Determines if the profile should be clickable to a separate URL
+    # project: "Nanomaterials and Surface Engineering"  # Main project or research focus
