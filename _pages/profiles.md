@@ -31,7 +31,8 @@ nav_rank: 2
           <p>
               <div class="card {% if member.inline == false %}hoverable{% endif %}">
                   <div class="row no-gutters">
-                      <div class="col-sm-4 col-md-3">
+                      <!-- Add 'd-flex align-items-center' classes here -->
+                      <div class="col-sm-4 col-md-3 d-flex align-items-center">
                           <img src="{{ '/assets/img/people/' | append: member.profile.image | relative_url }}" class="card-img img-fluid" alt="{{ member.profile.name }}" />
                       </div>
                       <div class="team col-sm-8 col-md-9">
@@ -48,7 +49,7 @@ nav_rank: 2
                                   <p class="card-text">
                                       {% assign degrees = member.profile.degrees %}
                                       {% for degree in degrees %}
-                                            {{degree}} <br />
+                                            {{ degree }} <br />
                                       {% endfor %}
                                   </p>
                               {% endif %}
@@ -56,15 +57,15 @@ nav_rank: 2
                                 <p class="card-text">
                                     <strong>Primary Advisor:</strong> {{ member.profile.primary_advisor }}
                                 </p>
-                                {% endif %}
+                              {% endif %}
 
-                                {% if member.profile.coadvisor %}
+                              {% if member.profile.coadvisor %}
                                 <p class="card-text">
                                     <strong>Co-Advisor:</strong> {{ member.profile.coadvisor }}
                                 </p>
-                                {% endif %}
+                              {% endif %}
 
-                                {% if member.profile.awards %}
+                              {% if member.profile.awards %}
                                 <p class="card-text">
                                     <strong>Awards:</strong>
                                     <ul>
@@ -73,7 +74,7 @@ nav_rank: 2
                                     {% endfor %}
                                     </ul>
                                 </p>
-                                {% endif %}
+                              {% endif %}
                               {% if group contains "Alumni" %}
                                   {% if member.profile.end_year %}
                                       <p class="card-text">
@@ -119,12 +120,14 @@ nav_rank: 2
                                       <a href="{{ member.profile.website }}" class="card-link" target="_blank"><i class="fas fa-globe"></i></a>
                                   {% endif %}
                                   {% if member.profile.google_scholar %}
-                                      <a href="{{ member.profile.google_scholar }}" class="card-link" target="_blank"><i class="fab fa-google-scholar"></i></a>
+                                      <a href="{{ member.profile.google_scholar }}" class="card-link" target="_blank"><i class="ai ai-google-scholar-square ai-lg"></i></a>
                                   {% endif %}
                               </div>
-                              <p class="card-text">
-                                  <small class="text-muted"><i class="fas fa-thumbtack"></i> {{ member.profile.address | replace: '<br />', ', ' }}</small>
-                              </p>
+                              {% if member.profile.address %}
+                                <p class="card-text">
+                                    <small class="text-muted"><i class="fas fa-thumbtack"></i> {{ member.profile.address | replace: '<br />', ', ' }}</small>
+                                </p>
+                              {% endif %}
                           </div>
                       </div>
                   </div>

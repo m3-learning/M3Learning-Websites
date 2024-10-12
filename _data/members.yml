@@ -49,6 +49,7 @@
     position: "Development and Operations Engineering"
     image: "Theo_B.jpg" # Image should be placed in the assets/img/people directory
     email: "tb3367@drexel.edu"
+    start_year: "2024"
     linkedin: "theodorebeers"
     orcid: "0000-0002-5129-5748"
     website: "https://www.theobeers.com"
