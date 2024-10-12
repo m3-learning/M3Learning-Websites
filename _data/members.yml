@@ -15,6 +15,23 @@
   teaser: "Dr. Joshua C. Agar is an Assistant Professor in the Department of Mechanical Engineering and Mechanics at Drexel University. With a foundational background in experimental materials science, Dr. Agar is predominantly renowned for his pioneering contributions to AI algorithms, computing infrastructure, and the development of cyber-physical systems in the fields of materials synthesis and microscopy. His expertise has been applied across a wide array of disciplines, including particle and plasma physics, materials science, and fluid dynamics. An active member of various AI communities, particularly the FastML community, which emphasizes ultra-low latency ML co-design, Dr. Agar has earned recognition as a leader in AI innovation. His work has garnered attention from prestigious institutions such as the National Academy of Engineering and the National Science Foundation."
   inline: false # Determines if the profile should be clickable to a separate URL
 
+- group: "Staff" # Group this member belongs to
+  group_rank: 2    # Determines the order of the groups
+  lastname: "Agar"
+  profile:
+    name: "Joshua C Agar"
+    position: "Assistant Professor Department of Mechanical Engineering and Mechanics"
+    image: "einstein.jpg" # Image should be placed in the assets/img directory
+    email: "jca92@drexel.edu"
+    phone: "(215) 385-3061"
+    linkedin: "jcagar"
+    orcid: "0000-0001-8095-5285"
+    twitter: "alberteinstein"
+    github: "jagar2"
+    address: "3141 Chestnut Street, Randell Hall, Room 115, Philadelphia, PA 19104"
+  teaser: "Dr. Joshua C. Agar is an Assistant Professor in the Department of Mechanical Engineering and Mechanics at Drexel University. With a foundational background in experimental materials science, Dr. Agar is predominantly renowned for his pioneering contributions to AI algorithms, computing infrastructure, and the development of cyber-physical systems in the fields of materials synthesis and microscopy. His expertise has been applied across a wide array of disciplines, including particle and plasma physics, materials science, and fluid dynamics. An active member of various AI communities, particularly the FastML community, which emphasizes ultra-low latency ML co-design, Dr. Agar has earned recognition as a leader in AI innovation. His work has garnered attention from prestigious institutions such as the National Academy of Engineering and the National Science Foundation."
+  inline: false # Determines if the profile should be clickable to a separate URL
+
 - group: "Ph.D. Students"
   group_rank: 2
   lastname: "Akinide"
@@ -118,7 +135,7 @@
     end_year: "2024"
   inline: false
 
-- group: "Undergraduate Researchers"
+- group: "Undergraduate Researchers (Alumni)"
   group_rank: 3
   lastname: "Tewodros"
   profile:
@@ -129,7 +146,7 @@
     end_year: "2021"
   inline: false
 
-- group: "Undergraduate Researchers"
+- group: "Undergraduate Researchers (Alumni)"
   group_rank: 3
   lastname: "Payne"
   profile:
@@ -140,7 +157,7 @@
     end_year: "2021"
   inline: false
 
-- group: "Undergraduate Researchers"
+- group: "Undergraduate Researchers (Alumni)"
   group_rank: 3
   lastname: "Vander Pallen"
   profile:
@@ -151,7 +168,7 @@
     end_year: "2022"
   inline: false
 
-- group: "Undergraduate Researchers"
+- group: "Undergraduate Researchers (Alumni)"
   group_rank: 3
   lastname: "Frew"
   profile:
@@ -162,7 +179,7 @@
     end_year: "2022"
   inline: false
 
-- group: "Undergraduate Researchers"
+- group: "Undergraduate Researchers (Alumni)"
   group_rank: 3
   lastname: "Zedan"
   profile:
@@ -173,7 +190,7 @@
     end_year: "2021"
   inline: false
 
-- group: "Undergraduate Researchers"
+- group: "Undergraduate Researchers (Alumni)"
   group_rank: 3
   lastname: "Douglas"
   profile:
@@ -184,7 +201,7 @@
     end_year: "2022"
   inline: false
 
-- group: "Undergraduate Researchers"
+- group: "Undergraduate Researchers (Alumni)"
   group_rank: 3
   lastname: "Ye"
   profile:
@@ -195,7 +212,7 @@
     end_year: "2021"
   inline: false
 
-- group: "Undergraduate Researchers"
+- group: "Undergraduate Researchers (Alumni)"
   group_rank: 3
   lastname: "Victor"
   profile:
@@ -206,7 +223,7 @@
     end_year: "2021"
   inline: false
 
-- group: "Undergraduate Researchers"
+- group: "Undergraduate Researchers (Alumni)"
   group_rank: 3
   lastname: "Zvenyika"
   profile:
@@ -217,7 +234,7 @@
     end_year: "2021"
   inline: false
 
-- group: "Undergraduate Researchers"
+- group: "Undergraduate Researchers (Alumni)"
   group_rank: 3
   lastname: "Kaliyev"
   profile:
@@ -228,7 +245,7 @@
     end_year: "2024"
   inline: false
 
-- group: "Undergraduate Researchers"
+- group: "Undergraduate Researchers (Alumni)"
   group_rank: 3
   lastname: "Forelli"
   profile:
@@ -239,7 +256,7 @@
     end_year: "2024"
   inline: false
 
-- group: "Undergraduate Researchers"
+- group: "Undergraduate Researchers (Alumni)"
   group_rank: 3
   lastname: "Zhang"
   profile:
@@ -250,7 +267,7 @@
     end_year: "2020"
   inline: false
 
-- group: "Undergraduate Researchers"
+- group: "Undergraduate Researchers (Alumni)"
   group_rank: 3
   lastname: "Olugbodi"
   profile:
@@ -261,7 +278,7 @@
     end_year: "2020"
   inline: false
 
-- group: "Undergraduate Researchers"
+- group: "Undergraduate Researchers (Alumni)"
   group_rank: 3
   lastname: "Kuehmann"
   profile:
@@ -272,7 +289,7 @@
     end_year: "2020"
   inline: false
 
-- group: "Undergraduate Researchers"
+- group: "Undergraduate Researchers (Alumni)"
   group_rank: 3
   lastname: "Nguyen"
   profile:
@@ -283,7 +300,7 @@
     end_year: "2021"
   inline: false
 
-- group: "Undergraduate Researchers"
+- group: "Undergraduate Researchers (Alumni)"
   group_rank: 3
   lastname: "Tanasarnsopaporn"
   profile:
