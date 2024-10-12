@@ -62,6 +62,7 @@
       - "(2009) - B.S. - Near Eastern Studies, Princeton University"
   teaser: "Dr. Theodore S. Beers Persian and Arabic philologist, specializing in the literary history of the late medieval and early modern periods—in particular the tenth/sixteenth century. Currently I have the good fortune to be working as a postdoctoral fellow (wissenschaftlicher Mitarbeiter) in the ERC-funded project AnonymClassic at the Freie Universität Berlin, under the direction of Beatrice Gründler. This affords me ample opportunity to explore both Persian and Arabic sources (and beyond) relating to the Kalilah and Dimnah tradition."
   inline: false # Determines if the profile should be clickable to a separate URL
+  project: "Scientific data management and software systems."
 
 - group: "Staff"  # Group the member belongs to
   group_rank: 2  # Ranking to determine order for staff members
@@ -70,12 +71,12 @@
     name: "Dmitry Mishin"  # Full name
     position: "Staff"  # Position or role (update with specific title if applicable)
     institution: "University of California, San Diego"  # Institution affiliation
-    # start_year: "202X"  # Start year for the role (if available)
+    start_year: "2024"  # Start year for the role (if available)
     # end_year: "20XX"  # End year if applicable
-    # image: "dmitry_mishin.jpg"  # Image filename (place in assets/img/people directory)
+    image: "dmitry_mishin.jpeg"  # Image filename (place in assets/img/people directory)
     email: "dmishin@ucsd.edu"  # Email address
     # phone: "(858) 123-4567"  # Phone number
-    # linkedin: "dmitrymishin"  # LinkedIn username
+    linkedin: "dmitry-mishin-59980911"  # LinkedIn username
     # orcid: "0000-0002-3456-7890"  # ORCID ID
     # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
     # github: "dmitrymishin"  # GitHub username
@@ -84,9 +85,9 @@
     # degrees:  # Academic degrees
     #   - "M.S. in [Field] (20XX)"
     # location: "La Jolla, CA"  # Geographical location or office location
-    # teaser: "Expert in [area of expertise]."  # Short description or teaser about the member
+    teaser: "Currently managing on all levels the world-wide kubernetes cluster combining computational resources in multiple research facilities and providing those to a wide range of scientists. Rich experience in modern languages and cloud-native environment, storage systems, network measurements and monitoring."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
-    # project: "[Primary Project or Area of Work]"  # Main project or work focus
+    project: "Design, deployment, and management of high-availability Kubernettes clusters for science."  # Main project or work focus
 
 
 #### Current Ph.D ####
@@ -142,7 +143,7 @@
     # location: "Philadelphia, PA"  # Geographical location or office location
     # teaser: "Research interests include additive manufacturing and control systems."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
-    # project: "Additive Manufacturing Control Systems"  # Main project or research focus
+    project: "Real-time machine learning for electron counting"  # Main project or research focus
 
 
 - group: "Ph.D. Students"  # Group the member belongs to
@@ -168,7 +169,7 @@
     # location: "Philadelphia, PA"  # Geographical location or office location
     # teaser: "Focuses on dynamics and control systems in mechanical engineering."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
-    # project: "Dynamics and Control Systems"  # Main project or research focus
+    project: "Unsupervised learning for multidimensional scanning probe spectroscopies."  # Main project or research focus
 
 
 - group: "Ph.D. Students"  # Group the member belongs to
@@ -180,21 +181,20 @@
     institution: "Drexel University"  # Institution affiliation
     start_year: "2021"  # Start year for current role or program
     # end_year: "202X"  # Expected or actual end year (if applicable)
-    image: "Xinqiao_Z"  # Image filename (place in assets/img/people directory)
-    # email: "xz123@drexel.edu"  # Email address
+    image: "Xinqiao_Z.jpg"  # Image filename (place in assets/img/people directory)
+    email: "xz123@drexel.edu"  # Email address
     # phone: "(215) 123-4567"  # Phone number
     # linkedin: "xinqiaozhang"  # LinkedIn username
     # orcid: "0000-0002-3456-7890"  # ORCID ID
     # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
     # github: "xinqiaozhang"  # GitHub username
-    # website: "https://xinqiaozhang.com"  # Personal or professional website
-    # address: "3141 Chestnut Street, Philadelphia, PA 19104"  # Office or location address
+    address: "3141 Chestnut Street, Philadelphia, PA 19104"  # Office or location address
     # degrees:  # Academic degrees
     #   - "(2020) - M.S. - Mechanical Engineering, Drexel University"
     # location: "Philadelphia, PA"  # Geographical location or office location
     # teaser: "Specializes in computational fluid dynamics and thermal systems."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
-    # project: "Computational Fluid Dynamics in Thermal Systems"  # Main project or research focus
+    project: "Unsupervised methods to unravel insight from high-dimensional electron microscopy"  # Main project or research focus
 
 
 - group: "Ph.D. Students"  # Group the member belongs to
@@ -206,7 +206,7 @@
     institution: "Lehigh University"  # Institution affiliation
     start_year: "2019"  # Start year for current role or program
     # end_year: "202X"  # Expected or actual end year (if applicable)
-    # image: "shuyu_qin.jpg"  # Image filename (place in assets/img/people directory)
+    image: "shuyu_qin.jpg"  # Image filename (place in assets/img/people directory)
     # email: "sq123@lehigh.edu"  # Email address
     # phone: "(215) 123-4567"  # Phone number
     # linkedin: "shuyuqin"  # LinkedIn username
@@ -220,7 +220,7 @@
     # location: "Bethlehem, PA"  # Geographical location or office location
     # teaser: "Researching advancements in machine learning algorithms and data science applications."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
-    # project: "Machine Learning and Data Science Applications"  # Main project or research focus
+    project: "Physics constrained machine learning for 4D scanning transmission electron microscopy strain mapping."  # Main project or research focus
 
 
 - group: "Ph.D. Students"  # Group the member belongs to
@@ -246,7 +246,7 @@
     # location: "Bethlehem, PA"  # Geographical location or office location
     # teaser: "Focuses on materials characterization and nanoscale engineering."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
-    # project: "Materials Characterization and Nanoscale Engineering"  # Main project or research focus
+    project: "In-situ diagnostics and machine learning for growth of complex-oxides using pulsed-laser deposition."  # Main project or research focus
 
 
 ##### PH.D. Alumni 10 ####
@@ -258,23 +258,21 @@
     name: "Trygve Ræder"  # Full name
     position: "Ph.D. Graduate, Materials Science and Engineering"  # Position or role
     institution: "Norwegian Institute of Science and Technology"  # Institution affiliation
-    # start_year: "2015"  # Start year for program or role (if applicable)
-    end_year: "Spring 2019"  # End year for the program or role
-    # image: "trygve_raeder.jpg"  # Image filename (place in assets/img/people directory)
-    # email: "tr123@ntnu.no"  # Email address
-    # phone: "+47 123 45 678"  # Phone number
+    primary_advisor: "Tor Grande"
+    start_year: "2019"  # Start year for program or role (if applicable)
+    end_year: "2019"  # End year for the program or role
+    image: "trygve.jpg"  # Image filename (place in assets/img/people directory)
+    email: "mara@dtu.dk"  # Email address
     # linkedin: "trygveraeder"  # LinkedIn username
-    # orcid: "0000-0002-3456-7890"  # ORCID ID
-    # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
-    # github: "trygveraeder"  # GitHub username
+    orcid: "0000-0003-3524-362X"  # ORCID ID
+    google_scholar: "https://scholar.google.no/citations?user=mOwkGscAAAAJ&hl=en"  # Google Scholar profile
+    github: "trygvrad"  # GitHub username
     # website: "https://trygveraeder.com"  # Personal or professional website
-    # address: "Høgskoleringen 1, 7491 Trondheim, Norway"  # Office or location address
     degrees:  # Academic degrees
-      - "Ph.D. (2020) - Materials Science and Engineering"
-    # location: "Trondheim, Norway"  # Geographical location or office location
-    # teaser: "Specialized in advanced materials characterization techniques."  # Short description or teaser about the member
+      - "Ph.D. (2020) - Materials Science and Engineering, Norwegian Institute of Science and Technology"
+    location: "Xnovo Technology"
     inline: false  # Determines if the profile should be clickable to a separate URL
-    # project: "Advanced Materials Characterization"  # Main project or research focus
+    project: "Unsupervised learning for scanning and electron microscopy"  # Main project or research focus
 
 - group: "Ph.D. Students (Alumni)"  # Group the members belong to
   group_rank: 10  # Ranking to determine order for Ph.D. alumni
