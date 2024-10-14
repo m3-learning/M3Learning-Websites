@@ -85,7 +85,7 @@
     # address: "9500 Gilman Dr, La Jolla, CA 92093"  # Office or location address
     # degrees:  # Academic degrees
     #   - "M.S. in [Field] (20XX)"
-    # location: "La Jolla, CA"  # Geographical location or office location
+    # current_position: "La Jolla, CA"  # Geographical location or office location
     teaser: "Currently managing on all levels the world-wide kubernetes cluster combining computational resources in multiple research facilities and providing those to a wide range of scientists. Rich experience in modern languages and cloud-native environment, storage systems, network measurements and monitoring."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
     project: "Design, deployment, and management of high-availability Kubernettes clusters for science."  # Main project or work focus
@@ -116,7 +116,7 @@
     #   - "(2022) - Ph.D. - Mechanical Engineering, Drexel University"
     #   - "(2018) - M.S. - Mechanical Engineering, University of Illinois"
     #   - "(2016) - B.S. - Mechanical Engineering, Georgia Institute of Technology"
-    # location: "Philadelphia, PA"  # Geographical location or office location
+    # current_position: "Philadelphia, PA"  # Geographical location or office location
     # teaser: "Researching closed-loop control applications in laser deposition."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
 
@@ -141,7 +141,7 @@
     # address: "3141 Chestnut Street, Philadelphia, PA 19104"  # Office or location address
     # degrees:  # Academic degrees
     #   - "(2023) - M.S. - Mechanical Engineering, Drexel University"
-    # location: "Philadelphia, PA"  # Geographical location or office location
+    # current_position: "Philadelphia, PA"  # Geographical location or office location
     # teaser: "Research interests include additive manufacturing and control systems."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
     project: "Real-time machine learning for electron counting"  # Main project or research focus
@@ -167,7 +167,7 @@
     # address: "3141 Chestnut Street, Philadelphia, PA 19104"  # Office or location address
     # degrees:  # Academic degrees
     #   - "(2021) - M.S. - Mechanical Engineering, Drexel University"
-    # location: "Philadelphia, PA"  # Geographical location or office location
+    # current_position: "Philadelphia, PA"  # Geographical location or office location
     # teaser: "Focuses on dynamics and control systems in mechanical engineering."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
     project: "Unsupervised learning for multidimensional scanning probe spectroscopies."  # Main project or research focus
@@ -192,7 +192,7 @@
     address: "3141 Chestnut Street, Philadelphia, PA 19104"  # Office or location address
     # degrees:  # Academic degrees
     #   - "(2020) - M.S. - Mechanical Engineering, Drexel University"
-    # location: "Philadelphia, PA"  # Geographical location or office location
+    # current_position: "Philadelphia, PA"  # Geographical location or office location
     # teaser: "Specializes in computational fluid dynamics and thermal systems."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
     project: "Unsupervised methods to unravel insight from high-dimensional electron microscopy"  # Main project or research focus
@@ -218,7 +218,7 @@
     # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
     # degrees:  # Academic degrees
     #   - "(2018) - M.S. - Computer Science, Lehigh University"
-    # location: "Bethlehem, PA"  # Geographical location or office location
+    # current_position: "Bethlehem, PA"  # Geographical location or office location
     # teaser: "Researching advancements in machine learning algorithms and data science applications."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
     project: "Physics constrained machine learning for 4D scanning transmission electron microscopy strain mapping."  # Main project or research focus
@@ -244,7 +244,7 @@
     # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
     # degrees:  # Academic degrees
     #   - "(2018) - M.S. - Materials Science and Engineering, Lehigh University"
-    # location: "Bethlehem, PA"  # Geographical location or office location
+    # current_position: "Bethlehem, PA"  # Geographical location or office location
     inline: false  # Determines if the profile should be clickable to a separate URL
     project: "In-situ diagnostics and machine learning for growth of complex-oxides using pulsed-laser deposition."  # Main project or research focus
 
@@ -270,7 +270,7 @@
     # website: "https://trygveraeder.com"  # Personal or professional website
     degrees:  # Academic degrees
       - "Ph.D. (2020) - Materials Science and Engineering, Norwegian Institute of Science and Technology"
-    location: "Xnovo Technology"
+    current_position: "Xnovo Technology"
     inline: false  # Determines if the profile should be clickable to a separate URL
     project: "Unsupervised learning for scanning and electron microscopy"  # Main project or research focus
 
@@ -294,7 +294,7 @@
     # address: "3141 Chestnut Street, Philadelphia, PA 19104"  # Office or location address
     # degrees:  # Academic degrees
     #   - "Ph.D. in [Field] (20XX)"
-    # location: "Philadelphia, PA"  # Geographical location or office location
+    # current_position: "Philadelphia, PA"  # Geographical location or office location
     # teaser: "Specialized in machine learning for fluid dynamics."  # Short description or teaser about the member
     awards:  # Awards and recognitions
       - "Best Poster Award: Stacked Generative Machine Learning Models for Fast Approximations of Steady-State Navier-Stokes Equations, Society of Engineering Science – Mechanics Matters"
@@ -323,7 +323,7 @@
     # address: "3141 Chestnut Street, Philadelphia, PA 19104"  # Office or location address
     # degrees:  # Academic degrees
     #   - "(2022) - B.S. - Electrical Engineering, Drexel University"
-    # location: "Philadelphia, PA"  # Geographical location or office location
+    # current_position: "Philadelphia, PA"  # Geographical location or office location
     # teaser: "Researching applications in electrical and computer engineering for automation."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
     project: "Rapid deployment of machine learning models on FPGAs"  # Main project or research focus
@@ -348,7 +348,7 @@
     # address: "3141 Chestnut Street, Philadelphia, PA 19104"  # Office or location address
     # degrees:  # Academic degrees
     #   - "B.S. in [Field] (202X)"
-    # location: "Philadelphia, PA"  # Geographical location or office location
+    # current_position: "Philadelphia, PA"  # Geographical location or office location
     # teaser: "Focused on [area of study or research interest]."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
     project: "Kubernettes cluster deployment and management engineer"  # Main project or research focus
@@ -373,7 +373,7 @@
     # address: "3141 Chestnut Street, Philadelphia, PA 19104"  # Office or location address
     # degrees:  # Academic degrees
     #   - "B.S. in [Field] (202X)"
-    # location: "Philadelphia, PA"  # Geographical location or office location
+    # current_position: "Philadelphia, PA"  # Geographical location or office location
     # teaser: "Focused on [area of study or research interest]."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
     project: "Software for cluster managment and system administration"  # Main project or research focus
@@ -398,7 +398,7 @@
     # address: "3141 Chestnut Street, Philadelphia, PA 19104"  # Office or location address
     # degrees:  # Academic degrees
     #   - "B.S. in [Field] (202X)"
-    # location: "Philadelphia, PA"  # Geographical location or office location
+    # current_position: "Philadelphia, PA"  # Geographical location or office location
     # teaser: "Focused on [area of study or research interest]."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
     project: "Full-stack developer for scientific data management and search software"  # Main project or research focus
@@ -423,7 +423,7 @@
     # address: "3141 Chestnut Street, Philadelphia, PA 19104"  # Office or location address
     # degrees:  # Academic degrees
     #   - "B.S. in [Field] (202X)"
-    # location: "Philadelphia, PA"  # Geographical location or office location
+    # current_position: "Philadelphia, PA"  # Geographical location or office location
     # teaser: "Focused on [area of study or research interest]."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
     project: "Image similarity search for materials microscopy"  # Main project or research focus
@@ -452,7 +452,7 @@
     degrees:  # Academic degrees
       - "M.S. (2021) - Industrial and System Engineering"
     coadvisor: "Martin Takac"  # Co-advisor field
-    # location: "Bethlehem, PA"  # Geographical location or office location
+    # current_position: "Bethlehem, PA"  # Geographical location or office location
     # teaser: "Specialized in operations research and systems optimization."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
     # project: "Optimization in Industrial Systems"  # Main project or research focus
@@ -477,7 +477,7 @@
     # address: "Earth and Environmental Science Department, Lehigh University, PA"  # Office or location address
     degrees:  # Academic degrees
       - "M.S. (2021) - Earth and Environmental Science"
-    # location: "Bethlehem, PA"  # Geographical location or office location
+    # current_position: "Bethlehem, PA"  # Geographical location or office location
     # teaser: "Research focused on environmental science and earth systems."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
     # project: "Environmental Science and Earth Systems"  # Main project or research focus
@@ -502,7 +502,7 @@
     # address: "Materials Science and Engineering Department, Lehigh University, PA"  # Office or location address
     degrees:  # Academic degrees
       - "M.Eng. (2020) - Materials Science and Engineering"
-    # location: "Bethlehem, PA"  # Geographical location or office location
+    # current_position: "Bethlehem, PA"  # Geographical location or office location
     # teaser: "Research in advanced materials engineering."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
     # project: "Advanced Materials Engineering"  # Main project or research focus
@@ -527,7 +527,7 @@
     # address: "Materials Science Department, UC Berkeley, CA"  # Office or location address
     degrees:  # Academic degrees
       - "M.S. (2018) - Materials Science and Engineering"
-    # location: "Berkeley, CA"  # Geographical location or office location
+    # current_position: "Berkeley, CA"  # Geographical location or office location
     # teaser: "Focused on material synthesis and nanotechnology applications."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
     # project: "Material Synthesis and Nanotechnology"  # Main project or research focus
@@ -552,7 +552,7 @@
     # address: "3141 Chestnut Street, Philadelphia, PA 19104"  # Office or location address
     # degrees:  # Academic degrees
     #   - "M.S. in [Field] (202X)"
-    # location: "Philadelphia, PA"  # Geographical location or office location
+    # current_position: "Philadelphia, PA"  # Geographical location or office location
     # teaser: "Specialized in [area of study or research focus]."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
     # project: "[Research Project or Focus Area]"  # Main project or research focus
@@ -580,7 +580,7 @@
     # address: "3141 Chestnut Street, Philadelphia, PA 19104"  # Office or location address
     # degrees:  # Academic degrees
     #   - "B.S. in Electrical Engineering (in progress)"
-    # location: "Philadelphia, PA"  # Geographical location or office location
+    # current_position: "Philadelphia, PA"  # Geographical location or office location
     # teaser: "Researching signal processing in electrical systems."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
     # project: "Signal Processing in Electrical Systems"  # Main project or research focus
@@ -605,7 +605,7 @@
     # address: "3141 Chestnut Street, Philadelphia, PA 19104"  # Office or location address
     # degrees:  # Academic degrees
     #   - "B.S. in Materials Science and Engineering (in progress)"
-    # location: "Philadelphia, PA"  # Geographical location or office location
+    # current_position: "Philadelphia, PA"  # Geographical location or office location
     # teaser: "Researching materials properties and nanotechnology applications."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
     # project: "Nanotechnology in Materials Science"  # Main project or research focus
@@ -630,7 +630,7 @@
     # address: "3141 Chestnut Street, Philadelphia, PA 19104"  # Office or location address
     # degrees:  # Academic degrees
     #   - "B.S. in [Field] (in progress)"
-    # location: "Philadelphia, PA"  # Geographical location or office location
+    # current_position: "Philadelphia, PA"  # Geographical location or office location
     # teaser: "Focused on [area of study or research interest]."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
     # project: "[Research Project or Focus Area]"  # Main project or research focus
@@ -655,7 +655,7 @@
     # address: "University of Washington, Seattle, WA"  # Office or location address
     # degrees:  # Academic degrees
     #   - "B.S. in [Field] (in progress)"
-    # location: "Seattle, WA"  # Geographical location or office location
+    # current_position: "Seattle, WA"  # Geographical location or office location
     # teaser: "Focused on [area of study or research interest]."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
     project: "Real-time signal processing on FPGAs for Reflection High-Energy Electron Diffraction"  # Main project or research focus
@@ -683,7 +683,7 @@
     # address: "3141 Chestnut Street, Philadelphia, PA 19104"  # Office or location address
     # degrees:  # Academic degrees
     #   - "(2022) - B.S. - Computer Science, Drexel University"
-    # location: "Philadelphia, PA"  # Geographical location or office location
+    # current_position: "Philadelphia, PA"  # Geographical location or office location
     # teaser: "Worked on data visualization for scientific research applications."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
     project: "Data Visualization for Scientific Research"  # Main project or research focus
@@ -709,7 +709,7 @@
     # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
     # degrees:  # Academic degrees
     #   - "B.S. in Computer Science and Business (in progress)"
-    # location: "Bethlehem, PA"  # Geographical location or office location
+    # current_position: "Bethlehem, PA"  # Geographical location or office location
     # teaser: "Research focused on data analysis in business applications."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
     # project: "Scientific Machine Learning for Cell Sorting"  # Main project or research focus
@@ -734,7 +734,7 @@
     # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
     # degrees:  # Academic degrees
     #   - "B.S. in Computer Science and Business (in progress)"
-    # location: "Bethlehem, PA"  # Geographical location or office location
+    # current_position: "Bethlehem, PA"  # Geographical location or office location
     # teaser: "Research focused on business applications of computer science."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
     # project: "Business Applications in Computer Science"  # Main project or research focus
@@ -759,7 +759,7 @@
     # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
     # degrees:  # Academic degrees
     #   - "B.S. in Computer Engineering (in progress)"
-    location: "Controls Design Engineer @ General Motors"  # Geographical location or office location
+    current_position: "Controls Design Engineer @ General Motors"  # Geographical location or office location
     # teaser: "Focused on embedded systems and hardware design."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
     project: "Embedded Systems and Hardware Design for Scientific Instrumentation"  # Main project or research focus
@@ -784,7 +784,7 @@
     # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
     # degrees:  # Academic degrees
     #   - "B.S. in Mechanical Engineering (in progress)"
-    # location: "Bethlehem, PA"  # Geographical location or office location
+    # current_position: "Bethlehem, PA"  # Geographical location or office location
     # teaser: "Specializes in fluid mechanics and thermodynamics."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
     # project: "Fluid Mechanics and Thermodynamics"  # Main project or research focus
@@ -809,7 +809,7 @@
     # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
     # degrees:  # Academic degrees
     #   - "B.S. in Computer Science (in progress)"
-    # location: "Bethlehem, PA"  # Geographical location or office location
+    # current_position: "Bethlehem, PA"  # Geographical location or office location
     # teaser: "Researching applications of AI in software development."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
     # project: "AI in Software Development"  # Main project or research focus
@@ -834,7 +834,7 @@
     # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
     # degrees:  # Academic degrees
     #   - "B.S. in Computer Science (in progress)"
-    # location: "Bethlehem, PA"  # Geographical location or office location
+    # current_position: "Bethlehem, PA"  # Geographical location or office location
     # teaser: "Research focused on machine learning applications."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
     # project: "Machine Learning Applications"  # Main project or research focus
@@ -859,7 +859,7 @@
     # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
     # degrees:  # Academic degrees
     #   - "B.S. in Computer Science and Business (in progress)"
-    # location: "Bethlehem, PA"  # Geographical location or office location
+    # current_position: "Bethlehem, PA"  # Geographical location or office location
     # teaser: "Specialized in data analysis for business applications."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
     # project: "Data Analysis for Business"  # Main project or research focus
@@ -884,7 +884,7 @@
     # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
     # degrees:  # Academic degrees
     #   - "B.S. in Bioengineering (in progress)"
-    # location: "Bethlehem, PA"  # Geographical location or office location
+    # current_position: "Bethlehem, PA"  # Geographical location or office location
     # teaser: "Focused on cellular bioengineering and biomaterials."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
     # project: "Cellular Bioengineering and Biomaterials"  # Main project or research focus
@@ -909,7 +909,7 @@
     # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
     # degrees:  # Academic degrees
     #   - "B.S. in Biocomputational Engineering (in progress)"
-    # location: "Bethlehem, PA"  # Geographical location or office location
+    # current_position: "Bethlehem, PA"  # Geographical location or office location
     # teaser: "Exploring computational models in biological systems."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
     # project: "Computational Models in Biological Systems"  # Main project or research focus
@@ -934,7 +934,7 @@
     # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
     # degrees:  # Academic degrees
     #   - "B.S. in Computer Science and Business (in progress)"
-    # location: "Bethlehem, PA"  # Geographical location or office location
+    # current_position: "Bethlehem, PA"  # Geographical location or office location
     # teaser: "Focused on data science and business analytics."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
     # project: "Data Science and Business Analytics"  # Main project or research focus
@@ -959,7 +959,7 @@
     # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
     # degrees:  # Academic degrees
     #   - "B.S. in Computer Engineering (in progress)"
-    # location: "Bethlehem, PA"  # Geographical location or office location
+    # current_position: "Bethlehem, PA"  # Geographical location or office location
     # teaser: "Exploring digital systems design and embedded computing."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
     # project: "Digital Systems Design and Embedded Computing"  # Main project or research focus
@@ -984,7 +984,7 @@
     # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
     # degrees:  # Academic degrees
     #   - "B.S. in Mechanical Engineering (in progress)"
-    # location: "Bethlehem, PA"  # Geographical location or office location
+    # current_position: "Bethlehem, PA"  # Geographical location or office location
     # teaser: "Researching mechanical systems and thermal engineering."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
     # project: "Mechanical Systems and Thermal Engineering"  # Main project or research focus
@@ -1009,7 +1009,7 @@
     # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
     # degrees:  # Academic degrees
     #   - "B.S. in Computer Engineering (in progress)"
-    # location: "Bethlehem, PA"  # Geographical location or office location
+    # current_position: "Bethlehem, PA"  # Geographical location or office location
     # teaser: "Specializing in software-hardware integration and VLSI design."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
     # project: "Software-Hardware Integration and VLSI Design"  # Main project or research focus
@@ -1034,7 +1034,7 @@
     # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
     # degrees:  # Academic degrees
     #   - "B.S. in Materials Science and Engineering (in progress)"
-    # location: "Bethlehem, PA"  # Geographical location or office location
+    # current_position: "Bethlehem, PA"  # Geographical location or office location
     # teaser: "Focused on materials characterization and nanotechnology."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
     # project: "Materials Characterization and Nanotechnology"  # Main project or research focus
@@ -1059,7 +1059,7 @@
     # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
     # degrees:  # Academic degrees
     #   - "B.S. in Materials Science and Engineering (in progress)"
-    # location: "Bethlehem, PA"  # Geographical location or office location
+    # current_position: "Bethlehem, PA"  # Geographical location or office location
     # teaser: "Researching advanced materials synthesis and applications."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
     # project: "Advanced Materials Synthesis and Applications"  # Main project or research focus
@@ -1084,7 +1084,7 @@
     # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
     # degrees:  # Academic degrees
     #   - "B.S. in Materials Science and Engineering (in progress)"
-    # location: "Bethlehem, PA"  # Geographical location or office location
+    # current_position: "Bethlehem, PA"  # Geographical location or office location
     # teaser: "Focused on nanomaterials and surface engineering."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
     # project: "Nanomaterials and Surface Engineering"  # Main project or research focus
@@ -1111,7 +1111,7 @@
     # address: "City, State"  # Office or location address
     # degrees:  # Academic degrees
     #   - "High School Diploma (in progress)"
-    # location: "City, State"  # Geographical location or office location
+    # current_position: "City, State"  # Geographical location or office location
     # teaser: "Focused on [area of study or research interest]."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
     # project: "[Research Project or Focus Area]"  # Main project or research focus
@@ -1138,7 +1138,7 @@
     # address: "City, State"  # Office or location address
     # degrees:  # Academic degrees
     #   - "High School Diploma"
-    # location: "City, State"  # Geographical location or office location
+    # current_position: "City, State"  # Geographical location or office location
     # teaser: "Award-winning researcher focused on nanophase materials."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
     # project: "Nanophase Materials Research"  # Main project or research focus
