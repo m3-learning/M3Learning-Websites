@@ -233,7 +233,7 @@
     institution: "Lehigh University"  # Institution affiliation
     start_year: "2019"  # Start year for current role or program
     # end_year: "202X"  # Expected or actual end year (if applicable)
-    # image: "yichen_guo.jpg"  # Image filename (place in assets/img/people directory)
+    image: "Yichen_G.png"  # Image filename (place in assets/img/people directory)
     # email: "yg123@lehigh.edu"  # Email address
     # phone: "(215) 123-4567"  # Phone number
     # linkedin: "yichenguo"  # LinkedIn username
@@ -245,7 +245,6 @@
     # degrees:  # Academic degrees
     #   - "(2018) - M.S. - Materials Science and Engineering, Lehigh University"
     # location: "Bethlehem, PA"  # Geographical location or office location
-    # teaser: "Focuses on materials characterization and nanoscale engineering."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
     project: "In-situ diagnostics and machine learning for growth of complex-oxides using pulsed-laser deposition."  # Main project or research focus
 
@@ -327,7 +326,7 @@
     # location: "Philadelphia, PA"  # Geographical location or office location
     # teaser: "Researching applications in electrical and computer engineering for automation."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
-    # project: "Automation in Electrical and Computer Engineering"  # Main project or research focus
+    project: "Rapid deployment of machine learning models on FPGAs"  # Main project or research focus
 
 - group: "M.S. Students"  # Group the member belongs to
   group_rank: 5  # Ranking to determine order for current M.S. students
@@ -336,7 +335,7 @@
     name: "Vinay Karamchandani"  # Full name
     position: "M.S. Student"  # Position or role
     institution: "Drexel University"  # Institution affiliation
-    # start_year: "202X"  # Start year for the program (if available)
+    start_year: "2024"  # Start year for the program (if available)
     # end_year: "202X"  # Expected graduation year (if applicable)
     # image: "vinay_karamchandani.jpg"  # Image filename (place in assets/img/people directory)
     email: "vkk29@dragons.drexel.edu"  # Email address
@@ -352,7 +351,7 @@
     # location: "Philadelphia, PA"  # Geographical location or office location
     # teaser: "Focused on [area of study or research interest]."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
-    # project: "[Research Project or Focus Area]"  # Main project or research focus
+    project: "Kubernettes cluster deployment and management engineer"  # Main project or research focus
 
 - group: "M.S. Students"  # Group the member belongs to
   group_rank: 5  # Ranking to determine order for current M.S. students
@@ -361,7 +360,7 @@
     name: "Uttam Meena"  # Full name
     position: "M.S. Student"  # Position or role
     institution: "Drexel University"  # Institution affiliation
-    # start_year: "202X"  # Start year for the program (if available)
+    start_year: "2024"  # Start year for the program (if available)
     # end_year: "202X"  # Expected graduation year (if applicable)
     # image: "uttam_meena.jpg"  # Image filename (place in assets/img/people directory)
     email: "um44@dragons.drexel.edu"  # Email address
@@ -377,7 +376,7 @@
     # location: "Philadelphia, PA"  # Geographical location or office location
     # teaser: "Focused on [area of study or research interest]."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
-    # project: "[Research Project or Focus Area]"  # Main project or research focus
+    project: "Software for cluster managment and system administration"  # Main project or research focus
 
 - group: "M.S. Students"  # Group the member belongs to
   group_rank: 5  # Ranking to determine order for current M.S. students
@@ -386,7 +385,7 @@
     name: "Chirayu Patel"  # Full name
     position: "M.S. Student"  # Position or role
     institution: "Drexel University"  # Institution affiliation
-    # start_year: "202X"  # Start year for the program (if available)
+    start_year: "2024"  # Start year for the program (if available)
     # end_year: "202X"  # Expected graduation year (if applicable)
     # image: "chirayu_patel.jpg"  # Image filename (place in assets/img/people directory)
     email: "cnp68@drexel.edu"  # Email address
@@ -402,7 +401,7 @@
     # location: "Philadelphia, PA"  # Geographical location or office location
     # teaser: "Focused on [area of study or research interest]."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
-    # project: "[Research Project or Focus Area]"  # Main project or research focus
+    project: "Full-stack developer for scientific data management and search software"  # Main project or research focus
 
 - group: "M.S. Students"  # Group the member belongs to
   group_rank: 5  # Ranking to determine order for current M.S. students
@@ -411,7 +410,7 @@
     name: "Sai Pokuri"  # Full name
     position: "M.S. Student"  # Position or role
     institution: "Drexel University"  # Institution affiliation
-    # start_year: "202X"  # Start year for the program (if available)
+    start_year: "2024"  # Start year for the program (if available)
     # end_year: "202X"  # Expected graduation year (if applicable)
     # image: "sai_pokuri.jpg"  # Image filename (place in assets/img/people directory)
     email: "sp3867@drexel.edu"  # Email address
@@ -427,7 +426,7 @@
     # location: "Philadelphia, PA"  # Geographical location or office location
     # teaser: "Focused on [area of study or research interest]."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
-    # project: "[Research Project or Focus Area]"  # Main project or research focus
+    project: "Image similarity search for materials microscopy"  # Main project or research focus
 
 
 #### M.S. Alumni (11) ####
@@ -638,14 +637,14 @@
 
 - group: "Undergraduate Researchers"  # Group the member belongs to
   group_rank: 6  # Ranking to determine order for undergraduate researchers
-  lastname: "Wilk"  # Last name of the member
+  lastname: "Wilkinson"  # Last name of the member
   profile:
-    name: "Matt Wilk"  # Full name
+    name: "Matthew Wilkinson"  # Full name
     position: "Undergraduate Researcher"  # Position or role
     institution: "University of Washington"  # Institution affiliation
-    # start_year: "202X"  # Start year for the program (if available)
+    start_year: "2024"  # Start year for the program (if available)
     # end_year: "202X"  # Expected graduation year (if applicable)
-    # image: "matt_wilk.jpg"  # Image filename (place in assets/img/people directory)
+    image: "Matt_W.png"  # Image filename (place in assets/img/people directory)
     email: "mattwilk@uw.edu"  # Email address
     # phone: "(206) 123-4567"  # Phone number
     # linkedin: "mattwilk"  # LinkedIn username
@@ -659,7 +658,7 @@
     # location: "Seattle, WA"  # Geographical location or office location
     # teaser: "Focused on [area of study or research interest]."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
-    # project: "[Research Project or Focus Area]"  # Main project or research focus
+    project: "Real-time signal processing on FPGAs for Reflection High-Energy Electron Diffraction"  # Main project or research focus
 
 
 #### Undergraduate Researcher Alumni (12) ####
@@ -673,10 +672,10 @@
     institution: "Drexel University"  # Institution affiliation
     start_year: "2023"  # Start year for the role or program
     end_year: "2023"  # End year for the role or program
-    # image: "rafael_lipschutz.jpg"  # Image filename (place in assets/img/people directory)
+    image: "rafael_lipschutz.jpeg"  # Image filename (place in assets/img/people directory)
     # email: "rl123@drexel.edu"  # Email address
     # phone: "(215) 123-4567"  # Phone number
-    # linkedin: "rafaellipschutz"  # LinkedIn username
+    linkedin: "rafael-lipschutz-590a7022a"  # LinkedIn username
     # orcid: "0000-0002-3456-7890"  # ORCID ID
     # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
     # github: "rafaellipschutz"  # GitHub username
@@ -687,7 +686,7 @@
     # location: "Philadelphia, PA"  # Geographical location or office location
     # teaser: "Worked on data visualization for scientific research applications."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
-    # project: "Data Visualization for Scientific Research"  # Main project or research focus
+    project: "Data Visualization for Scientific Research"  # Main project or research focus
 
 
 - group: "Undergraduate Researchers (Alumni)"  # Group the member belongs to
@@ -713,7 +712,7 @@
     # location: "Bethlehem, PA"  # Geographical location or office location
     # teaser: "Research focused on data analysis in business applications."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
-    # project: "Data Analysis in Business Applications"  # Main project or research focus
+    # project: "Scientific Machine Learning for Cell Sorting"  # Main project or research focus
 
 - group: "Undergraduate Researchers (Alumni)"  # Group the member belongs to
   group_rank: 12  # Ranking to determine order for alumni
@@ -724,7 +723,7 @@
     institution: "Lehigh University"  # Institution affiliation
     start_year: "2020"  # Start year for the role or program
     end_year: "2021"  # End year for the role or program
-    # image: "teresa_payne.jpg"  # Image filename (place in assets/img/people directory)
+    image: "Payne_T.jpeg"  # Image filename (place in assets/img/people directory)
     # email: "tp123@lehigh.edu"  # Email address
     # phone: "(610) 123-4567"  # Phone number
     # linkedin: "teresapayne"  # LinkedIn username
@@ -749,21 +748,21 @@
     institution: "Lehigh University"  # Institution affiliation
     start_year: "2020"  # Start year for the role or program
     end_year: "2022"  # End year for the role or program
-    # image: "andrew_vander_pallen.jpg"  # Image filename (place in assets/img/people directory)
+    image: "Andrew_P.jpg"  # Image filename (place in assets/img/people directory)
     # email: "avp123@lehigh.edu"  # Email address
     # phone: "(610) 123-4567"  # Phone number
-    # linkedin: "andrewvanderpallen"  # LinkedIn username
+    linkedin: "andrew-vpallen"  # LinkedIn username
     # orcid: "0000-0002-3456-7890"  # ORCID ID
     # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
-    # github: "andrewvanderpallen"  # GitHub username
+    github: "andrewVP41"  # GitHub username
     # website: "https://andrewvanderpallen.com"  # Personal or professional website
     # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
     # degrees:  # Academic degrees
     #   - "B.S. in Computer Engineering (in progress)"
-    # location: "Bethlehem, PA"  # Geographical location or office location
+    location: "Controls Design Engineer @ General Motors"  # Geographical location or office location
     # teaser: "Focused on embedded systems and hardware design."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
-    # project: "Embedded Systems and Hardware Design"  # Main project or research focus
+    project: "Embedded Systems and Hardware Design for Scientific Instrumentation"  # Main project or research focus
 
 - group: "Undergraduate Researchers (Alumni)"  # Group the member belongs to
   group_rank: 12  # Ranking to determine order for alumni
