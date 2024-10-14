@@ -175,9 +175,9 @@
 
 - group: "Ph.D. Students"  # Group the member belongs to
   group_rank: 3  # Ranking to determine order
-  lastname: "Zhang"  # Last name of the member
+  lastname: "Zheng"  # Last name of the member
   profile:
-    name: "Xinqiao Zhang"  # Full name
+    name: "Xinqiao Zheng"  # Full name
     position: "Ph.D. Student, Mechanical Engineering and Mechanics"  # Position or role
     institution: "Drexel University"  # Institution affiliation
     start_year: "2021"  # Start year for current role or program
@@ -185,10 +185,10 @@
     image: "Xinqiao_Z.jpg"  # Image filename (place in assets/img/people directory)
     email: "xz123@drexel.edu"  # Email address
     # phone: "(215) 123-4567"  # Phone number
-    # linkedin: "xinqiaozhang"  # LinkedIn username
+    # linkedin: "xinqiaoZheng"  # LinkedIn username
     # orcid: "0000-0002-3456-7890"  # ORCID ID
     # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
-    # github: "xinqiaozhang"  # GitHub username
+    # github: "xinqiaoZheng"  # GitHub username
     address: "3141 Chestnut Street, Philadelphia, PA 19104"  # Office or location address
     # degrees:  # Academic degrees
     #   - "(2020) - M.S. - Mechanical Engineering, Drexel University"
@@ -261,7 +261,7 @@
     primary_advisor: "Tor Grande"
     start_year: "2019"  # Start year for program or role (if applicable)
     end_year: "2019"  # End year for the program or role
-    image: "trygve.jpg"  # Image filename (place in assets/img/people directory)
+    image: "Trygve.jpg"  # Image filename (place in assets/img/people directory)
     email: "mara@dtu.dk"  # Email address
     # linkedin: "trygveraeder"  # LinkedIn username
     orcid: "0000-0003-3524-362X"  # ORCID ID
@@ -569,10 +569,10 @@
     institution: "Drexel University"  # Institution affiliation
     start_year: "2023"  # Start year for the role or program
     # end_year: "2024"  # Expected or actual end year
-    # image: "sean_rassa.jpg"  # Image filename (place in assets/img/people directory)
+    image: "sean_rassa.jpeg"  # Image filename (place in assets/img/people directory)
     # email: "sr123@drexel.edu"  # Email address
     # phone: "(215) 123-4567"  # Phone number
-    # linkedin: "seanrassa"  # LinkedIn username
+    linkedin: "sean-rassa"  # LinkedIn username
     # orcid: "0000-0002-3456-7890"  # ORCID ID
     # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
     # github: "seanrassa"  # GitHub username
@@ -594,10 +594,10 @@
     institution: "Drexel University"  # Institution affiliation
     start_year: "2023"  # Start year for the role or program
     end_year: "2024"  # Expected or actual end year
-    # image: "yael_passy.jpg"  # Image filename (place in assets/img/people directory)
+    image: "Yael_Passy.jpeg"  # Image filename (place in assets/img/people directory)
     # email: "yp123@drexel.edu"  # Email address
     # phone: "(215) 123-4567"  # Phone number
-    # linkedin: "yaelpassy"  # LinkedIn username
+    linkedin: "yael-passy"  # LinkedIn username
     # orcid: "0000-0002-3456-7890"  # ORCID ID
     # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
     # github: "yaelpassy"  # GitHub username
@@ -619,10 +619,10 @@
     institution: "Drexel University"  # Institution affiliation
     # start_year: "202X"  # Start year for the program (if available)
     # end_year: "202X"  # Expected graduation year (if applicable)
-    # image: "rufayda_sanjida.jpg"  # Image filename (place in assets/img/people directory)
+    image: "Rufayda_Sanjida.jpeg"  # Image filename (place in assets/img/people directory)
     email: "rs3699@drexel.edu"  # Email address
     # phone: "(215) 123-4567"  # Phone number
-    # linkedin: "rufaydasanjida"  # LinkedIn username
+    linkedin: "rufayda-sanjida-047187218"  # LinkedIn username
     # orcid: "0000-0002-3456-7890"  # ORCID ID
     # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
     # github: "rufaydasanjida"  # GitHub username
@@ -698,7 +698,7 @@
     institution: "Lehigh University"  # Institution affiliation
     start_year: "2020"  # Start year for the role or program
     end_year: "2021"  # End year for the role or program
-    # image: "naod_tewodros.jpg"  # Image filename (place in assets/img/people directory)
+    image: "naod.jpg"  # Image filename (place in assets/img/people directory)
     # email: "nt123@lehigh.edu"  # Email address
     # phone: "(610) 123-4567"  # Phone number
     # linkedin: "naodtewodros"  # LinkedIn username
@@ -773,7 +773,7 @@
     institution: "Lehigh University"  # Institution affiliation
     start_year: "2020"  # Start year for the role or program
     end_year: "2022"  # End year for the role or program
-    # image: "ky_frew.jpg"  # Image filename (place in assets/img/people directory)
+    image: "ky_F.jpg"  # Image filename (place in assets/img/people directory)
     # email: "kf123@lehigh.edu"  # Email address
     # phone: "(610) 123-4567"  # Phone number
     # linkedin: "kyfrew"  # LinkedIn username
@@ -798,7 +798,7 @@
     institution: "Lehigh University"  # Institution affiliation
     start_year: "2020"  # Start year for the role or program
     end_year: "2021"  # End year for the role or program
-    # image: "johnny_zedan.jpg"  # Image filename (place in assets/img/people directory)
+    image: "Journey_Z.jpg"  # Image filename (place in assets/img/people directory)
     # email: "jz123@lehigh.edu"  # Email address
     # phone: "(610) 123-4567"  # Phone number
     # linkedin: "johnnyzedan"  # LinkedIn username
@@ -823,7 +823,7 @@
     institution: "Lehigh University"  # Institution affiliation
     start_year: "2020"  # Start year for the role or program
     end_year: "2022"  # End year for the role or program
-    # image: "niija_douglas.jpg"  # Image filename (place in assets/img/people directory)
+    image: "Douglas_N.png"  # Image filename (place in assets/img/people directory)
     # email: "nd123@lehigh.edu"  # Email address
     # phone: "(610) 123-4567"  # Phone number
     # linkedin: "niijadouglas"  # LinkedIn username
@@ -848,10 +848,10 @@
     institution: "Lehigh University"  # Institution affiliation
     start_year: "2020"  # Start year for the role or program
     end_year: "2021"  # End year for the role or program
-    # image: "mary_ye.jpg"  # Image filename (place in assets/img/people directory)
+    image: "Mary_Y.png"  # Image filename (place in assets/img/people directory)
     # email: "my123@lehigh.edu"  # Email address
     # phone: "(610) 123-4567"  # Phone number
-    # linkedin: "maryye"  # LinkedIn username
+    linkedin: "mary-ye-0302"  # LinkedIn username
     # orcid: "0000-0002-3456-7890"  # ORCID ID
     # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
     # github: "maryye"  # GitHub username
@@ -859,10 +859,10 @@
     # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
     # degrees:  # Academic degrees
     #   - "B.S. in Computer Science and Business (in progress)"
-    # current_position: "Bethlehem, PA"  # Geographical location or office location
+    current_position: "Automation Engineer @ Comcast"  # Geographical location or office location
     # teaser: "Specialized in data analysis for business applications."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
-    # project: "Data Analysis for Business"  # Main project or research focus
+    project: "Physics Constrained Spectroscopic Fitting"  # Main project or research focus
 
 - group: "Undergraduate Researchers (Alumni)"  # Group the member belongs to
   group_rank: 12  # Ranking to determine order for alumni
@@ -873,10 +873,10 @@
     institution: "Lehigh University"  # Institution affiliation
     start_year: "2020"  # Start year for the role or program
     end_year: "2021"  # End year for the role or program
-    image: "Victor_S"  # Image filename (place in assets/img/people directory)
+    image: "Victor_S.png"  # Image filename (place in assets/img/people directory)
     # email: "sv123@lehigh.edu"  # Email address
     # phone: "(610) 123-4567"  # Phone number
-    # linkedin: "shoshanavictor"  # LinkedIn username
+    linkedin: "shoshanna-victor"  # LinkedIn username
     # orcid: "0000-0002-3456-7890"  # ORCID ID
     # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
     # github: "shoshanavictor"  # GitHub username
@@ -884,7 +884,7 @@
     # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
     # degrees:  # Academic degrees
     #   - "B.S. in Bioengineering (in progress)"
-    # current_position: "Bethlehem, PA"  # Geographical location or office location
+    current_position: "Global Communications Intern @ United Nations"  # Geographical location or office location
     # teaser: "Focused on cellular bioengineering and biomaterials."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
     # project: "Cellular Bioengineering and Biomaterials"  # Main project or research focus
@@ -898,7 +898,7 @@
     institution: "Lehigh University"  # Institution affiliation
     start_year: "2020"  # Start year for the role or program
     end_year: "2021"  # End year for the role or program
-    # image: "norman_zvenyika.jpg"  # Image filename (place in assets/img/people directory)
+    image: "Norman_Z.png"  # Image filename (place in assets/img/people directory)
     # email: "nz123@lehigh.edu"  # Email address
     # phone: "(610) 123-4567"  # Phone number
     # linkedin: "normanzvenyika"  # LinkedIn username
@@ -923,10 +923,10 @@
     institution: "Lehigh University"  # Institution affiliation
     start_year: "2019"  # Start year for the role or program
     end_year: "2024"  # Expected or actual end year
-    # image: "alibek_kaliyev.jpg"  # Image filename (place in assets/img/people directory)
+    image: "Alibek.jpeg"  # Image filename (place in assets/img/people directory)
     # email: "ak123@lehigh.edu"  # Email address
     # phone: "(610) 123-4567"  # Phone number
-    # linkedin: "alibekkaliyev"  # LinkedIn username
+    linkedin: "abekek"  # LinkedIn username
     # orcid: "0000-0002-3456-7890"  # ORCID ID
     # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
     # github: "alibekkaliyev"  # GitHub username
@@ -934,7 +934,7 @@
     # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
     # degrees:  # Academic degrees
     #   - "B.S. in Computer Science and Business (in progress)"
-    # current_position: "Bethlehem, PA"  # Geographical location or office location
+    current_position: "Software Development Engineer @ Amazon Q Business"  # Geographical location or office location
     # teaser: "Focused on data science and business analytics."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
     # project: "Data Science and Business Analytics"  # Main project or research focus
@@ -948,7 +948,7 @@
     institution: "Lehigh University"  # Institution affiliation
     start_year: "2019"  # Start year for the role or program
     end_year: "2024"  # Expected or actual end year
-    # image: "ryan_forelli.jpg"  # Image filename (place in assets/img/people directory)
+    image: "Ryan_F.jpg"  # Image filename (place in assets/img/people directory)
     # email: "rf123@lehigh.edu"  # Email address
     # phone: "(610) 123-4567"  # Phone number
     # linkedin: "ryanforelli"  # LinkedIn username
@@ -959,28 +959,28 @@
     # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
     # degrees:  # Academic degrees
     #   - "B.S. in Computer Engineering (in progress)"
-    # current_position: "Bethlehem, PA"  # Geographical location or office location
+    current_position: "Ph.D. Candidate Electrical Engineering @ Northwestern University (Advisor - Seda Ogrenci)"  # Geographical location or office location
     # teaser: "Exploring digital systems design and embedded computing."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
     # project: "Digital Systems Design and Embedded Computing"  # Main project or research focus
 
 - group: "Undergraduate Researchers (Alumni)"  # Group the member belongs to
   group_rank: 12  # Ranking to determine order for alumni
-  lastname: "Zhang"  # Last name of the member
+  lastname: "Zheng"  # Last name of the member
   profile:
-    name: "Andrew Zhang"  # Full name
+    name: "Andrew Zheng"  # Full name
     position: "Undergraduate Researcher, Mechanical Engineering"  # Position or role
     institution: "Lehigh University"  # Institution affiliation
     start_year: "2019"  # Start year for the role or program
     end_year: "2020"  # End year for the role or program
-    # image: "andrew_zhang.jpg"  # Image filename (place in assets/img/people directory)
+    image: "Andrew_Z.jpeg"  # Image filename (place in assets/img/people directory)
     # email: "az123@lehigh.edu"  # Email address
     # phone: "(610) 123-4567"  # Phone number
-    # linkedin: "andrewzhang"  # LinkedIn username
+    linkedin: "andrewfzheng"  # LinkedIn username
     # orcid: "0000-0002-3456-7890"  # ORCID ID
     # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
-    # github: "andrewzhang"  # GitHub username
-    # website: "https://andrewzhang.com"  # Personal or professional website
+    # github: "andrewZheng"  # GitHub username
+    # website: "https://andrewZheng.com"  # Personal or professional website
     # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
     # degrees:  # Academic degrees
     #   - "B.S. in Mechanical Engineering (in progress)"
@@ -998,7 +998,7 @@
     institution: "Lehigh University"  # Institution affiliation
     start_year: "2019"  # Start year for the role or program
     end_year: "2020"  # End year for the role or program
-    # image: "oluwafolajimi_olugbodi.jpg"  # Image filename (place in assets/img/people directory)
+    image: "FJ_O.jpg"  # Image filename (place in assets/img/people directory)
     # email: "oo123@lehigh.edu"  # Email address
     # phone: "(610) 123-4567"  # Phone number
     # linkedin: "oluwafolajimiolugbodi"  # LinkedIn username
@@ -1048,7 +1048,7 @@
     institution: "Lehigh University"  # Institution affiliation
     start_year: "2019"  # Start year for the role or program
     end_year: "2021"  # End year for the role or program
-    # image: "tri_nguyen.jpg"  # Image filename (place in assets/img/people directory)
+    image: "Tri_N.jpg"  # Image filename (place in assets/img/people directory)
     # email: "tn123@lehigh.edu"  # Email address
     # phone: "(610) 123-4567"  # Phone number
     # linkedin: "tringuyen"  # LinkedIn username
@@ -1125,12 +1125,12 @@
     name: "Sarah Grand"  # Full name
     position: "High School Researcher (Alumni)"  # Position or role
     institution: "High School"  # Institution affiliation (update with specific school if applicable)
-    # start_year: "201X"  # Start year for the program (if available)
-    # end_year: "2020"  # Graduation or completion year
-    # image: "sarah_grand.jpg"  # Image filename (place in assets/img/people directory)
+    start_year: "2020"  # Start year for the program (if available)
+    end_year: "2020"  # Graduation or completion year
+    image: "Sarah_Grand.jpeg"  # Image filename (place in assets/img/people directory)
     # email: "sarah_grand@example.com"  # Email address
     # phone: "(123) 456-7890"  # Phone number
-    # linkedin: "sarahgrand"  # LinkedIn username
+    linkedin: "sarah-h-grand"  # LinkedIn username
     # orcid: "0000-0002-3456-7890"  # ORCID ID
     # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
     # github: "sarahgrand"  # GitHub username
@@ -1138,8 +1138,8 @@
     # address: "City, State"  # Office or location address
     # degrees:  # Academic degrees
     #   - "High School Diploma"
-    # current_position: "City, State"  # Geographical location or office location
+    current_position: "Undergraduate Student Computer Science @ Tufts University"  # Geographical location or office location
     # teaser: "Award-winning researcher focused on nanophase materials."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
-    # project: "Nanophase Materials Research"  # Main project or research focus
+    project: "Parsimonious Variational Autoencoders"  # Main project or research focus
 
