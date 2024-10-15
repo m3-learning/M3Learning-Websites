@@ -251,7 +251,7 @@
 
 ##### PH.D. Alumni 10 ####
 
-- group: "Ph.D. (Alumni)"  # Group the member belongs to
+- group: "Ph.D. Students (Alumni)"  # Group the member belongs to
   group_rank: 10  # Ranking to determine order
   lastname: "Ræder"  # Last name of the member
   profile:
@@ -443,10 +443,10 @@
     institution: "Lehigh University"  # Institution affiliation
     start_year: "2019"  # Start year for the role or program
     end_year: "2021"  # End year for the role or program
-    # image: "ved_patel.jpg"  # Image filename (place in assets/img/people directory)
-    # email: "vp123@lehigh.edu"  # Email address
+    image: "Ved_Patel.jpeg"  # Image filename (place in assets/img/people directory)
+    email: "vedpatel97@gmail.com"  # Email address
     # phone: "(610) 123-4567"  # Phone number
-    # linkedin: "vedpatel"  # LinkedIn username
+    linkedin: "vedpatel12"  # LinkedIn username
     # orcid: "0000-0002-3456-7890"  # ORCID ID
     # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
     # github: "vedpatel"  # GitHub username
@@ -454,11 +454,12 @@
     # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
     degrees:  # Academic degrees
       - "M.S. (2021) - Industrial and System Engineering"
+      - "B.Tech. (2018) - Mechanical Engineering, Pandit Deendayal Energy University"
     coadvisor: "Martin Takac"  # Co-advisor field
-    # current_position: "Bethlehem, PA"  # Geographical location or office location
+    current_position: "Data Scientist @ Optilogic Inc."  # Geographical location or office location
     # teaser: "Specialized in operations research and systems optimization."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
-    # project: "Optimization in Industrial Systems"  # Main project or research focus
+    project: "Echolocation of objects using machine learning"  # Main project or research focus
 
 - group: "Graduate Researchers (Alumni)"  # Group the member belongs to
   group_rank: 11  # Ranking to determine order
