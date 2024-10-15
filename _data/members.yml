@@ -281,20 +281,23 @@
     name: "Shen Wang"  # Full name
     position: "Ph.D. Graduate"  # Position or role
     institution: "Drexel University"  # Institution affiliation
-    # start_year: "201X"  # Start year for the program (if available)
-    # end_year: "20XX"  # Graduation or completion year
-    # image: "shen_wang.jpg"  # Image filename (place in assets/img/people directory)
+    start_year: "2018"  # Start year for the program (if available)
+    end_year: "2022"  # Graduation or completion year
+    image: "Shen_Wang.jpeg"  # Image filename (place in assets/img/people directory)
     # email: "shen_wang@example.com"  # Email address
     # phone: "(215) 123-4567"  # Phone number
-    # linkedin: "shenwang"  # LinkedIn username
-    # orcid: "0000-0002-3456-7890"  # ORCID ID
-    # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
-    # github: "shenwang"  # GitHub username
+    linkedin: "jdshen-933"  # LinkedIn username
+    orcid: "0000-0002-3924-2109"  # ORCID ID
+    google_scholar: "https://scholar.google.com/citations?user=lllHJU8AAAAJ&hl=en"  # Google Scholar profile
+    github: "shenw33"  # GitHub username
     # website: "https://shenwang.com"  # Personal or professional website
     # address: "3141 Chestnut Street, Philadelphia, PA 19104"  # Office or location address
-    # degrees:  # Academic degrees
-    #   - "Ph.D. in [Field] (20XX)"
-    # current_position: "Philadelphia, PA"  # Geographical location or office location
+    degrees:  # Academic degrees
+      - "Ph.D. Mechanical Engineering, Lehigh University (2022)"
+      - "M.S. Mechanical Engineering, University of Southern California (2017)"
+      - "B.S. Beihang University, Beijing (2015)"
+    current_position: "Algorithm Engineer @ KLA" # Geographical location or office location
+    primary_advisor: "Yaling Liu (Lehigh University)"
     # teaser: "Specialized in machine learning for fluid dynamics."  # Short description or teaser about the member
     awards:  # Awards and recognitions
       - "Best Poster Award: Stacked Generative Machine Learning Models for Fast Approximations of Steady-State Navier-Stokes Equations, Society of Engineering Science – Mechanics Matters"
@@ -312,10 +315,10 @@
     institution: "Drexel University"  # Institution affiliation
     start_year: "2023"  # Start year for current role or program
     # end_year: "202X"  # Expected or actual end year (if applicable)
-    # image: "veronica_obute.jpg"  # Image filename (place in assets/img/people directory)
+    image: "veronica_obute.jpeg"  # Image filename (place in assets/img/people directory)
     # email: "vo123@drexel.edu"  # Email address
     # phone: "(215) 123-4567"  # Phone number
-    # linkedin: "veronicaobute"  # LinkedIn username
+    linkedin: "veronica-obute-a812821b8"  # LinkedIn username
     # orcid: "0000-0002-3456-7890"  # ORCID ID
     # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
     # github: "veronicaobute"  # GitHub username
@@ -337,10 +340,10 @@
     institution: "Drexel University"  # Institution affiliation
     start_year: "2024"  # Start year for the program (if available)
     # end_year: "202X"  # Expected graduation year (if applicable)
-    # image: "vinay_karamchandani.jpg"  # Image filename (place in assets/img/people directory)
+    image: "vinay_karamchandani.jpeg"  # Image filename (place in assets/img/people directory)
     email: "vkk29@dragons.drexel.edu"  # Email address
     # phone: "(215) 123-4567"  # Phone number
-    # linkedin: "vinaykaramchandani"  # LinkedIn username
+    linkedin: "vinaykaramchandani"  # LinkedIn username
     # orcid: "0000-0002-3456-7890"  # ORCID ID
     # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
     # github: "vinaykaramchandani"  # GitHub username
@@ -362,10 +365,10 @@
     institution: "Drexel University"  # Institution affiliation
     start_year: "2024"  # Start year for the program (if available)
     # end_year: "202X"  # Expected graduation year (if applicable)
-    # image: "uttam_meena.jpg"  # Image filename (place in assets/img/people directory)
+    image: "uttam_meena.jpeg"  # Image filename (place in assets/img/people directory)
     email: "um44@dragons.drexel.edu"  # Email address
     # phone: "(215) 123-4567"  # Phone number
-    # linkedin: "uttammeena"  # LinkedIn username
+    linkedin: "uttamsinghmeena"  # LinkedIn username
     # orcid: "0000-0002-3456-7890"  # ORCID ID
     # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
     # github: "uttammeena"  # GitHub username
@@ -387,10 +390,10 @@
     institution: "Drexel University"  # Institution affiliation
     start_year: "2024"  # Start year for the program (if available)
     # end_year: "202X"  # Expected graduation year (if applicable)
-    # image: "chirayu_patel.jpg"  # Image filename (place in assets/img/people directory)
+    image: "chirayu_patel.jpeg"  # Image filename (place in assets/img/people directory)
     email: "cnp68@drexel.edu"  # Email address
     # phone: "(215) 123-4567"  # Phone number
-    # linkedin: "chirayupatel"  # LinkedIn username
+    linkedin: "chiiirayu"  # LinkedIn username
     # orcid: "0000-0002-3456-7890"  # ORCID ID
     # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
     # github: "chirayupatel"  # GitHub username
@@ -412,10 +415,10 @@
     institution: "Drexel University"  # Institution affiliation
     start_year: "2024"  # Start year for the program (if available)
     # end_year: "202X"  # Expected graduation year (if applicable)
-    # image: "sai_pokuri.jpg"  # Image filename (place in assets/img/people directory)
+    image: "Sai.jpeg"  # Image filename (place in assets/img/people directory)
     email: "sp3867@drexel.edu"  # Email address
     # phone: "(215) 123-4567"  # Phone number
-    # linkedin: "saipokuri"  # LinkedIn username
+    linkedin: "saiaashishp"  # LinkedIn username
     # orcid: "0000-0002-3456-7890"  # ORCID ID
     # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
     # github: "saipokuri"  # GitHub username
@@ -466,7 +469,7 @@
     institution: "Lehigh University"  # Institution affiliation
     start_year: "2020"  # Start year for the role or program
     end_year: "2021"  # End year for the role or program
-    # image: "william_reichard-flynn.jpg"  # Image filename (place in assets/img/people directory)
+    image: "William_F.jpg"  # Image filename (place in assets/img/people directory)
     # email: "wrf123@lehigh.edu"  # Email address
     # phone: "(610) 123-4567"  # Phone number
     # linkedin: "williamreichardflynn"  # LinkedIn username
@@ -491,7 +494,7 @@
     institution: "Lehigh University"  # Institution affiliation
     start_year: "2019"  # Start year for the role or program
     end_year: "2021"  # End year for the role or program
-    # image: "anirudh_chari.jpg"  # Image filename (place in assets/img/people directory)
+    image: "Placeholder.png"  # Image filename (place in assets/img/people directory)
     # email: "ac123@lehigh.edu"  # Email address
     # phone: "(610) 123-4567"  # Phone number
     # linkedin: "anirudhchari"  # LinkedIn username
@@ -502,7 +505,7 @@
     # address: "Materials Science and Engineering Department, Lehigh University, PA"  # Office or location address
     degrees:  # Academic degrees
       - "M.Eng. (2020) - Materials Science and Engineering"
-    # current_position: "Bethlehem, PA"  # Geographical location or office location
+    # current_position: "Algorithm Engineer @ KLA"  # Geographical location or office location
     # teaser: "Research in advanced materials engineering."  # Short description or teaser about the member
     inline: false  # Determines if the profile should be clickable to a separate URL
     # project: "Advanced Materials Engineering"  # Main project or research focus
