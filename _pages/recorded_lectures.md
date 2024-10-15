@@ -26,9 +26,9 @@ nav_order: 2
 
     .caption {
         text-align: center;
-        font-size: 0.9em;
+        font-size: 24pt;
         color: #555;
-        margin-top: 8px;
+        margin-top: 60pt;
     }
 </style>
 
