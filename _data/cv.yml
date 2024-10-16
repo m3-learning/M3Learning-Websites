@@ -223,6 +223,8 @@
       lead_pi: Jonathan Spanier (Drexel University)
       co_pis: Chris Dames (University of California, Berkeley), Srabanti Chowdhury (Stanford University), Ramamoorthy Ramesh (Rice University), Shiv Halasyamani (University of Houston), Ilya Grinberg (Bar-Ilan University, Israel), Andrew M. Rappe (University of Pennsylvania), Yury Gogotsi (Drexel University), James LeBeau (Massachusetts Institute of Technology), Darrell Schlom (Cornell University), Geoff Brennecka (Colorado School of Mines), Andrea Alu (Graduate Center, City University of New York)
       logo_url: "ARL.jpeg"
+      summary: {"This project focuses on developing hierarchical materials that exhibit agile and responsive properties. Through collaboration among leading institutions, this research aims to enhance material performance in dynamic environments."}
+
 
     - title: "Real‐time Data Reduction Codesign at the Extreme Edge for Science"
       award_number: "N/A"

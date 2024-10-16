@@ -1,4 +1,75 @@
-<ul class="card-text font-weight-light list-group list-group-flush">
+<!-- Define CSS Variables and Base Theme Styles -->
+<style>
+
+/* Typography for base elements */
+p, div, li, span, strong, em {
+  color: var(--global-theme-color);
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Button Style Matching Theme */
+.btn {
+  color: var(--global-theme-color); /* Text color */
+  background-color: var(--global-theme-color); /* Button background */
+  border: 1px solid var(--global-theme-color); /* Border color */
+  font-family: 'Open Sans', sans-serif; /* Font */
+  padding: 9px 17px; /* Padding for consistency */
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.2;
+  border-radius: 6px; /* Rounded corners */
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px; /* Soft shadow */
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn:active {
+  background-color: var(--global-theme-color); /* Background on click */
+  color: var(--global-theme-color); /* Invert text color */
+}
+
+.btn:focus {
+  outline: none; /* Remove default outline */
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25); /* Custom focus outline for accessibility */
+}
+
+/* Other theme styles and adjustments */
+.hidden {
+  font-size: 0.875rem;
+  max-height: 0px;
+  overflow: hidden;
+  text-align: justify;
+  color: var(--global-theme-color);
+  transition: all 0.15s ease;
+}
+.hidden p {
+  line-height: 1.4em;
+  margin: 10px;
+  color: var(--global-theme-color);
+}
+.hidden pre {
+  font-size: 1em;
+  line-height: 1.4em;
+  padding: 10px;
+  color: var(--global-theme-color);
+}
+.hidden.open {
+  max-height: 100em;
+  color: var(--global-theme-color);
+  transition: all 0.15s ease;
+}
+div.summary.hidden {
+  border: dashed 1px var(--global-theme-color);
+}
+div.summary.hidden.open {
+  color: var(--global-theme-color);
+  border-color: var(--global-theme-color);
+}
+</style>
+
+<!-- HTML Content with Buttons Styled to Match Theme -->
+<ul class="card-text font-weight-light list-group list-group-flush" id="funding-list">
   {% for entry in site.data.cv %}
     {% if entry.type == 'funding' %}
       {% for content in entry.contents %}
@@ -73,6 +144,16 @@
                   {% endif %}
                 </tbody>
               </table>
+              <!-- Button styled to match the theme -->
+              <a class="btn btn-sm toggle-summary" role="button" data-target="summary-{{ forloop.index }}">Summary</a>
+              <div id="summary-{{ forloop.index }}" class="summary hidden">
+                <p>
+                  {{ content.title }} - Funded by {{ content.source_of_support }} from {{ content.start_date }} to {{ content.end_date }}.
+                  {% if content.lead_pi %}Led by {{ content.lead_pi }}.{% endif %}
+                  {% if content.pi_amount %}PI Amount: ${{ content.pi_amount | number: 2 }}.{% endif %}
+                  {% if content.total_award %}Total Award: ${{ content.total_award | number: 2 }}.{% endif %}
+                </p>
+              </div>
             </div>
           </div>
         </li>
@@ -80,3 +161,21 @@
     {% endif %}
   {% endfor %}
 </ul>
+
+<!-- JavaScript to Toggle Summary Content Visibility -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var fundingList = document.getElementById('funding-list');
+  if (fundingList) {
+    fundingList.addEventListener('click', function(event) {
+      if (event.target.classList.contains('toggle-summary')) {
+        var targetId = event.target.getAttribute('data-target');
+        var summaryElement = document.getElementById(targetId);
+        if (summaryElement) {
+          summaryElement.classList.toggle('open');
+        }
+      }
+    });
+  }
+});
+</script>
