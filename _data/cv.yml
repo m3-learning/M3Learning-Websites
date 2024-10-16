@@ -172,6 +172,8 @@
     - title: "MRI: Track 2 Development of a Platform for Accessible Data-Intensive Science and Engineering"
       award_number: "2320600"
       source_of_support: "National Science Foundation"
+      logo_url: "NSF.jpg"
+      co_pis: Jane Greenberg (Drexel University), Shannon Capps (Drexel University), Matt Stamm (Drexel University)
       start_date: "2023/09"
       end_date: "2036/08"
       pi_amount: "3911619.00"
@@ -181,6 +183,8 @@
     - title: "DataFed Searchable Scientific Data Management System Using Globus"
       award_number: "-----"
       source_of_support: "Drexel University Scholarly Materials & Research Equipment Awards for Tenure/Tenure Track Faculty"
+      co_pis: Jane Greenberg (Drexel University), Garth Ehrlich (Drexel University)
+      logo_url: "drexel.png"
       start_date: "2023/06"
       end_date: "2024/05"
       pi_amount: "20000.00"
@@ -190,6 +194,8 @@
     - title: "Elements: CRISPS: Cell-Centric Recursive Image Similarity Projection Searching"
       award_number: "2246463"
       source_of_support: "National Science Foundation"
+      logo_url: "NSF.jpg"
+      co_pis: Jeff Heflin (Lehigh University)
       start_date: "2022/10"
       end_date: "2026/09"
       pi_amount: "329895.00"
@@ -201,6 +207,9 @@
       source_of_support: "National Science Foundation"
       start_date: "2022/08"
       end_date: "2026/07"
+      lead_pi: Yaling Liu (Lehigh University)
+      co_pis: Lifang He (Lehigh University), Yue Yu (Lehigh University), and Wujie Wei (North Carolina State University)
+      logo_url: "NSF.jpg"
       pi_amount: "309000.00"
       total_award: "999600.00"
       notes: ""
@@ -211,8 +220,9 @@
       start_date: "2021/06"
       end_date: "2023/06"
       pi_amount: "365000.00"
-      total_award: "Unknown"
-      notes: ""
+      lead_pi: Jonathan Spanier (Drexel University)
+      co_pis: Chris Dames (University of California, Berkeley), Srabanti Chowdhury (Stanford University), Ramamoorthy Ramesh (Rice University), Shiv Halasyamani (University of Houston), Ilya Grinberg (Bar-Ilan University, Israel), Andrew M. Rappe (University of Pennsylvania), Yury Gogotsi (Drexel University), James LeBeau (Massachusetts Institute of Technology), Darrell Schlom (Cornell University), Geoff Brennecka (Colorado School of Mines), Andrea Alu (Graduate Center, City University of New York)
+      logo_url: "ARL.jpeg"
 
     - title: "Real‐time Data Reduction Codesign at the Extreme Edge for Science"
       award_number: "N/A"
@@ -220,7 +230,8 @@
       start_date: "2021/06"
       end_date: "2024/06"
       lead_pi: Nhan Tran
-      logo_url: "https://www.drought.gov/sites/default/files/hero/partners/DOE%20logo.png"
+      logo_url: "DOE.png"
+      co_pis: Javier Duarte (University of California San Diego), Amir Gholaminejad (University of California Berkeley), Philip Harris (Massachusetts Institute of Technology), Michael Mahoney (International Computer Science Institute), Jennifer Ngadiuba (Fermi National Accelerator Laboratory)
       pi_amount: "300000.00"
       total_award: "2000000.00"
       notes: ""
@@ -232,6 +243,7 @@
       end_date: "2021/06"
       pi_amount: "10000.00"
       total_award: "10000.00"
+      logo_url: "ORAU.png"
       notes: ""
 
     - title: "Creating Inference from Machine Learned and Science-Based Generative Models"
@@ -239,6 +251,7 @@
       source_of_support: "NSF-Directorate for Mathematical and Physical Sciences"
       start_date: "2018/10"
       end_date: "2022/10"
+      logo_url: "NSF.jpg"
       lead_pi: Uros Seljak
       co_pi: Michael Mahoney
       pi_amount: "199953.00"
