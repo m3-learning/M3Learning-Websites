@@ -1,0 +1,82 @@
+<ul class="card-text font-weight-light list-group list-group-flush">
+  {% for entry in site.data.cv %}
+    {% if entry.type == 'funding' %}
+      {% for content in entry.contents %}
+        <li class="list-group-item">
+          <div class="row">
+            <div class="col-xs-2 col-sm-2 col-md-2" style="width: 75px; text-align: left;">
+              <table class="table-cv">
+                <tbody>
+                  <tr>
+                    <td>
+                      <span class="badge font-weight-bold danger-color-dark text-uppercase" style="min-width: 75px;">
+                        {{ content.start_date }} - {{ content.end_date }}
+                      </span>
+                    </td>
+                  </tr>
+                  {% if content.logo_url %}
+                    <tr>
+                      <td style="text-align: center;">
+                        <img src="{{ content.logo_url }}" alt="{{ content.source_of_support }} logo" style="width: 100px; margin-top: 5px;">
+                      </td>
+                    </tr>
+                  {% endif %}
+                </tbody>
+              </table>
+            </div>
+            <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0" style="text-align: left;">
+              {% if content.title %}
+                <h6 class="title font-weight-bold ml-1 ml-md-4">{{ content.title }}</h6>
+              {% endif %}
+              <table class="table-cv ml-1 ml-md-4 institution" style="text-align: left;">
+                <tbody>
+                  {% if content.source_of_support %}
+                    <tr>
+                      <td style="vertical-align: top;" class="institution">
+                        {{ content.source_of_support }}
+                      </td>
+                    </tr>
+                  {% endif %}
+                  {% if content.award_number %}
+                    <tr>
+                      <td class="award-number">Award #: {{ content.award_number }}</td>
+                    </tr>
+                  {% endif %}
+                  {% if content.lead_pi %}
+                    <tr>
+                      <td class="lead-pi"><strong>Lead PI:</strong> {{ content.lead_pi }}</td>
+                    </tr>
+                  {% endif %}
+                  {% if content.co_pis %}
+                    <tr>
+                      <td class="co-pis">
+                        <p style="margin: 0;">
+                          <strong>Co-PIs:</strong> {{ content.co_pis | join: ", " }}
+                        </p>
+                      </td>
+                    </tr>
+                  {% endif %}
+                  {% if content.pi_amount %}
+                    <tr>
+                      <td class="pi-amount">PI Amount: ${{ content.pi_amount | number: 2 }}</td>
+                    </tr>
+                  {% endif %}
+                  {% if content.total_award %}
+                    <tr>
+                      <td class="total-award">Total Award: ${{ content.total_award | number: 2 }}</td>
+                    </tr>
+                  {% endif %}
+                  {% if content.notes != "" %}
+                    <tr>
+                      <td class="notes">Notes: {{ content.notes }}</td>
+                    </tr>
+                  {% endif %}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </li>
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+</ul>

@@ -42,6 +42,8 @@ layout: default
               {% include cv/list_groups.liquid %}
             {% elsif entry.type == 'workshops' %}
               {% include cv/workshops.liquid %}
+            {% elsif entry.type == 'funding' %}
+              {% include cv/funding.liquid %}
             {% else %}
                 {{ entry.contents }}
             {% endif %}

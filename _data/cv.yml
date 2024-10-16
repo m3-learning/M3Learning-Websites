@@ -139,21 +139,109 @@
       description: Participant in the virtual NSF workshop.
 
 
-# - title: Conference Organizer
-#   type: time_table
-#   contents:
-#     - year: 2021
-#       award: Virtual School on Machine Learning and Automated Experiments in Scanning Probe Microscopy
-#       description: Co-Organizer of the virtual school hosted by Oak Ridge National Laboratory, October 4-8.
+- title: Conference Organizer
+  type: workshops
+  contents:
+    - date: October 4-8, 2021
+      workshop_name: Virtual School on Machine Learning and Automated Experiments in Scanning Probe Microscopy
+      location: Oak Ridge National Laboratory
+      funding_agency: Oak Ridge National Laboratory
+      description: Co-Organizer of the virtual school on Machine Learning and Automated Experiments in Scanning Probe Microscopy.
 
-#     - year: 2021
-#       award: Joint Center for Nanophase Materials Science / Spallation Neutron Source / High-Flux Isotope Reactor User Meeting
-#       description: Co-Chair for the user meeting at Oak Ridge National Laboratory, August 10-12.
+    - date: August 10-12, 2021
+      workshop_name: Joint Center for Nanophase Materials Science / Spallation Neutron Source / High-Flux Isotope Reactor User Meeting
+      location: Oak Ridge National Laboratory
+      funding_agency: Oak Ridge National Laboratory
+      description: Co-Chair for the user meeting at Oak Ridge National Laboratory.
 
-#     - year: 2020
-#       award: NSF Electron Microscopy Frontiers
-#       description: Co-Organizer of the workshop held at Arizona State University, September 4-6.
+    - date: September 4-6, 2020
+      workshop_name: NSF Electron Microscopy Frontiers
+      location: Arizona State University
+      funding_agency: NSF
+      description: Co-Organizer of the NSF Electron Microscopy Frontiers workshop.
 
-#     - year: 2019
-#       award: NSF Foundational and Applied Data Science for Molecular and Materials Science and Engineering
-#       description: Co-Organizer of the NSF workshop held at Lehigh University, May 22-24.
+    - date: May 22-24, 2019
+      workshop_name: NSF Foundational and Applied Data Science for Molecular and Materials Science and Engineering
+      location: Lehigh University
+      funding_agency: NSF
+      description: Co-Organizer of the NSF workshop on Data Science for Molecular and Materials Science.
+
+- title: "Funding"
+  type: funding
+  contents:
+    - title: "MRI: Track 2 Development of a Platform for Accessible Data-Intensive Science and Engineering"
+      award_number: "2320600"
+      source_of_support: "National Science Foundation"
+      start_date: "2023/09"
+      end_date: "2036/08"
+      pi_amount: "3911619.00"
+      total_award: "3997550.00"
+      notes: ""
+
+    - title: "DataFed Searchable Scientific Data Management System Using Globus"
+      award_number: "-----"
+      source_of_support: "Drexel University Scholarly Materials & Research Equipment Awards for Tenure/Tenure Track Faculty"
+      start_date: "2023/06"
+      end_date: "2024/05"
+      pi_amount: "20000.00"
+      total_award: "20000.00"
+      notes: ""
+
+    - title: "Elements: CRISPS: Cell-Centric Recursive Image Similarity Projection Searching"
+      award_number: "2246463"
+      source_of_support: "National Science Foundation"
+      start_date: "2022/10"
+      end_date: "2026/09"
+      pi_amount: "329895.00"
+      total_award: "599797.00"
+      notes: ""
+
+    - title: "MRI: Development of Heterogeneous Edge Computing Platform for Real-Time Scientific Machine Learning"
+      award_number: "2215789"
+      source_of_support: "National Science Foundation"
+      start_date: "2022/08"
+      end_date: "2026/07"
+      pi_amount: "309000.00"
+      total_award: "999600.00"
+      notes: ""
+
+    - title: "Collaboration for Hierarchical Agile and Responsive Materials"
+      award_number: "N/A"
+      source_of_support: "Army Research Laboratory"
+      start_date: "2021/06"
+      end_date: "2023/06"
+      pi_amount: "365000.00"
+      total_award: "Unknown"
+      notes: ""
+
+    - title: "Real‐time Data Reduction Codesign at the Extreme Edge for Science"
+      award_number: "N/A"
+      source_of_support: "Department of Energy Office of Advanced Scientific Computing Research"
+      start_date: "2021/06"
+      end_date: "2024/06"
+      lead_pi: Nhan Tran
+      logo_url: "https://www.drought.gov/sites/default/files/hero/partners/DOE%20logo.png"
+      pi_amount: "300000.00"
+      total_award: "2000000.00"
+      notes: ""
+
+    - title: "Artificial Intelligence Guided Computational Design Synthesis of Multifunctional Ferroelectrics"
+      award_number: "S00009665"
+      source_of_support: "ORAU University Partnerships"
+      start_date: "2020/06"
+      end_date: "2021/06"
+      pi_amount: "10000.00"
+      total_award: "10000.00"
+      notes: ""
+
+    - title: "Creating Inference from Machine Learned and Science-Based Generative Models"
+      award_number: "1839234"
+      source_of_support: "NSF-Directorate for Mathematical and Physical Sciences"
+      start_date: "2018/10"
+      end_date: "2022/10"
+      lead_pi: Uros Seljak
+      co_pi: Michael Mahoney
+      pi_amount: "199953.00"
+      total_award: "614400.00"
+      notes: "Includes 2021 $14,400 REU supplement"
+
