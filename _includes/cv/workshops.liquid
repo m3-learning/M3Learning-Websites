@@ -18,8 +18,8 @@
                     {% if content.location %}
                       <tr>
                         <td>
-                          <p class="location" style="text-align: left;">
-                            <i class="fa-solid fa-location-dot iconlocation"></i>
+                          <p class="location" style="display: flex; align-items: center; margin: 0;">
+                            <i class="fa-solid fa-location-dot iconlocation" style="margin-right: 5px;"></i>
                             {{ content.location }}
                           </p>
                         </td>
@@ -38,9 +38,11 @@
                   {% if content.funding_agency %}
                     <tr>
                       <td style="vertical-align: top;" class="institution">
-                        <i class="fa-solid fa-building-columns iconinstitution"></i>
+                        <p style="display: flex; align-items: center; margin: 0;">
+                          <i class="fa-solid fa-building-columns iconinstitution" style="margin-right: 5px;"></i>
+                          {{ content.funding_agency }}
+                        </p>
                       </td>
-                      <td class="institution">{{ content.funding_agency }}</td>
                     </tr>
                   {% endif %}
                   {% if content.description %}
