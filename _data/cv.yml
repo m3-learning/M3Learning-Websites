@@ -110,3 +110,50 @@
       recipient: Tri Nguyen (Undergraduate)
       event: MSE Undergraduate Research Symposium
       description: Awarded for significant scientific impact in materials science and engineering research.
+
+- title: Visionary Workshops
+  type: workshops
+  contents:
+    - date: October 2-3, 2023
+      workshop_name: "NSF Meta-Workshop: AI to Accelerate Science and Engineering Discovery (AI2ASED)"
+      location: Virtual
+      funding_agency: NSF
+      description: Served as Scribe for the NSF Meta-Workshop on AI2ASED.
+
+    - date: November 7-8, 2022
+      workshop_name: NSF Workshop on Future Scientific Instruments for Alloys, Amorphous, and Composite Materials Research
+      location: University of Chicago
+      funding_agency: NSF
+      description: Invited Speaker at the NSF Workshop.
+
+    - date: October 5-6, 2022
+      workshop_name: "Frontiers in Data Analytics and Monitoring Tools for Extreme Materials: A Workshop"
+      location: National Academy of Engineering
+      funding_agency: CMMRC
+      description: Invited Participant and Writer.
+
+    - date: August 26, 2020
+      workshop_name: "NSF Workshop: A Future Vision for Electron Microscopy"
+      location: Virtual
+      funding_agency: NSF
+      description: Participant in the virtual NSF workshop.
+
+
+# - title: Conference Organizer
+#   type: time_table
+#   contents:
+#     - year: 2021
+#       award: Virtual School on Machine Learning and Automated Experiments in Scanning Probe Microscopy
+#       description: Co-Organizer of the virtual school hosted by Oak Ridge National Laboratory, October 4-8.
+
+#     - year: 2021
+#       award: Joint Center for Nanophase Materials Science / Spallation Neutron Source / High-Flux Isotope Reactor User Meeting
+#       description: Co-Chair for the user meeting at Oak Ridge National Laboratory, August 10-12.
+
+#     - year: 2020
+#       award: NSF Electron Microscopy Frontiers
+#       description: Co-Organizer of the workshop held at Arizona State University, September 4-6.
+
+#     - year: 2019
+#       award: NSF Foundational and Applied Data Science for Molecular and Materials Science and Engineering
+#       description: Co-Organizer of the NSF workshop held at Lehigh University, May 22-24.
