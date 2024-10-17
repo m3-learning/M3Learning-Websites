@@ -284,6 +284,11 @@
 - title: Invited Presentations
   type: invited_presentations
   contents:
+    - talk_title: "Navigating the Data Deluge: AI, Infrastructure, and Decision-Making in the Era of Big Data"
+      date: "January 29, 2024"
+      location: "Lemont, IL (USA)"
+      conference: "Argon National Laboratory - Advanced Photon Source Computational Seminar"
+
     - talk_title: "Practical Deployment of Machine Learning for High-Velocity Science"
       date: "September 11, 2023"
       location: "Busan, Korea"
