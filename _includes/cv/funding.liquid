@@ -193,3 +193,39 @@
     {% endif %}
   {% endfor %}
 </ul>
+
+
+<!-- JavaScript to Toggle Summary Content Visibility -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var fundingList = document.getElementById('funding-list');
+  if (fundingList) {
+    fundingList.addEventListener('click', function(event) {
+      if (event.target.classList.contains('toggle-summary')) {
+        var targetId = event.target.getAttribute('data-target');
+        var summaryElement = document.getElementById(targetId);
+        if (summaryElement) {
+          summaryElement.classList.toggle('open');
+        }
+      }
+    });
+  }
+});
+</script>
+
+<!-- JavaScript to Format Numbers with Commas -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Select all elements with the class "award-amount" and "pi-amount-value"
+    const amountElements = document.querySelectorAll('.award-amount, .pi-amount-value');
+    
+    amountElements.forEach(function(element) {
+      // Parse the content as a float and format with commas
+      const amount = parseFloat(element.textContent);
+      if (!isNaN(amount)) {
+        // Format to 2 decimal places and add commas for thousands
+        element.textContent = amount.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+      }
+    });
+  });
+</script>
