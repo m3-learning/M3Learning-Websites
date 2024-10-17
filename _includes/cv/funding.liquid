@@ -1,74 +1,83 @@
 <!-- Define CSS Variables and Base Theme Styles -->
 <style>
-
-/* Typography for base elements */
-p, div, li, span, strong, em {
+/* Top Button (Reusable for other top buttons) */
+.top-button {
+  display: inline-block;
+  background-color: white;
   color: var(--global-theme-color);
-  font-family: 'Open Sans', sans-serif;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  border: 1px dashed var(--global-theme-color);
+  font-weight: normal;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
 
-/* Button Style Matching Theme */
-.btn {
-  color: var(--global-theme-color); /* Text color */
-  background-color: var(--global-theme-color); /* Button background */
-  border: 1px solid var(--global-theme-color); /* Border color */
-  font-family: 'Open Sans', sans-serif; /* Font */
-  padding: 9px 17px; /* Padding for consistency */
-  font-weight: 500;
-  font-size: 1rem;
-  line-height: 1.2;
-  border-radius: 6px; /* Rounded corners */
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px; /* Soft shadow */
-  cursor: pointer;
-  text-align: center;
+.top-button:hover {
+  background-color: var(--global-bg-color);
+  color: var(--global-theme-color);
+  border-color: var(--global-theme-color);
   text-decoration: none;
 }
 
-.btn:active {
-  background-color: var(--global-theme-color); /* Background on click */
-  color: var(--global-theme-color); /* Invert text color */
+.top-button:active {
+  background-color: var(--global-highlight-color);
+  color: white;
 }
 
-.btn:focus {
-  outline: none; /* Remove default outline */
-  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25); /* Custom focus outline for accessibility */
+.top-button:focus {
+  outline: 2px solid var(--global-highlight-color);
+  outline-offset: 2px;
 }
 
-/* Other theme styles and adjustments */
-.hidden {
-  font-size: 0.875rem;
-  max-height: 0px;
-  overflow: hidden;
-  text-align: justify;
-  color: var(--global-theme-color);
-  transition: all 0.15s ease;
+/* Summary Toggle Button */
+.toggle-summary {
+  display: inline-block;
+  background-color: var(--global-bg-color);
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  border: 1px solid var(--global-theme-color);
+  font-weight: normal;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
-.hidden p {
-  line-height: 1.4em;
-  margin: 10px;
-  color: var(--global-theme-color);
-}
-.hidden pre {
-  font-size: 1em;
-  line-height: 1.4em;
-  padding: 10px;
-  color: var(--global-theme-color);
-}
-.hidden.open {
-  max-height: 100em;
-  color: var(--global-theme-color);
-  transition: all 0.15s ease;
-}
-div.summary.hidden {
-  border: dashed 1px var(--global-theme-color);
-}
-div.summary.hidden.open {
+
+.toggle-summary:hover {
+  background-color: white;
   color: var(--global-theme-color);
   border-color: var(--global-theme-color);
+  text-decoration: none;
+}
+
+.toggle-summary:active {
+  background-color: var(--global-highlight-color);
+  color: white;
+}
+
+.toggle-summary:focus {
+  outline: 2px dashed var(--global-highlight-color);
+  outline-offset: 2px;
+}
+
+/* Summary Content */
+.summary {
+  font-size: 0.875rem;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+}
+
+.summary.open {
+  max-height: 1000px; /* Large value to accommodate content */
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 </style>
 
-<!-- HTML Content with Buttons Styled to Match Theme -->
+<!-- HTML Content with Funding Items and Summary Toggle Button -->
 <ul class="card-text font-weight-light list-group list-group-flush" id="funding-list">
   {% for entry in site.data.cv %}
     {% if entry.type == 'funding' %}
@@ -80,7 +89,7 @@ div.summary.hidden.open {
                 <tbody>
                   <tr>
                     <td>
-                      <span class="badge font-weight-bold danger-color-dark text-uppercase" style="min-width: 75px;">
+                      <span class="badge font-weight-normal danger-color-dark text-uppercase" style="min-width: 75px;">
                         {{ content.start_date }} - {{ content.end_date }}
                       </span>
                     </td>
@@ -97,7 +106,7 @@ div.summary.hidden.open {
             </div>
             <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0" style="text-align: left;">
               {% if content.title %}
-                <h6 class="title font-weight-bold ml-1 ml-md-4">{{ content.title }}</h6>
+                <h6 class="title font-weight-normal ml-1 ml-md-4">{{ content.title }}</h6>
               {% endif %}
               <table class="table-cv ml-1 ml-md-4 institution" style="text-align: left;">
                 <tbody>
@@ -144,16 +153,12 @@ div.summary.hidden.open {
                   {% endif %}
                 </tbody>
               </table>
-              <!-- Button styled to match the theme -->
-              <a class="btn btn-sm toggle-summary" role="button" data-target="summary-{{ forloop.index }}">Summary</a>
-              <div id="summary-{{ forloop.index }}" class="summary hidden">
-                <p>
-                  {{ content.title }} - Funded by {{ content.source_of_support }} from {{ content.start_date }} to {{ content.end_date }}.
-                  {% if content.lead_pi %}Led by {{ content.lead_pi }}.{% endif %}
-                  {% if content.pi_amount %}PI Amount: ${{ content.pi_amount | number: 2 }}.{% endif %}
-                  {% if content.total_award %}Total Award: ${{ content.total_award | number: 2 }}.{% endif %}
-                </p>
-              </div>
+              {% if content.summary %}
+                <a class="toggle-summary" role="button" data-target="summary-{{ forloop.index }}">Summary</a>
+                <div id="summary-{{ forloop.index }}" class="summary">
+                  <p>{{ content.summary }}</p>
+                </div>
+              {% endif %}
             </div>
           </div>
         </li>
