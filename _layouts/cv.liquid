@@ -44,6 +44,8 @@ layout: default
               {% include cv/workshops.liquid %}
             {% elsif entry.type == 'funding' %}
               {% include cv/funding.liquid %}
+            {% elsif entry.type == 'invited_presentations' %}
+              {% include cv/invited_presentations.liquid %}
             {% else %}
                 {{ entry.contents }}
             {% endif %}
