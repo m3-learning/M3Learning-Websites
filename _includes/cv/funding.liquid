@@ -87,6 +87,11 @@
 .clickable-card:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+/* Bold label styling */
+.label-bold {
+  font-weight: bold;
+}
 </style>
 
 <!-- HTML Content with Funding Items and Summary Toggle Button -->
@@ -134,19 +139,19 @@
                   {% endif %}
                   {% if content.award_number %}
                     <tr>
-                      <td class="award-number">Award #: {{ content.award_number }}</td>
+                      <td class="award-number"><span class="label-bold">Award #:</span> {{ content.award_number }}</td>
                     </tr>
                   {% endif %}
                   {% if content.lead_pi %}
                     <tr>
-                      <td class="lead-pi"><strong>Lead PI:</strong> {{ content.lead_pi }}</td>
+                      <td class="lead-pi"><span class="label-bold">Lead PI:</span> {{ content.lead_pi }}</td>
                     </tr>
                   {% endif %}
                   {% if content.co_pis %}
                     <tr>
                       <td class="co-pis">
                         <p style="margin: 0;">
-                          <strong>Co-PIs:</strong> {{ content.co_pis | join: ", " }}
+                          <span class="label-bold">Co-PIs:</span> {{ content.co_pis | join: ", " }}
                         </p>
                       </td>
                     </tr>
@@ -154,20 +159,20 @@
                   {% if content.pi_amount %}
                     <tr>
                       <td class="pi-amount">
-                        PI Amount: $<span class="pi-amount-value">{{ content.pi_amount }}</span>
+                        <span class="label-bold">PI Amount:</span> $<span class="pi-amount-value">{{ content.pi_amount }}</span>
                       </td>
                     </tr>
                   {% endif %}
                   {% if content.total_award %}
                     <tr>
                       <td class="total-award">
-                        Total Award: $<span class="award-amount">{{ content.total_award }}</span>
+                        <span class="label-bold">Total Award:</span> $<span class="award-amount">{{ content.total_award }}</span>
                       </td>
                     </tr>
                   {% endif %}
                   {% if content.notes %}
                     <tr>
-                      <td class="notes">Notes: {{ content.notes }}</td>
+                      <td class="notes"><span class="label-bold">Notes:</span> {{ content.notes }}</td>
                     </tr>
                   {% endif %}
                 </tbody>
@@ -188,38 +193,3 @@
     {% endif %}
   {% endfor %}
 </ul>
-
-<!-- JavaScript to Toggle Summary Content Visibility -->
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  var fundingList = document.getElementById('funding-list');
-  if (fundingList) {
-    fundingList.addEventListener('click', function(event) {
-      if (event.target.classList.contains('toggle-summary')) {
-        var targetId = event.target.getAttribute('data-target');
-        var summaryElement = document.getElementById(targetId);
-        if (summaryElement) {
-          summaryElement.classList.toggle('open');
-        }
-      }
-    });
-  }
-});
-</script>
-
-<!-- JavaScript to Format Numbers with Commas -->
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    // Select all elements with the class "award-amount" and "pi-amount-value"
-    const amountElements = document.querySelectorAll('.award-amount, .pi-amount-value');
-    
-    amountElements.forEach(function(element) {
-      // Parse the content as a float and format with commas
-      const amount = parseFloat(element.textContent);
-      if (!isNaN(amount)) {
-        // Format to 2 decimal places and add commas for thousands
-        element.textContent = amount.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
-      }
-    });
-  });
-</script>
