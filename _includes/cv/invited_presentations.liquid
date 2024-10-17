@@ -1,7 +1,8 @@
 <ul class="card-text font-weight-light list-group list-group-flush">
   {% for entry in site.data.cv %}
     {% if entry.type == 'invited_presentations' %}
-      {% for content in entry.contents %}
+      {% assign sorted_contents = entry.contents | sort: 'date' | reverse %}
+      {% for content in sorted_contents %}
         <li class="list-group-item">
           <div class="row">
             
@@ -14,7 +15,7 @@
                       <tr>
                         <td>
                           <span class="badge font-weight-bold danger-color-dark text-uppercase align-left" style="min-width: 75px;">
-                            {{ content.date }}
+                            {{ content.date | date: "%B %-d, %Y" }}
                           </span>
                         </td>
                       </tr>
