@@ -174,8 +174,8 @@
       source_of_support: "National Science Foundation"
       logo_url: "NSF.jpg"
       co_pis: Jane Greenberg (Drexel University), Shannon Capps (Drexel University), Matt Stamm (Drexel University)
-      start_date: "2023/09"
-      end_date: "2036/08"
+      start_date: "09/2023"
+      end_date: "08/2026"
       pi_amount: "3911619.00"
       total_award: "3997550.00"
       link: "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2320600&HistoricalAwards=false"
@@ -184,15 +184,13 @@
       DISE aims to advance data-intensive science and engineering and make research more accessible and reproducible, fostering equitable outcomes across all societal sectors. DISE will introduce an innovative platform that facilitates automatic data curation from scientific instruments, detailed metadata querying, intelligent tiering for instant data accessibility for computational workloads, interactive access to Graphics Processing Unit (GPU)-accelerated resources, hosting and sharing of containerized research products and deployment of self-healing micro-services for real-time data analysis. The platform will be equipped with a 2-petabyte scientific data management system, a 500-terabyte all-flash high-performance parallel file system, and GPU-accelerated computation. These features promise not only to streamline data management but also to facilitate input/output operations per second (IOPS) intensive workflows, including data mining, data-driven research, foundations in AI, data-intensive computation for good, and reliable and trustworthy AI. DISE is dedicated to aiding the exploration of new areas of study by utilizing community data repositories while simultaneously fostering the growth of the upcoming generation of scientists skilled in data-intensive research. DISE will also improve access to research data and computation, thus increasing the return on prior research investments. The automated curation feature of DISE is set to revolutionize how research data is organized and shared, making it accessible and interoperable beyond the originating researchers. Additionally, DISE is committed to providing high-performance GPU resources to foster data-intensive science. The platform will connect with researchers across various disciplines and intends to further expand its reach by automating data curation from shared user facilities. In addition, the use of GPU-accelerated computing resources via an easily accessible JupyterHub will aid in educating and training the next generation of researchers. Finally, DISE is committed to promoting diversity in the field by providing equitable access to resources and partnering with institutions such as Morgan State University to train a new generation of diverse data-intensive scientists and engineers."
 
     - title: "DataFed Searchable Scientific Data Management System Using Globus"
-      award_number: "-----"
       source_of_support: "Drexel University Scholarly Materials & Research Equipment Awards for Tenure/Tenure Track Faculty"
       co_pis: Jane Greenberg (Drexel University), Garth Ehrlich (Drexel University)
       logo_url: "drexel.png"
-      start_date: "2023/06"
-      end_date: "2024/05"
+      start_date: "06/2023"
+      end_date: "05/2025"
       pi_amount: "20000.00"
       total_award: "20000.00"
-      notes: ""
 
     - title: "Elements: CRISPS: Cell-Centric Recursive Image Similarity Projection Searching"
       award_number: "2246463"
