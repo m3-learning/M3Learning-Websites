@@ -285,6 +285,41 @@
   type: invited_presentations
   contents:
     - talk_title: "Navigating the Data Deluge: AI, Infrastructure, and Decision-Making in the Era of Big Data"
+      date: "2024-10-08"
+      location: "Philadelphia, PA (USA)"
+      conference: "Drexel University - Mechanical Engineering and Mechanics Department Seminar"
+    
+    - talk_title: "Ferroelectrics - A Field Polarized by AI: How to Navigate the Conclusions and Delusions?"
+      date: "2024-06-24"
+      location: "Montecatini Terme, Italy"
+      conference: "International Conferences on Modern Materials and Technologies - Materials in an Explosively Growing Informatics World"
+
+    - talk_title: "Ferroelectrics - A Field Polarized by AI: How to Navigate the Conclusions and Delusions?"
+      date: "2024-06-18"
+      location: "Trondheim, Norway"
+      conference: "European Conference on Applications of Polar Dielectrics"
+
+    - talk_title: "Navigating the Data Deluge: AI, Infrastructure, and Decision-Making in the Era of Big Data"
+      date: "2024-04-24"
+      location: "Seattle, WA (USA)"
+      conference: "University of Washington - eScience Institute"
+
+    - talk_title: "Ultra-Compact and Parsimonious Machine Learning Frameworks for High-Velocity Scientific Discovery in Materials Microscopy"
+      date: "2024-04-23"
+      location: "Seattle, WA (USA)"
+      conference: "Materials Research Society Spring Meeting 2024"
+
+    - talk_title: "Navigating the Data Deluge: AI, Infrastructure, and Decision-Making in the Era of Big Data"
+      date: "2024-04-16"
+      location: "Philadelphia, PA (USA)"
+      conference: "AI-Ready Data: Navigating the Dynamic Frontier of Metadata and Ontologies"
+
+    - talk_title: "Navigating the Data Deluge: AI, Infrastructure, and Decision-Making in the Era of Big Data"
+      date: "2024-02-18"
+      location: "Philadelphia, PA (USA)"
+      conference: "2024 Alice B. Kroeger Talk sponsored by the Metadata Research Center, College of Computing & Informatics, Drexel University"
+
+    - talk_title: "Navigating the Data Deluge: AI, Infrastructure, and Decision-Making in the Era of Big Data"
       date: "2024-01-29"
       location: "Lemont, IL (USA)"
       conference: "Argon National Laboratory - Advanced Photon Source Computational Seminar"
@@ -499,3 +534,23 @@
       location: "Boston, MA"
       conference: "Boston University - Department of Mechanical Engineering Seminar"
 
+- title: Advisee Presentations
+  type: advisee_presentations
+  contents:
+    - talk_title: "Real-time Fitting and Materials Characterization in Band-Excitation Piezoresponse Force Microscopy"
+      date: "2023-09-26"
+      location: "London, England"
+      conference: "Fast Machine Learning Conference 2023"
+      authors: "Obute, V."
+      
+    - talk_title: "Extremely Noisy 4D-STEM Strain Mapping Using Cycle Consistent Spatial Transforming Autoencoders"
+      date: "2022-11-30"
+      location: "Boston, MA"
+      conference: "Materials Research Society Meeting Fall 2022"
+      authors: "Qin, S."
+      
+    - talk_title: "Identifying Symmetries with Deep Learning Model"
+      date: "2022-11-29"
+      location: "Boston, MA"
+      conference: "Materials Research Society Meeting Fall 2022"
+      authors: "Guo, Y."

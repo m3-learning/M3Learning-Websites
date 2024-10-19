@@ -46,6 +46,8 @@ layout: default
               {% include cv/funding.liquid %}
             {% elsif entry.type == 'invited_presentations' %}
               {% include cv/invited_presentations.liquid %}
+            {% elsif entry.type == 'advisee_presentations' %}
+              {% include cv/advisee_presentations.liquid %}
             {% else %}
                 {{ entry.contents }}
             {% endif %}
