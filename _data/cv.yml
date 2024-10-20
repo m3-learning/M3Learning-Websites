@@ -280,7 +280,30 @@
                 <br>
                 The proposed work will focus on the development of foundational data science methods and the application of these methods to augment computationally-expensive science-based generative models in a way that is principled and efficient, thereby enabling improved data-driven scientific inference. The work will place specific emphasis on the design of neural network models, which through physically-significant domain architectures can approximate N-body and highly-correlated phenomena with minimal loss of information. The work will develop tools to guide the discovery and experimental synthesis of new strain-induced polar phases and phase competition, which exhibit enhanced electromechanical responses; and it will expand our simulation capabilities and understanding of the large-scale structure in the universe. Ultimately, this work will provide both domain specific advances, as well as a framework for other domain areas to augment computationally intensive, highly-correlated, N-body problems with data-driven models, which respect the physics of the problem and lead to increased computational efficiency.      
       link: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1839234&HistoricalAwards=false
+
+- title: Conference Organization
+  type: conference_organization
+  contents:
+    - role: "Co-Organizer"
+      event: "Virtual School on Machine Learning and Automated Experiments in Scanning Probe Microscopy"
+      date: "2021-10-04 to 2021-10-08"
+      location: "Oak Ridge National Laboratory"
       
+    - role: "Co-Chair"
+      event: "Joint Center for Nanophase Materials Science / Spallation Neutron Source / High-Flux Isotope Reactor User Meeting"
+      date: "2021-08-10 to 2021-08-12"
+      location: "Oak Ridge National Laboratory"
+      
+    - role: "Co-Organizer"
+      event: "NSF Electron Microscopy Frontiers"
+      date: "2020-09-04 to 2020-09-06"
+      location: "Arizona State University"
+      
+    - role: "Co-Organizer"
+      event: "NSF Foundational and Applied Data Science for Molecular and Materials Science and Engineering"
+      date: "2019-05-22 to 2019-05-24"
+      location: "Lehigh University"
+
 - title: Invited Presentations
   type: invited_presentations
   contents:
