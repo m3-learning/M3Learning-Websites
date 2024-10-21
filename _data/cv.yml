@@ -2,96 +2,578 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Joshua C. Agar
+    - name: Home Address
+      value: 3646 Station Ave, Center Valley, PA 18034
+    - name: Work Address
+      value: 3141 Chestnut Street, Philadelphia, PA 19104
+    - name: Phone Number
+      value: (203)-919-2230
+
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: B.S.
+      institution: University of Illinois at Urbana-Champaign
+      field: Materials Science and Engineering
+      year: 2009
+    
+    - title: M.S.
+      institution: Georgia Institute of Technology
+      field: Materials Science and Engineering
+      year: 2011
+
+    - title: Ph.D.
+      institution: University of Illinois at Urbana-Champaign
+      field: Materials Science and Engineering
+      year: 2015
+
+    - title: Postdoctoral Scholar
+      institution: University of California, Berkeley
+      field: Materials Science and Engineering
+      year: 2015–2018
+
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Assistant Professor
+      institution: Department of Mechanical Engineering and Mechanics, Drexel University, Philadelphia, PA
+      year: 2022 - Present
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: Assistant Professor
+      institution: Materials Science and Engineering, Lehigh University, Bethlehem, PA
+      year: 2018 - 2022
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
+    - title: Postdoctoral Scholar
+      institution: Materials Science and Engineering, University of California, Berkeley, CA
+      year: 2015 - 2018
+    
+    - title: Junior Specialist
+      institution: Materials Science and Engineering, University of California, Berkeley, CA
+      year: 2013 - 2015
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Graduate Researcher
+      institution: Materials Science and Engineering, University of Illinois at Urbana-Champaign, Urbana, IL
+      year: 2011 - 2015
 
-- title: Open Source Projects
+    - title: Graduate Researcher
+      institution: Materials Science and Engineering, Georgia Institute of Technology, Atlanta, GA
+      year: 2009 - 2011
+
+- title: Awards
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - year: 2023
+      award: Drexel University Scholarly Materials Research Award
+      description: Award for scientific instrumentation investment at Drexel University.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - year: 2020
+      award: Ralph E. Powe Jr Faculty Enhancement Award
+      description: Awarded by Oak Ridge Associated Universities for faculty excellence and enhancement in early career research.
 
-- title: Academic Interests
-  type: nested_list
+- title: Awards by Advisees
+  type: awards_by_advisee
   contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - year: 2023
+      award: Drexel University Hill Award
+      recipient: Derrick Osei (Ph.D.)
+      description: Awarded for exceptional achievement in research at Drexel University.
 
-- title: Other Interests
-  type: list
+    - year: 2021
+      award: Best Poster Award
+      recipients: Shen Wang, Mehdi Nikfar, Joshua C. Agar, Yaling Liu
+      event: Society of Engineering Science – Mechanics Matters
+      description: Recognized for the poster "Stacked Generative Machine Learning Models for Fast Approximations of Steady-State Navier-Stokes Equations."
+
+    - year: 2020
+      award: Best Student Poster Award
+      recipient: Tri Nguyen (Undergraduate)
+      event: Center for Nanophase Materials Sciences User Meeting 2020, ORNL
+      description: Awarded for outstanding poster presentation in undergraduate research.
+
+    - year: 2020
+      award: Best Student Poster Award - Honorable Mention
+      recipient: Sarah Grand (High School)
+      event: Center for Nanophase Materials Sciences User Meeting 2020, ORNL
+      description: Honorable mention for exemplary research poster in high school category.
+
+    - year: 2020
+      award: David and Lorraine Freed Undergraduate Research Symposium - Third Place
+      recipient: Tri Nguyen (Undergraduate)
+      institution: Lehigh University
+      description: Third place in undergraduate research symposium at Lehigh University.
+
+    - year: 2020
+      award: Largest Scientific Impact Prize
+      recipient: Tri Nguyen (Undergraduate)
+      event: MSE Undergraduate Research Symposium
+      description: Awarded for significant scientific impact in materials science and engineering research.
+
+- title: Visionary Workshops
+  type: workshops
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - date: October 2-3, 2023
+      workshop_name: "NSF Meta-Workshop: AI to Accelerate Science and Engineering Discovery (AI2ASED)"
+      location: Virtual
+      funding_agency: NSF
+      description: Served as Scribe for the NSF Meta-Workshop on AI2ASED.
+
+    - date: November 7-8, 2022
+      workshop_name: NSF Workshop on Future Scientific Instruments for Alloys, Amorphous, and Composite Materials Research
+      location: University of Chicago
+      funding_agency: NSF
+      description: Invited Speaker at the NSF Workshop.
+
+    - date: October 5-6, 2022
+      workshop_name: "Frontiers in Data Analytics and Monitoring Tools for Extreme Materials: A Workshop"
+      location: National Academy of Engineering
+      funding_agency: CMMRC
+      description: Invited Participant and Writer.
+
+    - date: August 26, 2020
+      workshop_name: "NSF Workshop: A Future Vision for Electron Microscopy"
+      location: Virtual
+      funding_agency: NSF
+      description: Participant in the virtual NSF workshop.
+
+
+- title: Conference Organizer
+  type: workshops
+  contents:
+    - date: October 4-8, 2021
+      workshop_name: Virtual School on Machine Learning and Automated Experiments in Scanning Probe Microscopy
+      location: Oak Ridge National Laboratory
+      funding_agency: Oak Ridge National Laboratory
+      description: Co-Organizer of the virtual school on Machine Learning and Automated Experiments in Scanning Probe Microscopy.
+
+    - date: August 10-12, 2021
+      workshop_name: Joint Center for Nanophase Materials Science / Spallation Neutron Source / High-Flux Isotope Reactor User Meeting
+      location: Oak Ridge National Laboratory
+      funding_agency: Oak Ridge National Laboratory
+      description: Co-Chair for the user meeting at Oak Ridge National Laboratory.
+
+    - date: September 4-6, 2020
+      workshop_name: NSF Electron Microscopy Frontiers
+      location: Arizona State University
+      funding_agency: NSF
+      description: Co-Organizer of the NSF Electron Microscopy Frontiers workshop.
+
+    - date: May 22-24, 2019
+      workshop_name: NSF Foundational and Applied Data Science for Molecular and Materials Science and Engineering
+      location: Lehigh University
+      funding_agency: NSF
+      description: Co-Organizer of the NSF workshop on Data Science for Molecular and Materials Science.
+
+- title: "Funding"
+  type: funding
+  contents:
+    - title: "MRI: Track 2 Development of a Platform for Accessible Data-Intensive Science and Engineering"
+      award_number: "2320600"
+      source_of_support: "National Science Foundation"
+      logo_url: "NSF.jpg"
+      co_pis: Jane Greenberg (Drexel University), Shannon Capps (Drexel University), Matt Stamm (Drexel University)
+      start_date: "09/2023"
+      end_date: "08/2026"
+      pi_amount: "3911619.00"
+      total_award: "3997550.00"
+      link: "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2320600&HistoricalAwards=false"
+      summary: "Low-cost, high-performance sensors are producing an explosion of data in every field, from the mysteries of the cosmos to the tiniest particles. Despite this abundance of data, the absence of robust infrastructure and tools impedes the ability to effectively analyze and utilize it. The Development of a Platform for Accessible Data-Intensive Science and Engineering (DISE) will be a system for data management, sharing, and analysis that allows automatic data collection and curation, instant access for computational analysis, and research result sharing for reproducibility. The system will pave the way for new research in data-driven science ? and scientific outcomes. A key issue that DISE addresses is the complexity and cost of data movement from storage to analysis sites, especially in cloud-based scenarios. DISE aims for a more cohesive system integrating data storage and analysis. By making research findings more accessible to the public, DISE will provide increased return on research investments to the research community and society at large. Critically, DISE will serve to train the next generation of scientists in data-intensive research, ensuring accessibility for diverse learners, and contributing to an equitable scientific community.
+      <br>
+      DISE aims to advance data-intensive science and engineering and make research more accessible and reproducible, fostering equitable outcomes across all societal sectors. DISE will introduce an innovative platform that facilitates automatic data curation from scientific instruments, detailed metadata querying, intelligent tiering for instant data accessibility for computational workloads, interactive access to Graphics Processing Unit (GPU)-accelerated resources, hosting and sharing of containerized research products and deployment of self-healing micro-services for real-time data analysis. The platform will be equipped with a 2-petabyte scientific data management system, a 500-terabyte all-flash high-performance parallel file system, and GPU-accelerated computation. These features promise not only to streamline data management but also to facilitate input/output operations per second (IOPS) intensive workflows, including data mining, data-driven research, foundations in AI, data-intensive computation for good, and reliable and trustworthy AI. DISE is dedicated to aiding the exploration of new areas of study by utilizing community data repositories while simultaneously fostering the growth of the upcoming generation of scientists skilled in data-intensive research. DISE will also improve access to research data and computation, thus increasing the return on prior research investments. The automated curation feature of DISE is set to revolutionize how research data is organized and shared, making it accessible and interoperable beyond the originating researchers. Additionally, DISE is committed to providing high-performance GPU resources to foster data-intensive science. The platform will connect with researchers across various disciplines and intends to further expand its reach by automating data curation from shared user facilities. In addition, the use of GPU-accelerated computing resources via an easily accessible JupyterHub will aid in educating and training the next generation of researchers. Finally, DISE is committed to promoting diversity in the field by providing equitable access to resources and partnering with institutions such as Morgan State University to train a new generation of diverse data-intensive scientists and engineers."
+
+    - title: "DataFed Searchable Scientific Data Management System Using Globus"
+      source_of_support: "Drexel University Scholarly Materials & Research Equipment Awards for Tenure/Tenure Track Faculty"
+      co_pis: Jane Greenberg (Drexel University), Garth Ehrlich (Drexel University)
+      logo_url: "drexel.png"
+      start_date: "06/2023"
+      end_date: "05/2025"
+      pi_amount: "20000.00"
+      total_award: "20000.00"
+
+    - title: "Elements: CRISPS: Cell-Centric Recursive Image Similarity Projection Searching"
+      award_number: "2246463"
+      source_of_support: "National Science Foundation"
+      logo_url: "NSF.jpg"
+      co_pis: Jeff Heflin (Lehigh University)
+      start_date: "2022/10"
+      end_date: "2026/09"
+      pi_amount: "329895.00"
+      total_award: "599797.00"
+      summary: >
+                Materials scientists use microscopy to determine the structure, order, and periodicity that affect properties. The core challenge is that only a fraction of microscopy data is published. Thus, most of the information from these costly experiments is lost to an abyss. CRISPS - Cell-Centric Recursive Image Similarity Projection Searching - is a computing infrastructure to make high-value materials microscopy Findable, Accessible, Interoperable, and Reproducible (FAIR). CRISPS is a multitouch, interactive research "buddy" that uses artificial intelligence to form associations like the human mind to identify similarities between images. It has permanent, immutable recollection to search and discover collections of scientific images based on labels and associations. CRISPS will be made openly available and will be promoted at conferences, in user facilities, and online to foster a community of developers and users. Public scientific literacy will be enforced through interactive museum exhibits that use CRISPS to explore and discover materials microscopy. The program also supports a first summer research experience for six under-represented persons in STEM.
+                <br>
+                CRISPS is a full-stack software solution for materials microscopy that seamlessly integrates three novel software concepts.
+                1. DataFed: a federated scientific database for collecting, collating, and searching scientific data and metadata.
+                2. Schema-Free Search: a tool for cell-centric indexing and searching metadata without schemas.
+                3. Recursive Image Similarity Projections: a tool to interactively explore image similarity.
+                Each of these efforts is intellectually innovative. DataFed provides an automated, secure, scalable generalized scientific data repository that supports metadata schemas, searches, and provenance graphs. DataFed removes barriers to collaborative science through trusted authentication and secure managed file transfers using GridFTP. Schema-Free Search: an innovative index and ML-tokenization methodology to search unstructured metadata efficiently using ElasticSearch. Scientists will discover schemas and ontologies through an interactive graphical user interface (GUI). Recursive Image Similarity Projections: a collection of deep learning models to conduct automatic symmetry-aware microscopy featurization. When coupled with manifold learning and a GUI, this software tool will enable filtering, similarity exploration, and rapid labeling of materials microscopy. Combining these tools will facilitate creative inquiry into unpublished microscopy, accelerating the discovery of new materials with novel functionalities. CRISPS will be documented and released under a non-restrictive license which allows its reuse, modification, and commercialization. The PIs work with stakeholders in academia and industry to implement CRISPS for typical experiments in optical, electron, and scanning probe microscopies. It provides public access to a 0.5 PB allocation on a DataFed server with indexing and image similarity searching functionality through CRISPS. Interdisciplinary concepts, including scientific data management, search ontologies, and machine learning, are being integrated into courses in materials and computer science; and will be broadly shared through the Lehigh Microscopy School and conference tutorials.
+      link: "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2246463&HistoricalAwards=false"
+
+
+    - title: "MRI: Development of Heterogeneous Edge Computing Platform for Real-Time Scientific Machine Learning"
+      award_number: "2215789"
+      source_of_support: "National Science Foundation"
+      start_date: "08/2022"
+      end_date: "07/2026"
+      lead_pi: Yaling Liu (Lehigh University)
+      co_pis: Lifang He (Lehigh University), Yue Yu (Lehigh University), and Wujie Wei (North Carolina State University)
+      logo_url: "NSF.jpg"
+      pi_amount: "309000.00"
+      total_award: "999600.00"
+      summary: >
+                This project aims to develop a Heterogeneous Edge Computing platform for real-time Scientific Machine Learning (HEC-SML) at the extreme edge. Such a platform will allow for real-time analysis and control of optical, scanning probe, and transmission electron microscopy. Putting computation at the edge ?- as close to the data source as possible -? circumvents latency and bandwidth challenges when sending data to high-performance computing facilities and will enable real-time data analysis to conduct scientific experiments with creative inquiry. The development of HEC-SML will lead to the convergence of microscopy, machine learning (ML), and heterogeneous computing concepts. In microscopy, advanced control systems will enable new imaging modalities; methods for personalized medicine; and discovery and understanding of functional and quantum materials. In ML, HEC-SML will motivate the design of strategies to impose physics constraints and develop optimization methods for training more efficient algorithms. Combined research in these disparate fields creates new objectives that motivate transformative advances in each discipline. The research enabled by HEC-SML will enable advances to and train scientists that can address edge computing challenges for wireless communication, healthcare monitoring, advanced manufacturing, and multi-agent autonomous systems. The instrument will also enable several student curriculum advances along this convergence of fields. This program will engage interdisciplinary researchers in biological sciences, materials science, machine learning, and heterogeneous computing and lead to novel research thrusts.
+                <br>
+                High-performance computing (HPC) has made tremendous advances in scheduled, parallelized, and distributed computing. Experimental microscopy requires that voluminous data at high velocity is processed in timescales relevant to the experiment (nanoseconds-minutes). HPC facilities cannot meet these needs as they are not designed for dedicated networking and computation and typically do not have heterogeneous compute nodes for low-latency computation. HEC-SML will be a purpose-built instrument for real-time analysis and control of microscopy. A technical innovation is co-locating HPC with microscopy to enable low-cost, reconfigurable, dedicated high-speed networking. With this, we will develop a centralized edge computing platform for signal processing, data reduction, and ML tools for many microscopy modalities. The instrument will provide a platform for real-time analysis and control of optical, scanning probe, and transmission electron microscopy. HEC-SML will provide new capabilities for counting and sorting cells as well as for the characterization and manipulation of materials for energy conversion, sensing, and quantum materials. HEC-SML will provide a turn-key solution for microscopy and other data-intensive scientific experiments. Furthermore, HEC-SML will enable transformative advances in personalized medicine; sensing, energy conversion, and quantum materials; scientific and physics-informed ML methods using experimental data; and codesign of heterogeneous computing and ML for low-latency data reduction, scientific signal processing, and control systems.
+      link: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2215789&HistoricalAwards=false
+
+
+    - title: "Collaboration for Hierarchical Agile and Responsive Materials"
+      award_number: "W911NF-19-2-0119"
+      source_of_support: "Army Research Laboratory"
+      start_date: "06/2021"
+      end_date: "06/2025"
+      pi_amount: "365000.00"
+      lead_pi: Jonathan Spanier (Drexel University)
+      co_pis: Chris Dames (University of California, Berkeley), Srabanti Chowdhury (Stanford University), Ramamoorthy Ramesh (Rice University), Shiv Halasyamani (University of Houston), Ilya Grinberg (Bar-Ilan University, Israel), Andrew M. Rappe (University of Pennsylvania), Yury Gogotsi (Drexel University), James LeBeau (Massachusetts Institute of Technology), Darrell Schlom (Cornell University), Geoff Brennecka (Colorado School of Mines), Andrea Alu (Graduate Center, City University of New York)
+      logo_url: "ARL.jpeg"
+      
+
+
+    - title: "Real‐time Data Reduction Codesign at the Extreme Edge for Science"
+      award_number: "DE-FOA-0002501"
+      source_of_support: "Department of Energy Office of Advanced Scientific Computing Research"
+      start_date: "06/2022"
+      end_date: "05/2026"
+      lead_pi: Nhan Tran
+      logo_url: "DOE.png"
+      co_pis: Javier Duarte (University of California San Diego), Amir Gholaminejad (University of California Berkeley), Philip Harris (Massachusetts Institute of Technology), Michael Mahoney (International Computer Science Institute), Jennifer Ngadiuba (Fermi National Accelerator Laboratory)
+      pi_amount: "300000.00"
+      total_award: "2000000.00"
+      summary: >
+                This project focuses on intelligent ML-based data reduction and processing as close as possible to the data source. Per sensor compression and efficient aggregation of information while preserving scientific fidelity can have a huge impact on data rates further downstream and the way that experiments are designed and operated. The research team is concentrating on powerful, specialized compute hardware at the extreme edge—such as FPGAs, ASICs, and systems-on-chip—which are typical initial processing layers of many experiments. The three main thrusts are to: (1) develop performant and reliable AI algorithms for science at the edge; (2) develop codesign tools to build efficient implementations of those algorithms in hardware; and (3) enable rapid exploration for domain scientists and system designers with an accessible tool flow.
+                <br>
+                These newly developed techniques will be applied to two complementary scientific exemplars: real-time trigger systems at the CERN Large Hadron Collider (LHC) and processing data streams in transmission electron microscopy (TEM). The LHC exemplar offers a complex, geometry constrained progressive data reduction flow, and the TEM exemplar involves fast feature extraction that must be capable of performing across a multitude of samples and experiments.
+
+    - title: "Artificial Intelligence Guided Computational Design Synthesis of Multifunctional Ferroelectrics"
+      award_number: "S00009665"
+      source_of_support: "ORAU University Partnerships"
+      start_date: "2020/06"
+      end_date: "2021/06"
+      pi_amount: "10000.00"
+      total_award: "10000.00"
+      logo_url: "ORAU.png"
+
+    - title: "Creating Inference from Machine Learned and Science-Based Generative Models"
+      award_number: "1839234"
+      source_of_support: "NSF-Directorate for Mathematical and Physical Sciences"
+      start_date: "2018/10"
+      end_date: "2022/10"
+      logo_url: "NSF.jpg"
+      lead_pi: Uros Seljak
+      co_pi: Michael Mahoney
+      pi_amount: "199953.00"
+      total_award: "614400.00"
+      summary: >
+                In many scientific disciplines computational simulations are used to enhance our understanding of physical processes of complex systems. In all such simulations simplifications are required to make the problem tractable, limiting the scope of the questions that can be addressed. Generally, computational simulations of large systems with many interacting components, based on the governing physics, requires complex and time consuming computations. This project will apply deep learning neural networks (NN) with geometric transformations based on the physics of the system to accurately approximate traditional physics-based computational simulations in a highly efficient manner. The increased efficiency imparted by the NN model will facilitate the asking of scientific questions which are currently computationally intractable. While the proposed work will focus on using this method to discover new strain-induced polar phases and phase competition, and to understand the large-scale structure in the universe, the concepts developed in this work can be applied to computational simulations in other scientific disciplines.
+                <br>
+                The proposed work will focus on the development of foundational data science methods and the application of these methods to augment computationally-expensive science-based generative models in a way that is principled and efficient, thereby enabling improved data-driven scientific inference. The work will place specific emphasis on the design of neural network models, which through physically-significant domain architectures can approximate N-body and highly-correlated phenomena with minimal loss of information. The work will develop tools to guide the discovery and experimental synthesis of new strain-induced polar phases and phase competition, which exhibit enhanced electromechanical responses; and it will expand our simulation capabilities and understanding of the large-scale structure in the universe. Ultimately, this work will provide both domain specific advances, as well as a framework for other domain areas to augment computationally intensive, highly-correlated, N-body problems with data-driven models, which respect the physics of the problem and lead to increased computational efficiency.      
+      link: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1839234&HistoricalAwards=false
+
+- title: Conference Organization
+  type: conference_organization
+  contents:
+    - role: "Co-Organizer"
+      event: "Virtual School on Machine Learning and Automated Experiments in Scanning Probe Microscopy"
+      date: "2021-10-04 to 2021-10-08"
+      location: "Oak Ridge National Laboratory"
+      
+    - role: "Co-Chair"
+      event: "Joint Center for Nanophase Materials Science / Spallation Neutron Source / High-Flux Isotope Reactor User Meeting"
+      date: "2021-08-10 to 2021-08-12"
+      location: "Oak Ridge National Laboratory"
+      
+    - role: "Co-Organizer"
+      event: "NSF Electron Microscopy Frontiers"
+      date: "2020-09-04 to 2020-09-06"
+      location: "Arizona State University"
+      
+    - role: "Co-Organizer"
+      event: "NSF Foundational and Applied Data Science for Molecular and Materials Science and Engineering"
+      date: "2019-05-22 to 2019-05-24"
+      location: "Lehigh University"
+
+- title: Invited Presentations
+  type: invited_presentations
+  contents:
+    - talk_title: "Navigating the Data Deluge: AI, Infrastructure, and Decision-Making in the Era of Big Data"
+      date: "2024-10-08"
+      location: "Philadelphia, PA (USA)"
+      conference: "Drexel University - Mechanical Engineering and Mechanics Department Seminar"
+    
+    - talk_title: "Ferroelectrics - A Field Polarized by AI: How to Navigate the Conclusions and Delusions?"
+      date: "2024-06-24"
+      location: "Montecatini Terme, Italy"
+      conference: "International Conferences on Modern Materials and Technologies - Materials in an Explosively Growing Informatics World"
+
+    - talk_title: "Ferroelectrics - A Field Polarized by AI: How to Navigate the Conclusions and Delusions?"
+      date: "2024-06-18"
+      location: "Trondheim, Norway"
+      conference: "European Conference on Applications of Polar Dielectrics"
+
+    - talk_title: "Navigating the Data Deluge: AI, Infrastructure, and Decision-Making in the Era of Big Data"
+      date: "2024-04-24"
+      location: "Seattle, WA (USA)"
+      conference: "University of Washington - eScience Institute"
+
+    - talk_title: "Ultra-Compact and Parsimonious Machine Learning Frameworks for High-Velocity Scientific Discovery in Materials Microscopy"
+      date: "2024-04-23"
+      location: "Seattle, WA (USA)"
+      conference: "Materials Research Society Spring Meeting 2024"
+
+    - talk_title: "Navigating the Data Deluge: AI, Infrastructure, and Decision-Making in the Era of Big Data"
+      date: "2024-04-16"
+      location: "Philadelphia, PA (USA)"
+      conference: "AI-Ready Data: Navigating the Dynamic Frontier of Metadata and Ontologies"
+
+    - talk_title: "Navigating the Data Deluge: AI, Infrastructure, and Decision-Making in the Era of Big Data"
+      date: "2024-02-18"
+      location: "Philadelphia, PA (USA)"
+      conference: "2024 Alice B. Kroeger Talk sponsored by the Metadata Research Center, College of Computing & Informatics, Drexel University"
+
+    - talk_title: "Navigating the Data Deluge: AI, Infrastructure, and Decision-Making in the Era of Big Data"
+      date: "2024-01-29"
+      location: "Lemont, IL (USA)"
+      conference: "Argon National Laboratory - Advanced Photon Source Computational Seminar"
+
+    - talk_title: "Practical Deployment of Machine Learning for High-Velocity Science"
+      date: "2023-09-11"
+      location: "Busan, Korea"
+      conference: "International Microscopy Conference"
+
+    - talk_title: "Real-Time Machine Learning in 4D-STEM"
+      date: "2023-08-22"
+      location: "Daejeon, South Korea (Virtual)"
+      conference: "M3I3 Workshop"
+
+    - talk_title: "Practical and Parsimonious Real-Time Analysis in Materials Microscopy"
+      date: "2023-08-21"
+      location: "Minneapolis, Minnesota (USA)"
+      conference: "Microscopy and Microanalysis 2023"
+
+    - talk_title: "Real-Time Physics-Constrained Machine Learning in Multidimensional Atomic Force Microscopy"
+      date: "2023-06-20"
+      location: "Washington, DC. (USA)"
+      conference: "SPM Connect Conference 2023"
+
+    - talk_title: "Practical Deployment of Machine Learning for High Velocity Materials Science"
+      date: "2023-05-26"
+      location: "Ann Arbor, MI (USA)"
+      conference: "University of Michigan - Special Seminar"
+
+    - talk_title: "Practical Deployment of Machine Learning for High Velocity Materials Science"
+      date: "2023-11-09"
+      location: "Evanston, IL (USA)"
+      conference: "NUANCE Northwestern - Seminar"
+      description: ""
+
+    - talk_title: "Codesign of Parsimonious Machine Learning for High Velocity Materials Microscopy on the Edge"
+      date: "2022-10-06"
+      location: "Washington, DC. (USA)"
+      conference: "National Academies of Engineering, Practical Deployment of Machine Learning Materials in Extreme Environments"
+
+    - talk_title: "New Monitoring Tools and Data-Driven Approaches for High Velocity Science"
+      date: "2022-09-16"
+      location: "Daejeon, South Korea"
+      conference: "KAIST - M3I3 Workshop"
+
+    - talk_title: "Data-Driven Design, Manufacturing, Understanding, and Control of Responsive and Agile Multifunctional Materials"
+      date: "2022-02-15"
+      location: "Cleveland, OH (USA)"
+      conference: "Case Western Reserve University - Department of Materials Science and Engineering Seminar"
+
+    - talk_title: "Data-Driven Design, Manufacturing, Understanding, and Control of Responsive and Agile Multifunctional Thin Films"
+      date: "2022-01-31"
+      location: "Philadelphia, PA (USA)"
+      conference: "Drexel University - Mechanical Engineering and Mechanics Department Seminar"
+
+    - talk_title: "Real-Time Physics-Constrained Machine Learning in Multimodal Scanning Probe Microscopy"
+      date: "2021-11-29"
+      location: "Takamatsu, Japan (Virtual)"
+      conference: "The 9th International Symposium on Surface Science"
+
+    - talk_title: "‘Intelligent’ and Practical Machine Learning in Materials Science"
+      date: "2021-09-24"
+      location: "Arlington, TX (USA)"
+      conference: "University of Texas Arlington - Materials Science Seminar (Virtual)"
+      description: ""
+
+    - talk_title: "Challenges and Opportunities in Data Enabled Materials Science and Engineering"
+      date: "2021-06-15"
+      location: "Trondheim, Norway"
+      conference: "Norwegian University of Science and Technology - Electron Microscopy Seminar"
+
+    - talk_title: "Real-Time Machine Learning in Scanning Probe Microscopy"
+      date: "2021-04-15"
+      location: "(Virtual)"
+      conference: "ISAF-PFM"
+
+    - talk_title: "Machine Learning on Hardware Accelerators for Materials Discovery"
+      date: "2021-08-24"
+      location: "Daejeon, South Korea"
+      conference: "KAIST - M3I3 Workshop"
+
+    - talk_title: "Challenges and Opportunities in Data Enabled Materials Science and Engineering"
+      date: "2021-02-22"
+      location: "Pittsburgh, PA (USA)"
+      conference: "University of Pittsburgh - Department of Chemical and Petroleum Engineering Seminar"
+
+    - talk_title: "Real-Time Machine Learning for Materials Imaging"
+      date: "2020-11-30"
+      location: "(Virtual)"
+      conference: "Fast Machine Learning for Science"
+      description: ""
+
+    - talk_title: "Real-Time Machine Learning in Materials Spectroscopy"
+      date: "2020-11-16"
+      location: "Santa Barbara, CA"
+      conference: "Oxford Instruments Working Group"
+
+    - talk_title: "Real-Time Machine Learning in Materials Science and Engineering"
+      date: "2020-08-20"
+      location: "(Virtual)"
+      conference: "FastML Working Group"
+
+    - talk_title: "Detecting Wallpaper Group Symmetry using Deep Convolutional Neural Networks"
+      date: "2019-12-14"
+      location: "Shenzhen, China"
+      conference: "Workshop on Atomic Force Microscopy for Advanced Functional Materials (AFM 2 2019)"
+
+    - talk_title: "Lehigh Center for Nano-Human Interfaces"
+      date: "2019-12-12"
+      location: "Shenzhen, China"
+      conference: "The First Great Bay Area Workshop on Emerging Oxide Electronics for Information and Health"
+
+    - talk_title: "Rapid Characterization of Functional Materials using ‘Artificial Intelligence’"
+      date: "2019-12-10"
+      location: "Seoul, South Korea"
+      conference: "Sungkyunkwan University - Department of Materials Science Seminar"
+
+    - talk_title: "Rapid Characterization of Functional Materials using ‘Artificial Intelligence’"
+      date: "2019-12-09"
+      location: "Daejeon, South Korea"
+      conference: "Korean Advanced Institute of Science and Technology - Materials Science Seminar"
+
+    - talk_title: "Automatic Feature Extraction from Hyperspectral Imagery using Deep Recurrent Neural Networks"
+      date: "2019-09-23"
+      location: "Los Angeles, CA (USA)"
+      conference: "IPAM - Long Program Machine Learning for Physics and the Physics of Learning - Workshop I: From Passive to Active: Generative and Reinforcement Learning with Physics"
+
+    - talk_title: "Automatic Feature Extraction from Hyperspectral Imagery using Deep Recurrent Neural Networks"
+      date: "2019-09-05"
+      location: "Ashville, NC (USA)"
+      conference: "Frontiers of Electron Microscopy and Materials Science"
+
+    - talk_title: "Deducing Inference from Hyperspectral Imaging of Materials via Machine Learning"
+      date: "2019-08-15"
+      location: "Scranton, PA (USA)"
+      conference: "Techbridge PA"
+
+    - talk_title: "Data-Driven Approaches for Experimental Science"
+      date: "2019-08-12"
+      location: "Oak Ridge, TN USA"
+      conference: "Oak Ridge National Laboratory - Center for Nanophase Materials Sciences User Meeting"
+
+    - talk_title: "Deducing Inference from Hyperspectral Imaging of Materials Using Recurrent Neural Networks"
+      date: "2019-05-29"
+      location: "Berkeley, CA (USA)"
+      conference: "University of California Berkeley - Physics in Machine Learning Workshop"
+
+    - talk_title: "Deducing Inference from Hyperspectral Imaging of Materials Using Recurrent Neural Networks"
+      date: "2019-05-23"
+      location: "Bethlehem, PA (USA)"
+      conference: "Lehigh University - Foundational and Applied Data Science for Molecular and Material Science & Engineering Conference"
+
+    - talk_title: "Nanoscale Susceptibilities in Ferroelectric Thin Films: Insights from Multidimensional Spectroscopy and Machine Learning"
+      date: "2019-04-18"
+      location: "Baltimore, MA (USA)"
+      conference: "Morgan State University - Department of Physics Seminar"
+
+    - talk_title: "Nanoscale Susceptibilities in Ferroelectric Thin Films: Insights from Multidimensional Spectroscopy and Machine Learning"
+      date: "2018-12-18"
+      location: "Shenzhen - China"
+      conference: "Harbin Institute of Technology - Department of Materials Science and Engineering Seminar"
+
+    - talk_title: "Nanoscale Susceptibilities in Ferroelectric Thin Films: Insights from Multidimensional Spectroscopy and Machine Learning"
+      date: "2018-12-15"
+      location: "Nanjing, China"
+      conference: "2018 Workshop on Atomic Force Microscopy for Advanced Functional Materials"
+
+    - talk_title: "Nanoscale Susceptibilities in Ferroelectric Thin Films: Insights from Multidimensional Spectroscopy and Machine Learning"
+      date: "2018-12-10"
+      location: "Fudan University"
+      conference: "Department of Materials Science and Engineering Seminar"
+      description: ""
+
+    - talk_title: "Nanoscale Susceptibilities in Ferroelectric Thin Films: Insights from Multidimensional Spectroscopy and Machine Learning"
+      date: "2018-11-07"
+      location: "Philadelphia, PA (USA)"
+      conference: "Drexel University - Department of Materials Science and Engineering Seminar"
+      description: ""
+
+    - talk_title: "Nanoscale Susceptibilities in Ferroelectric Thin Films: Insights from Multidimensional Spectroscopy and Machine Learning"
+      date: "2018-06-28"
+      location: "Perugia, Italy"
+      conference: "CIMTEC 2018 - 14th International Ceramics Congress & 8th Forum on New Materials"
+
+    - talk_title: "Extracting Physical Insight from Multidimensional Scanning Probe Spectroscopy Using Artificial Intelligence"
+      date: "2018-06-18"
+      location: "Hiroshima, Japan"
+      conference: "ISAF-FMA-AMF-AMEC-PFM Joint Conference"
+
+    - talk_title: "Nanoscale Susceptibilities in Ferroelectric Thin Films: Insights from Multidimensional Spectroscopy and Machine Learning"
+      date: "2018-02-02"
+      location: "Storrs, CT (USA)"
+      conference: "University of Connecticut - Department of Materials Science and Engineering Seminar"
+
+    - talk_title: "Nanoscale Susceptibilities in Ferroelectric Thin Films: Insights from Multidimensional Spectroscopy and Machine Learning"
+      date: "2018-01-08"
+      location: "Richmond, VA"
+      conference: "Virginia Commonwealth University, Department of Mechanical Engineering"
+
+    - talk_title: "Controlling Ferroic Order–Combining Synthesis, Multidimensional Spectroscopy, and Data Science"
+      date: "2017-08-10"
+      location: "Atlanta, GA"
+      conference: "Georgia Institute of Technology - Department of Materials Science and Engineering Seminar"
+
+    - talk_title: "Controlling Ferroic Order–Combining Synthesis, Multidimensional Spectroscopy, and Data Science"
+      date: "2017-03-08"
+      location: "Buffalo, NY"
+      conference: "University of Buffalo - Department of Materials Design and Innovation Seminar"
+
+    - talk_title: "Controlling Ferroic Order–Combining Synthesis, Multidimensional Spectroscopy, and Data Science"
+      date: "2017-02-08"
+      location: "Boston, MA"
+      conference: "Boston University - Department of Mechanical Engineering Seminar"
+
+- title: Advisee Presentations
+  type: advisee_presentations
+  contents:
+    - talk_title: "Real-time Fitting and Materials Characterization in Band-Excitation Piezoresponse Force Microscopy"
+      date: "2023-09-26"
+      location: "London, England"
+      conference: "Fast Machine Learning Conference 2023"
+      authors: "Obute, V."
+      
+    - talk_title: "Extremely Noisy 4D-STEM Strain Mapping Using Cycle Consistent Spatial Transforming Autoencoders"
+      date: "2022-11-30"
+      location: "Boston, MA"
+      conference: "Materials Research Society Meeting Fall 2022"
+      authors: "Qin, S."
+      
+    - talk_title: "Identifying Symmetries with Deep Learning Model"
+      date: "2022-11-29"
+      location: "Boston, MA"
+      conference: "Materials Research Society Meeting Fall 2022"
+      authors: "Guo, Y."

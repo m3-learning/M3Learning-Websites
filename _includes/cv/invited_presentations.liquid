@@ -1,0 +1,69 @@
+<ul class="card-text font-weight-light list-group list-group-flush">
+  {% for entry in site.data.cv %}
+    {% if entry.type == 'invited_presentations' %}
+      {% assign sorted_contents = entry.contents | sort: 'date' | reverse %}
+      {% for content in sorted_contents %}
+        <li class="list-group-item">
+          <div class="row">
+            
+            <!-- Date and Location Column -->
+            <div class="col-xs-2 col-sm-2 col-md-2" style="width: 75px; text-align: left;">
+              {% if content.date or content.location %}
+                <table class="table-cv">
+                  <tbody>
+                    {% if content.date %}
+                      <tr>
+                        <td>
+                          <span class="badge font-weight-bold danger-color-dark text-uppercase align-left" style="min-width: 75px;">
+                            {{ content.date | date: "%B %-d, %Y" }}
+                          </span>
+                        </td>
+                      </tr>
+                    {% endif %}
+                    {% if content.location %}
+                      <tr>
+                        <td>
+                          <p class="location" style="display: flex; align-items: center; margin: 0;">
+                            <i class="fa-solid fa-location-dot iconlocation" style="margin-right: 5px;"></i>
+                            {{ content.location }}
+                          </p>
+                        </td>
+                      </tr>
+                    {% endif %}
+                  </tbody>
+                </table>
+              {% endif %}
+            </div>
+
+            <!-- Presentation Details Column -->
+            <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0" style="text-align: left;">
+              {% if content.talk_title %}
+                <h6 class="talk_title font-weight-bold ml-1 ml-md-4">{{ content.talk_title }}</h6>
+              {% endif %}
+              <table class="table-cv ml-1 ml-md-4 institution" style="text-align: left;">
+                <tbody>
+                  {% if content.conference %}
+                    <tr>
+                      <td style="vertical-align: top;" class="conference">
+                        <p style="display: flex; align-items: center; margin: 0;">
+                          <i class="fa-solid fa-microphone iconconference" style="margin-right: 5px;"></i>
+                          {{ content.conference }}
+                        </p>
+                      </td>
+                    </tr>
+                  {% endif %}
+                  {% if content.description %}
+                    <tr>
+                      <td colspan="2" class="description">{{ content.description }}</td>
+                    </tr>
+                  {% endif %}
+                </tbody>
+              </table>
+            </div>
+
+          </div>
+        </li>
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+</ul>

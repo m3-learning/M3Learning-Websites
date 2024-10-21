@@ -1,14 +1,16 @@
-github_users:
-  - torvalds
-  - alshedivat
+# github_users:
+#   - jagar2
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - m3-learning/M3Learning-Util
+  - m3-learning/Auto4DSTEM
+  - m3-learning/DataFed_TorchFlow
+  - m3-learning/XRD-Learn
+  - m3-learning/Plume-Learn
+  - m3-learning/MetaXtract
+  - m3-learning/BEPiezo-Learn
+  - m3-learning/AFM-Learn
+  - m3-learning/AutoPhysLearn
+  - m3-learning/LAMBDA-PHYSIK-LPX200-LaserController

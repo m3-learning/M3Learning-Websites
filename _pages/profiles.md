@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /team
-title: Team
-description: Members and close collaborators of the group.
+title: team
+description: Meet the current and past members of the m3-learning reserach group.
 nav: true
 nav_rank: 2
 ---
@@ -81,9 +81,9 @@ nav_rank: 2
                                           {{ member.profile.start_year }} - {{ member.profile.end_year }}
                                       </p>
                                   {% endif %}
-                                  {% if member.profile.location %}
+                                  {% if member.profile.current_position %}
                                       <p class="card-text">
-                                          <strong>Current Location:</strong> {{ member.profile.location }}
+                                          <strong>Current Position:</strong> {{ member.profile.current_position }}
                                       </p>
                                   {% endif %}
                               {% else %}
