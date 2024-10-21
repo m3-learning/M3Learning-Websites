@@ -36,7 +36,15 @@
   # project: 
   # start_year:
   # end_year:
-  teaser: "Dr. Joshua C. Agar is an Assistant Professor in the Department of Mechanical Engineering and Mechanics at Drexel University. With a foundational background in experimental materials science, Dr. Agar is predominantly renowned for his pioneering contributions to AI algorithms, computing infrastructure, and the development of cyber-physical systems in the fields of materials synthesis and microscopy. His expertise has been applied across a wide array of disciplines, including particle and plasma physics, materials science, and fluid dynamics. An active member of various AI communities, particularly the FastML community, which emphasizes ultra-low latency ML co-design, Dr. Agar has earned recognition as a leader in AI innovation. His work has garnered attention from prestigious institutions such as the National Academy of Engineering and the National Science Foundation."
+  teaser: "Dr. Joshua C. Agar is an Assistant Professor in the Department of Mechanical Engineering and 
+          Mechanics at Drexel University. With a foundational background in experimental materials science,
+           Dr. Agar is predominantly renowned for his pioneering contributions to AI algorithms, computing infrastructure, 
+           and the development of cyber-physical systems in the fields of materials synthesis and microscopy. His expertise 
+           has been applied across a wide array of disciplines, including particle and plasma physics, materials science, 
+           and fluid dynamics. An active member of various AI communities, particularly the FastML community, which 
+           emphasizes ultra-low latency ML co-design, Dr. Agar has earned recognition as a leader in AI innovation. 
+           His work has garnered attention from prestigious institutions such as the National Academy of Engineering 
+           and the National Science Foundation."
   inline: false # Determines if the profile should be clickable to a separate URL
 
 ###### Staff #####
@@ -61,7 +69,14 @@
     degrees:  # Academic degrees
       - "(2020) - Ph.D. - Department of Near Eastern Languages and Civilizations, University of Chicago"
       - "(2009) - B.S. - Near Eastern Studies, Princeton University"
-  teaser: "Dr. Theodore S. Beers Persian and Arabic philologist, specializing in the literary history of the late medieval and early modern periods—in particular the tenth/sixteenth century. Currently I have the good fortune to be working as a postdoctoral fellow (wissenschaftlicher Mitarbeiter) in the ERC-funded project AnonymClassic at the Freie Universität Berlin, under the direction of Beatrice Gründler. This affords me ample opportunity to explore both Persian and Arabic sources (and beyond) relating to the Kalilah and Dimnah tradition."
+  teaser: "Dr. Theodore S. Beers Persian and Arabic philologist, specializing in 
+          the literary history of the late medieval and early modern periods—in 
+          particular the tenth/sixteenth century. Currently I have the good fortune
+           to be working as a postdoctoral fellow (wissenschaftlicher Mitarbeiter) 
+           in the ERC-funded project AnonymClassic at the Freie Universität Berlin, 
+           under the direction of Beatrice Gründler. This affords me ample opportunity 
+           to explore both Persian and Arabic sources (and beyond) relating to the 
+           Kalilah and Dimnah tradition."
   inline: false # Determines if the profile should be clickable to a separate URL
   project: "Scientific data management and software systems."
 
@@ -80,45 +95,56 @@
     linkedin: "dmitry-mishin-59980911"  # LinkedIn username
     # orcid: "0000-0002-3456-7890"  # ORCID ID
     # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
-    # github: "dmitrymishin"  # GitHub username
+    github: "dimm0"  # GitHub username
     # website: "https://dmitrymishin.com"  # Personal or professional website
     # address: "9500 Gilman Dr, La Jolla, CA 92093"  # Office or location address
     # degrees:  # Academic degrees
     #   - "M.S. in [Field] (20XX)"
     # location: "La Jolla, CA"  # Geographical location or office location
-    teaser: "Currently managing on all levels the world-wide kubernetes cluster combining computational resources in multiple research facilities and providing those to a wide range of scientists. Rich experience in modern languages and cloud-native environment, storage systems, network measurements and monitoring."  # Short description or teaser about the member
-    inline: false  # Determines if the profile should be clickable to a separate URL
-    project: "Design, deployment, and management of high-availability Kubernettes clusters for science."  # Main project or work focus
+  teaser: "Currently managing on all levels the world-wide kubernetes cluster combining 
+        computational resources in multiple research facilities and providing those 
+        to a wide range of scientists. Rich experience in modern languages and 
+        cloud-native environment, storage systems, network measurements and monitoring."  # Short description or teaser about the member
+  inline: false  # Determines if the profile should be clickable to a separate URL
+  project: "Design, deployment, and management of high-availability Kubernettes clusters for science."  # Main project or work focus
 
 
 #### Current Ph.D ####
 
 - group: "Ph.D. Students"  # The group the member belongs to
   group_rank: 3  # Ranking to determine group order
-  lastname: "Akinide"  # Last name of the member
+  lastname: "Akinjide"  # Last name of the member
   profile:
-    name: "Erin Akinide"  # Full name
+    name: "Erin Akinjide"  # Full name
     position: "Ph.D. Student, Mechanical Engineering and Mechanics"  # Position or role
     institution: "Drexel University"  # Institution affiliation
     start_year: "2023"  # Start year for current role or program
     # end_year: "2026"  # Expected or actual end year
     project: "Closed-Loop Control in Pulsed-Laser Deposition"  # Main project or research focus
-    # image: "Erin_A.jpg"  # Image filename (place in assets/img/people directory)
-    # email: "ea123@drexel.edu"  # Email address
+    image: "Erin_A.jpeg"  # Image filename (place in assets/img/people directory)
+    email: "ooa56@drexel.edu"  # Email address
     # phone: "(215) 385-3061"  # Phone number
-    # linkedin: "erinakinide"  # LinkedIn username
+    linkedin: "erin-akinjide"  # LinkedIn username
     # orcid: "0000-0002-3456-7890"  # ORCID ID
     # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
-    # github: "erinakinide"  # GitHub username
+    github: "erinakin"  # GitHub username
     # website: "https://erinakinide.com"  # Personal or professional website
     # address: "3141 Chestnut Street, Philadelphia, PA 19104"  # Office or location address
-    # degrees:  # Academic degrees
+    degrees:  # Academic degrees
     #   - "(2022) - Ph.D. - Mechanical Engineering, Drexel University"
     #   - "(2018) - M.S. - Mechanical Engineering, University of Illinois"
-    #   - "(2016) - B.S. - Mechanical Engineering, Georgia Institute of Technology"
+       - "(2023) - B.S. - Mechanical Engineering, Drexel University"
     # location: "Philadelphia, PA"  # Geographical location or office location
-    # teaser: "Researching closed-loop control applications in laser deposition."  # Short description or teaser about the member
-    inline: false  # Determines if the profile should be clickable to a separate URL
+  teaser: "Èrín Akinjide (she/her) is a Ph.D. student in the Department of Mechanical 
+          Engineering at Drexel University, affiliated with the M3-Learning (Multifunctional
+           Materials and Machine Learning) research group. She specializes in developing
+            advanced control systems, with a current focus on implementing closed-loop 
+            control for Pulsed-Laser Deposition processes. Her work bridges the fields 
+            of materials science and engineering, contributing to the advancement of 
+            precision materials synthesis. With a solid foundation in mechanical engineering 
+            and a background in product design, Èrín integrates technical expertise with a 
+            keen design sensibility." # Short description or teaser about the member
+  inline: false  # Determines if the profile should be clickable to a separate URL
 
 
 - group: "Ph.D. Students"  # Group the member belongs to
@@ -131,12 +157,12 @@
     start_year: "2023"  # Start year for current role or program
     # end_year: "202X"  # Expected or actual end year (if applicable)
     # image: "derrick_osei.jpg"  # Image filename (place in assets/img/people directory)
-    # email: "do123@drexel.edu"  # Email address
+    email: "da886@drexel.edu"  # Email address
     # phone: "(215) 123-4567"  # Phone number
-    # linkedin: "derrickosei"  # LinkedIn username
+    linkedin: "dederrick-appiah-osei-693099232"  # LinkedIn username
     # orcid: "0000-0002-3456-7890"  # ORCID ID
     # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
-    # github: "derrickosei"  # GitHub username
+    github: "DerrickAppiahOsei"  # GitHub username
     # website: "https://derrickosei.com"  # Personal or professional website
     # address: "3141 Chestnut Street, Philadelphia, PA 19104"  # Office or location address
     # degrees:  # Academic degrees
@@ -156,13 +182,13 @@
     institution: "Drexel University"  # Institution affiliation
     start_year: "2022"  # Start year for current role or program
     # end_year: "202X"  # Expected or actual end year (if applicable)
-    # image: "julian_goddy.jpg"  # Image filename (place in assets/img/people directory)
-    # email: "jg123@drexel.edu"  # Email address
+    image: "julian_goddy.jpeg"  # Image filename (place in assets/img/people directory)
+    email: "jg3837@drexel.edu"  # Email address
     # phone: "(215) 123-4567"  # Phone number
-    # linkedin: "juliangoddy"  # LinkedIn username
+    linkedin: "julian-goddy-6a46a594"  # LinkedIn username
     # orcid: "0000-0002-3456-7890"  # ORCID ID
     # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
-    # github: "juliangoddy"  # GitHub username
+    github: "JGoddy"  # GitHub username
     # website: "https://juliangoddy.com"  # Personal or professional website
     # address: "3141 Chestnut Street, Philadelphia, PA 19104"  # Office or location address
     # degrees:  # Academic degrees
@@ -183,19 +209,24 @@
     start_year: "2021"  # Start year for current role or program
     # end_year: "202X"  # Expected or actual end year (if applicable)
     image: "Xinqiao_Z.jpg"  # Image filename (place in assets/img/people directory)
-    email: "xz123@drexel.edu"  # Email address
+    email: "xz498@drexel.edu"  # Email address
     # phone: "(215) 123-4567"  # Phone number
-    # linkedin: "xinqiaozhang"  # LinkedIn username
+    linkedin: "xinqiao-zhang-b80248160"  # LinkedIn username
     # orcid: "0000-0002-3456-7890"  # ORCID ID
     # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
-    # github: "xinqiaozhang"  # GitHub username
+    github: "zhangxinqiao314"  # GitHub username
     address: "3141 Chestnut Street, Philadelphia, PA 19104"  # Office or location address
     # degrees:  # Academic degrees
     #   - "(2020) - M.S. - Mechanical Engineering, Drexel University"
     # location: "Philadelphia, PA"  # Geographical location or office location
-    # teaser: "Specializes in computational fluid dynamics and thermal systems."  # Short description or teaser about the member
-    inline: false  # Determines if the profile should be clickable to a separate URL
-    project: "Unsupervised methods to unravel insight from high-dimensional electron microscopy"  # Main project or research focus
+  teaser: "Xinqiao Zhang (she/her) is a Graduate Research Assistant in the M3-Learning 
+        lab at Drexel University. Her research primarily focuses on the application 
+        of deep learning techniques to characterize ferroelectric materials, aiming 
+        to advance the understanding and analysis of their properties. Her work 
+        contributes to the integration of artificial intelligence in materials science,
+         with an emphasis on developing innovative methods for the study of complex material behaviors."  # Short description or teaser about the member
+  inline: false  # Determines if the profile should be clickable to a separate URL
+  project: "Unsupervised methods to unravel insight from high-dimensional electron microscopy"  # Main project or research focus
 
 
 - group: "Ph.D. Students"  # Group the member belongs to
@@ -208,20 +239,26 @@
     start_year: "2019"  # Start year for current role or program
     # end_year: "202X"  # Expected or actual end year (if applicable)
     image: "shuyu_qin.jpg"  # Image filename (place in assets/img/people directory)
-    # email: "sq123@lehigh.edu"  # Email address
+    email: "sq83@drexel.edu"  # Email address
     # phone: "(215) 123-4567"  # Phone number
-    # linkedin: "shuyuqin"  # LinkedIn username
+    linkedin: "shuyu-qin-aa4416168"  # LinkedIn username
     # orcid: "0000-0002-3456-7890"  # ORCID ID
     # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
-    # github: "shuyuqin"  # GitHub username
+    github: "shuyuqin"  # GitHub username
     # website: "https://shuyuqin.com"  # Personal or professional website
     # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
     # degrees:  # Academic degrees
     #   - "(2018) - M.S. - Computer Science, Lehigh University"
     # location: "Bethlehem, PA"  # Geographical location or office location
-    # teaser: "Researching advancements in machine learning algorithms and data science applications."  # Short description or teaser about the member
-    inline: false  # Determines if the profile should be clickable to a separate URL
-    project: "Physics constrained machine learning for 4D scanning transmission electron microscopy strain mapping."  # Main project or research focus
+  teaser: "Shuyu Qin (he/him) is a researcher with a strong background in deep learning 
+        and neural network development. As a member of the M3-Learning lab at Drexel University, 
+        he specializes in building and optimizing models such as autoencoders, generative models,
+         and CycleGANs to solve problems in classification, domain transformation, and 
+         unsupervised prediction. His work extends across various datasets, including 
+         images and multimodal spectra, and he actively collaborates with research teams 
+         to drive innovative solutions."  # Short description or teaser about the member
+  inline: false  # Determines if the profile should be clickable to a separate URL
+  project: "Physics constrained machine learning for 4D scanning transmission electron microscopy strain mapping."  # Main project or research focus
 
 
 - group: "Ph.D. Students"  # Group the member belongs to
@@ -233,20 +270,20 @@
     institution: "Lehigh University"  # Institution affiliation
     start_year: "2019"  # Start year for current role or program
     # end_year: "202X"  # Expected or actual end year (if applicable)
-    image: "Yichen_G.png"  # Image filename (place in assets/img/people directory)
-    # email: "yg123@lehigh.edu"  # Email address
+    image: "Yichen_G.jpeg"  # Image filename (place in assets/img/people directory)
+    email: "yg446@drexel.edu"  # Email address
     # phone: "(215) 123-4567"  # Phone number
-    # linkedin: "yichenguo"  # LinkedIn username
+    linkedin: "yichen-guo-lehigh"  # LinkedIn username
     # orcid: "0000-0002-3456-7890"  # ORCID ID
     # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
-    # github: "yichenguo"  # GitHub username
+    github: "yig319"  # GitHub username
     # website: "https://yichenguo.com"  # Personal or professional website
     # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
     # degrees:  # Academic degrees
     #   - "(2018) - M.S. - Materials Science and Engineering, Lehigh University"
     # location: "Bethlehem, PA"  # Geographical location or office location
-    inline: false  # Determines if the profile should be clickable to a separate URL
-    project: "In-situ diagnostics and machine learning for growth of complex-oxides using pulsed-laser deposition."  # Main project or research focus
+  inline: false  # Determines if the profile should be clickable to a separate URL
+  project: "In-situ diagnostics and machine learning for growth of complex-oxides using pulsed-laser deposition."  # Main project or research focus
 
 
 ##### PH.D. Alumni 10 ####
@@ -313,9 +350,9 @@
     start_year: "2023"  # Start year for current role or program
     # end_year: "202X"  # Expected or actual end year (if applicable)
     # image: "veronica_obute.jpg"  # Image filename (place in assets/img/people directory)
-    # email: "vo123@drexel.edu"  # Email address
+    email: "mo623@drexel.edu"  # Email address
     # phone: "(215) 123-4567"  # Phone number
-    # linkedin: "veronicaobute"  # LinkedIn username
+    linkedin: "veronica-obute-a812821b8"  # LinkedIn username
     # orcid: "0000-0002-3456-7890"  # ORCID ID
     # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
     # github: "veronicaobute"  # GitHub username
@@ -340,10 +377,10 @@
     # image: "vinay_karamchandani.jpg"  # Image filename (place in assets/img/people directory)
     email: "vkk29@dragons.drexel.edu"  # Email address
     # phone: "(215) 123-4567"  # Phone number
-    # linkedin: "vinaykaramchandani"  # LinkedIn username
+    linkedin: "vinaykaramchandani"  # LinkedIn username
     # orcid: "0000-0002-3456-7890"  # ORCID ID
     # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
-    # github: "vinaykaramchandani"  # GitHub username
+    github: "Vinayk47"  # GitHub username
     # website: "https://vinaykaramchandani.com"  # Personal or professional website
     # address: "3141 Chestnut Street, Philadelphia, PA 19104"  # Office or location address
     # degrees:  # Academic degrees
@@ -365,10 +402,10 @@
     # image: "uttam_meena.jpg"  # Image filename (place in assets/img/people directory)
     email: "um44@dragons.drexel.edu"  # Email address
     # phone: "(215) 123-4567"  # Phone number
-    # linkedin: "uttammeena"  # LinkedIn username
+    linkedin: "uttamsinghmeena"  # LinkedIn username
     # orcid: "0000-0002-3456-7890"  # ORCID ID
     # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
-    # github: "uttammeena"  # GitHub username
+    github: "um44"  # GitHub username
     # website: "https://uttammeena.com"  # Personal or professional website
     # address: "3141 Chestnut Street, Philadelphia, PA 19104"  # Office or location address
     # degrees:  # Academic degrees
@@ -390,10 +427,10 @@
     # image: "chirayu_patel.jpg"  # Image filename (place in assets/img/people directory)
     email: "cnp68@drexel.edu"  # Email address
     # phone: "(215) 123-4567"  # Phone number
-    # linkedin: "chirayupatel"  # LinkedIn username
+    linkedin: "chiiirayu"  # LinkedIn username
     # orcid: "0000-0002-3456-7890"  # ORCID ID
     # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
-    # github: "chirayupatel"  # GitHub username
+    github: "chirayupatel9"  # GitHub username
     # website: "https://chirayupatel.com"  # Personal or professional website
     # address: "3141 Chestnut Street, Philadelphia, PA 19104"  # Office or location address
     # degrees:  # Academic degrees
@@ -415,10 +452,10 @@
     # image: "sai_pokuri.jpg"  # Image filename (place in assets/img/people directory)
     email: "sp3867@drexel.edu"  # Email address
     # phone: "(215) 123-4567"  # Phone number
-    # linkedin: "saipokuri"  # LinkedIn username
+    linkedin: "saiaashishp"  # LinkedIn username
     # orcid: "0000-0002-3456-7890"  # ORCID ID
     # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
-    # github: "saipokuri"  # GitHub username
+    github: "Aashish0330"  # GitHub username
     # website: "https://saipokuri.com"  # Personal or professional website
     # address: "3141 Chestnut Street, Philadelphia, PA 19104"  # Office or location address
     # degrees:  # Academic degrees
@@ -570,9 +607,9 @@
     start_year: "2023"  # Start year for the role or program
     # end_year: "2024"  # Expected or actual end year
     # image: "sean_rassa.jpg"  # Image filename (place in assets/img/people directory)
-    # email: "sr123@drexel.edu"  # Email address
+    email: "shr36@drexel.edu"  # Email address
     # phone: "(215) 123-4567"  # Phone number
-    # linkedin: "seanrassa"  # LinkedIn username
+    linkedin: "sean-rassa"  # LinkedIn username
     # orcid: "0000-0002-3456-7890"  # ORCID ID
     # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
     # github: "seanrassa"  # GitHub username
@@ -594,13 +631,13 @@
     institution: "Drexel University"  # Institution affiliation
     start_year: "2023"  # Start year for the role or program
     end_year: "2024"  # Expected or actual end year
-    # image: "yael_passy.jpg"  # Image filename (place in assets/img/people directory)
-    # email: "yp123@drexel.edu"  # Email address
+    image: "yael_passy.jpeg"  # Image filename (place in assets/img/people directory)
+    email: "ysp28@drexel.edu"  # Email address
     # phone: "(215) 123-4567"  # Phone number
-    # linkedin: "yaelpassy"  # LinkedIn username
+    linkedin: "yael-passy"  # LinkedIn username
     # orcid: "0000-0002-3456-7890"  # ORCID ID
     # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
-    # github: "yaelpassy"  # GitHub username
+    github: "Ysp28"  # GitHub username
     # website: "https://yaelpassy.com"  # Personal or professional website
     # address: "3141 Chestnut Street, Philadelphia, PA 19104"  # Office or location address
     # degrees:  # Academic degrees
@@ -622,10 +659,10 @@
     # image: "rufayda_sanjida.jpg"  # Image filename (place in assets/img/people directory)
     email: "rs3699@drexel.edu"  # Email address
     # phone: "(215) 123-4567"  # Phone number
-    # linkedin: "rufaydasanjida"  # LinkedIn username
+    linkedin: "rufayda-sanjida-047187218"  # LinkedIn username
     # orcid: "0000-0002-3456-7890"  # ORCID ID
     # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
-    # github: "rufaydasanjida"  # GitHub username
+    github: "Rufayda-Sanjida"  # GitHub username
     # website: "https://rufaydasanjida.com"  # Personal or professional website
     # address: "3141 Chestnut Street, Philadelphia, PA 19104"  # Office or location address
     # degrees:  # Academic degrees
@@ -647,10 +684,10 @@
     image: "Matt_W.png"  # Image filename (place in assets/img/people directory)
     email: "mattwilk@uw.edu"  # Email address
     # phone: "(206) 123-4567"  # Phone number
-    # linkedin: "mattwilk"  # LinkedIn username
+    linkedin: "matt-wilkinson25"  # LinkedIn username
     # orcid: "0000-0002-3456-7890"  # ORCID ID
     # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
-    # github: "mattwilk"  # GitHub username
+    github: "mattwilk25"  # GitHub username
     # website: "https://mattwilk.com"  # Personal or professional website
     # address: "University of Washington, Seattle, WA"  # Office or location address
     # degrees:  # Academic degrees
@@ -773,13 +810,13 @@
     institution: "Lehigh University"  # Institution affiliation
     start_year: "2020"  # Start year for the role or program
     end_year: "2022"  # End year for the role or program
-    # image: "ky_frew.jpg"  # Image filename (place in assets/img/people directory)
+    image: "Ky_F.jpg"  # Image filename (place in assets/img/people directory)
     # email: "kf123@lehigh.edu"  # Email address
     # phone: "(610) 123-4567"  # Phone number
     # linkedin: "kyfrew"  # LinkedIn username
     # orcid: "0000-0002-3456-7890"  # ORCID ID
     # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
-    # github: "kyfrew"  # GitHub username
+    github: "kyfrew"  # GitHub username
     # website: "https://kyfrew.com"  # Personal or professional website
     # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
     # degrees:  # Academic degrees
@@ -823,7 +860,7 @@
     institution: "Lehigh University"  # Institution affiliation
     start_year: "2020"  # Start year for the role or program
     end_year: "2022"  # End year for the role or program
-    # image: "niija_douglas.jpg"  # Image filename (place in assets/img/people directory)
+    image: "Douglas_N.png"  # Image filename (place in assets/img/people directory)
     # email: "nd123@lehigh.edu"  # Email address
     # phone: "(610) 123-4567"  # Phone number
     # linkedin: "niijadouglas"  # LinkedIn username
@@ -848,7 +885,7 @@
     institution: "Lehigh University"  # Institution affiliation
     start_year: "2020"  # Start year for the role or program
     end_year: "2021"  # End year for the role or program
-    # image: "mary_ye.jpg"  # Image filename (place in assets/img/people directory)
+    image: "Mary_L.png"  # Image filename (place in assets/img/people directory)
     # email: "my123@lehigh.edu"  # Email address
     # phone: "(610) 123-4567"  # Phone number
     # linkedin: "maryye"  # LinkedIn username
@@ -873,7 +910,7 @@
     institution: "Lehigh University"  # Institution affiliation
     start_year: "2020"  # Start year for the role or program
     end_year: "2021"  # End year for the role or program
-    image: "Victor_S"  # Image filename (place in assets/img/people directory)
+    image: "Victor_S.png"  # Image filename (place in assets/img/people directory)
     # email: "sv123@lehigh.edu"  # Email address
     # phone: "(610) 123-4567"  # Phone number
     # linkedin: "shoshanavictor"  # LinkedIn username
@@ -898,7 +935,7 @@
     institution: "Lehigh University"  # Institution affiliation
     start_year: "2020"  # Start year for the role or program
     end_year: "2021"  # End year for the role or program
-    # image: "norman_zvenyika.jpg"  # Image filename (place in assets/img/people directory)
+    image: "Norman_Z.png"  # Image filename (place in assets/img/people directory)
     # email: "nz123@lehigh.edu"  # Email address
     # phone: "(610) 123-4567"  # Phone number
     # linkedin: "normanzvenyika"  # LinkedIn username
@@ -948,8 +985,8 @@
     institution: "Lehigh University"  # Institution affiliation
     start_year: "2019"  # Start year for the role or program
     end_year: "2024"  # Expected or actual end year
-    # image: "ryan_forelli.jpg"  # Image filename (place in assets/img/people directory)
-    # email: "rf123@lehigh.edu"  # Email address
+    image: "Ryan_F.jpg"  # Image filename (place in assets/img/people directory)
+    email: "rf224@lehigh.edu"  # Email address
     # phone: "(610) 123-4567"  # Phone number
     # linkedin: "ryanforelli"  # LinkedIn username
     # orcid: "0000-0002-3456-7890"  # ORCID ID
@@ -973,7 +1010,7 @@
     institution: "Lehigh University"  # Institution affiliation
     start_year: "2019"  # Start year for the role or program
     end_year: "2020"  # End year for the role or program
-    # image: "andrew_zhang.jpg"  # Image filename (place in assets/img/people directory)
+    image: "Andrew_Z.png"  # Image filename (place in assets/img/people directory)
     # email: "az123@lehigh.edu"  # Email address
     # phone: "(610) 123-4567"  # Phone number
     # linkedin: "andrewzhang"  # LinkedIn username
@@ -998,7 +1035,7 @@
     institution: "Lehigh University"  # Institution affiliation
     start_year: "2019"  # Start year for the role or program
     end_year: "2020"  # End year for the role or program
-    # image: "oluwafolajimi_olugbodi.jpg"  # Image filename (place in assets/img/people directory)
+    image: "FJ_O.jpg"  # Image filename (place in assets/img/people directory)
     # email: "oo123@lehigh.edu"  # Email address
     # phone: "(610) 123-4567"  # Phone number
     # linkedin: "oluwafolajimiolugbodi"  # LinkedIn username
