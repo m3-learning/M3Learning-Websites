@@ -1,3 +1,8 @@
 "Agar":
-  - firstname: ["Joshua", "J. C.", "Josh"]
+  firstname: 
+    - "Joshua"
+    - "J. C."
+    - "Josh" 
+    - "Joshua C. "
+    - "Joshua C "
     # url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams

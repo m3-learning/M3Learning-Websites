@@ -314,7 +314,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 
 scholar:
   last_name: [Agar]
-  first_name: [Joshua, C.]
+  first_name: ["Joshua", "J. C.", "Josh", "J.", "Joshua C.", "Joshua C"]
 
   style: apa
   locale: en
