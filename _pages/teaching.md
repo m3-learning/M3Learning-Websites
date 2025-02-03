@@ -3,6 +3,7 @@ layout: page
 permalink: /teaching/
 title: Teaching
 description: A collection of courses taught.
+nav: true
 nav_order: 6
 display_categories: [year, university, topics]
 ---
