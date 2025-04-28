@@ -1,83 +1,83 @@
 - title: "Extremely Noisy 4-S STEM Strain Mapping Using CC-ST-AE"
   venue: "AI4MAT Workshop"
   year: 2023
-  pdf: "/assets/posters/4DSTEM-StrainMapping-Shuyu-AI4MAT.pdf"
-  image: "/assets/posters/thumbnails/4DSTEM-StrainMapping-Shuyu-AI4MAT.jpg"
+  pdf: "/al-folio/assets/posters/4DSTEM-StrainMapping-Shuyu-AI4MAT.pdf"
+  image: "/al-folio/assets/posters/thumbnails/4DSTEM-StrainMapping-Shuyu-AI4MAT.jpg"
 
 - title: "Real-time Fitting and Materials Characterization in Band-Excitation Piezoresponse Force Microscopy"
   venue: "A3D3 High-Throughput AI Methods and Infrastructure Workshop 2023"
   year: 2023
-  pdf: "/assets/posters/BandExcitation-A3D32023.pdf"
-  image: "/assets/posters/thumbnails/BandExcitation-A3D32023.jpg"
+  pdf: "/al-folio/assets/posters/BandExcitation-A3D32023.pdf"
+  image: "/al-folio/assets/posters/thumbnails/BandExcitation-A3D32023.jpg"
 
 - title: "Autoencoder Models for Accelerated Scanning Transmission Electron Microscopy Characterization of Ferroelectrics and 2D Materials"
   venue: "European Conference on Applications of Polar Dielectric ECAPD Conference"
   year: 2024
-  pdf: "/assets/posters/ECAPD poster reshape.pdf"
-  image: "/assets/posters/thumbnails/ECAPD-poster-reshape.jpg"
+  pdf: "/al-folio/assets/posters/ECAPD poster reshape.pdf"
+  image: "/al-folio/assets/posters/thumbnails/ECAPD-poster-reshape.jpg"
 
 - title: "FastML: Evaluating the Robustness of a 4D STEM Autoencoder to Noisy Inputs"
   venue: "Fast Machine Learning Conference"
   year: 2024
-  pdf: "/assets/posters/Fast ML Evaluating the Robustness of a 4D STEM Autoencoder to Noisy Inputs Zhuo (Cecilia) Chen.pdf"
-  image: "/assets/posters/thumbnails/FastML-Evaluating-Robustness.jpg"
+  pdf: "/al-folio/assets/posters/Fast ML Evaluating the Robustness of a 4D STEM Autoencoder to Noisy Inputs Zhuo (Cecilia) Chen.pdf"
+  image: "/al-folio/assets/posters/thumbnails/FastML-Evaluating-Robustness.jpg"
 
 - title: "FastML 2024: An open platform for in-situ high-speed computer vision with hls4ml"
   venue: "Fast Machine Learning Conference"
   year: 2024
-  pdf: "/assets/posters/FastML-2024-hls4ml-for-frame-grabbers-poster.pdf"
-  image: "/assets/posters/thumbnails/FastML-2024-hls4ml-for-frame-grabbers-poster.jpg"
+  pdf: "/al-folio/assets/posters/FastML-2024-hls4ml-for-frame-grabbers-poster.pdf"
+  image: "/al-folio/assets/posters/thumbnails/FastML-2024-hls4ml-for-frame-grabbers-poster.jpg"
 
 - title: "Foundation Model for Real-Time Model Selection and Fitting"
   venue: "Fast Machine Learning Conference"
   year: 2024
-  pdf: "/assets/posters/FastMLPoster2024_CymberlyTsai.pdf"
-  image: "/assets/posters/thumbnails/FastMLPoster2024_CymberlyTsai.jpg"
+  pdf: "/al-folio/assets/posters/FastMLPoster2024_CymberlyTsai.pdf"
+  image: "/al-folio/assets/posters/thumbnails/FastMLPoster2024_CymberlyTsai.jpg"
 
 - title: "High-Speed In-Situ Characterization for Pulsed-Laser Deposition: Insights into Growth Dynamics with RHEED and Plume Dynamic Imaging"
   venue: "National Defense Industrial Association (NDIA) Conference"
   year: 2024
-  pdf: "/assets/posters/GuoY36X48Unmounted.pdf"
-  image: "/assets/posters/thumbnails/GuoY36X48Unmounted.jpg"
+  pdf: "/al-folio/assets/posters/GuoY36X48Unmounted.pdf"
+  image: "/al-folio/assets/posters/thumbnails/GuoY36X48Unmounted.jpg"
 
 - title: "Cyberinfrastructure for Scientific Data Preservation and Image Similarity Search"
   venue: "National Science Foundation- Cyberinfrastructure for Sustained Scientific Innovation (CSSI) Conference"
   year: 2024
-  pdf: "/assets/posters/NSF CSSI.pdf"
-  image: "/assets/posters/thumbnails/NSF-CSSI.jpg"
+  pdf: "/al-folio/assets/posters/NSF CSSI.pdf"
+  image: "/al-folio/assets/posters/thumbnails/NSF-CSSI.jpg"
 
 - title: "Rapid Fitting - BE PFM"
   venue: "AI for Accelerated Materials Design Workshop AI4MAT"
   year: 2024
-  pdf: "/assets/posters/RapidFitting-BE-PFM.png"
-  image: "/assets/posters/thumbnails/RapidFitting-BE-PFM.png"
+  pdf: "/al-folio/assets/posters/RapidFitting-BE-PFM.png"
+  image: "/al-folio/assets/posters/thumbnails/RapidFitting-BE-PFM.png"
 
 - title: "RHEED - A3D3 2023"
   venue: "A3D3 High-Throughput AI Methods and Infrastructure Workshop 2023"
   year: 2023
-  pdf: "/assets/posters/RHEED-A3D32023.pdf"
-  image: "/assets/posters/thumbnails/RHEED-A3D32023.jpg"
+  pdf: "/al-folio/assets/posters/RHEED-A3D32023.pdf"
+  image: "/al-folio/assets/posters/thumbnails/RHEED-A3D32023.jpg"
 
 - title: "RHEED Fast ML Poster"
   venue: "Fast ML Symposium"
   year: 2024
-  pdf: "/assets/posters/RHEEDFastMLPoster.pdf"
-  image: "/assets/posters/thumbnails/RHEEDFastMLPoster.jpg"
+  pdf: "/al-folio/assets/posters/RHEEDFastMLPoster.pdf"
+  image: "/al-folio/assets/posters/thumbnails/RHEEDFastMLPoster.jpg"
 
 - title: "Physics Constrained Neural Net for Fast Approximate of Reflection High-Energy Electron Diffraction"
   venue: "A3D3 High-Throughput AI Methods and Infrastructure Workshop 2023"
   year: 2023
-  pdf: "/assets/posters/Sean-A3D3.pdf"
-  image: "/assets/posters/thumbnails/Sean-A3D3.jpg"
+  pdf: "/al-folio/assets/posters/Sean-A3D3.pdf"
+  image: "/al-folio/assets/posters/thumbnails/Sean-A3D3.jpg"
 
 - title: "Understanding Experimental Images by Identifying Symmetries with Deep Learning- AI4MAT"
   venue: "AI for Accelerated Materials Design Workshop AI4MAT"
   year: 2024
-  pdf: "/assets/posters/UnderstandingSymmetries-Yichen-AI4MAT.pdf"
-  image: "/assets/posters/thumbnails/UnderstandingSymmetries-Yichen-AI4MAT.jpg"
+  pdf: "/al-folio/assets/posters/UnderstandingSymmetries-Yichen-AI4MAT.pdf"
+  image: "/al-folio/assets/posters/thumbnails/UnderstandingSymmetries-Yichen-AI4MAT.jpg"
 
 - title: "Enabling Ferroelectric Characterization through BE-PFM and Python API"
   venue: "A3D3 High-Throughput AI Methods and Infrastructure Workshop 2023"
   year: 2023
-  pdf: "/assets/posters/Yael-Star.pdf"
-  image: "/assets/posters/thumbnails/Yael-Star.jpg"
+  pdf: "/al-folio/assets/posters/Yael-Star.pdf"
+  image: "/al-folio/assets/posters/thumbnails/Yael-Star.jpg"
