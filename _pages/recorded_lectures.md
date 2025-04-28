@@ -2,8 +2,8 @@
 layout: page
 permalink: /presentations/
 title: presentations
-nav: true
-nav_order: 2
+nav: false # Set to false to avoid showing in the main navigation
+nav_order: 4
 ---
 
 <style>

@@ -2,8 +2,8 @@
 layout: cv
 permalink: /cv/
 title: cv
-nav: true
-nav_order: 5
+nav: false # Set to false to avoid showing in the main navigation
+nav_order: 7
 cv_pdf: example_pdf.pdf
 description: 
 toc:

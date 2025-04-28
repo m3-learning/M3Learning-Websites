@@ -2,7 +2,8 @@
 layout: page
 permalink: /publications/
 title: publications
-nav: true
+nav: false
+# Removed Publications from navigation menu
 nav_order: 2
 ---
 

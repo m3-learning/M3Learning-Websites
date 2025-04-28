@@ -1,7 +1,9 @@
 ---
 layout: page
-title: Facilities
+title: facilities
 permalink: /facilities/
+nav: true
+nav_order: 4
 ---
 
 This page provides an overview of the key facilities available within the M3 Learning research group at Drexel University.
@@ -49,7 +51,7 @@ The lab hosts several **high-speed servers** for **data transfer and computation
 <div><img src="{{ site.baseurl }}/assets/img/facilities/DragonDeepLearnCluster.png" alt="Dragon Cluster Development Schematic" width="50%"><p>Rack elevation for Dragon Deep Learning Cluster</p></div>
 
 
-### Dragon Deep Learning Cluster
+### PODWYRM Deep Learning Cluster
 - Developed through an NSF MRI award.
 - Designed for high-availability machine learning (ML) services.
 - Kubernetes-based cluster for ML and web service deployment.
