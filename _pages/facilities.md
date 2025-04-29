@@ -9,45 +9,57 @@ description: This page provides an overview of the key facilities available with
 facility_sections:
   - title: Computing Facilities
     items:
-
-      - title: High-Performance Computing Clusters
-        image: DragonDeepLearnCluster.png
-        description: Kubernetes-based Dragon Deep Learning Cluster developed through an NSF MRI award with high-availability services.
-        
       - title: Development Workstations
         image: DragonClusterDevSchematic.png
-        description: A range of GPU workstations including 8× NVIDIA A6000, 5× NVIDIA 3090, and 4× NVIDIA Titan RTX with a U200 FPGA system.
+        description: GPU workstations for machine learning and FPGA development.
+        url: /facilities/development-workstations/
+    items:
+      - title: FPGA Development Boards
+        image: DragonClusterDevSchematic.png
+        description: High-speed signal processing FPGA boards.
+        url: /facilities/fpga-development-boards/
 
-      - title: Heterogeneous Cluster
+      - title: Experimental Compute Facilities
         image: ComputingCluster.png
-        description: 200 Gbps connectivity cluster at Lehigh University for scientific ML with U280 FPGA nodes and A100 GPUs.
+        description: Edge compute servers with high-speed networking.
+        url: /facilities/experimental-compute-facilities/
+
+      - title: High-Performance Computing Cluster
+        image: DragonDeepLearnCluster.png
+        description: HPC cluster for ML training and scientific computing.
+        url: /facilities/high-performance-computing-cluster/
 
   - title: Pulsed Laser Deposition (PLD) Facilities
     items:
       - title: PLD System
         image: PLDfacility.png
-        description: Custom computer-controlled PLD system featuring an Excimer laser, mass flow controllers, and motion optics.
-
-      - title: PLD Attenuator
-        image: PLDAttenuator.jpg
-        description: Computer-controlled optical attenuator for laser energy tuning.
+        description: Computer-controlled pulsed laser deposition system.
+        url: /facilities/pld-system/
 
       - title: Motion Stage
         image: PLDMotionStage.png
-        description: Computer-controlled motion stage for precise optical alignment.
+        description: Optical motion stage for PLD beam alignment.
+        url: /facilities/motion-stage/
 
+      - title: PLD Attenuator
+        image: PLDAttenuator.jpg
+        description: Laser energy attenuator for PLD.
+        url: /facilities/pld-attenuator/
 
   - title: Surface Analysis Facilities
     items:
-      - title: Atomic Force Microscope
+      - title: Atomic Force Microscopy
         image: AFMSchematic.png
-        description: High-resolution Oxford Instruments Cypher S AFM with interferometric detection and custom multimodal pipelines.
+        description: High-resolution AFM for multimodal spectroscopy.
+        url: /facilities/atomic-force-microscopy/
 
   - title: Electrical Testing Facilities
     items:
       - title: Electrical Probe Station
         image: ElectricalProbe.jpg
-        description: High-temperature probe station with ferroelectric tester and deep-level transient spectroscopy capabilities.
+        description: High-temperature probe station for materials testing.
+        url: /facilities/electrical-probe-station/
+
 ---
 
 

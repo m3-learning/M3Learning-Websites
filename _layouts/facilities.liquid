@@ -20,11 +20,12 @@ layout: default
         <h2>{{ section.title }}</h2>
         <div class="facility-grid">
           {% for item in section.items %}
-            <div class="facility-card">
+            <a href="{{ site.baseurl }}{{ item.url }}index.html" class="facility-card">
               <img src="{{ site.baseurl }}/assets/img/facilities/{{ item.image }}" alt="{{ item.title }}">
               <h3>{{ item.title }}</h3>
               <p>{{ item.description }}</p>
-            </div>
+            </a>
+
           {% endfor %}
         </div>
       {% endfor %}

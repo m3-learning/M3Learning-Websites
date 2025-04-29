@@ -11,9 +11,12 @@
   }
   
   .facility-card {
+    display: block;
     width: 500px;
     max-width: 90%;
     text-align: center;
+    text-decoration: none;
+    color: inherit;
     background-color: var(--global-card-background-color);
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -24,6 +27,7 @@
   .facility-card:hover {
     transform: scale(1.03);
   }
+  
   
   .facility-card img {
     width: 100%;
