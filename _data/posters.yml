@@ -2,43 +2,43 @@
   venue: "AI4MAT Workshop"
   year: 2023
   pdf: "/al-folio/assets/posters/4DSTEM-StrainMapping-Shuyu-AI4MAT.pdf"
-  image: "/al-folio/assets/posters/thumbnails/4DSTEM-StrainMapping-Shuyu-AI4MAT.jpg"
+  image: "/al-folio/assets/posters/thumbnails/4DSTEM-StrainMapping-Shuyu-AI4MAT.png"
 
 - title: "Real-time Fitting and Materials Characterization in Band-Excitation Piezoresponse Force Microscopy"
   venue: "A3D3 High-Throughput AI Methods and Infrastructure Workshop 2023"
   year: 2023
   pdf: "/al-folio/assets/posters/BandExcitation-A3D32023.pdf"
-  image: "/al-folio/assets/posters/thumbnails/BandExcitation-A3D32023.jpg"
+  image: "/al-folio/assets/posters/thumbnails/BandExcitation-A3D32023.png"
 
 - title: "Autoencoder Models for Accelerated Scanning Transmission Electron Microscopy Characterization of Ferroelectrics and 2D Materials"
   venue: "European Conference on Applications of Polar Dielectric ECAPD Conference"
   year: 2024
   pdf: "/al-folio/assets/posters/ECAPD poster reshape.pdf"
-  image: "/al-folio/assets/posters/thumbnails/ECAPD poster reshape.jpg"
+  image: "/al-folio/assets/posters/thumbnails/ECAPD poster reshape.png"
 
 - title: "FastML: Evaluating the Robustness of a 4D STEM Autoencoder to Noisy Inputs"
   venue: "Fast Machine Learning Conference"
   year: 2024
   pdf: "/al-folio/assets/posters/Fast ML Evaluating the Robustness of a 4D STEM Autoencoder to Noisy Inputs Zhuo (Cecilia) Chen.pdf"
-  image: "/al-folio/assets/posters/thumbnails/Fast ML Evaluating the Robustness of a 4D STEM Autoencoder to Noisy Inputs Zhuo (Cecilia) Chen.jpg"
+  image: "/al-folio/assets/posters/thumbnails/Fast ML Evaluating the Robustness of a 4D STEM Autoencoder to Noisy Inputs Zhuo (Cecilia) Chen.png"
 
 - title: "FastML 2024: An open platform for in-situ high-speed computer vision with hls4ml"
   venue: "Fast Machine Learning Conference"
   year: 2024
   pdf: "/al-folio/assets/posters/FastML-2024-hls4ml-for-frame-grabbers-poster.pdf"
-  image: "/al-folio/assets/posters/thumbnails/FastML-2024-hls4ml-for-frame-grabbers-poster.jpg"
+  image: "/al-folio/assets/posters/thumbnails/FastML-2024-hls4ml-for-frame-grabbers-poster.png"
 
 - title: "Foundation Model for Real-Time Model Selection and Fitting"
   venue: "Fast Machine Learning Conference"
   year: 2024
   pdf: "/al-folio/assets/posters/FastMLPoster2024_CymberlyTsai.pdf"
-  image: "/al-folio/assets/posters/thumbnails/FastMLPoster2024_CymberlyTsai.jpg"
+  image: "/al-folio/assets/posters/thumbnails/FastMLPoster2024_CymberlyTsai.png"
 
 - title: "High-Speed In-Situ Characterization for Pulsed-Laser Deposition: Insights into Growth Dynamics with RHEED and Plume Dynamic Imaging"
   venue: "National Defense Industrial Association (NDIA) Conference"
   year: 2024
   pdf: "/al-folio/assets/posters/GuoY36X48Unmounted.pdf"
-  image: "/al-folio/assets/posters/thumbnails/GuoY36X48Unmounted.jpg"
+  image: "/al-folio/assets/posters/thumbnails/GuoY36X48Unmounted.png"
 
 - title: "Cyberinfrastructure for Scientific Data Preservation and Image Similarity Search"
   venue: "National Science Foundation- Cyberinfrastructure for Sustained Scientific Innovation (CSSI) Conference"
@@ -56,7 +56,7 @@
   venue: "A3D3 High-Throughput AI Methods and Infrastructure Workshop 2023"
   year: 2023
   pdf: "/al-folio/assets/posters/RHEED-A3D32023.pdf"
-  image: "/al-folio/assets/posters/thumbnails/RHEED-A3D32023.jpg"
+  image: "/al-folio/assets/posters/thumbnails/RHEED-A3D32023.png"
 
 - title: "RHEED Fast ML Poster"
   venue: "Fast ML Symposium"
@@ -68,7 +68,7 @@
   venue: "A3D3 High-Throughput AI Methods and Infrastructure Workshop 2023"
   year: 2023
   pdf: "/al-folio/assets/posters/Sean-A3D3.pdf"
-  image: "/al-folio/assets/posters/thumbnails/Sean-A3D3.jpg"
+  image: "/al-folio/assets/posters/thumbnails/Sean-A3D3.png"
 
 - title: "Understanding Experimental Images by Identifying Symmetries with Deep Learning- AI4MAT"
   venue: "AI for Accelerated Materials Design Workshop AI4MAT"
@@ -80,4 +80,4 @@
   venue: "A3D3 High-Throughput AI Methods and Infrastructure Workshop 2023"
   year: 2023
   pdf: "/al-folio/assets/posters/Yael-Star.pdf"
-  image: "/al-folio/assets/posters/thumbnails/Yael-Star.jpg"
+  image: "/al-folio/assets/posters/thumbnails/Yael-Star.png"

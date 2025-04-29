@@ -9,21 +9,36 @@ layout: default
   </header>
 
   <!-- Filter input -->
-  <input type="text" id="filterInput" placeholder="Filter by conference..." class="form-control mb-4">
+  <input type="text" id="filterInput" placeholder="Type to filter..." class="form-control mb-4">
 
   <div class="poster-grid">
     {% assign sorted_posters = site.data.posters | sort: 'year' | reverse %}
     {% for poster in sorted_posters %}
       <div class="poster-card" data-venue="{{ poster.venue | downcase }}">
         {% if poster.image %}
+      <a href="{{ poster.image }}" class="poster-lightbox" data-gallery="posters" data-title="{{ poster.title }}">
         <img src="{{ poster.image }}" alt="{{ poster.title }} poster">
-        {% endif %}
+      </a>
+{% endif %}
+
         <h3>{{ poster.title }}</h3>
-        <p><strong>Presented at:</strong> {{ poster.venue }}, {{ poster.year }}</p>
+        <p><strong></strong> {{ poster.venue }}, {{ poster.year }}</p>
         <a class="btn btn-primary" href="{{ poster.pdf }}" target="_blank">Download PDF</a>
       </div>
     {% endfor %}
   </div>
+  
+<!-- GLightbox assets -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const lightbox = GLightbox({
+      selector: '.poster-lightbox'
+    });
+  });
+</script>
 
 </div>
 
