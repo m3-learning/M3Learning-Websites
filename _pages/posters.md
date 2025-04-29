@@ -1,19 +1,7 @@
 ---
-layout: page
+layout: posters
 title: Posters
 permalink: /posters/
+description: Collection of research posters presented at various conferences and workshops.
 ---
 
-# Research Posters 📜
-
-Here is a collection of research posters presented at various conferences and workshops.
-
-{% for poster in site.data.posters %}
-  - **{{ poster.title }}**  
-    *Presented at {{ poster.venue }}, {{ poster.year }}*  
-    [Download (PDF)]({{ poster.pdf }})  
-    {% if poster.image %}
-    ![Poster preview]({{ poster.image }}){: .img-responsive}
-    {% endif %}
-    <br>
-{% endfor %}

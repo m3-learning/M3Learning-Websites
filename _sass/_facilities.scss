@@ -1,0 +1,40 @@
+// =======================
+// Custom Styles for Facilities Page
+// =======================
+
+.facility-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .facility-card {
+    width: 300px;
+    max-width: 90%;
+    text-align: center;
+    background-color: var(--global-card-background-color);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 1rem;
+    transition: transform 0.2s ease;
+  }
+  
+  .facility-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .facility-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+
+  .post h2 {
+    margin-top: 4rem; /* or 1.5rem if you want smaller */
+  }
+  
+  
+  

@@ -10,9 +10,8 @@ children:
   - title : divider 
   - title: presentations
     permalink: /presentations/
-  - title: divider
-  - title: projects
-    permalink: /projects/ # Removed Blog from dropdown menu
+
+# Removed Blog and Projects from dropdown menu
   - title: divider
   - title: posters
     permalink: /posters/

@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-description">{{ page.description }}</p>
+  </header>
+
+  <!-- Filter input -->
+  <input type="text" id="filterInput" placeholder="Filter by conference..." class="form-control mb-4">
+
+  <div class="poster-grid">
+    {% assign sorted_posters = site.data.posters | sort: 'year' | reverse %}
+    {% for poster in sorted_posters %}
+      <div class="poster-card" data-venue="{{ poster.venue | downcase }}">
+        {% if poster.image %}
+        <img src="{{ poster.image }}" alt="{{ poster.title }} poster">
+        {% endif %}
+        <h3>{{ poster.title }}</h3>
+        <p><strong>Presented at:</strong> {{ poster.venue }}, {{ poster.year }}</p>
+        <a class="btn btn-primary" href="{{ poster.pdf }}" target="_blank">Download PDF</a>
+      </div>
+    {% endfor %}
+  </div>
+
+</div>
+
+<script>
+  const input = document.getElementById('filterInput');
+  input.addEventListener('input', function() {
+    const filter = input.value.toLowerCase();
+    const cards = document.querySelectorAll('.poster-card');
+    cards.forEach(card => {
+      const venue = card.getAttribute('data-venue');
+      if (venue.includes(filter)) {
+        card.style.display = '';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  });
+</script>
