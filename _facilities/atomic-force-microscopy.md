@@ -1,7 +1,7 @@
 ---
 title: Atomic Force Microscopy
 category: Surface Analysis Facilities
-layout: facility
+layout: page
 image: /assets/img/facilities/AFMSchematic.png
 description: High-resolution AFM with interferometric detection and real-time FPGA control.
 permalink: /facilities/atomic-force-microscopy/

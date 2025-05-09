@@ -1,7 +1,7 @@
 ---
 title: Electrical Probe Station
 category: Electrical Testing Facilities
-layout: facility
+layout: page
 image: /assets/img/facilities/ElectricalProbe.jpg
 description: Electrical probe station for material characterization at elevated temperatures.
 permalink: /facilities/electrical-probe-station/

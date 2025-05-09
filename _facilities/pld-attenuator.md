@@ -1,7 +1,7 @@
 ---
 title: PLD Attenuator
 category: Pulsed Laser Deposition Facilities
-layout: facility
+layout: page
 image: /assets/img/facilities/PLDAttenuator.jpg
 description: Optical attenuator for precise laser energy control in PLD systems.
 permalink: /facilities/pld-attenuator/

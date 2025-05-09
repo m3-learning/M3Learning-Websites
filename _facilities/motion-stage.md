@@ -1,7 +1,7 @@
 ---
 title: Motion Stage
 category: Pulsed Laser Deposition Facilities
-layout: facility
+layout: page
 image: /assets/img/facilities/PLDMotionStage.png
 description: Precision motion stage for optical alignment in PLD systems.
 permalink: /facilities/motion-stage/

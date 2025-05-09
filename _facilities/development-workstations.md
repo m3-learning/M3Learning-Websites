@@ -1,7 +1,7 @@
 ---
 title: Development Workstations
 category: Computing Facilities
-layout: facility
+layout: page
 image: /assets/img/facilities/DragonClusterDevSchematic.png
 description: A range of GPU workstations supporting local and cluster-based ML training.
 permalink: /facilities/development-workstations/

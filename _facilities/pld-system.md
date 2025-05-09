@@ -1,7 +1,7 @@
 ---
 title: PLD System
 category: Pulsed Laser Deposition Facilities
-layout: facility
+layout: page
 image: /assets/img/facilities/PLDfacility.png
 description: Custom computer-controlled Pulsed Laser Deposition system.
 permalink: /facilities/pld-system/

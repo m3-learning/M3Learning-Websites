@@ -9,25 +9,32 @@ description: This page provides an overview of the key facilities available with
 facility_sections:
   - title: Computing Facilities
     items:
+      - title: Experimental Compute Facilities
+        image: DragonClusterDevSchematic.png
+        description: Edge compute servers with high-speed networking.
+        url: /facilities/experimental-compute-facilities/
+
       - title: Development Workstations
         image: DragonClusterDevSchematic.png
         description: GPU workstations for machine learning and FPGA development.
         url: /facilities/development-workstations/
-    items:
+
       - title: FPGA Development Boards
-        image: DragonClusterDevSchematic.png
+        image: RFSoC4x2.png
         description: High-speed signal processing FPGA boards.
         url: /facilities/fpga-development-boards/
 
-      - title: Experimental Compute Facilities
-        image: ComputingCluster.png
-        description: Edge compute servers with high-speed networking.
-        url: /facilities/experimental-compute-facilities/
-
+  - title: High-Performance Computing Cluster
+    items: 
       - title: High-Performance Computing Cluster
         image: DragonDeepLearnCluster.png
         description: HPC cluster for ML training and scientific computing.
         url: /facilities/high-performance-computing-cluster/
+ 
+      - title: Heterogenous Computing Cluster
+        image: ComputingCluster.png
+        description: HPC cluster for ML training and scientific computing.
+        url: /facilities/heterogenous-computing-cluster/
 
   - title: Pulsed Laser Deposition (PLD) Facilities
     items:
