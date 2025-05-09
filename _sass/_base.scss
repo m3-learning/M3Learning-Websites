@@ -1356,3 +1356,20 @@ ninja-keys::part(ninja-input-wrapper) {
   background-color: var(--global-theme-color);
   color: #ffffff;
 }
+
+.btn-primary {
+  background-color: $button-color !important; // Use the Drexel Blue color
+  color: #ffffff !important; // Ensure the text color is white for contrast
+  border-color: $button-color !important; // Match the border color to the background
+
+  &:hover {
+    background-color: darken($button-color, 10%); // Darken on hover for effect
+    border-color: darken($button-color, 10%);
+  }
+
+  &:focus,
+  &:active {
+    background-color: darken($button-color, 15%);
+    border-color: darken($button-color, 15%);
+  }
+}

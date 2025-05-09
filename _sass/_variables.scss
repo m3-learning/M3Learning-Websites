@@ -18,7 +18,7 @@ $green-color-lime: #B7D12A !default; // PMS 583C (light lime green)
 $green-color-dark: #009f06 !default;
 $green-color-light: #ddffdd !default;
 $green-color-bright: #11d68b !default;
-$drexel-blue: #002F6C !default; // Defined Drexel Blue for consistency
+$drexel-blue: #004B87 !default; // Define Drexel Blue if not already defined
 $light-drexel-blue: color.adjust($drexel-blue, $lightness: 25%) !default;
 $pink-color: #F92080 !default; // Existing pink for accents
 $pink-color-light: #FFDDDD !default;
@@ -43,7 +43,7 @@ $black-color: $drexel-blue !default;
 // Theme colors
 
 $code-bg-color-light: rgba($blue-color, 0.05) !default; // Lightened Drexel Blue for code backgrounds
-$code-bg-color-dark: $drexel-blue!default; // Dark background for code blocks
+$code-bg-color-dark: $drexel-blue !default; // Dark background for code blocks
 
 // Font Awesome location
 $fa-font-path: "../webfonts";
@@ -58,3 +58,5 @@ $back-to-top-right: 30px;
 $back-to-top-diameter: 40px;
 $back-to-top-height: $back-to-top-diameter;
 $back-to-top-width: $back-to-top-diameter;
+
+$button-color: $drexel-blue !default; // Set the default button color to Drexel Blue
