@@ -5,6 +5,7 @@ repo_description_lines_max: 2
 
 github_repos:
   - m3-learning/M3Learning-Util
+  - m3-learning/BEPiezo-Learn
   - m3-learning/Auto4DSTEM
   - m3-learning/DataFed_TorchFlow
   - m3-learning/XRD-Learn
@@ -14,3 +15,5 @@ github_repos:
   - m3-learning/AFM-Learn
   - m3-learning/AutoPhysLearn
   - m3-learning/LAMBDA-PHYSIK-LPX200-LaserController
+  - m3-learning/Globus-Personal-Container
+  - m3-learning/PyKubeGrader
