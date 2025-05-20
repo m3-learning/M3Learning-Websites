@@ -260,6 +260,33 @@
 
 - group: "Ph.D. Students"  # Group the member belongs to
   group_rank: 3  # Ranking to determine order
+  lastname: "Johari"  # Last name of the member
+  profile:
+    name: "Sarah Johari"  # Full name
+    position: "Ph.D. Student, Electrical and Computer Engineering"  # Position or role
+    institution: "Drexel University"  # Institution affiliation
+    start_year: "2025"  # Start year for current role or program
+    # end_year: "202X"  # Expected or actual end year (if applicable)
+    image: #"shuyu_qin.jpg"  # Image filename (place in assets/img/people directory)
+    email: "sj984@drexel.edu"  # Email address
+    # phone: "(215) 123-4567"  # Phone number
+    linkedin: "sarah-johari-462282166"  # LinkedIn username
+    # orcid: "0000-0002-3456-7890"  # ORCID ID
+    # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
+    github: "Sarah-Johari"  # GitHub username
+    # website: "https://shuyuqin.com"  # Personal or professional website
+    # address: "27 Memorial Drive West, Bethlehem, PA 18015"  # Office or location address
+    # degrees:  # Academic degrees
+    #   - "(2018) - M.S. - Computer Science, Lehigh University"
+    # current_position: "Bethlehem, PA"  # Geographical location or office location
+  teaser: #"Shuyu Qin (he/him) is a researcher with a strong background in deep learning 
+          # Short description or teaser about the member
+  inline: false  # Determines if the profile should be clickable to a separate URL
+  project: #"Physics constrained machine learning for 4D scanning transmission electron microscopy strain mapping."  # Main project or research focus
+
+
+- group: "Ph.D. Students"  # Group the member belongs to
+  group_rank: 3  # Ranking to determine order
   lastname: "Guo"  # Last name of the member
   profile:
     name: "Yichen Guo"  # Full name
@@ -287,7 +314,7 @@
   lastname: "Patel"  # Last name of the member
   profile:
     name: "Chirayu Patel"  # Full name
-    position: "M.S. Student"  # Position or role
+    position: "Ph.D. Student"  # Position or role
     institution: "Drexel University"  # Institution affiliation
     start_year: "2024"  # Start year for the program (if available)
     # end_year: "202X"  # Expected graduation year (if applicable)
@@ -896,7 +923,7 @@
     institution: "Lehigh University"  # Institution affiliation
     start_year: "2020"  # Start year for the role or program
     end_year: "2021"  # End year for the role or program
-    image: "Mary_L.png"  # Image filename (place in assets/img/people directory)
+    image: "Mary_Y.png"  # Image filename (place in assets/img/people directory)
     # email: "my123@lehigh.edu"  # Email address
     # phone: "(610) 123-4567"  # Phone number
     linkedin: "mary-ye-0302"  # LinkedIn username
@@ -1023,7 +1050,7 @@
     institution: "Lehigh University"  # Institution affiliation
     start_year: "2019"  # Start year for the role or program
     end_year: "2020"  # End year for the role or program
-    image: "Andrew_Z.png"  # Image filename (place in assets/img/people directory)
+    image: "Andrew_Z.jpeg"  # Image filename (place in assets/img/people directory)
     # email: "az123@lehigh.edu"  # Email address
     # phone: "(610) 123-4567"  # Phone number
     linkedin: "andrewfzheng"  # LinkedIn username
