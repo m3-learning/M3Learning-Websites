@@ -283,6 +283,31 @@
   inline: false  # Determines if the profile should be clickable to a separate URL
   project: "In-situ diagnostics and machine learning for growth of complex-oxides using pulsed-laser deposition."  # Main project or research focus
 
+- group: "Ph.D. Students"  # Group the member belongs to
+  group_rank: 3 # Ranking to determine order 
+  lastname: "Patel"  # Last name of the member
+  profile:
+    name: "Chirayu Patel"  # Full name
+    position: "M.S. Student"  # Position or role
+    institution: "Drexel University"  # Institution affiliation
+    start_year: "2024"  # Start year for the program (if available)
+    # end_year: "202X"  # Expected graduation year (if applicable)
+    image: "chirayu_patel.jpeg"  # Image filename (place in assets/img/people directory)
+    email: "cnp68@drexel.edu"  # Email address
+    # phone: "(215) 123-4567"  # Phone number
+    linkedin: "chiiirayu"  # LinkedIn username
+    linkedin: "chiiirayu"  # LinkedIn username
+    # orcid: "0000-0002-3456-7890"  # ORCID ID
+    # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
+    github: "chirayupatel9"  # GitHub username
+    # website: "https://chirayupatel.com"  # Personal or professional website
+    # address: "3141 Chestnut Street, Philadelphia, PA 19104"  # Office or location address
+    # degrees:  # Academic degrees
+    #   - "B.S. in [Field] (202X)"
+    # current_position: "Philadelphia, PA"  # Geographical location or office location
+    # teaser: "Focused on [area of study or research interest]."  # Short description or teaser about the member
+    inline: false  # Determines if the profile should be clickable to a separate URL
+    project: "Full-stack developer for scientific data management and search software"  # Main project or research focus
 
 ##### PH.D. Alumni 10 ####
 
@@ -419,31 +444,7 @@
     inline: false  # Determines if the profile should be clickable to a separate URL
     project: "Software for cluster managment and system administration"  # Main project or research focus
 
-- group: "M.S. Students"  # Group the member belongs to
-  group_rank: 5  # Ranking to determine order for current M.S. students
-  lastname: "Patel"  # Last name of the member
-  profile:
-    name: "Chirayu Patel"  # Full name
-    position: "M.S. Student"  # Position or role
-    institution: "Drexel University"  # Institution affiliation
-    start_year: "2024"  # Start year for the program (if available)
-    # end_year: "202X"  # Expected graduation year (if applicable)
-    image: "chirayu_patel.jpeg"  # Image filename (place in assets/img/people directory)
-    email: "cnp68@drexel.edu"  # Email address
-    # phone: "(215) 123-4567"  # Phone number
-    linkedin: "chiiirayu"  # LinkedIn username
-    linkedin: "chiiirayu"  # LinkedIn username
-    # orcid: "0000-0002-3456-7890"  # ORCID ID
-    # google_scholar: "https://scholar.google.com/citations?user=XXXXX"  # Google Scholar profile
-    github: "chirayupatel9"  # GitHub username
-    # website: "https://chirayupatel.com"  # Personal or professional website
-    # address: "3141 Chestnut Street, Philadelphia, PA 19104"  # Office or location address
-    # degrees:  # Academic degrees
-    #   - "B.S. in [Field] (202X)"
-    # current_position: "Philadelphia, PA"  # Geographical location or office location
-    # teaser: "Focused on [area of study or research interest]."  # Short description or teaser about the member
-    inline: false  # Determines if the profile should be clickable to a separate URL
-    project: "Full-stack developer for scientific data management and search software"  # Main project or research focus
+
 
 - group: "M.S. Students"  # Group the member belongs to
   group_rank: 5  # Ranking to determine order for current M.S. students
