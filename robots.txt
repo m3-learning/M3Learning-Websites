@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://m3-learning.github.io/sitemap.xml
+Sitemap: https://m3-learning.github.io/m3-learning//sitemap.xml
