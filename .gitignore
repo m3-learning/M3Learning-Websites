@@ -12,3 +12,10 @@ node_modules/
 vendor
 .idea
 Gemfile.lock
+# Ignore Python virtual environment
+.venv/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+generate_responsive_images.py
