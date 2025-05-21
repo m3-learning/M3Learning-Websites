@@ -890,7 +890,6 @@
     start_year: "2020"  # Start year for the role or program
     end_year: "2022"  # End year for the role or program
     image: "Douglas_N.png"  # Image filename (place in assets/img/people directory)
-    image: "Douglas_N.png"  # Image filename (place in assets/img/people directory)
     # email: "nd123@lehigh.edu"  # Email address
     # phone: "(610) 123-4567"  # Phone number
     # linkedin: "niijadouglas"  # LinkedIn username
@@ -941,7 +940,6 @@
     start_year: "2020"  # Start year for the role or program
     end_year: "2021"  # End year for the role or program
     image: "Victor_S.png"  # Image filename (place in assets/img/people directory)
-    image: "Victor_S.png"  # Image filename (place in assets/img/people directory)
     # email: "sv123@lehigh.edu"  # Email address
     # phone: "(610) 123-4567"  # Phone number
     linkedin: "shoshanna-victor"  # LinkedIn username
@@ -966,7 +964,6 @@
     institution: "Lehigh University"  # Institution affiliation
     start_year: "2020"  # Start year for the role or program
     end_year: "2021"  # End year for the role or program
-    image: "Norman_Z.png"  # Image filename (place in assets/img/people directory)
     image: "Norman_Z.png"  # Image filename (place in assets/img/people directory)
     # email: "nz123@lehigh.edu"  # Email address
     # phone: "(610) 123-4567"  # Phone number
@@ -1067,7 +1064,6 @@
     institution: "Lehigh University"  # Institution affiliation
     start_year: "2019"  # Start year for the role or program
     end_year: "2020"  # End year for the role or program
-    image: "FJ_O.jpg"  # Image filename (place in assets/img/people directory)
     image: "FJ_O.jpg"  # Image filename (place in assets/img/people directory)
     # email: "oo123@lehigh.edu"  # Email address
     # phone: "(610) 123-4567"  # Phone number
