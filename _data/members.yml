@@ -267,7 +267,7 @@
     institution: "Drexel University"  # Institution affiliation
     start_year: "2025"  # Start year for current role or program
     # end_year: "202X"  # Expected or actual end year (if applicable)
-    image: #"shuyu_qin.jpg"  # Image filename (place in assets/img/people directory)
+    image: "Sarah_J.jpeg"  # Image filename (place in assets/img/people directory)
     email: "sj984@drexel.edu"  # Email address
     # phone: "(215) 123-4567"  # Phone number
     linkedin: "sarah-johari-462282166"  # LinkedIn username
