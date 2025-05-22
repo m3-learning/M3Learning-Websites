@@ -3,8 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  <a href='#'>Multifunctional Materials and Machine Learning Group</a>. 
-
+  <a href='#'>Multifunctional Materials and Machine Learning Group</a>.
 
 profile:
   align: right
@@ -31,7 +30,7 @@ Our research spans:
 - **Advanced Spectroscopy**: In situ and in operando spectroscopies to unravel complex structure-property relationships.
 - **Machine Learning**: Augmenting human intelligence with interpretable AI models for materials informatics and data-driven design.
 
-Led by [Professor Joshua C. Agar](https://drexel.edu/engineering/about/faculty-staff/A/agar-joshua/), our interdisciplinary team is reshaping how we explore and understand materials.
+Led by [Professor Joshua Agar](https://drexel.edu/engineering/about/faculty-staff/A/agar-joshua/), our interdisciplinary team is reshaping how we explore and understand materials.
 
-You can browse our latest[publications](/publications/).
+You can browse our latest [publications](/publications/).
 We welcome collaboration — feel free to [contact us](mailto:joshua.agar@drexel.edu) if our research interests align!
