@@ -1,14 +1,14 @@
 ---
 layout: about
-title: About
+title: about
 permalink: /
 subtitle: >
   <a href='#'>Multifunctional Materials and Machine Learning Group</a>. 
-  Integrating oxide synthesis, spectroscopy, and machine learning to advance the design of next-generation materials.
+
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: Joshua_A.jpg
   image_circular: false
   more_info: >
     <p>Professor Joshua C. Agar</p>
