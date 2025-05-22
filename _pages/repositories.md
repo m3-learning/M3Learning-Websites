@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+description: A collection of open-source software, data tools, and reproducible workflows developed by the M³-Learning Group to accelerate materials discovery through machine learning, spectroscopy, and synthesis automation.
 nav: true
 nav_order: 4
 ---
