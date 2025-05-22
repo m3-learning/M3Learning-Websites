@@ -19,23 +19,24 @@ display_categories: [year, university, topics]
     {% endfor %}
   </select>
 
-  <label for="filter-university">Filter by University:</label>
-  <select id="filter-university">
-    <option value="all">All</option>
-    {% assign universities = site.teaching | map: "university" | uniq | sort %}
-    {% for university in universities %}
-      <option value="{{ university }}">{{ university }}</option>
-    {% endfor %}
-  </select>
+<label for="filter-university">Filter by University:</label>
+<select id="filter-university">
+<option value="all">All</option>
+{% assign universities = site.teaching | map: "university" | uniq | sort %}
+{% for university in universities %}
+<option value="{{ university }}">{{ university }}</option>
+{% endfor %}
+</select>
 
-  <label for="filter-topics">Filter by Topic:</label>
-  <select id="filter-topics">
-    <option value="all">All</option>
-    {% assign topics = site.teaching | map: "topics" | join: ',' | split: ',' | uniq | sort %}
-    {% for topic in topics %}
-      <option value="{{ topic }}">{{ topic }}</option>
-    {% endfor %}
-  </select>
+<label for="filter-topics">Filter by Topic:</label>
+<select id="filter-topics">
+<option value="all">All</option>
+{% assign topics = site.teaching | map: "topics" | join: ',' | split: ',' | uniq | sort %}
+{% for topic in topics %}
+<option value="{{ topic }}">{{ topic }}</option>
+{% endfor %}
+</select>
+
 </div>
 
 <!-- Course Listing -->
@@ -80,4 +81,3 @@ display_categories: [year, university, topics]
     topicFilter.addEventListener('change', filterCourses);
   });
 </script>
-

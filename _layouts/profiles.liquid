@@ -4,18 +4,22 @@ layout: page
 <div class="post">
   <article>
     {% if page.profiles %}
-      {% assign current_profiles = page.profiles | where: 'end_date', nil %}
+      {% assign current_profiles = page.profiles | where: 'end_date', null %}
       {% assign alumni_profiles = page.profiles | where: 'end_date', true %}
-      
+
       <!-- Sort by longest tenure -->
       {% assign sorted_current_profiles = current_profiles | sort: 'start_date' | reverse %}
       {% assign sorted_alumni_profiles = alumni_profiles | sort: 'start_date' | reverse %}
-      
+
       <!-- Display Current Members -->
       <h2>Current Members</h2>
       {% for profile in sorted_current_profiles %}
         <hr>
-        <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}" onmouseover="showContactInfo(this)" onmouseout="hideContactInfo(this)">
+        <div
+          class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}"
+          onmouseover="showContactInfo(this)"
+          onmouseout="hideContactInfo(this)"
+        >
           {% if profile.image %}
             {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
             {% if profile.image_circular %}
@@ -40,10 +44,10 @@ layout: page
               <div class="name">Name: {{ profile.name }}</div>
             {% endif %}
             {% if profile.start_date %}
-              <div class="year">Year Joined: {{ profile.start_date | date: "%Y" }}</div>
+              <div class="year">Year Joined: {{ profile.start_date | date: '%Y' }}</div>
             {% endif %}
             {% if profile.end_date %}
-              <div class="year">Year Left: {{ profile.end_date | date: "%Y" }}</div>
+              <div class="year">Year Left: {{ profile.end_date | date: '%Y' }}</div>
             {% endif %}
           </div>
         </div>
@@ -62,7 +66,11 @@ layout: page
       <h2>Alumni</h2>
       {% for profile in sorted_alumni_profiles %}
         <hr>
-        <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}" onmouseover="showContactInfo(this)" onmouseout="hideContactInfo(this)">
+        <div
+          class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}"
+          onmouseover="showContactInfo(this)"
+          onmouseout="hideContactInfo(this)"
+        >
           {% if profile.image %}
             {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
             {% if profile.image_circular %}
@@ -87,10 +95,10 @@ layout: page
               <div class="name">Name: {{ profile.name }}</div>
             {% endif %}
             {% if profile.start_date %}
-              <div class="year">Year Joined: {{ profile.start_date | date: "%Y" }}</div>
+              <div class="year">Year Joined: {{ profile.start_date | date: '%Y' }}</div>
             {% endif %}
             {% if profile.end_date %}
-              <div class="year">Year Left: {{ profile.end_date | date: "%Y" }}</div>
+              <div class="year">Year Left: {{ profile.end_date | date: '%Y' }}</div>
             {% endif %}
           </div>
         </div>
@@ -109,17 +117,17 @@ layout: page
 </div>
 
 <script>
-function showContactInfo(profileElement) {
-  const contactInfo = profileElement.querySelector('.contact-info');
-  if (contactInfo) {
-    contactInfo.style.display = 'block';
+  function showContactInfo(profileElement) {
+    const contactInfo = profileElement.querySelector('.contact-info');
+    if (contactInfo) {
+      contactInfo.style.display = 'block';
+    }
   }
-}
 
-function hideContactInfo(profileElement) {
-  const contactInfo = profileElement.querySelector('.contact-info');
-  if (contactInfo) {
-    contactInfo.style.display = 'none';
+  function hideContactInfo(profileElement) {
+    const contactInfo = profileElement.querySelector('.contact-info');
+    if (contactInfo) {
+      contactInfo.style.display = 'none';
+    }
   }
-}
 </script>

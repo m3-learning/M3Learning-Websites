@@ -10,7 +10,6 @@
     - name: Phone Number
       value: (203)-919-2230
 
-
 - title: Education
   type: time_table
   contents:
@@ -18,7 +17,7 @@
       institution: University of Illinois at Urbana-Champaign
       field: Materials Science and Engineering
       year: 2009
-    
+
     - title: M.S.
       institution: Georgia Institute of Technology
       field: Materials Science and Engineering
@@ -34,7 +33,6 @@
       field: Materials Science and Engineering
       year: 2015–2018
 
-
 - title: Experience
   type: time_table
   contents:
@@ -49,7 +47,7 @@
     - title: Postdoctoral Scholar
       institution: Materials Science and Engineering, University of California, Berkeley, CA
       year: 2015 - 2018
-    
+
     - title: Junior Specialist
       institution: Materials Science and Engineering, University of California, Berkeley, CA
       year: 2013 - 2015
@@ -138,7 +136,6 @@
       funding_agency: NSF
       description: Participant in the virtual NSF workshop.
 
-
 - title: Conference Organizer
   type: workshops
   contents:
@@ -202,15 +199,14 @@
       pi_amount: "329895.00"
       total_award: "599797.00"
       summary: >
-                Materials scientists use microscopy to determine the structure, order, and periodicity that affect properties. The core challenge is that only a fraction of microscopy data is published. Thus, most of the information from these costly experiments is lost to an abyss. CRISPS - Cell-Centric Recursive Image Similarity Projection Searching - is a computing infrastructure to make high-value materials microscopy Findable, Accessible, Interoperable, and Reproducible (FAIR). CRISPS is a multitouch, interactive research "buddy" that uses artificial intelligence to form associations like the human mind to identify similarities between images. It has permanent, immutable recollection to search and discover collections of scientific images based on labels and associations. CRISPS will be made openly available and will be promoted at conferences, in user facilities, and online to foster a community of developers and users. Public scientific literacy will be enforced through interactive museum exhibits that use CRISPS to explore and discover materials microscopy. The program also supports a first summer research experience for six under-represented persons in STEM.
-                <br>
-                CRISPS is a full-stack software solution for materials microscopy that seamlessly integrates three novel software concepts.
-                1. DataFed: a federated scientific database for collecting, collating, and searching scientific data and metadata.
-                2. Schema-Free Search: a tool for cell-centric indexing and searching metadata without schemas.
-                3. Recursive Image Similarity Projections: a tool to interactively explore image similarity.
-                Each of these efforts is intellectually innovative. DataFed provides an automated, secure, scalable generalized scientific data repository that supports metadata schemas, searches, and provenance graphs. DataFed removes barriers to collaborative science through trusted authentication and secure managed file transfers using GridFTP. Schema-Free Search: an innovative index and ML-tokenization methodology to search unstructured metadata efficiently using ElasticSearch. Scientists will discover schemas and ontologies through an interactive graphical user interface (GUI). Recursive Image Similarity Projections: a collection of deep learning models to conduct automatic symmetry-aware microscopy featurization. When coupled with manifold learning and a GUI, this software tool will enable filtering, similarity exploration, and rapid labeling of materials microscopy. Combining these tools will facilitate creative inquiry into unpublished microscopy, accelerating the discovery of new materials with novel functionalities. CRISPS will be documented and released under a non-restrictive license which allows its reuse, modification, and commercialization. The PIs work with stakeholders in academia and industry to implement CRISPS for typical experiments in optical, electron, and scanning probe microscopies. It provides public access to a 0.5 PB allocation on a DataFed server with indexing and image similarity searching functionality through CRISPS. Interdisciplinary concepts, including scientific data management, search ontologies, and machine learning, are being integrated into courses in materials and computer science; and will be broadly shared through the Lehigh Microscopy School and conference tutorials.
+        Materials scientists use microscopy to determine the structure, order, and periodicity that affect properties. The core challenge is that only a fraction of microscopy data is published. Thus, most of the information from these costly experiments is lost to an abyss. CRISPS - Cell-Centric Recursive Image Similarity Projection Searching - is a computing infrastructure to make high-value materials microscopy Findable, Accessible, Interoperable, and Reproducible (FAIR). CRISPS is a multitouch, interactive research "buddy" that uses artificial intelligence to form associations like the human mind to identify similarities between images. It has permanent, immutable recollection to search and discover collections of scientific images based on labels and associations. CRISPS will be made openly available and will be promoted at conferences, in user facilities, and online to foster a community of developers and users. Public scientific literacy will be enforced through interactive museum exhibits that use CRISPS to explore and discover materials microscopy. The program also supports a first summer research experience for six under-represented persons in STEM.
+        <br>
+        CRISPS is a full-stack software solution for materials microscopy that seamlessly integrates three novel software concepts.
+        1. DataFed: a federated scientific database for collecting, collating, and searching scientific data and metadata.
+        2. Schema-Free Search: a tool for cell-centric indexing and searching metadata without schemas.
+        3. Recursive Image Similarity Projections: a tool to interactively explore image similarity.
+        Each of these efforts is intellectually innovative. DataFed provides an automated, secure, scalable generalized scientific data repository that supports metadata schemas, searches, and provenance graphs. DataFed removes barriers to collaborative science through trusted authentication and secure managed file transfers using GridFTP. Schema-Free Search: an innovative index and ML-tokenization methodology to search unstructured metadata efficiently using ElasticSearch. Scientists will discover schemas and ontologies through an interactive graphical user interface (GUI). Recursive Image Similarity Projections: a collection of deep learning models to conduct automatic symmetry-aware microscopy featurization. When coupled with manifold learning and a GUI, this software tool will enable filtering, similarity exploration, and rapid labeling of materials microscopy. Combining these tools will facilitate creative inquiry into unpublished microscopy, accelerating the discovery of new materials with novel functionalities. CRISPS will be documented and released under a non-restrictive license which allows its reuse, modification, and commercialization. The PIs work with stakeholders in academia and industry to implement CRISPS for typical experiments in optical, electron, and scanning probe microscopies. It provides public access to a 0.5 PB allocation on a DataFed server with indexing and image similarity searching functionality through CRISPS. Interdisciplinary concepts, including scientific data management, search ontologies, and machine learning, are being integrated into courses in materials and computer science; and will be broadly shared through the Lehigh Microscopy School and conference tutorials.
       link: "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2246463&HistoricalAwards=false"
-
 
     - title: "MRI: Development of Heterogeneous Edge Computing Platform for Real-Time Scientific Machine Learning"
       award_number: "2215789"
@@ -223,11 +219,10 @@
       pi_amount: "309000.00"
       total_award: "999600.00"
       summary: >
-                This project aims to develop a Heterogeneous Edge Computing platform for real-time Scientific Machine Learning (HEC-SML) at the extreme edge. Such a platform will allow for real-time analysis and control of optical, scanning probe, and transmission electron microscopy. Putting computation at the edge ?- as close to the data source as possible -? circumvents latency and bandwidth challenges when sending data to high-performance computing facilities and will enable real-time data analysis to conduct scientific experiments with creative inquiry. The development of HEC-SML will lead to the convergence of microscopy, machine learning (ML), and heterogeneous computing concepts. In microscopy, advanced control systems will enable new imaging modalities; methods for personalized medicine; and discovery and understanding of functional and quantum materials. In ML, HEC-SML will motivate the design of strategies to impose physics constraints and develop optimization methods for training more efficient algorithms. Combined research in these disparate fields creates new objectives that motivate transformative advances in each discipline. The research enabled by HEC-SML will enable advances to and train scientists that can address edge computing challenges for wireless communication, healthcare monitoring, advanced manufacturing, and multi-agent autonomous systems. The instrument will also enable several student curriculum advances along this convergence of fields. This program will engage interdisciplinary researchers in biological sciences, materials science, machine learning, and heterogeneous computing and lead to novel research thrusts.
-                <br>
-                High-performance computing (HPC) has made tremendous advances in scheduled, parallelized, and distributed computing. Experimental microscopy requires that voluminous data at high velocity is processed in timescales relevant to the experiment (nanoseconds-minutes). HPC facilities cannot meet these needs as they are not designed for dedicated networking and computation and typically do not have heterogeneous compute nodes for low-latency computation. HEC-SML will be a purpose-built instrument for real-time analysis and control of microscopy. A technical innovation is co-locating HPC with microscopy to enable low-cost, reconfigurable, dedicated high-speed networking. With this, we will develop a centralized edge computing platform for signal processing, data reduction, and ML tools for many microscopy modalities. The instrument will provide a platform for real-time analysis and control of optical, scanning probe, and transmission electron microscopy. HEC-SML will provide new capabilities for counting and sorting cells as well as for the characterization and manipulation of materials for energy conversion, sensing, and quantum materials. HEC-SML will provide a turn-key solution for microscopy and other data-intensive scientific experiments. Furthermore, HEC-SML will enable transformative advances in personalized medicine; sensing, energy conversion, and quantum materials; scientific and physics-informed ML methods using experimental data; and codesign of heterogeneous computing and ML for low-latency data reduction, scientific signal processing, and control systems.
+        This project aims to develop a Heterogeneous Edge Computing platform for real-time Scientific Machine Learning (HEC-SML) at the extreme edge. Such a platform will allow for real-time analysis and control of optical, scanning probe, and transmission electron microscopy. Putting computation at the edge ?- as close to the data source as possible -? circumvents latency and bandwidth challenges when sending data to high-performance computing facilities and will enable real-time data analysis to conduct scientific experiments with creative inquiry. The development of HEC-SML will lead to the convergence of microscopy, machine learning (ML), and heterogeneous computing concepts. In microscopy, advanced control systems will enable new imaging modalities; methods for personalized medicine; and discovery and understanding of functional and quantum materials. In ML, HEC-SML will motivate the design of strategies to impose physics constraints and develop optimization methods for training more efficient algorithms. Combined research in these disparate fields creates new objectives that motivate transformative advances in each discipline. The research enabled by HEC-SML will enable advances to and train scientists that can address edge computing challenges for wireless communication, healthcare monitoring, advanced manufacturing, and multi-agent autonomous systems. The instrument will also enable several student curriculum advances along this convergence of fields. This program will engage interdisciplinary researchers in biological sciences, materials science, machine learning, and heterogeneous computing and lead to novel research thrusts.
+        <br>
+        High-performance computing (HPC) has made tremendous advances in scheduled, parallelized, and distributed computing. Experimental microscopy requires that voluminous data at high velocity is processed in timescales relevant to the experiment (nanoseconds-minutes). HPC facilities cannot meet these needs as they are not designed for dedicated networking and computation and typically do not have heterogeneous compute nodes for low-latency computation. HEC-SML will be a purpose-built instrument for real-time analysis and control of microscopy. A technical innovation is co-locating HPC with microscopy to enable low-cost, reconfigurable, dedicated high-speed networking. With this, we will develop a centralized edge computing platform for signal processing, data reduction, and ML tools for many microscopy modalities. The instrument will provide a platform for real-time analysis and control of optical, scanning probe, and transmission electron microscopy. HEC-SML will provide new capabilities for counting and sorting cells as well as for the characterization and manipulation of materials for energy conversion, sensing, and quantum materials. HEC-SML will provide a turn-key solution for microscopy and other data-intensive scientific experiments. Furthermore, HEC-SML will enable transformative advances in personalized medicine; sensing, energy conversion, and quantum materials; scientific and physics-informed ML methods using experimental data; and codesign of heterogeneous computing and ML for low-latency data reduction, scientific signal processing, and control systems.
       link: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2215789&HistoricalAwards=false
-
 
     - title: "Collaboration for Hierarchical Agile and Responsive Materials"
       award_number: "W911NF-19-2-0119"
@@ -238,8 +233,6 @@
       lead_pi: Jonathan Spanier (Drexel University)
       co_pis: Chris Dames (University of California, Berkeley), Srabanti Chowdhury (Stanford University), Ramamoorthy Ramesh (Rice University), Shiv Halasyamani (University of Houston), Ilya Grinberg (Bar-Ilan University, Israel), Andrew M. Rappe (University of Pennsylvania), Yury Gogotsi (Drexel University), James LeBeau (Massachusetts Institute of Technology), Darrell Schlom (Cornell University), Geoff Brennecka (Colorado School of Mines), Andrea Alu (Graduate Center, City University of New York)
       logo_url: "ARL.jpeg"
-      
-
 
     - title: "Real‐time Data Reduction Codesign at the Extreme Edge for Science"
       award_number: "DE-FOA-0002501"
@@ -252,9 +245,9 @@
       pi_amount: "300000.00"
       total_award: "2000000.00"
       summary: >
-                This project focuses on intelligent ML-based data reduction and processing as close as possible to the data source. Per sensor compression and efficient aggregation of information while preserving scientific fidelity can have a huge impact on data rates further downstream and the way that experiments are designed and operated. The research team is concentrating on powerful, specialized compute hardware at the extreme edge—such as FPGAs, ASICs, and systems-on-chip—which are typical initial processing layers of many experiments. The three main thrusts are to: (1) develop performant and reliable AI algorithms for science at the edge; (2) develop codesign tools to build efficient implementations of those algorithms in hardware; and (3) enable rapid exploration for domain scientists and system designers with an accessible tool flow.
-                <br>
-                These newly developed techniques will be applied to two complementary scientific exemplars: real-time trigger systems at the CERN Large Hadron Collider (LHC) and processing data streams in transmission electron microscopy (TEM). The LHC exemplar offers a complex, geometry constrained progressive data reduction flow, and the TEM exemplar involves fast feature extraction that must be capable of performing across a multitude of samples and experiments.
+        This project focuses on intelligent ML-based data reduction and processing as close as possible to the data source. Per sensor compression and efficient aggregation of information while preserving scientific fidelity can have a huge impact on data rates further downstream and the way that experiments are designed and operated. The research team is concentrating on powerful, specialized compute hardware at the extreme edge—such as FPGAs, ASICs, and systems-on-chip—which are typical initial processing layers of many experiments. The three main thrusts are to: (1) develop performant and reliable AI algorithms for science at the edge; (2) develop codesign tools to build efficient implementations of those algorithms in hardware; and (3) enable rapid exploration for domain scientists and system designers with an accessible tool flow.
+        <br>
+        These newly developed techniques will be applied to two complementary scientific exemplars: real-time trigger systems at the CERN Large Hadron Collider (LHC) and processing data streams in transmission electron microscopy (TEM). The LHC exemplar offers a complex, geometry constrained progressive data reduction flow, and the TEM exemplar involves fast feature extraction that must be capable of performing across a multitude of samples and experiments.
 
     - title: "Artificial Intelligence Guided Computational Design Synthesis of Multifunctional Ferroelectrics"
       award_number: "S00009665"
@@ -276,9 +269,9 @@
       pi_amount: "199953.00"
       total_award: "614400.00"
       summary: >
-                In many scientific disciplines computational simulations are used to enhance our understanding of physical processes of complex systems. In all such simulations simplifications are required to make the problem tractable, limiting the scope of the questions that can be addressed. Generally, computational simulations of large systems with many interacting components, based on the governing physics, requires complex and time consuming computations. This project will apply deep learning neural networks (NN) with geometric transformations based on the physics of the system to accurately approximate traditional physics-based computational simulations in a highly efficient manner. The increased efficiency imparted by the NN model will facilitate the asking of scientific questions which are currently computationally intractable. While the proposed work will focus on using this method to discover new strain-induced polar phases and phase competition, and to understand the large-scale structure in the universe, the concepts developed in this work can be applied to computational simulations in other scientific disciplines.
-                <br>
-                The proposed work will focus on the development of foundational data science methods and the application of these methods to augment computationally-expensive science-based generative models in a way that is principled and efficient, thereby enabling improved data-driven scientific inference. The work will place specific emphasis on the design of neural network models, which through physically-significant domain architectures can approximate N-body and highly-correlated phenomena with minimal loss of information. The work will develop tools to guide the discovery and experimental synthesis of new strain-induced polar phases and phase competition, which exhibit enhanced electromechanical responses; and it will expand our simulation capabilities and understanding of the large-scale structure in the universe. Ultimately, this work will provide both domain specific advances, as well as a framework for other domain areas to augment computationally intensive, highly-correlated, N-body problems with data-driven models, which respect the physics of the problem and lead to increased computational efficiency.      
+        In many scientific disciplines computational simulations are used to enhance our understanding of physical processes of complex systems. In all such simulations simplifications are required to make the problem tractable, limiting the scope of the questions that can be addressed. Generally, computational simulations of large systems with many interacting components, based on the governing physics, requires complex and time consuming computations. This project will apply deep learning neural networks (NN) with geometric transformations based on the physics of the system to accurately approximate traditional physics-based computational simulations in a highly efficient manner. The increased efficiency imparted by the NN model will facilitate the asking of scientific questions which are currently computationally intractable. While the proposed work will focus on using this method to discover new strain-induced polar phases and phase competition, and to understand the large-scale structure in the universe, the concepts developed in this work can be applied to computational simulations in other scientific disciplines.
+        <br>
+        The proposed work will focus on the development of foundational data science methods and the application of these methods to augment computationally-expensive science-based generative models in a way that is principled and efficient, thereby enabling improved data-driven scientific inference. The work will place specific emphasis on the design of neural network models, which through physically-significant domain architectures can approximate N-body and highly-correlated phenomena with minimal loss of information. The work will develop tools to guide the discovery and experimental synthesis of new strain-induced polar phases and phase competition, which exhibit enhanced electromechanical responses; and it will expand our simulation capabilities and understanding of the large-scale structure in the universe. Ultimately, this work will provide both domain specific advances, as well as a framework for other domain areas to augment computationally intensive, highly-correlated, N-body problems with data-driven models, which respect the physics of the problem and lead to increased computational efficiency.
       link: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1839234&HistoricalAwards=false
 
 - title: Conference Organization
@@ -288,17 +281,17 @@
       event: "Virtual School on Machine Learning and Automated Experiments in Scanning Probe Microscopy"
       date: "2021-10-04 to 2021-10-08"
       location: "Oak Ridge National Laboratory"
-      
+
     - role: "Co-Chair"
       event: "Joint Center for Nanophase Materials Science / Spallation Neutron Source / High-Flux Isotope Reactor User Meeting"
       date: "2021-08-10 to 2021-08-12"
       location: "Oak Ridge National Laboratory"
-      
+
     - role: "Co-Organizer"
       event: "NSF Electron Microscopy Frontiers"
       date: "2020-09-04 to 2020-09-06"
       location: "Arizona State University"
-      
+
     - role: "Co-Organizer"
       event: "NSF Foundational and Applied Data Science for Molecular and Materials Science and Engineering"
       date: "2019-05-22 to 2019-05-24"
@@ -311,7 +304,7 @@
       date: "2024-10-08"
       location: "Philadelphia, PA (USA)"
       conference: "Drexel University - Mechanical Engineering and Mechanics Department Seminar"
-    
+
     - talk_title: "Ferroelectrics - A Field Polarized by AI: How to Navigate the Conclusions and Delusions?"
       date: "2024-06-24"
       location: "Montecatini Terme, Italy"
@@ -565,13 +558,13 @@
       location: "London, England"
       conference: "Fast Machine Learning Conference 2023"
       authors: "Obute, V."
-      
+
     - talk_title: "Extremely Noisy 4D-STEM Strain Mapping Using Cycle Consistent Spatial Transforming Autoencoders"
       date: "2022-11-30"
       location: "Boston, MA"
       conference: "Materials Research Society Meeting Fall 2022"
       authors: "Qin, S."
-      
+
     - talk_title: "Identifying Symmetries with Deep Learning Model"
       date: "2022-11-29"
       location: "Boston, MA"

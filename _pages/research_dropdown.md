@@ -7,11 +7,11 @@ dropdown: true
 children:
   - title: publications
     permalink: /publications/
-  - title : divider 
+  - title: divider
   - title: presentations
     permalink: /presentations/
 
-# Removed Blog and Projects from dropdown menu
+  # Removed Blog and Projects from dropdown menu
   - title: divider
   - title: posters
     permalink: /posters/

@@ -13,7 +13,8 @@ layout: default
             target="_blank"
             rel="noopener noreferrer"
             class="float-right"
-          ><i class="fa-solid fa-file-pdf"></i></a>
+            ><i class="fa-solid fa-file-pdf"></i
+          ></a>
         {% endif %}
       </h1>
       {% if page.description %}
@@ -28,31 +29,31 @@ layout: default
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
             <div>
-            {% if entry.type == 'list' %}
-              {% include cv/list.liquid %}
-            {% elsif entry.type == 'map' %}
-              {% include cv/map.liquid %}
-            {% elsif entry.type == 'nested_list' %}
-              {% include cv/nested_list.liquid %}
-            {% elsif entry.type == 'time_table' %}
-              {% include cv/time_table.liquid %}
-            {% elsif entry.type == "awards_by_advisee" %}
-              {% include cv/awards_by_advisee.liquid %}
-            {% elsif entry.type == 'list_groups' %}
-              {% include cv/list_groups.liquid %}
-            {% elsif entry.type == 'workshops' %}
-              {% include cv/workshops.liquid %}
-            {% elsif entry.type == 'funding' %}
-              {% include cv/funding.liquid %}
-            {% elsif entry.type == 'invited_presentations' %}
-              {% include cv/invited_presentations.liquid %}
-            {% elsif entry.type == 'advisee_presentations' %}
-              {% include cv/advisee_presentations.liquid %}
-            {% elsif entry.type == 'conference_organization' %}
-              {% include cv/conference_organization.liquid %}
-            {% else %}
+              {% if entry.type == 'list' %}
+                {% include cv/list.liquid %}
+              {% elsif entry.type == 'map' %}
+                {% include cv/map.liquid %}
+              {% elsif entry.type == 'nested_list' %}
+                {% include cv/nested_list.liquid %}
+              {% elsif entry.type == 'time_table' %}
+                {% include cv/time_table.liquid %}
+              {% elsif entry.type == 'awards_by_advisee' %}
+                {% include cv/awards_by_advisee.liquid %}
+              {% elsif entry.type == 'list_groups' %}
+                {% include cv/list_groups.liquid %}
+              {% elsif entry.type == 'workshops' %}
+                {% include cv/workshops.liquid %}
+              {% elsif entry.type == 'funding' %}
+                {% include cv/funding.liquid %}
+              {% elsif entry.type == 'invited_presentations' %}
+                {% include cv/invited_presentations.liquid %}
+              {% elsif entry.type == 'advisee_presentations' %}
+                {% include cv/advisee_presentations.liquid %}
+              {% elsif entry.type == 'conference_organization' %}
+                {% include cv/conference_organization.liquid %}
+              {% else %}
                 {{ entry.contents }}
-            {% endif %}
+              {% endif %}
             </div>
           </div>
         {% endfor %}
@@ -64,7 +65,6 @@ layout: default
           {% bibliography --group_by none --query @tutorials* %}
         </div>
       </div>
-      
     </article>
   </div>
 {% else %}
@@ -78,7 +78,8 @@ layout: default
             target="_blank"
             rel="noopener noreferrer"
             class="float-right"
-          ><i class="fa-solid fa-file-pdf"></i></a>
+            ><i class="fa-solid fa-file-pdf"></i
+          ></a>
         {% endif %}
       </h1>
       {% if page.description %}
@@ -148,10 +149,8 @@ layout: default
           {% bibliography %}
         </div>
       </div>
-      
     </article>
   </div>
-
 {% endunless %}
 
 <!-- JavaScript for triggering print to PDF -->

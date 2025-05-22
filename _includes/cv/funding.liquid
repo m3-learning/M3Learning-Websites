@@ -1,97 +1,105 @@
 <!-- Define CSS Variables and Base Theme Styles -->
 <style>
-/* Top Button (Reusable for other top buttons) */
-.top-button {
-  display: inline-block;
-  background-color: white;
-  color: var(--global-theme-color);
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-  border: 1px dashed var(--global-theme-color);
-  font-weight: normal;
-  text-align: center;
-  text-decoration: none;
-  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
-}
+  /* Top Button (Reusable for other top buttons) */
+  .top-button {
+    display: inline-block;
+    background-color: white;
+    color: var(--global-theme-color);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    border: 1px dashed var(--global-theme-color);
+    font-weight: normal;
+    text-align: center;
+    text-decoration: none;
+    transition:
+      background-color 0.3s ease,
+      color 0.3s ease,
+      border-color 0.3s ease;
+  }
 
-.top-button:hover {
-  background-color: var(--global-bg-color);
-  color: var(--global-theme-color);
-  border-color: var(--global-theme-color);
-  text-decoration: none;
-}
+  .top-button:hover {
+    background-color: var(--global-bg-color);
+    color: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+    text-decoration: none;
+  }
 
-.top-button:active {
-  background-color: var(--global-highlight-color);
-  color: white;
-}
+  .top-button:active {
+    background-color: var(--global-highlight-color);
+    color: white;
+  }
 
-.top-button:focus {
-  outline: 2px solid var(--global-highlight-color);
-  outline-offset: 2px;
-}
+  .top-button:focus {
+    outline: 2px solid var(--global-highlight-color);
+    outline-offset: 2px;
+  }
 
-/* Summary Toggle Button */
-.toggle-summary {
-  display: inline-block;
-  background-color: var(--global-bg-color);
-  color: white;
-  padding: 0.25rem 0.5rem;
-  border-radius: 4px;
-  border: 1px solid var(--global-theme-color);
-  font-weight: normal;
-  text-align: center;
-  text-decoration: none;
-  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
-}
+  /* Summary Toggle Button */
+  .toggle-summary {
+    display: inline-block;
+    background-color: var(--global-bg-color);
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    border: 1px solid var(--global-theme-color);
+    font-weight: normal;
+    text-align: center;
+    text-decoration: none;
+    transition:
+      background-color 0.3s ease,
+      color 0.3s ease,
+      border-color 0.3s ease;
+  }
 
-.toggle-summary:hover {
-  background-color: white;
-  color: var(--global-theme-color);
-  border-color: var(--global-theme-color);
-  text-decoration: none;
-}
+  .toggle-summary:hover {
+    background-color: white;
+    color: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+    text-decoration: none;
+  }
 
-.toggle-summary:active {
-  background-color: var(--global-highlight-color);
-  color: white;
-}
+  .toggle-summary:active {
+    background-color: var(--global-highlight-color);
+    color: white;
+  }
 
-.toggle-summary:focus {
-  outline: 2px dashed var(--global-highlight-color);
-  outline-offset: 2px;
-}
+  .toggle-summary:focus {
+    outline: 2px dashed var(--global-highlight-color);
+    outline-offset: 2px;
+  }
 
-/* Summary Content */
-.summary {
-  font-size: 0.875rem;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease, padding 0.3s ease;
-}
+  /* Summary Content */
+  .summary {
+    font-size: 0.875rem;
+    max-height: 0;
+    overflow: hidden;
+    transition:
+      max-height 0.3s ease,
+      padding 0.3s ease;
+  }
 
-.summary.open {
-  max-height: 1000px; /* Large value to accommodate content */
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
+  .summary.open {
+    max-height: 1000px; /* Large value to accommodate content */
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
 
-/* Clickable Card Styling */
-.clickable-card {
-  display: block;
-  color: inherit;
-  text-decoration: none;
-  transition: box-shadow 0.3s ease;
-}
+  /* Clickable Card Styling */
+  .clickable-card {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    transition: box-shadow 0.3s ease;
+  }
 
-.clickable-card:hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+  .clickable-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
 
-/* Bold label styling */
-.label-bold {
-  font-weight: bold;
-}
+  /* Bold label styling */
+  .label-bold {
+    font-weight: bold;
+  }
 </style>
 
 <!-- HTML Content with Funding Items and Summary Toggle Button -->
@@ -114,7 +122,11 @@
                   {% if content.logo_url %}
                     <tr>
                       <td style="text-align: center;">
-                        <img src="{{ 'assets/img/funding/' | append: content.logo_url | relative_url }}" alt="{{ content.source_of_support }} logo" style="width: 100px; margin-top: 5px;">
+                        <img
+                          src="{{ 'assets/img/funding/' | append: content.logo_url | relative_url }}"
+                          alt="{{ content.source_of_support }} logo"
+                          style="width: 100px; margin-top: 5px;"
+                        >
                       </td>
                     </tr>
                   {% endif %}
@@ -150,9 +162,7 @@
                   {% if content.co_pis %}
                     <tr>
                       <td class="co-pis">
-                        <p style="margin: 0;">
-                          <span class="label-bold">Co-PIs:</span> {{ content.co_pis | join: ", " }}
-                        </p>
+                        <p style="margin: 0;"><span class="label-bold">Co-PIs:</span> {{ content.co_pis | join: ', ' }}</p>
                       </td>
                     </tr>
                   {% endif %}
@@ -194,32 +204,31 @@
   {% endfor %}
 </ul>
 
-
 <!-- JavaScript to Toggle Summary Content Visibility -->
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  var fundingList = document.getElementById('funding-list');
-  if (fundingList) {
-    fundingList.addEventListener('click', function(event) {
-      if (event.target.classList.contains('toggle-summary')) {
-        var targetId = event.target.getAttribute('data-target');
-        var summaryElement = document.getElementById(targetId);
-        if (summaryElement) {
-          summaryElement.classList.toggle('open');
+  document.addEventListener('DOMContentLoaded', function () {
+    var fundingList = document.getElementById('funding-list');
+    if (fundingList) {
+      fundingList.addEventListener('click', function (event) {
+        if (event.target.classList.contains('toggle-summary')) {
+          var targetId = event.target.getAttribute('data-target');
+          var summaryElement = document.getElementById(targetId);
+          if (summaryElement) {
+            summaryElement.classList.toggle('open');
+          }
         }
-      }
-    });
-  }
-});
+      });
+    }
+  });
 </script>
 
 <!-- JavaScript to Format Numbers with Commas -->
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
+  document.addEventListener('DOMContentLoaded', function () {
     // Select all elements with the class "award-amount" and "pi-amount-value"
     const amountElements = document.querySelectorAll('.award-amount, .pi-amount-value');
-    
-    amountElements.forEach(function(element) {
+
+    amountElements.forEach(function (element) {
       // Parse the content as a float and format with commas
       const amount = parseFloat(element.textContent);
       if (!isNaN(amount)) {

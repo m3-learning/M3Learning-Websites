@@ -6,23 +6,23 @@
 @use "sass:color";
 
 // Colors
-$red-color: #AE1C28 !default; // PMS 7427C
-$red-color-dark: #B71C1C !default; // Darker red for emphasis
-$orange-color: #D86B1F !default; // PMS 138C
-$blue-color: #002F6C !default; // Drexel Blue (PMS 294C)
+$red-color: #ae1c28 !default; // PMS 7427C
+$red-color-dark: #b71c1c !default; // Darker red for emphasis
+$orange-color: #d86b1f !default; // PMS 138C
+$blue-color: #002f6c !default; // Drexel Blue (PMS 294C)
 $blue-color-dark: #00369f !default; // Darkened version of Drexel Blue
-$drexel-yellow: #FDB515 !default; // Existing cyan for contrast
+$drexel-yellow: #fdb515 !default; // Existing cyan for contrast
 $light-drexel-yellow: color.adjust($drexel-yellow, $lightness: 25%) !default;
 $green-color: #00ab37 !default; // Existing green for accent
-$green-color-lime: #B7D12A !default; // PMS 583C (light lime green)
+$green-color-lime: #b7d12a !default; // PMS 583C (light lime green)
 $green-color-dark: #009f06 !default;
 $green-color-light: #ddffdd !default;
 $green-color-bright: #11d68b !default;
-$drexel-blue: #004B87 !default; // Define Drexel Blue if not already defined
+$drexel-blue: #004b87 !default; // Define Drexel Blue if not already defined
 $light-drexel-blue: color.adjust($drexel-blue, $lightness: 25%) !default;
-$pink-color: #F92080 !default; // Existing pink for accents
-$pink-color-light: #FFDDDD !default;
-$yellow-color: #FDB515 !default; // Drexel Gold (PMS 7548C)
+$pink-color: #f92080 !default; // Existing pink for accents
+$pink-color-light: #ffdddd !default;
+$yellow-color: #fdb515 !default; // Drexel Gold (PMS 7548C)
 
 // Shades of Drexel Blue replacing neutral grays
 $grey-color: color.scale($drexel-blue, $lightness: 25%) !default; // Lightened Drexel Blue
@@ -31,13 +31,13 @@ $grey-color-dark: color.scale($drexel-blue, $lightness: -15%) !default; // Darke
 $grey-900: color.scale($drexel-blue, $lightness: -30%) !default; // Darkest Drexel Blue
 
 // Shades of Drexel Gold
-$yellow-color: #FDB515 !default; // Primary Drexel Gold (PMS 7548C)
+$yellow-color: #fdb515 !default; // Primary Drexel Gold (PMS 7548C)
 $yellow-color-light: color.scale($yellow-color, $lightness: 20%) !default; // Lightened Drexel Gold
 $yellow-color-lighter: color.scale($yellow-color, $lightness: 40%) !default; // Even lighter Drexel Gold
 $yellow-color-dark: color.scale($yellow-color, $lightness: -20%) !default; // Darker Drexel Gold
 $yellow-900: color.scale($yellow-color, $lightness: -40%) !default; // Darkest Drexel Gold
 
-$white-color: #FFFFFF !default;
+$white-color: #ffffff !default;
 $black-color: $drexel-blue !default;
 
 // Theme colors

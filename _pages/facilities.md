@@ -25,12 +25,12 @@ facility_sections:
         url: /facilities/fpga-development-boards/
 
   - title: High-Performance Computing Cluster
-    items: 
+    items:
       - title: High-Performance Computing Cluster
         image: DragonDeepLearnCluster.png
         description: HPC cluster for ML training and scientific computing.
         url: /facilities/high-performance-computing-cluster/
- 
+
       - title: Heterogenous Computing Cluster
         image: ComputingCluster.png
         description: HPC cluster for ML training and scientific computing.
@@ -66,8 +66,4 @@ facility_sections:
         image: ElectricalProbe.jpg
         description: High-temperature probe station for materials testing.
         url: /facilities/electrical-probe-station/
-
 ---
-
-
-

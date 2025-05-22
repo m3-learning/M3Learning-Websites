@@ -23,9 +23,10 @@ The lab hosts several high-performance servers designed for **high-velocity file
 
 Key components include:
 
-- An edge node with:  
-  - 2× U280 FPGAs  
-  - 1× NVIDIA H100 GPU  
+- An edge node with:
+
+  - 2× U280 FPGAs
+  - 1× NVIDIA H100 GPU
   - 4× 15 TB NVMe drives (RAID0, up to 20 GB/s read/write speed)
 
 - A **ZFS storage node** with 147 TB capacity (RAID6), balancing performance and durability

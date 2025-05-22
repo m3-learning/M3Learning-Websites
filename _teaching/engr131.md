@@ -7,13 +7,14 @@ department: "Office of Dean of COE"
 topics: ["Programming Basics", "Algorithm Design", "Computational Analysis"]
 website: "https://example.com/engr131"
 layout: page
-
 ---
 
 ## Course Description
-An introduction to the fundamentals of programming and algorithmic problem solving with applications in engineering. 
+
+An introduction to the fundamentals of programming and algorithmic problem solving with applications in engineering.
 
 Emphases include:
+
 - Producing clear, robust, and efficient code
 - Conceptualizing and designing computational algorithms to solve engineering problems
 

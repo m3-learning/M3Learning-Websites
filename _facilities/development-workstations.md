@@ -8,6 +8,7 @@ permalink: /facilities/development-workstations/
 ---
 
 Agar's lab has a range of GPU resources for machine learning training, including:
+
 - **8× NVIDIA A6000**
 - **5× NVIDIA 3090**
 - **4× NVIDIA Titan RTX**

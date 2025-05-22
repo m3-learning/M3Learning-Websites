@@ -1,17 +1,22 @@
-<div class="col course-card" 
-     data-year="{{ course.year }}" 
-     data-university="{{ course.university }}" 
-     data-topics="{{ course.topics | join: ',' }}">
+<div
+  class="col course-card"
+  data-year="{{ course.year }}"
+  data-university="{{ course.university }}"
+  data-topics="{{ course.topics | join: ',' }}"
+>
   <div class="card">
     <div class="card-body">
-      <h5 class="card-title"><a href="{{ course.url }}">{{ course.title }}</a></h5>
+      <h5 class="card-title">
+        <a href="{{ course.url }}">{{ course.title }}</a>
+      </h5>
       <p class="card-text">
-        <strong>University:</strong> {{ course.university }}<br>
-        <strong>Year:</strong> {{ course.year }}<br>
+        <strong>University:</strong> {{ course.university -}}
+        <br>
+        <strong>Year:</strong> {{ course.year -}}
+        <br>
         <strong>Topics:</strong> {{ course.topics | join: ', ' }}
       </p>
       <a href="{{ course.website }}" class="btn btn-primary">Course Website</a>
     </div>
   </div>
 </div>
-

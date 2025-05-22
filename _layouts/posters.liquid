@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 <div class="post">
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
@@ -16,10 +15,10 @@ layout: default
     {% for poster in sorted_posters %}
       <div class="poster-card" data-venue="{{ poster.venue | downcase }}">
         {% if poster.image %}
-      <a href="{{ poster.image }}" class="poster-lightbox" data-gallery="posters" data-title="{{ poster.title }}">
-        <img src="{{ poster.image }}" alt="{{ poster.title }} poster">
-      </a>
-{% endif %}
+          <a href="{{ poster.image }}" class="poster-lightbox" data-gallery="posters" data-title="{{ poster.title }}">
+            <img src="{{ poster.image }}" alt="{{ poster.title }} poster">
+          </a>
+        {% endif %}
 
         <h3>{{ poster.title }}</h3>
         <p><strong></strong> {{ poster.venue }}, {{ poster.year }}</p>
@@ -27,27 +26,26 @@ layout: default
       </div>
     {% endfor %}
   </div>
-  
-<!-- GLightbox assets -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
-<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
 
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    const lightbox = GLightbox({
-      selector: '.poster-lightbox'
+  <!-- GLightbox assets -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const lightbox = GLightbox({
+        selector: '.poster-lightbox',
+      });
     });
-  });
-</script>
-
+  </script>
 </div>
 
 <script>
   const input = document.getElementById('filterInput');
-  input.addEventListener('input', function() {
+  input.addEventListener('input', function () {
     const filter = input.value.toLowerCase();
     const cards = document.querySelectorAll('.poster-card');
-    cards.forEach(card => {
+    cards.forEach((card) => {
       const venue = card.getAttribute('data-venue');
       if (venue.includes(filter)) {
         card.style.display = '';

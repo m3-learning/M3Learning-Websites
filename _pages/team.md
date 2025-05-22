@@ -9,9 +9,9 @@ nav_rank: 2
 
 {% if site.data.members %}
 
-  {% assign groups = site.data.members | sort: "group_rank" | map: "group" | uniq %}
-  
-  {% for group in groups %}
+{% assign groups = site.data.members | sort: "group_rank" | map: "group" | uniq %}
+
+{% for group in groups %}
 
   <h2>{{ group }}</h2>
 
@@ -136,10 +136,12 @@ nav_rank: 2
       </div>
       <br />
       {% endfor %}
+
   </div>
   <br />
   {% endfor %}
 
 {% else %}
+
   <p>No members available.</p>
 {% endif %}

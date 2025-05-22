@@ -23,21 +23,24 @@ Agar manages a **Kubernetes-based machine learning cluster** at Lehigh Universit
 
 **Key components include:**
 
-- **Head node:**  
-  - 120 TB of NVMe flash storage  
-  - >40 GB/s read/write speeds
+- **Head node:**
 
-- **2× GPU nodes (4× A100 GPUs each):**  
-  - One node with 40 GB memory per GPU  
-  - One node with 80 GB memory per GPU  
+  - 120 TB of NVMe flash storage
+  - > 40 GB/s read/write speeds
+
+- **2× GPU nodes (4× A100 GPUs each):**
+
+  - One node with 40 GB memory per GPU
+  - One node with 80 GB memory per GPU
   - SMB interconnects for multi-GPU workloads
 
-- **1× heterogeneous compute node:**  
-  - 2× U280 FPGAs  
+- **1× heterogeneous compute node:**
+
+  - 2× U280 FPGAs
   - 1× A100 PCIe GPU (80 GB memory)
 
-- **1.4 PB StorJ cluster:**  
-  - Set up as a DataFed repository  
+- **1.4 PB StorJ cluster:**
+  - Set up as a DataFed repository
   - Fully backed up on a second 1.4 PB StorJ cluster in Lehigh’s datacenter
 
 This cluster provides **high-speed AI processing** and **seamless integration with scientific instruments**, supporting advanced research workflows.

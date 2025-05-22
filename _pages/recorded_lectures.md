@@ -68,7 +68,6 @@ nav_order: 4
     November 11, 2020 - Materials Research Society Fall Meeting 2020: Practical Deep Learning in Scanning Probe Microscopy
 </div>
 
-
 <div class="video-container">
     <iframe src="https://www.youtube.com/embed/Gxf6Tb-b2AA" title="Joshua Agar: Automatic Feature Extraction from Hyperspectral Imagery using Deep Recurrent Neural Network" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 

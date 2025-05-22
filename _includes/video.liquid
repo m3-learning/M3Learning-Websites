@@ -13,11 +13,21 @@
       max-height="{{ include['max-height'] | default: '' }}"
       title="{{ include.title | default: '' }}"
       alt="{{ include.alt | default: '' }}"
-      {% if include.autoplay %} autoplay {% endif %}
-      {% if include.controls %} controls {% endif %}
-      {% if include.loop %} loop {% endif %}
-      {% if include.muted %} muted {% endif %}
-      {% if include.poster %} poster="{{ include.poster }}" {% endif %}
+      {% if include.autoplay %}
+        autoplay
+      {% endif %}
+      {% if include.controls %}
+        controls
+      {% endif %}
+      {% if include.loop %}
+        loop
+      {% endif %}
+      {% if include.muted %}
+        muted
+      {% endif %}
+      {% if include.poster %}
+        poster="{{ include.poster }}"
+      {% endif %}
     ></video>
 
   {% else %}
@@ -37,7 +47,7 @@
       alt="{{ include.alt | default: '' }}"
     ></iframe>
   {% endif %}
-  
+
   {% if include.caption %}
     <figcaption class="caption">{{ include.caption }}</figcaption>
   {% endif %}
