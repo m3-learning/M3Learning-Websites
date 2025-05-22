@@ -272,7 +272,7 @@
     # degrees:  # Academic degrees
     #   - "(2018) - M.S. - Computer Science, Lehigh University"
     # current_position: "Bethlehem, PA"  # Geographical location or office location
-  teaser:#"Shuyu Qin (he/him) is a researcher with a strong background in deep learning
+    # teaser:"Shuyu Qin (he/him) is a researcher with a strong background in deep learning
     # Short description or teaser about the member
   inline: false # Determines if the profile should be clickable to a separate URL
   project: #"Physics constrained machine learning for 4D scanning transmission electron microscopy strain mapping."  # Main project or research focus
