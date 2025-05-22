@@ -21,6 +21,7 @@ display_categories: [year, university, topics]
 
 <label for="filter-university">Filter by University:</label>
 <select id="filter-university">
+
 <option value="all">All</option>
 {% assign universities = site.teaching | map: "university" | uniq | sort %}
 {% for university in universities %}
@@ -30,6 +31,7 @@ display_categories: [year, university, topics]
 
 <label for="filter-topics">Filter by Topic:</label>
 <select id="filter-topics">
+
 <option value="all">All</option>
 {% assign topics = site.teaching | map: "topics" | join: ',' | split: ',' | uniq | sort %}
 {% for topic in topics %}
