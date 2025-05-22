@@ -33,7 +33,7 @@ facility_sections:
 
       - title: Heterogenous Computing Cluster
         image: ComputingCluster.png
-        description: HPC cluster for ML training and scientific computing.
+        description: Kubernetes-based deep learning clusters with cutting-edge GPU nodes.
         url: /facilities/heterogenous-computing-cluster/
 
   - title: Pulsed Laser Deposition (PLD) Facilities
