@@ -9,7 +9,9 @@ permalink: /facilities/experimental-compute-facilities/
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/facilities/DragonClusterDevSchematic.png"  title="Schematic drawing of the Dragon Cluster under Development" class="img-fluid rounded z-depth-1" width="70%"%}
+        <div class="text-center">
+            {% include figure.liquid loading="eager" path="assets/img/facilities/ComputingCluster.png" title="Dragon Cluster" class="img-fluid rounded z-depth-1" width="50%" %}
+        </div>
     </div>
 </div>
 

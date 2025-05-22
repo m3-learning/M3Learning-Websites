@@ -9,8 +9,10 @@ permalink: /facilities/heterogenous-computing-cluster/
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/facilities/ComputingCluster.png"  title="Heterogenous computing cluster for scientific machine learning" class="img-fluid rounded z-depth-1" width="50%"%}
-    </div>
+        <div class="text-center">
+            {% include figure.liquid loading="eager" path="assets/img/facilities/ComputingCluster.png" title="Heterogenous computing cluster for scientific machine learning" class="img-fluid rounded z-depth-1" width="50%" %}
+        </div>
+    </div>  
 </div>
 
 <div class="caption">
