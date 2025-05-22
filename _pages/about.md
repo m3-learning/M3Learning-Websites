@@ -7,7 +7,7 @@ subtitle: >
 
 profile:
   align: right
-  image: Joshua_A.jpg
+  image: people/Joshua_A.jpg
   image_circular: false
   more_info: >
     <p>Professor Joshua C. Agar</p>
