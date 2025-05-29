@@ -1,4 +1,8 @@
 source 'https://rubygems.org'
+
+# Add sass-embedded gem with version constraint
+gem 'sass-embedded', '>= 1.54'
+
 group :jekyll_plugins do
     gem 'classifier-reborn'
     gem 'jekyll'
