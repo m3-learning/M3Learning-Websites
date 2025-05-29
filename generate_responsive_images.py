@@ -8,7 +8,7 @@ input_dirs = [
     "assets/img/funding",
     "assets/img/people",
     "assets/img/publication_preview",
-    "assets/img/posters/thumbnails"
+    "assets/img/poster_thumbnails"
 ]
 
 # Output sizes (widths)
